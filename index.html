@@ -2,13 +2,52 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Detalle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coins for Sale — Fine Numismatic Collection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <div id="item-detail"></div>
+  <header>
+    <h1 class="brand">Coins <em>&</em> Notes</h1>
+    <p class="tagline">Fine Numismatic Collection</p>
+    <div class="header-rule">
+      <span>◆</span>
+    </div>
+  </header>
 
-  <script src="item.js"></script>
+  <div class="controls">
+    <div class="search-wrap">
+      <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+      <input type="text" id="search" class="search-input" placeholder="Search by title, country or year…">
+    </div>
+
+    <select id="filter-country" class="ctrl-select">
+      <option value="">All Countries</option>
+    </select>
+
+    <select id="filter-condition" class="ctrl-select">
+      <option value="">All Grades</option>
+    </select>
+
+    <select id="sort" class="ctrl-select">
+      <option value="">Sort by…</option>
+      <option value="price-asc">Price: Low → High</option>
+      <option value="price-desc">Price: High → Low</option>
+      <option value="year-asc">Year: Oldest first</option>
+      <option value="year-desc">Year: Newest first</option>
+    </select>
+
+    <span class="result-count" id="result-count"></span>
+  </div>
+
+  <main id="grid"></main>
+
+  <script src="script.js"></script>
 </body>
 </html>

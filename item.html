@@ -2,12 +2,37 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Detalle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin Detail — Coins for Sale</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <div id="item-detail"></div>
+  <header class="detail-header">
+    <a href="index.html">
+      <h1 class="brand">Coins <em>&</em> Notes</h1>
+    </a>
+  </header>
+
+  <a href="index.html" class="back-btn">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="19" y1="12" x2="5" y2="12"/>
+      <polyline points="12 19 5 12 12 5"/>
+    </svg>
+    Back to Collection
+  </a>
+
+  <div class="detail-page">
+    <div id="item-detail"></div>
+  </div>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">✕</button>
+    <img src="" id="lightbox-img" alt="Enlarged coin photo">
+  </div>
 
   <script src="item.js"></script>
 </body>
