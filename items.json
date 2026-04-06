@@ -1,24 +1,24 @@
 [
   {
-    "title": "1 Peso 1890",
-    "price": "USD 120",
-    "condition": "VF",
-    "country": "Argentina",
-    "year": 1890,
+    "title": "1 Peso 1877",
+    "price": "USD 150",
+    "condition": "VF+",
+    "country": "Uruguay",
+    "year": 1877,
     "images": [
-      "images/1890-1.jpg",
-      "images/1890-2.jpg"
+      "images/peso_1877-1.jpg",
+      "images/peso_1877-2.jpg"
     ]
   },
   {
-    "title": "50 Centavos 1881",
-    "price": "USD 80",
-    "condition": "XF",
+    "title": "1 Peso ONU 1995",
+    "price": "USD 180",
+    "condition": "UNC",
     "country": "Argentina",
-    "year": 1881,
+    "year": 1995,
     "images": [
-      "images/1881-1.jpg",
-      "images/1881-2.jpg"
+      "images/onu-1.jpg",
+      "images/onu-2.jpg"
     ]
   }
 ]
