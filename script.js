@@ -12,54 +12,51 @@ function render(items) {
   grid.innerHTML = "";
 
   items.forEach((item, index) => {
+    let current = 0;
+
     const card = document.createElement("div");
     card.className = "card";
 
-    const message = encodeURIComponent(
-      `Hola! Me interesa: ${item.title} (${item.year})`
-    );
-
-    const mainImage = item.images[0];
-
     card.innerHTML = `
-      <img id="main-${index}" class="main-img" src="${mainImage}" />
-
-      <div class="thumbs">
-        ${item.images.map((img, i) => `
-          <img src="${img}" onclick="changeImage(${index}, '${img}')" />
-        `).join("")}
+      <div class="carousel">
+        <button class="nav left" onclick="prev(${index})">‹</button>
+        <img id="img-${index}" src="${item.images[0]}" onclick="goToItem(${item.id})"/>
+        <button class="nav right" onclick="next(${index})">›</button>
       </div>
 
       <h3>${item.title}</h3>
-      <p>${item.country} - ${item.year}</p>
-      <p>Estado: ${item.condition}</p>
+      <p>${item.country} • ${item.year}</p>
+      <p class="condition">${item.condition}</p>
       <p class="price">${item.price}</p>
-
-      <button onclick="buy('${message}')">
-        Consultar por WhatsApp
-      </button>
     `;
 
+    card.dataset.index = index;
     grid.appendChild(card);
   });
 }
 
-function changeImage(index, src) {
-  document.getElementById(`main-${index}`).src = src;
+function prev(i) {
+  const item = window.items[i];
+  item._index = (item._index || 0) - 1;
+  if (item._index < 0) item._index = item.images.length - 1;
+
+  updateImage(i);
 }
 
-function buy(message) {
-  window.open(`https://wa.me/${PHONE}?text=${message}`, "_blank");
+function next(i) {
+  const item = window.items[i];
+  item._index = (item._index || 0) + 1;
+  if (item._index >= item.images.length) item._index = 0;
+
+  updateImage(i);
 }
 
-// Buscador
-document.getElementById("search").addEventListener("input", e => {
-  const value = e.target.value.toLowerCase();
+function updateImage(i) {
+  const item = window.items[i];
+  const img = document.getElementById(`img-${i}`);
+  img.src = item.images[item._index || 0];
+}
 
-  const filtered = window.items.filter(item =>
-    item.title.toLowerCase().includes(value) ||
-    item.country.toLowerCase().includes(value)
-  );
-
-  render(filtered);
-});
+function goToItem(id) {
+  window.location.href = `item.html?id=${id}`;
+}

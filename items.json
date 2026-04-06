@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "1 Peso 1877",
     "price": "USD 150",
     "condition": "VF+",
@@ -11,6 +12,7 @@
     ]
   },
   {
+    "id": 2,
     "title": "1 Peso ONU 1995",
     "price": "USD 180",
     "condition": "UNC",
