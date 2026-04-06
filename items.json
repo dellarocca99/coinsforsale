@@ -1,0 +1,24 @@
+[
+  {
+    "title": "1 Peso 1890",
+    "price": "USD 120",
+    "condition": "VF",
+    "country": "Argentina",
+    "year": 1890,
+    "images": [
+      "images/1890-1.jpg",
+      "images/1890-2.jpg"
+    ]
+  },
+  {
+    "title": "50 Centavos 1881",
+    "price": "USD 80",
+    "condition": "XF",
+    "country": "Argentina",
+    "year": 1881,
+    "images": [
+      "images/1881-1.jpg",
+      "images/1881-2.jpg"
+    ]
+  }
+]
