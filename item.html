@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coin Detail — Coins for Sale</title>
+  <title>Fedix Coins</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
@@ -11,29 +11,56 @@
 </head>
 <body>
 
+  <!-- ── Header ── -->
   <header class="detail-header">
-    <a href="index.html">
-      <h1 class="brand">Coins <em>&</em> Notes</h1>
+    <div class="lang-toggle" id="lang-toggle">
+      <button class="lang-btn" data-lang="es">ES</button>
+      <span class="lang-sep">|</span>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+    <a href="index.html" class="brand-link">
+      <h1 class="brand">Fedix Coins</h1>
     </a>
   </header>
 
   <a href="index.html" class="back-btn">
-    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <line x1="19" y1="12" x2="5" y2="12"/>
       <polyline points="12 19 5 12 12 5"/>
     </svg>
-    Back to Collection
+    <span data-i18n="back"></span>
   </a>
 
   <div class="detail-page">
     <div id="item-detail"></div>
   </div>
 
+  <!-- ── Lightbox ── -->
   <div class="lightbox" id="lightbox">
     <button class="lightbox-close" id="lightbox-close" aria-label="Close">✕</button>
     <img src="" id="lightbox-img" alt="Enlarged coin photo">
   </div>
 
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer-inner">
+      <nav class="footer-nav">
+        <a href="index.html" class="footer-link" data-i18n="nav_coins"></a>
+        <span class="footer-sep">·</span>
+        <a href="index.html#about" class="footer-link" data-i18n="nav_about"></a>
+      </nav>
+      <div class="footer-contact">
+        <span data-i18n="footer_contact_label"></span>:&nbsp;
+        <a href="https://wa.me/5492235831244" class="footer-wa" target="_blank" rel="noopener">
+          +54 9 223 583-1244
+        </a>
+      </div>
+      <p class="footer-rights" data-i18n="footer_rights"></p>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
   <script src="item.js"></script>
 </body>
 </html>

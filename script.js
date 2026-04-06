@@ -2,21 +2,79 @@ const PHONE = "5492235831244";
 
 let allItems = [];
 
+// ── Boot ─────────────────────────────────────────────────
+
 fetch("items.json")
   .then(res => res.json())
   .then(items => {
     allItems = items.map(item => ({ ...item, _idx: 0 }));
+    applyTranslations();
     populateFilters(allItems);
     renderItems(allItems);
     setupControls();
+    setupLangToggle();
+    setupSectionNav();
   });
 
-// ── Filters ─────────────────────────────────────────────
+// ── i18n ─────────────────────────────────────────────────
+
+function applyTranslations() {
+  document.documentElement.lang = getLang();
+
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    el.textContent = t(el.dataset.i18n);
+  });
+
+  document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+    el.placeholder = t(el.dataset.i18nPlaceholder);
+  });
+
+  // Sync active lang button
+  document.querySelectorAll(".lang-btn").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.lang === getLang());
+  });
+}
+
+function setupLangToggle() {
+  document.querySelectorAll(".lang-btn").forEach(btn => {
+    btn.addEventListener("click", () => setLang(btn.dataset.lang));
+  });
+
+  document.addEventListener("langchange", () => {
+    applyTranslations();
+    renderItems(getFiltered());
+  });
+}
+
+// ── Section navigation ───────────────────────────────────
+
+function showSection(id) {
+  document.querySelectorAll("[id^='section-']").forEach(s => {
+    s.hidden = s.id !== `section-${id}`;
+  });
+  document.querySelectorAll(".nav-tab").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.section === id);
+  });
+  document.querySelectorAll(".footer-link[data-section]").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.section === id);
+  });
+  history.replaceState(null, "", id === "about" ? "#about" : location.pathname);
+}
+
+function setupSectionNav() {
+  document.querySelectorAll(".nav-tab, .footer-link[data-section]").forEach(btn => {
+    btn.addEventListener("click", () => showSection(btn.dataset.section));
+  });
+
+  // Honor URL hash on page load
+  if (location.hash === "#about") showSection("about");
+}
+
+// ── Filters ──────────────────────────────────────────────
 
 function populateFilters(items) {
   const countries  = [...new Set(items.map(i => i.country).filter(Boolean))].sort();
   const conditions = [...new Set(items.map(i => i.condition).filter(Boolean))].sort();
-
   appendOptions("filter-country",   countries);
   appendOptions("filter-condition", conditions);
 }
@@ -34,13 +92,9 @@ function appendOptions(selectId, values) {
 function setupControls() {
   ["search", "filter-country", "filter-condition", "sort"].forEach(id => {
     const el = document.getElementById(id);
-    el.addEventListener("input",  refresh);
-    el.addEventListener("change", refresh);
+    el.addEventListener("input",  () => renderItems(getFiltered()));
+    el.addEventListener("change", () => renderItems(getFiltered()));
   });
-}
-
-function refresh() {
-  renderItems(getFiltered());
 }
 
 function getFiltered() {
@@ -74,9 +128,9 @@ function parsePrice(str) {
 
 function badgeClass(cond) {
   const c = (cond || "").toUpperCase();
-  if (/UNC|MS\d/.test(c))        return "badge-unc";
-  if (/VF|XF|AU|EF/.test(c))     return "badge-vf";
-  if (/\bF\b|VG\b|\bG\b/.test(c)) return "badge-f";
+  if (/UNC|MS\d/.test(c))          return "badge-unc";
+  if (/VF|XF|AU|EF/.test(c))       return "badge-vf";
+  if (/\bF\b|VG\b|\bG\b/.test(c))  return "badge-f";
   return "badge-other";
 }
 
@@ -84,14 +138,14 @@ function renderItems(items) {
   const grid    = document.getElementById("grid");
   const countEl = document.getElementById("result-count");
 
-  countEl.textContent = items.length === 1 ? "1 item" : `${items.length} items`;
+  countEl.textContent = nItems(items.length);
 
   if (items.length === 0) {
     grid.innerHTML = `
       <div class="empty">
         <div class="empty-icon">◎</div>
-        <h3>No coins found</h3>
-        <p>Try adjusting your search or filters</p>
+        <h3>${t("no_results")}</h3>
+        <p>${t("no_results_hint")}</p>
       </div>`;
     return;
   }
@@ -99,12 +153,14 @@ function renderItems(items) {
   grid.innerHTML = "";
 
   items.forEach((item, vi) => {
-    const gi   = allItems.indexOf(item);
-    const card = document.createElement("div");
+    const gi      = allItems.indexOf(item);
+    const card    = document.createElement("div");
+    const hasMany = item.images.length > 1;
+    const showQty = item.quantity != null && item.quantity > 1;
+
     card.className = "card";
     card.style.animationDelay = `${vi * 0.045}s`;
 
-    const hasMany = item.images.length > 1;
     const dots = item.images
       .map((_, k) => `<span class="dot${k === 0 ? " active" : ""}"></span>`)
       .join("");
@@ -115,6 +171,7 @@ function renderItems(items) {
         <img class="carousel-img" id="img-${gi}" src="${item.images[0]}" alt="${item.title}">
         ${hasMany ? `<button class="nav right" data-gi="${gi}" data-dir="next">&#8250;</button>` : ""}
         ${hasMany ? `<div class="dots" id="dots-${gi}">${dots}</div>` : ""}
+        ${showQty ? `<span class="qty-badge">×${item.quantity}</span>` : ""}
       </div>
       <div class="card-body">
         <div class="card-title">${item.title}</div>
@@ -134,13 +191,10 @@ function renderItems(items) {
     grid.appendChild(card);
   });
 
-  // Carousel navigation (event delegation on grid)
   grid.querySelectorAll(".nav").forEach(btn => {
     btn.addEventListener("click", e => {
       e.stopPropagation();
-      const gi  = parseInt(btn.dataset.gi);
-      const dir = btn.dataset.dir;
-      dir === "next" ? advanceCarousel(gi, 1) : advanceCarousel(gi, -1);
+      advanceCarousel(parseInt(btn.dataset.gi), btn.dataset.dir === "next" ? 1 : -1);
     });
   });
 }

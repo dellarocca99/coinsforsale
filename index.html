@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coins for Sale — Fine Numismatic Collection</title>
+  <title>Fedix Coins — Colección Numismática</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
@@ -11,43 +11,105 @@
 </head>
 <body>
 
+  <!-- ── Header ── -->
   <header>
-    <h1 class="brand">Coins <em>&</em> Notes</h1>
-    <p class="tagline">Fine Numismatic Collection</p>
-    <div class="header-rule">
-      <span>◆</span>
+    <div class="lang-toggle" id="lang-toggle">
+      <button class="lang-btn" data-lang="es">ES</button>
+      <span class="lang-sep">|</span>
+      <button class="lang-btn" data-lang="en">EN</button>
     </div>
+    <a href="index.html" class="brand-link">
+      <h1 class="brand">Fedix Coins</h1>
+    </a>
+    <p class="tagline" data-i18n="tagline"></p>
+    <div class="header-rule"><span>◆</span></div>
   </header>
 
-  <div class="controls">
-    <div class="search-wrap">
-      <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-      </svg>
-      <input type="text" id="search" class="search-input" placeholder="Search by title, country or year…">
+  <!-- ── Main nav ── -->
+  <nav class="main-nav">
+    <button class="nav-tab active" data-section="coins" data-i18n="nav_coins"></button>
+    <button class="nav-tab" data-section="about" data-i18n="nav_about"></button>
+  </nav>
+
+  <!-- ── Coins section ── -->
+  <section id="section-coins">
+    <div class="controls">
+      <div class="search-wrap">
+        <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="text" id="search" class="search-input"
+               data-i18n-placeholder="search_placeholder">
+      </div>
+
+      <select id="filter-country" class="ctrl-select">
+        <option value="" data-i18n="all_countries"></option>
+      </select>
+
+      <select id="filter-condition" class="ctrl-select">
+        <option value="" data-i18n="all_grades"></option>
+      </select>
+
+      <select id="sort" class="ctrl-select">
+        <option value=""           data-i18n="sort_label"></option>
+        <option value="price-asc"  data-i18n="sort_price_asc"></option>
+        <option value="price-desc" data-i18n="sort_price_desc"></option>
+        <option value="year-asc"   data-i18n="sort_year_asc"></option>
+        <option value="year-desc"  data-i18n="sort_year_desc"></option>
+      </select>
+
+      <span class="result-count" id="result-count"></span>
     </div>
+    <main id="grid"></main>
+  </section>
 
-    <select id="filter-country" class="ctrl-select">
-      <option value="">All Countries</option>
-    </select>
+  <!-- ── About section ── -->
+  <section id="section-about" class="about-section" hidden>
+    <div class="about-inner">
+      <h2 class="about-title" data-i18n="about_title"></h2>
+      <div class="about-rule"><span>◆</span></div>
+      <p class="about-body" data-i18n="about_body"></p>
+      <div class="about-stats">
+        <div class="stat-card">
+          <span class="stat-icon">◎</span>
+          <span class="stat-text" data-i18n="stat_founded"></span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-icon">◎</span>
+          <span class="stat-text" data-i18n="stat_location"></span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-icon">◎</span>
+          <span class="stat-text" data-i18n="stat_shipping"></span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-icon">◎</span>
+          <span class="stat-text" data-i18n="stat_specialty"></span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <select id="filter-condition" class="ctrl-select">
-      <option value="">All Grades</option>
-    </select>
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer-inner">
+      <nav class="footer-nav">
+        <button class="footer-link" data-section="coins" data-i18n="nav_coins"></button>
+        <span class="footer-sep">·</span>
+        <button class="footer-link" data-section="about" data-i18n="nav_about"></button>
+      </nav>
+      <div class="footer-contact">
+        <span data-i18n="footer_contact_label"></span>:&nbsp;
+        <a href="https://wa.me/5492235831244" class="footer-wa" target="_blank" rel="noopener">
+          +54 9 223 583-1244
+        </a>
+      </div>
+      <p class="footer-rights" data-i18n="footer_rights"></p>
+    </div>
+  </footer>
 
-    <select id="sort" class="ctrl-select">
-      <option value="">Sort by…</option>
-      <option value="price-asc">Price: Low → High</option>
-      <option value="price-desc">Price: High → Low</option>
-      <option value="year-asc">Year: Oldest first</option>
-      <option value="year-desc">Year: Newest first</option>
-    </select>
-
-    <span class="result-count" id="result-count"></span>
-  </div>
-
-  <main id="grid"></main>
-
+  <script src="i18n.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
