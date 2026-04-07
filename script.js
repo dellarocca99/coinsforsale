@@ -112,10 +112,11 @@ function getFiltered() {
     );
   });
 
-  if (sort === "price-asc")  results.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
-  if (sort === "price-desc") results.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
-  if (sort === "year-asc")   results.sort((a, b) => a.year - b.year);
-  if (sort === "year-desc")  results.sort((a, b) => b.year - a.year);
+  if (sort === "price-asc")       results.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
+  else if (sort === "price-desc") results.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
+  else if (sort === "year-asc")   results.sort((a, b) => a.year - b.year);
+  else if (sort === "year-desc")  results.sort((a, b) => b.year - a.year);
+  else /* default + country-asc */ results.sort((a, b) => (a.country || "").localeCompare(b.country || "") || parsePrice(a.price) - parsePrice(b.price));
 
   return results;
 }
