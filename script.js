@@ -104,7 +104,7 @@ function getFiltered() {
   const sort      = document.getElementById("sort").value;
 
   let results = allItems.filter(item => {
-    const text = `${item.title} ${item.country} ${item.year}`.toLowerCase();
+    const text = `${item.title} ${item.country} ${item.year} ${item.denomination || ""} ${item.reference || ""}`.toLowerCase();
     return (
       (!q         || text.includes(q)) &&
       (!country   || item.country   === country) &&
@@ -184,7 +184,7 @@ function renderItems(items) {
 
     card.addEventListener("click", e => {
       if (!e.target.closest(".nav")) {
-        window.location.href = `item.html?id=${item.id}`;
+        window.location.href = `item.html?index=${gi}`;
       }
     });
 

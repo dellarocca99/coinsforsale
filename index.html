@@ -13,16 +13,31 @@
 
   <!-- ── Header ── -->
   <header>
-    <div class="lang-toggle" id="lang-toggle">
-      <button class="lang-btn" data-lang="es">ES</button>
-      <span class="lang-sep">|</span>
-      <button class="lang-btn" data-lang="en">EN</button>
+    <!-- Background coins -->
+    <div class="header-coins" aria-hidden="true">
+      <img src="images/background/walkingliberty.png" class="hc hc-1">
+      <img src="images/background/seateddollar.png"   class="hc hc-2">
+      <img src="images/background/buffalo.png"         class="hc hc-3">
+      <img src="images/background/indian.png"          class="hc hc-4">
+      <img src="images/background/peace_21.png"        class="hc hc-5">
+      <img src="images/background/seated_quarter.png"  class="hc hc-6">
     </div>
-    <a href="index.html" class="brand-link">
-      <h1 class="brand">Fedix Coins</h1>
-    </a>
-    <p class="tagline" data-i18n="tagline"></p>
-    <div class="header-rule"><span>◆</span></div>
+    <!-- Content (above coins) -->
+    <div class="header-content">
+      <div class="lang-toggle" id="lang-toggle">
+        <button class="lang-btn" data-lang="es">ES</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="index.html" class="brand-link">
+        <div class="brand-wrapper">
+          <img src="images/background/fedix.png" class="fedix-logo" alt="Fedix Coins">
+          <h1 class="brand">Fedix Coins</h1>
+        </div>
+      </a>
+      <p class="tagline" data-i18n="tagline"></p>
+      <div class="header-rule"><span>◆</span></div>
+    </div>
   </header>
 
   <!-- ── Main nav ── -->
@@ -93,6 +108,11 @@
 
   <!-- ── Footer ── -->
   <footer>
+    <div class="footer-coins" aria-hidden="true">
+      <img src="images/background/shield.png"  class="fc fc-1">
+      <img src="images/background/trade.png"   class="fc fc-2">
+      <img src="images/background/lincoln.png" class="fc fc-3">
+    </div>
     <div class="footer-inner">
       <nav class="footer-nav">
         <button class="footer-link" data-section="coins" data-i18n="nav_coins"></button>

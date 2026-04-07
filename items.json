@@ -1,34 +1,38 @@
 [
   {
-    "id": 1,
     "title": "1 Peso 1877",
     "price": "USD 150",
     "condition": "VF+",
     "country": "Uruguay",
     "year": 1877,
     "quantity": 1,
-    "description": "Silver peso from the early Uruguayan Republic. Bold strike with even wear on the high points. Original luster visible in the fields.",
+    "denomination": "1 Peso",
+    "composition": "0.900 Silver",
+    "reference": "KM# 17",
+    "description": "Peso de plata de los inicios de la República Oriental del Uruguay. Golpe marcado con desgaste parejo en los puntos altos. Lustre original visible en los campos.",
+    "description_en": "Silver peso from the early Uruguayan Republic. Bold strike with even wear on the high points. Original luster visible in the fields.",
     "images": [
       "images/peso_1877-1.jpg",
       "images/peso_1877-2.jpg"
     ]
   },
   {
-    "id": 2,
     "title": "1 Peso ONU 1995",
     "price": "USD 180",
     "condition": "UNC",
     "country": "Argentina",
     "year": 1995,
     "quantity": 2,
-    "description": "Commemorative peso issued for the 50th anniversary of the United Nations. Fully uncirculated with original mint luster. Bimetallic coin in original condition.",
+    "denomination": "1 Peso",
+    "composition": "Bimetallic: Aluminium-Bronze / Stainless Steel",
+    "description": "Peso conmemorativo emitido por el 50º aniversario de las Naciones Unidas. Sin circular con lustre de acuñación original. Moneda bimetálica en condición original.",
+    "description_en": "Commemorative peso issued for the 50th anniversary of the United Nations. Fully uncirculated with original mint luster. Bimetallic coin in original condition.",
     "images": [
       "images/onu-1.jpg",
       "images/onu-2.jpg"
     ]
   },
   {
-    "id": 3,
     "title": "1 Cent 1955-S",
     "price": "USD 14",
     "condition": "UNC",
@@ -41,7 +45,6 @@
     ]
   },
   {
-    "id": 4,
     "title": "1 Dollar \"Morgan\" 1904",
     "price": "USD 90",
     "condition": "VF",
@@ -53,7 +56,6 @@
     ]
   },
   {
-    "id": 5,
     "title": "1 Dime 1829",
     "price": "USD 65",
     "condition": "G",

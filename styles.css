@@ -41,18 +41,76 @@ a      { text-decoration: none; }
 
 /* ── Header ────────────────────────────────────────────── */
 header {
-  padding: 46px 24px 28px;
   text-align: center;
   border-bottom: 1px solid var(--border);
   position: relative;
+  overflow: hidden;
 }
 
-.detail-header {
-  padding: 22px 24px;
+.header-content {
+  position: relative;
+  z-index: 1;
+  padding: 46px 24px 28px;
 }
+
+.detail-header .header-content {
+  padding: 20px 24px;
+}
+
+/* ── Header coin background ────────────────────────────── */
+.header-coins {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hc { position: absolute; }
+
+/* Index header coins — scattered, low opacity */
+.hc-1 { width: 190px; top: -45px; left:  -15px; opacity: 0.07; transform: rotate(-8deg); }
+.hc-2 { width: 175px; top: -30px; right: -20px; opacity: 0.06; transform: rotate(14deg); }
+.hc-3 { width: 105px; bottom:  8px; left:   7%; opacity: 0.08; transform: rotate(18deg); }
+.hc-4 { width:  92px; bottom:  4px; right:  9%; opacity: 0.07; transform: rotate(-22deg); }
+.hc-5 { width: 135px; top:    12px; left:  28%; opacity: 0.05; transform: rotate(6deg); }
+.hc-6 { width: 115px; top:    18px; right: 26%; opacity: 0.06; transform: rotate(-11deg); }
+
+/* Detail header coins — subtler, header is compact */
+.hc-sm-1 { width: 80px; top: -18px; left:  2%;  opacity: 0.06; transform: rotate(-12deg); }
+.hc-sm-2 { width: 70px; top: -10px; right: 3%;  opacity: 0.05; transform: rotate(9deg); }
 
 .brand-link { display: inline-block; }
 .brand-link:hover .brand { opacity: 0.82; }
+
+/* ── Brand wrapper + Fedix logo ────────────────────────── */
+.brand-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Inline layout used in the compact detail header */
+.brand-wrapper-inline {
+  flex-direction: row;
+  align-items: center;
+  gap: 13px;
+}
+
+.fedix-logo {
+  height: 92px;
+  width: auto;
+  filter: drop-shadow(0 4px 20px rgba(200, 168, 75, 0.38));
+  transition: filter var(--transition);
+}
+
+.brand-link:hover .fedix-logo {
+  filter: drop-shadow(0 4px 24px rgba(200, 168, 75, 0.55));
+}
+
+.detail-header .fedix-logo {
+  height: 38px;
+}
 
 .brand {
   font-family: 'Cormorant Garamond', serif;
@@ -522,7 +580,22 @@ footer {
   border-top: 1px solid var(--border);
   padding: 30px 24px 28px;
   margin-top: auto;
+  position: relative;
+  overflow: hidden;
 }
+
+/* ── Footer coin background ────────────────────────────── */
+.footer-coins {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.fc { position: absolute; }
+.fc-1 { width: 110px; bottom: -28px; left:  -12px; opacity: 0.06; transform: rotate(22deg); }
+.fc-2 { width:  95px; top:   -22px;  right: -10px; opacity: 0.06; transform: rotate(-9deg); }
+.fc-3 { width:  72px; bottom:  4px;  right:  14%;  opacity: 0.05; transform: rotate(14deg); }
 
 .footer-inner {
   max-width: 1440px;
@@ -532,6 +605,8 @@ footer {
   align-items: center;
   gap: 12px;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 .footer-nav {
@@ -824,7 +899,7 @@ button.footer-link { background: none; border: none; cursor: pointer; }
     gap: 28px;
   }
 
-  header { padding: 34px 16px 22px; }
+  .header-content { padding: 34px 16px 22px; }
 
   #grid {
     padding: 6px 16px 40px;
@@ -833,6 +908,11 @@ button.footer-link { background: none; border: none; cursor: pointer; }
 
   .controls { padding: 14px 16px 10px; }
   .about-section { padding: 44px 16px 60px; }
+
+  /* Reduce coin sizes on smaller screens */
+  .hc-1, .hc-2 { width: 130px; }
+  .hc-5, .hc-6 { display: none; }
+  .fedix-logo   { height: 70px; }
 }
 
 @media (max-width: 480px) {

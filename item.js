@@ -1,17 +1,17 @@
 const PHONE = "5492235831244";
 
-const params   = new URLSearchParams(window.location.search);
-const itemId   = parseInt(params.get("id"));
-let currentIdx = 0;
-let images     = [];
-let loadedItem = null;
+const params     = new URLSearchParams(window.location.search);
+const itemIndex  = parseInt(params.get("index"));
+let currentIdx   = 0;
+let images       = [];
+let loadedItem   = null;
 
 // ── Boot ─────────────────────────────────────────────────
 
 fetch("items.json")
   .then(res => res.json())
   .then(items => {
-    const item = items.find(i => i.id === itemId);
+    const item = items[itemIndex];
     if (!item) { window.location.href = "index.html"; return; }
 
     loadedItem = item;
@@ -52,6 +52,13 @@ function setupLangToggle() {
   });
 }
 
+// ── Description (i18n) ───────────────────────────────────
+
+function getDescription(item) {
+  if (getLang() === "en" && item.description_en) return item.description_en;
+  return item.description || "";
+}
+
 // ── Badge ────────────────────────────────────────────────
 
 function badgeClass(cond) {
@@ -83,8 +90,28 @@ function renderItem(item) {
        </div>`
     : "";
 
-  const descHtml = item.description
-    ? `<p class="item-description">${item.description}</p>`
+  // Optional technical fields — only rendered when present
+  const optFields = [
+    ["label_denomination", item.denomination],
+    ["label_mint",         item.mint],
+    ["label_weight",       item.weight],
+    ["label_diameter",     item.diameter],
+    ["label_composition",  item.composition],
+    ["label_reference",    item.reference],
+  ].filter(([, v]) => v != null && v !== "");
+
+  const optFieldsHtml = optFields.length
+    ? `<div class="item-divider"></div>
+       ${optFields.map(([k, v]) => `
+         <div class="item-row">
+           <span class="item-label">${t(k)}</span>
+           <span class="item-value">${v}</span>
+         </div>`).join("")}`
+    : "";
+
+  const desc = getDescription(item);
+  const descHtml = desc
+    ? `<p class="item-description">${desc}</p>`
     : "";
 
   container.innerHTML = `
@@ -116,6 +143,7 @@ function renderItem(item) {
           <span class="item-value">${item.year}</span>
         </div>
         ${qtyHtml}
+        ${optFieldsHtml}
 
         <div class="item-divider"></div>
 
