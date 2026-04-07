@@ -38,6 +38,7 @@
     "price": "USD 14",
     "condition": "UNC",
     "country": "USA",
+    "mint": "San Francisco",
     "year": 1955,
     "quantity": 1,
     "composition": "Cobre",
@@ -52,6 +53,7 @@
     "price": "USD 90",
     "condition": "VF",
     "country": "USA",
+    "mint": "Philadelphia",
     "year": 1904,
     "composition": "Plata 0.900",
     "composition_en": "0.900 Silver",
@@ -65,12 +67,67 @@
     "price": "USD 65",
     "condition": "G",
     "country": "USA",
+    "mint": "Philadelphia",
     "composition": "Plata 0.8924",
     "composition_en": "0.8924 Silver",
     "year": 1829,
     "images": [
       "images/dime_1829-1.jpg",
       "images/dime_1829-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Centavo 1883",
+    "price": "USD 45",
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "composition_en": "Copper",
+    "year": 1883,
+    "images": [
+      "images/arg_cent_1883-1.jpg",
+      "images/arg_cent_1883-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Centavo 1883",
+    "price": "USD 14",
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "composition_en": "Copper",
+    "year": 1883,
+    "images": [
+      "images/arg_cent_1883-3.jpg",
+      "images/arg_cent_1883-4.jpg"
+    ]
+  },
+  {
+    "title": "8 Reales 1808",
+    "price": "USD 170",
+    "condition": "XF",
+    "country": "Bolivia",
+    "mint": "PTS PJ",
+    "composition": "Plata 0.896",
+    "composition_en": "0.896 Silver",
+    "year": 1808,
+    "images": [
+      "images/potosi-1.jpg",
+      "images/potosi-2.jpg"
+    ]
+  },
+  {
+    "title": "Half Dime 1854",
+    "price": "USD 15",
+    "condition": "G",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Plata 0.900",
+    "composition_en": "0.900 Silver",
+    "year": 1854,
+    "images": [
+      "images/half_dime_1854-1.jpg",
+      "images/half_dime_1854-2.jpg"
     ]
   }
 ]
