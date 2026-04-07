@@ -3,7 +3,7 @@
 
   const T = {
     es: {
-      tagline:              "Colección Numismática de Calidad",
+      tagline:              "Piezas Numismáticas de Calidad",
       nav_coins:            "Monedas",
       nav_about:            "Nosotros",
       search_placeholder:   "Buscar por título, país o año…",
@@ -34,7 +34,7 @@
       footer_rights:        "© 2026 Fedix Coins. Todos los derechos reservados.",
     },
     en: {
-      tagline:              "Fine Numismatic Collection",
+      tagline:              "Premium Numismatic Pieces",
       nav_coins:            "Coins",
       nav_about:            "About Us",
       search_placeholder:   "Search by title, country or year…",

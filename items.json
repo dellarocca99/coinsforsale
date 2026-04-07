@@ -26,5 +26,42 @@
       "images/onu-1.jpg",
       "images/onu-2.jpg"
     ]
+  },
+  {
+    "id": 3,
+    "title": "1 Cent 1955-S",
+    "price": "USD 14",
+    "condition": "UNC",
+    "country": "USA",
+    "year": 1955,
+    "quantity": 1,
+    "images": [
+      "images/cent_1955-1.jpg",
+      "images/cent_1955-2.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "1 Dollar \"Morgan\" 1904",
+    "price": "USD 90",
+    "condition": "VF",
+    "country": "USA",
+    "year": 1904,
+    "images": [
+      "images/morgan_1904-1.jpg",
+      "images/morgan_1904-2.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "1 Dime 1829",
+    "price": "USD 65",
+    "condition": "G",
+    "country": "USA",
+    "year": 1829,
+    "images": [
+      "images/dime_1829-1.jpg",
+      "images/dime_1829-2.jpg"
+    ]
   }
 ]
