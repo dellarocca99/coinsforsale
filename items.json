@@ -9,8 +9,8 @@
     "denomination": "1 Peso",
     "composition": "0.900 Silver",
     "reference": "KM# 17",
-    "description": "Peso de plata de los inicios de la República Oriental del Uruguay. Golpe marcado con desgaste parejo en los puntos altos. Lustre original visible en los campos.",
-    "description_en": "Silver peso from the early Uruguayan Republic. Bold strike with even wear on the high points. Original luster visible in the fields.",
+    "description": "Peso de plata de los inicios de la República Oriental del Uruguay. Pátina original.",
+    "description_en": "Silver peso from the early Uruguayan Republic. Original luster.",
     "images": [
       "images/peso_1877-1.jpg",
       "images/peso_1877-2.jpg"
@@ -24,10 +24,10 @@
     "year": 1995,
     "quantity": 2,
     "denomination": "1 Peso",
-    "composition": "Bimetálica: Bronce-Aluminio / Acero Inoxidable",
-    "composition_en": "Bimetallic: Aluminium-Bronze / Stainless Steel",
-    "description": "Peso conmemorativo emitido por el 50º aniversario de las Naciones Unidas. Sin circular con lustre de acuñación original. Moneda bimetálica en condición original.",
-    "description_en": "Commemorative peso issued for the 50th anniversary of the United Nations. Fully uncirculated with original mint luster. Bimetallic coin in original condition.",
+    "composition": "Plata 0.900",
+    "composition_en": "0.900 Silver",
+    "description": "Peso conmemorativo emitido por el 50º aniversario de las Naciones Unidas. Sin circular - acabado Proof.",
+    "description_en": "Commemorative peso issued for the 50th anniversary of the United Nations. Fully uncirculated - Proof.",
     "images": [
       "images/onu-1.jpg",
       "images/onu-2.jpg"
@@ -40,6 +40,8 @@
     "country": "USA",
     "year": 1955,
     "quantity": 1,
+    "composition": "Cobre",
+    "composition_en": "Copper",
     "images": [
       "images/cent_1955-1.jpg",
       "images/cent_1955-2.jpg"
@@ -51,6 +53,8 @@
     "condition": "VF",
     "country": "USA",
     "year": 1904,
+    "composition": "Plata 0.900",
+    "composition_en": "0.900 Silver",
     "images": [
       "images/morgan_1904-1.jpg",
       "images/morgan_1904-2.jpg"
@@ -61,6 +65,8 @@
     "price": "USD 65",
     "condition": "G",
     "country": "USA",
+    "composition": "Plata 0.8924",
+    "composition_en": "0.8924 Silver",
     "year": 1829,
     "images": [
       "images/dime_1829-1.jpg",

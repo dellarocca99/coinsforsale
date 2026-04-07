@@ -58,32 +58,66 @@ header {
 }
 
 /* ── Header coin background ────────────────────────────── */
+/*
+  Coins are vivid at the edges (no text there).
+  The mask-image gradient fades them out toward the center
+  where the brand text lives, keeping full readability.
+  mask: transparent = coin hidden, black = coin visible.
+*/
 .header-coins {
   position: absolute;
   inset: 0;
   pointer-events: none;
   z-index: 0;
+  -webkit-mask-image: radial-gradient(
+    ellipse 100% 100% at 50% 50%,
+    transparent 28%,
+    rgba(0,0,0,0.55) 50%,
+    black 68%
+  );
+  mask-image: radial-gradient(
+    ellipse 100% 100% at 50% 50%,
+    transparent 28%,
+    rgba(0,0,0,0.55) 50%,
+    black 68%
+  );
+}
+
+/* Detail header: horizontal mask — coins only peek in from L/R corners */
+.header-coins-sm {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    black 0%, rgba(0,0,0,0.6) 14%,
+    transparent 28%, transparent 72%,
+    rgba(0,0,0,0.6) 86%, black 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    black 0%, rgba(0,0,0,0.6) 14%,
+    transparent 28%, transparent 72%,
+    rgba(0,0,0,0.6) 86%, black 100%
+  );
 }
 
 .hc { position: absolute; }
 
 /*
   Two overlapping clusters, one on each side.
-  Coins extend beyond header bounds (clipped by overflow:hidden).
-  Left cluster: hc-1 (back), hc-3 (mid), hc-5 (front-inner)
-  Right cluster: hc-2 (back), hc-4 (mid), hc-6 (front-inner)
+  High opacity — the mask above handles text-safe zones.
+  Left:  hc-1 (back-corner), hc-3 (lower-mid), hc-5 (inner)
+  Right: hc-2 (back-corner), hc-4 (lower-mid), hc-6 (inner)
 */
-.hc-1 { width: 310px; top:    -70px; left:  -30px; opacity: 0.05; transform: rotate(-8deg); }
-.hc-3 { width: 270px; bottom: -60px; left:   4%;   opacity: 0.06; transform: rotate(16deg); }
-.hc-5 { width: 210px; top:     20px; left:  20%;   opacity: 0.05; transform: rotate(4deg); }
+.hc-1 { width: 310px; top:    -70px; left:  -30px; opacity: 0.26; transform: rotate(-8deg); }
+.hc-3 { width: 270px; bottom: -60px; left:   4%;   opacity: 0.24; transform: rotate(16deg); }
+.hc-5 { width: 210px; top:     20px; left:  20%;   opacity: 0.22; transform: rotate(4deg); }
 
-.hc-2 { width: 300px; top:    -60px; right: -25px; opacity: 0.05; transform: rotate(10deg); }
-.hc-4 { width: 260px; bottom: -55px; right:  6%;   opacity: 0.06; transform: rotate(-18deg); }
-.hc-6 { width: 195px; top:     25px; right: 21%;   opacity: 0.05; transform: rotate(-7deg); }
+.hc-2 { width: 300px; top:    -60px; right: -25px; opacity: 0.25; transform: rotate(10deg); }
+.hc-4 { width: 260px; bottom: -55px; right:  6%;   opacity: 0.24; transform: rotate(-18deg); }
+.hc-6 { width: 195px; top:     25px; right: 21%;   opacity: 0.22; transform: rotate(-7deg); }
 
 /* Detail header — compact, coins peek in from corners */
-.hc-sm-1 { width: 140px; top: -35px; left:  -8px;  opacity: 0.06; transform: rotate(-10deg); }
-.hc-sm-2 { width: 130px; top: -28px; right: -5px;  opacity: 0.05; transform: rotate(8deg); }
+.hc-sm-1 { width: 140px; top: -35px; left:  -8px;  opacity: 0.22; transform: rotate(-10deg); }
+.hc-sm-2 { width: 130px; top: -28px; right: -5px;  opacity: 0.20; transform: rotate(8deg); }
 
 .brand-link { display: inline-block; }
 .brand-link:hover .brand { opacity: 0.82; }
@@ -602,15 +636,27 @@ footer {
   inset: 0;
   pointer-events: none;
   z-index: 0;
+  -webkit-mask-image: radial-gradient(
+    ellipse 100% 100% at 50% 50%,
+    transparent 22%,
+    rgba(0,0,0,0.5) 44%,
+    black 62%
+  );
+  mask-image: radial-gradient(
+    ellipse 100% 100% at 50% 50%,
+    transparent 22%,
+    rgba(0,0,0,0.5) 44%,
+    black 62%
+  );
 }
 
 .fc { position: absolute; }
 /* Left cluster */
-.fc-1 { width: 185px; bottom: -60px; left:  -18px; opacity: 0.05; transform: rotate(18deg); }
-.fc-3 { width: 150px; top:   -40px;  left:   6%;   opacity: 0.04; transform: rotate(-8deg); }
+.fc-1 { width: 185px; bottom: -60px; left:  -18px; opacity: 0.22; transform: rotate(18deg); }
+.fc-3 { width: 150px; top:   -40px;  left:   6%;   opacity: 0.20; transform: rotate(-8deg); }
 /* Right cluster */
-.fc-2 { width: 175px; top:   -55px;  right: -12px; opacity: 0.05; transform: rotate(-12deg); }
-.fc-4 { width: 145px; bottom: -50px; right:  5%;   opacity: 0.04; transform: rotate(10deg); }
+.fc-2 { width: 175px; top:   -55px;  right: -12px; opacity: 0.22; transform: rotate(-12deg); }
+.fc-4 { width: 145px; bottom: -50px; right:  5%;   opacity: 0.20; transform: rotate(10deg); }
 
 .footer-inner {
   max-width: 1440px;
@@ -924,13 +970,23 @@ button.footer-link { background: none; border: none; cursor: pointer; }
   .controls { padding: 14px 16px 10px; }
   .about-section { padding: 44px 16px 60px; }
 
-  /* Scale down on tablet/mobile */
+  /* Scale down on tablet */
   .hc-1 { width: 210px; }
   .hc-2 { width: 200px; }
   .hc-3 { width: 180px; }
-  .hc-4 { width: 170px; }
+  .hc-4 { width: 172px; }
   .hc-5, .hc-6 { display: none; }
   .fedix-logo   { height: 120px; }
+
+  /* Widen the mask's opaque zone on narrower screens so edge coins stay visible */
+  .header-coins {
+    -webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, transparent 20%, rgba(0,0,0,0.55) 42%, black 60%);
+    mask-image:         radial-gradient(ellipse 100% 100% at 50% 50%, transparent 20%, rgba(0,0,0,0.55) 42%, black 60%);
+  }
+  .footer-coins {
+    -webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, transparent 15%, rgba(0,0,0,0.5) 38%, black 55%);
+    mask-image:         radial-gradient(ellipse 100% 100% at 50% 50%, transparent 15%, rgba(0,0,0,0.5) 38%, black 55%);
+  }
 }
 
 @media (max-width: 480px) {
@@ -944,6 +1000,13 @@ button.footer-link { background: none; border: none; cursor: pointer; }
   .card-meta   { font-size: 0.7rem; margin-bottom: 10px; }
   .price       { font-size: 1.1rem; }
   .about-stats { grid-template-columns: 1fr 1fr; }
+  .fedix-logo  { height: 88px; }
+
+  /* On small phones the transparent zone only needs to protect a narrow text block */
+  .header-coins {
+    -webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, transparent 14%, rgba(0,0,0,0.5) 34%, black 52%);
+    mask-image:         radial-gradient(ellipse 100% 100% at 50% 50%, transparent 14%, rgba(0,0,0,0.5) 34%, black 52%);
+  }
 }
 
 /* Touch: always show carousel nav arrows */
