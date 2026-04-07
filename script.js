@@ -10,7 +10,7 @@ fetch("items.json")
     allItems = items.map(item => ({ ...item, _idx: 0 }));
     applyTranslations();
     populateFilters(allItems);
-    renderItems(allItems);
+    renderItems(getFiltered());
     setupControls();
     setupLangToggle();
     setupSectionNav();
@@ -116,7 +116,7 @@ function getFiltered() {
   else if (sort === "price-desc") results.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
   else if (sort === "year-asc")   results.sort((a, b) => a.year - b.year);
   else if (sort === "year-desc")  results.sort((a, b) => b.year - a.year);
-  else /* default + country-asc */ results.sort((a, b) => (a.country || "").localeCompare(b.country || "") || parsePrice(a.price) - parsePrice(b.price));
+  else results.sort((a, b) => (a.country || "").localeCompare(b.country || "") || parsePrice(a.price) - parsePrice(b.price));
 
   return results;
 }
