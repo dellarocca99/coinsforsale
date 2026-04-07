@@ -12,8 +12,8 @@
     "description": "Peso de plata de los inicios de la República Oriental del Uruguay. Pátina original.",
     "description_en": "Silver peso from the early Uruguayan Republic. Original luster.",
     "images": [
-      "images/peso_1877-1.jpg",
-      "images/peso_1877-2.jpg"
+      "images/peso_1877-2.jpg",
+      "images/peso_1877-1.jpg"
     ]
   },
   {
@@ -46,8 +46,8 @@
     "composition": "Cobre",
     "composition_en": "Copper",
     "images": [
-      "images/cent_1955-1.jpg",
-      "images/cent_1955-2.jpg"
+      "images/cent_1955-2.jpg",
+      "images/cent_1955-1.jpg"
     ]
   },
   {
@@ -56,12 +56,14 @@
     "condition": "VF",
     "country": "USA",
     "mint": "Philadelphia",
+    "diameter": "38.1 mm",
+    "weight": "26.7 g",
     "year": 1904,
     "composition": "Plata 0.900",
     "composition_en": "0.900 Silver",
     "images": [
-      "images/morgan_1904-1.jpg",
-      "images/morgan_1904-2.jpg"
+      "images/morgan_1904-2.jpg",
+      "images/morgan_1904-1.jpg"
     ]
   },
   {
@@ -128,8 +130,8 @@
     "composition_en": "0.900 Silver",
     "year": 1854,
     "images": [
-      "images/halfdime_1854-1.jpg",
-      "images/halfdime_1854-2.jpg"
+      "images/halfdime_1854-2.jpg",
+      "images/halfdime_1854-1.jpg"
     ]
   },
   {
@@ -159,8 +161,8 @@
     "composition_en": "0.900 Silver",
     "year": 1969,
     "images": [
-      "images/peace_1925-1.jpg",
-      "images/peace_1925-2.jpg"
+      "images/fao_uru-1.jpg",
+      "images/fao_uru-2.jpg"
     ]
   }
 ]
