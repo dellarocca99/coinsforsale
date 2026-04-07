@@ -52,11 +52,17 @@ function setupLangToggle() {
   });
 }
 
-// ── Description (i18n) ───────────────────────────────────
+// ── Localized fields ─────────────────────────────────────
+
+// Returns the English variant (field_en) when available and lang=en,
+// otherwise falls back to the base field. Works for any field name.
+function getLocalizedField(item, field) {
+  if (getLang() === "en" && item[field + "_en"]) return item[field + "_en"];
+  return item[field] || "";
+}
 
 function getDescription(item) {
-  if (getLang() === "en" && item.description_en) return item.description_en;
-  return item.description || "";
+  return getLocalizedField(item, "description");
 }
 
 // ── Badge ────────────────────────────────────────────────
@@ -96,7 +102,7 @@ function renderItem(item) {
     ["label_mint",         item.mint],
     ["label_weight",       item.weight],
     ["label_diameter",     item.diameter],
-    ["label_composition",  item.composition],
+    ["label_composition",  getLocalizedField(item, "composition")],
     ["label_reference",    item.reference],
   ].filter(([, v]) => v != null && v !== "");
 
