@@ -164,5 +164,213 @@
       "images/fao_uru-1.jpg",
       "images/fao_uru-2.jpg"
     ]
+  },
+  {
+    "title": "5 Cents \"Buffalo\" 1914",
+    "price": "USD 32",
+    "condition": "VF",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Cu Ni",
+    "year": 1914,
+    "images": [
+      "images/buf_1914-1.jpg",
+      "images/buf_1914-2.jpg"
+    ]
+  },
+  {
+    "title": "5 Cents \"Buffalo\" 1914-S",
+    "price": "USD 38",
+    "condition": "F",
+    "country": "USA",
+    "composition": "Cu Ni",
+    "mint": "San Francisco",
+    "year": 1914,
+    "images": [
+      "images/buf_1914s-1.jpg",
+      "images/buf_1914s-2.jpg"
+    ]
+  },
+  {
+    "title": "5 Cents \"Buffalo\" 1915",
+    "price": "USD 13",
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu Ni",
+    "mint": "Philadelphia",
+    "year": 1915,
+    "images": [
+      "images/buf_1915-1.jpg",
+      "images/buf_1915-2.jpg"
+    ]
+  },
+  {
+    "title": "5 Cents \"Buffalo\" 1916",
+    "price": "USD 13",
+    "condition": "XF",
+    "country": "USA",
+    "composition": "Cu Ni",
+    "mint": "Philadelphia",
+    "year": 1916,
+    "images": [
+      "images/buf_1916-1.jpg",
+      "images/buf_1916-2.jpg"
+    ]
+  },
+  {
+    "title": "5 Cents \"Buffalo\" 1921",
+    "price": "USD 8",
+    "condition": "F",
+    "country": "USA",
+    "composition": "Cu Ni",
+    "mint": "Philadelphia",
+    "year": 1921,
+    "images": [
+      "images/buf_1921-1.jpg",
+      "images/buf_1921-2.jpg"
+    ]
+  },
+  {
+    "title": "5 Cents \"Liberty\" 1888",
+    "price": "USD 30",
+    "condition": "F",
+    "country": "USA",
+    "composition": "Cu Ni",
+    "mint": "Philadelphia",
+    "year": 1888,
+    "images": [
+      "images/lib_1888-1.jpg",
+      "images/lib_1888-2.jpg"
+    ]
+  },
+  {
+    "title": "5 Cents \"Liberty\" 1894",
+    "price": "USD 12",
+    "condition": "G",
+    "country": "USA",
+    "composition": "Cu Ni",
+    "mint": "Philadelphia",
+    "year": 1894,
+    "images": [
+      "images/lib_1894-1.jpg",
+      "images/lib_1894-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Lincoln\" 1910-S",
+    "price": "USD 22",
+    "condition": "VF Details",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "San Francisco",
+    "year": 1910,
+    "images": [
+      "images/lin_1910s-1.jpg",
+      "images/lin_1910s-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Lincoln\" 1911-D",
+    "price": "USD 15",
+    "condition": "F",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Denver",
+    "year": 1911,
+    "images": [
+      "images/lin_1911d-1.jpg",
+      "images/lin_1911d-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Lincoln\" 1911-S",
+    "price": "USD 50",
+    "condition": "VG",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "San Francisco",
+    "year": 1911,
+    "images": [
+      "images/lin_1911s-1.jpg",
+      "images/lin_1911s-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Lincoln\" 1912-D",
+    "price": "USD 22",
+    "condition": "F",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Denver",
+    "year": 1912,
+    "images": [
+      "images/lin_1912d-1.jpg",
+      "images/lin_1912d-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Lincoln\" 1912-S",
+    "price": "USD 24",
+    "condition": "VF Details",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "San Francisco",
+    "year": 1912,
+    "images": [
+      "images/lin_1912s-1.jpg",
+      "images/lin_1912s-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Lincoln\" 1913-S",
+    "price": "USD 15",
+    "condition": "VF Details",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "San Francisco",
+    "year": 1913,
+    "images": [
+      "images/lin_1913s-1.jpg",
+      "images/lin_1913s-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Lincoln\" 1914-S",
+    "price": "USD 30",
+    "condition": "XF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "San Francisco",
+    "year": 1914,
+    "images": [
+      "images/lin_1914s-1.jpg",
+      "images/lin_1914s-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Lincoln\" 1915-S",
+    "price": "USD 32",
+    "condition": "F",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "San Francisco",
+    "year": 1915,
+    "images": [
+      "images/lin_1915s-1.jpg",
+      "images/lin_1915s-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Lincoln\" 1926-S",
+    "price": "USD 26",
+    "condition": "XF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "San Francisco",
+    "year": 1926,
+    "images": [
+      "images/lin_1926s-1.jpg",
+      "images/lin_1926s-2.jpg"
+    ]
   }
 ]
