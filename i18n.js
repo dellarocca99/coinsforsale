@@ -101,3 +101,23 @@
       : `Hola! Me interesa: ${title} (${year})`;
 
 })();
+
+// ── Image extension case fallback ─────────────────────────
+// GitHub Pages (Linux) is case-sensitive: "coin.JPG" ≠ "coin.jpg".
+// If an image fails to load, this automatically retries with the
+// opposite extension case (.jpg ↔ .JPG), once per element.
+document.addEventListener("error", function (e) {
+  const img = e.target;
+  if (img.tagName !== "IMG" || img.dataset.fallbackTried) return;
+
+  const src = img.getAttribute("src") || "";
+  let alt = null;
+
+  if (src.endsWith(".jpg"))  alt = src.slice(0, -4) + ".JPG";
+  else if (src.endsWith(".JPG")) alt = src.slice(0, -4) + ".jpg";
+
+  if (alt) {
+    img.dataset.fallbackTried = "1";
+    img.src = alt;
+  }
+}, true); // capture phase — "error" does not bubble
