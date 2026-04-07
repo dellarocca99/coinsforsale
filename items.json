@@ -24,6 +24,8 @@
     "year": 1995,
     "quantity": 2,
     "denomination": "1 Peso",
+    "diameter": "37 mm",
+    "weight": "25 g",
     "composition": "Plata 0.900",
     "composition_en": "0.900 Silver",
     "description": "Peso conmemorativo emitido por el 50º aniversario de las Naciones Unidas. Sin circular - acabado Proof.",
@@ -128,6 +130,37 @@
     "images": [
       "images/halfdime_1854-1.jpg",
       "images/halfdime_1854-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Dollar \"Peace\" 1925",
+    "price": "USD 65",
+    "condition": "VF",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "diameter": "38.1 mm",
+    "weight": "26.7 g",
+    "composition": "Plata 0.900",
+    "composition_en": "0.900 Silver",
+    "year": 1925,
+    "images": [
+      "images/peace_1925-1.jpg",
+      "images/peace_1925-2.jpg"
+    ]
+  },
+  {
+    "title": "1000 Pesos 1969",
+    "price": "USD 60",
+    "condition": "XF",
+    "country": "Uruguay",
+    "diameter": "37 mm",
+    "weight": "25 g",
+    "composition": "Plata 0.900",
+    "composition_en": "0.900 Silver",
+    "year": 1969,
+    "images": [
+      "images/peace_1925-1.jpg",
+      "images/peace_1925-2.jpg"
     ]
   }
 ]
