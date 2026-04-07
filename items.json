@@ -85,8 +85,8 @@
     "composition_en": "Copper",
     "year": 1883,
     "images": [
-      "images/arg_cent_1883-1.jpg",
-      "images/arg_cent_1883-2.jpg"
+      "images/cent_arg_1883-1.jpg",
+      "images/cent_arg_1883-2.jpg"
     ]
   },
   {
@@ -98,8 +98,8 @@
     "composition_en": "Copper",
     "year": 1883,
     "images": [
-      "images/arg_cent_1883-3.jpg",
-      "images/arg_cent_1883-4.jpg"
+      "images/cent_arg_1883-3.jpg",
+      "images/cent_arg_1883-4.jpg"
     ]
   },
   {
@@ -126,8 +126,8 @@
     "composition_en": "0.900 Silver",
     "year": 1854,
     "images": [
-      "images/half_dime_1854-1.jpg",
-      "images/half_dime_1854-2.jpg"
+      "images/halfdime_1854-1.jpg",
+      "images/halfdime_1854-2.jpg"
     ]
   }
 ]
