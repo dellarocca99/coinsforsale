@@ -4,7 +4,10 @@
       "WebFetch(domain:dellarocca99.github.io)",
       "Bash(curl -sI https://dellarocca99.github.io/coinsforsale/)",
       "Bash(curl -sI https://dellarocca99.github.io/coinsforsale/images/background/og_image.png)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(pip show:*)",
+      "Bash(python:*)",
+      "Bash(gh auth:*)"
     ]
   }
 }
