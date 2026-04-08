@@ -424,5 +424,57 @@
       "images/half_1955-1.jpg",
       "images/half_1955-2.jpg"
     ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1873",
+    "price": "USD 30",
+    "condition": "G",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "year": 1873,
+    "images": [
+      "images/indian_1873-1.jpeg",
+      "images/indian_1873-2.jpeg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1875",
+    "price": "USD 45",
+    "condition": "VG",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "year": 1875,
+    "images": [
+      "images/indian_1875-1.jpeg",
+      "images/indian_1875-2.jpeg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1876",
+    "price": "USD 40",
+    "condition": "F Details",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "year": 1876,
+    "images": [
+      "images/indian_1876-1.jpeg",
+      "images/indian_1876-2.jpeg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1891",
+    "price": "USD 5",
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "year": 1891,
+    "images": [
+      "images/indian_1891-1.jpeg",
+      "images/indian_1891-2.jpeg"
+    ]
   }
 ]
