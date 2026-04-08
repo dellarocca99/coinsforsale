@@ -372,5 +372,57 @@
       "images/lin_1926s-1.jpg",
       "images/lin_1926s-2.jpg"
     ]
+  },
+  {
+    "title": "5 Cents \"Buffalo\" 1913-S (type 1)",
+    "price": "USD 55",
+    "condition": "F",
+    "country": "USA",
+    "composition": "Cu Ni",
+    "mint": "San Francisco",
+    "year": 1913,
+    "images": [
+      "images/buf_1913s_t1-1.jpg",
+      "images/buf_1913s_t1-2.jpg"
+    ]
+  },
+  {
+    "title": "5 Cents \"Buffalo\" 1914-S (type 1)",
+    "price": "USD 95",
+    "condition": "AU",
+    "country": "USA",
+    "composition": "Cu Ni",
+    "mint": "San Francisco",
+    "year": 1914,
+    "images": [
+      "images/buf_1914s_bis-1.jpg",
+      "images/buf_1914s_bis-2.jpg"
+    ]
+  },
+  {
+    "title": "Half Dollar \"Walking Liberty\" 1920-S",
+    "price": "USD 38",
+    "condition": "VG",
+    "country": "USA",
+    "composition": "Plata 0.900",
+    "mint": "San Francisco",
+    "year": 1920,
+    "images": [
+      "images/half_1920s-1.jpg",
+      "images/half_1920s-2.jpg"
+    ]
+  },
+  {
+    "title": "Half Dollar \"Walking Liberty\" 1955",
+    "price": "USD 38",
+    "condition": "XF",
+    "country": "USA",
+    "composition": "Plata 0.900",
+    "mint": "Philadelphia",
+    "year": 1955,
+    "images": [
+      "images/half_1955-1.jpg",
+      "images/half_1955-2.jpg"
+    ]
   }
 ]
