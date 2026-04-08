@@ -178,11 +178,35 @@ function renderItem(item) {
     openLightbox(images[currentIdx]);
   });
 
+  // Swipe on main gallery image
+  if (images.length > 1) {
+    attachSwipe(document.getElementById("gallery-main"), delta => {
+      setImage((currentIdx + delta + images.length) % images.length);
+    });
+  }
+
   // WhatsApp button
   document.getElementById("wa-btn").addEventListener("click", function () {
     const msg = waMessage(this.dataset.title, this.dataset.year);
     window.open(`https://wa.me/${PHONE}?text=${encodeURIComponent(msg)}`, "_blank");
   });
+}
+
+// ── Touch swipe ──────────────────────────────────────────
+
+function attachSwipe(el, onSwipe) {
+  let startX = 0, startY = 0;
+  el.addEventListener("touchstart", e => {
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+  }, { passive: true });
+  el.addEventListener("touchend", e => {
+    const dx = e.changedTouches[0].clientX - startX;
+    const dy = e.changedTouches[0].clientY - startY;
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) {
+      onSwipe(dx < 0 ? 1 : -1);
+    }
+  }, { passive: true });
 }
 
 // ── Gallery ──────────────────────────────────────────────
@@ -205,13 +229,22 @@ function setImage(i) {
 // ── Lightbox ─────────────────────────────────────────────
 
 function setupLightbox() {
-  document.getElementById("lightbox").addEventListener("click", closeLightbox);
+  const lb = document.getElementById("lightbox");
+  lb.addEventListener("click", closeLightbox);
   document.getElementById("lightbox-close").addEventListener("click", e => {
     e.stopPropagation();
     closeLightbox();
   });
   document.addEventListener("keydown", e => {
     if (e.key === "Escape") closeLightbox();
+  });
+  attachSwipe(lb, delta => {
+    if (images.length < 2) return;
+    currentIdx = (currentIdx + delta + images.length) % images.length;
+    document.getElementById("lightbox-img").src = images[currentIdx];
+    document.querySelectorAll(".thumb").forEach((th, k) => {
+      th.classList.toggle("active", k === currentIdx);
+    });
   });
 }
 
