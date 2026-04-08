@@ -232,10 +232,23 @@ function advanceCarousel(gi, delta) {
 
   img.classList.add("out");
   setTimeout(() => {
-    img.src = item.images[item._idx];
+    // Pin opacity at 0 before removing .out, so there is no flash
+    // while the new image is fetched (browser keeps showing old src until loaded).
+    img.style.opacity = "0";
     img.classList.remove("out");
-    img.classList.add("in");
-    setTimeout(() => img.classList.remove("in"), 320);
+
+    let done = false;
+    const startIn = () => {
+      if (done) return;
+      done = true;
+      img.style.opacity = "";
+      img.classList.add("in");
+      setTimeout(() => img.classList.remove("in"), 320);
+    };
+
+    img.onload = img.onerror = startIn;
+    img.src = item.images[item._idx];
+    if (img.complete) startIn(); // already in browser cache
   }, 180);
 
   const dotsEl = document.getElementById(`dots-${gi}`);
