@@ -21,7 +21,14 @@ fetch("items.json")
     applyTranslations();
     renderItem(item);
     setupLangToggle();
+    setupCurrencyToggle();
     setupLightbox();
+
+    // Currency change: update only the price element to avoid resetting the gallery
+    document.addEventListener('currencychange', () => {
+      const el = document.querySelector('.item-price');
+      if (el) el.textContent = formatPrice(item.price);
+    });
   });
 
 // ── i18n ─────────────────────────────────────────────────
@@ -153,7 +160,7 @@ function renderItem(item) {
 
         <div class="item-divider"></div>
 
-        <div class="item-price">${item.price}</div>
+        <div class="item-price">${formatPrice(item.price)}</div>
 
         ${descHtml}
 

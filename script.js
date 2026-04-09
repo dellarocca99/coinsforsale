@@ -13,7 +13,9 @@ fetch("items.json")
     renderItems(getFiltered());
     setupControls();
     setupLangToggle();
+    setupCurrencyToggle();
     setupSectionNav();
+    document.addEventListener('currencychange', () => renderItems(getFiltered()));
   });
 
 // ── i18n ─────────────────────────────────────────────────
@@ -179,7 +181,7 @@ function renderItems(items) {
         <div class="card-meta">${item.country}&nbsp;&nbsp;·&nbsp;&nbsp;${item.year}</div>
         <div class="card-footer">
           <span class="badge ${badgeClass(item.condition)}">${item.condition}</span>
-          <span class="price">${item.price}</span>
+          <span class="price">${formatPrice(item.price)}</span>
         </div>
       </div>`;
 

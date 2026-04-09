@@ -39,10 +39,17 @@
       <img src="images/background/standing.png"   class="hc hc-sm-2">
     </div>
     <div class="header-content">
-      <div class="lang-toggle" id="lang-toggle">
-        <button class="lang-btn" data-lang="es">ES</button>
-        <span class="lang-sep">|</span>
-        <button class="lang-btn" data-lang="en">EN</button>
+      <div class="header-toggles">
+        <div class="currency-toggle" id="currency-toggle">
+          <button class="currency-btn" data-currency="USD">USD</button>
+          <span class="currency-sep">|</span>
+          <button class="currency-btn" data-currency="ARS">ARS</button>
+        </div>
+        <div class="lang-toggle" id="lang-toggle">
+          <button class="lang-btn" data-lang="es">ES</button>
+          <span class="lang-sep">|</span>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
       </div>
       <a href="index.html" class="brand-link">
         <div class="brand-wrapper brand-wrapper-inline">
@@ -97,6 +104,7 @@
   </footer>
 
   <script src="i18n.js"></script>
+  <script src="currency.js"></script>
   <script src="item.js"></script>
 </body>
 </html>
