@@ -9,16 +9,30 @@ let itemsPerPage = parseInt(localStorage.getItem("fedix_per_page"), 10) || 24;
 fetch("items.json")
   .then(res => res.json())
   .then(items => {
-    allItems = items.map(item => ({ ...item, _idx: 0 }));
+    allItems = items;
+    // Tag each item with its stable index in O(N) without copying objects.
+    // _gi is used in place of allItems.indexOf(item) (O(1) vs O(N)).
+    // _idx (carousel slide) is initialised lazily in advanceCarousel.
+    items.forEach((item, i) => { item._gi = i; });
+
+    // ── Phase 1: critical path ──────────────────────────
+    // Translate static UI and render the first page. The browser can
+    // paint as soon as this synchronous block returns.
     applyTranslations();
-    populateFilters(allItems);
     renderItems(getFiltered());
-    setupControls();
-    setupPagination();
-    setupLangToggle();
-    setupCurrencyToggle();
-    setupSectionNav();
-    document.addEventListener("currencychange", () => renderItems(getFiltered()));
+
+    // ── Phase 2: deferred setup ─────────────────────────
+    // Everything else (filter population, event wiring) is deferred one
+    // task so the browser gets a chance to paint Phase 1 first.
+    setTimeout(() => {
+      populateFilters(allItems);
+      setupControls();
+      setupPagination();
+      setupLangToggle();
+      setupCurrencyToggle();
+      setupSectionNav();
+      document.addEventListener("currencychange", () => renderItems(getFiltered()));
+    }, 0);
   });
 
 // ── i18n ─────────────────────────────────────────────────
@@ -160,7 +174,16 @@ function getFiltered() {
   else if (sort === "price-desc") results.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
   else if (sort === "year-asc")   results.sort((a, b) => a.year - b.year);
   else if (sort === "year-desc")  results.sort((a, b) => b.year - a.year);
-  else results.sort((a, b) => (a.country || "").localeCompare(b.country || "") || parsePrice(a.price) - parsePrice(b.price));
+  else {
+    // Default: country A→Z, then price low→high.
+    // Uses < / > instead of localeCompare — ~10× faster for ASCII country names.
+    results.sort((a, b) => {
+      const ca = a.country || "", cb = b.country || "";
+      if (ca < cb) return -1;
+      if (ca > cb) return  1;
+      return parsePrice(a.price) - parsePrice(b.price);
+    });
+  }
 
   return results;
 }
@@ -214,7 +237,8 @@ function renderItems(items) {
   grid.innerHTML = "";
 
   pageItems.forEach((item, vi) => {
-    const gi      = allItems.indexOf(item);
+    // _gi was tagged in boot — O(1) lookup instead of allItems.indexOf (O(N))
+    const gi      = item._gi;
     const card    = document.createElement("div");
     const hasMany = item.images.length > 1;
     const showQty = item.quantity != null && item.quantity > 1;
@@ -226,10 +250,14 @@ function renderItems(items) {
       .map((_, k) => `<span class="dot${k === 0 ? " active" : ""}"></span>`)
       .join("");
 
+    // Images beyond the first visible row load lazily to avoid a burst of
+    // parallel requests on the initial paint.
+    const lazyAttr = vi >= 6 ? ' loading="lazy"' : "";
+
     card.innerHTML = `
       <div class="carousel">
         ${hasMany ? `<button class="nav left"  data-gi="${gi}" data-dir="prev">&#8249;</button>` : ""}
-        <img class="carousel-img" id="img-${gi}" src="${item.images[0]}" alt="${item.title}">
+        <img class="carousel-img" id="img-${gi}" src="${item.images[0]}" alt="${item.title}"${lazyAttr}>
         ${hasMany ? `<button class="nav right" data-gi="${gi}" data-dir="next">&#8250;</button>` : ""}
         ${hasMany ? `<div class="dots" id="dots-${gi}">${dots}</div>` : ""}
         ${showQty ? `<span class="qty-badge">×${item.quantity}</span>` : ""}
