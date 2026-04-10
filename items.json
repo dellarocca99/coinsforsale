@@ -766,8 +766,8 @@
     "year": 1974,
     "description": "Escasa",
     "images": [
-      "images/1cent_arg_1974-1.jpg",
-      "images/1cent_arg_1974-2.jpg"
+      "images/1cent_arg_1974-1.jpeg",
+      "images/1cent_arg_1974-2.jpeg"
     ]
   },
   {
@@ -779,8 +779,8 @@
     "year": 1975,
     "description": "Escasa",
     "images": [
-      "images/1cent_arg_1975-1.jpg",
-      "images/1cent_arg_1975-2.jpg"
+      "images/1cent_arg_1975-1.jpeg",
+      "images/1cent_arg_1975-2.jpeg"
     ]
   },
   {
@@ -792,8 +792,8 @@
     "year": 1976,
     "description": "Escasa",
     "images": [
-      "images/10cent_arg_1976-1.jpg",
-      "images/10cent_arg_1976-2.jpg"
+      "images/10cent_arg_1976-1.jpeg",
+      "images/10cent_arg_1976-2.jpeg"
     ]
   },
   {
@@ -805,8 +805,8 @@
     "year": 1961,
     "description": "Escasa",
     "images": [
-      "images/20cent_arg_1961-1.jpg",
-      "images/20cent_arg_1961-2.jpg"
+      "images/20cent_arg_1961-1.jpeg",
+      "images/20cent_arg_1961-2.jpeg"
     ]
   },
   {
@@ -818,8 +818,8 @@
     "composition": "Cu",
     "year": 1827,
     "images": [
-      "images/5dec_bsas_1827-1.jpg",
-      "images/5dec_bsas_1827-2.jpg"
+      "images/5dec_bsas_1827-1.jpeg",
+      "images/5dec_bsas_1827-2.jpeg"
     ]
   },
   {
@@ -831,8 +831,8 @@
     "composition": "Cu",
     "year": 1822,
     "images": [
-      "images/1dec_bsas-1.jpg",
-      "images/1dec_bsas-2.jpg"
+      "images/1dec_bsas-1.jpeg",
+      "images/1dec_bsas-2.jpeg"
     ]
   },
   {
@@ -843,8 +843,8 @@
     "composition": "Cu",
     "year": 1857,
     "images": [
-      "images/5cent_uru_1857-1.jpg",
-      "images/5cent_uru_1857-2.jpg"
+      "images/5cent_uru_1857-1.jpeg",
+      "images/5cent_uru_1857-2.jpeg"
     ]
   },
   {
@@ -855,8 +855,8 @@
     "composition": "Cu",
     "year": 1857,
     "images": [
-      "images/40cent_uru_1857-1.jpg",
-      "images/40cent_uru_1857-2.jpg"
+      "images/40cent_uru_1857-1.jpeg",
+      "images/40cent_uru_1857-2.jpeg"
     ]
   }
 ]
