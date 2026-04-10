@@ -732,5 +732,131 @@
       "images/3000pesos_arg_1977-1.jpg",
       "images/3000pesos_arg_1977-2.jpg"
     ]
+  },
+  {
+    "title": "10 Francs 1929",
+    "price": "USD 17",
+    "condition": "AU",
+    "country": "Francia",
+    "composition": "Plata 0.680",
+    "year": 1929,
+    "images": [
+      "images/10franc_1929-1.jpg",
+      "images/10franc_1929-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Peso 1942",
+    "price": "USD 16",
+    "condition": "XF",
+    "country": "Uruguay",
+    "composition": "Plata 0.720",
+    "year": 1942,
+    "images": [
+      "images/1peso_uru_1942-1-1.jpg",
+      "images/1peso_uru_1942-1-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Centavo 1974",
+    "price": "USD 5",
+    "condition": "UNC",
+    "country": "Argentina",
+    "composition": "Aluminio",
+    "year": 1974,
+    "description": "Escasa",
+    "images": [
+      "images/1cent_arg_1974-1.jpg",
+      "images/1cent_arg_1974-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Centavo 1975",
+    "price": "USD 5",
+    "condition": "UNC",
+    "country": "Argentina",
+    "composition": "Aluminio",
+    "year": 1975,
+    "description": "Escasa",
+    "images": [
+      "images/1cent_arg_1975-1.jpg",
+      "images/1cent_arg_1975-2.jpg"
+    ]
+  },
+  {
+    "title": "10 Centavos 1976",
+    "price": "USD 8",
+    "condition": "AU",
+    "country": "Argentina",
+    "composition": "Bronce de aluminio",
+    "year": 1976,
+    "description": "Escasa",
+    "images": [
+      "images/10cent_arg_1976-1.jpg",
+      "images/10cent_arg_1976-2.jpg"
+    ]
+  },
+  {
+    "title": "20 Centavos 1961",
+    "price": "USD 5",
+    "condition": "UNC",
+    "country": "Argentina",
+    "composition": "Acero enchapado",
+    "year": 1961,
+    "description": "Escasa",
+    "images": [
+      "images/20cent_arg_1961-1.jpg",
+      "images/20cent_arg_1961-2.jpg"
+    ]
+  },
+  {
+    "title": "5/10 Real 1827",
+    "price": "USD 15",
+    "condition": "VF",
+    "country": "Argentina",
+    "region":"Buenos Aires",
+    "composition": "Cu",
+    "year": 1827,
+    "images": [
+      "images/5dec_bsas_1827-1.jpg",
+      "images/5dec_bsas_1827-2.jpg"
+    ]
+  },
+  {
+    "title": "1/10 Real 1822/23",
+    "price": "USD 10",
+    "condition": "VG",
+    "country": "Argentina",
+    "region":"Buenos Aires",
+    "composition": "Cu",
+    "year": 1822,
+    "images": [
+      "images/1dec_bsas-1.jpg",
+      "images/1dec_bsas-2.jpg"
+    ]
+  },
+  {
+    "title": "5 Centésimos 1857",
+    "price": "USD 24",
+    "condition": "F",
+    "country": "Uruguay",
+    "composition": "Cu",
+    "year": 1857,
+    "images": [
+      "images/5cent_uru_1857-1.jpg",
+      "images/5cent_uru_1857-2.jpg"
+    ]
+  },
+  {
+    "title": "40 Centésimos 1857",
+    "price": "USD 24",
+    "condition": "F",
+    "country": "Uruguay",
+    "composition": "Cu",
+    "year": 1857,
+    "images": [
+      "images/40cent_uru_1857-1.jpg",
+      "images/40cent_uru_1857-2.jpg"
+    ]
   }
 ]
