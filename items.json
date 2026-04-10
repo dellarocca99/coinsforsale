@@ -476,5 +476,261 @@
       "images/indian_1891-1.jpeg",
       "images/indian_1891-2.jpeg"
     ]
+  },
+  {
+    "title": "1 Centavo 1885",
+    "price": "USD 18",
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cu",
+    "year": 1885,
+    "images": [
+      "images/1cent_arg_1885-1.jpeg",
+      "images/1cent_arg_1885-2.jpeg"
+    ]
+  },
+  {
+    "title": "1 Centavo 1888",
+    "price": "USD 20",
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cu",
+    "year": 1888,
+    "images": [
+      "images/1cent_arg_1888-1.jpeg",
+      "images/1cent_arg_1888-2.jpeg"
+    ]
+  },
+  {
+    "title": "1 Centavo 1894",
+    "price": "USD 30",
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cu",
+    "year": 1894,
+    "images": [
+      "images/1cent_arg_1894-1.jpeg",
+      "images/1cent_arg_1894-2.jpeg"
+    ]
+  },
+  {
+    "title": "10 Centavos 1882",
+    "price": "USD 18",
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Plata 0.900",
+    "year": 1882,
+    "images": [
+      "images/10cent_arg_1882-1.jpeg",
+      "images/10cent_arg_1882-2.jpeg"
+    ]
+  },
+  {
+    "title": "10 Centavos 1883",
+    "price": "USD 22",
+    "condition": "AU",
+    "country": "Argentina",
+    "composition": "Plata 0.900",
+    "year": 1883,
+    "images": [
+      "images/10cent_arg_1883-1.jpeg",
+      "images/10cent_arg_1883-2.jpeg"
+    ]
+  },
+  {
+    "title": "1 Centavo 1854",
+    "price": "USD 30",
+    "condition": "XF",
+    "country": "Argentina",
+    "region": "Confederación Argentina",
+    "composition": "Cu",
+    "year": 1854,
+    "images": [
+      "images/1cent_conf-1.jpeg",
+      "images/1cent_conf-2.jpeg"
+    ]
+  },
+  {
+    "title": "2 Centavos 1854",
+    "price": "USD 20",
+    "condition": "F",
+    "country": "Argentina",
+    "region": "Confederación Argentina",
+    "composition": "Cu",
+    "year": 1854,
+    "images": [
+      "images/2cent_conf-1.jpeg",
+      "images/2cent_conf-2.jpeg"
+    ]
+  },
+  {
+    "title": "1 Real 1854",
+    "price": "USD 120",
+    "condition": "F",
+    "country": "Argentina",
+    "region": "Buenos Aires",
+    "composition": "Cu",
+    "description": "Rara pieza",
+    "description_en": "Rare",
+    "year": 1854,
+    "images": [
+      "images/1real_bsas_1854-1.jpeg",
+      "images/1real_bsas_1854-2.jpeg"
+    ]
+  },
+  {
+    "title": "20 Centavos 1972",
+    "price": "USD 30",
+    "condition": "UNC",
+    "country": "Argentina",
+    "composition": "Bronce de aluminio",
+    "composition_en": "Aluminium-bronze",
+    "description": "Rara pieza",
+    "description_en": "Rare",
+    "year": 1972,
+    "images": [
+      "images/20cent_arg_1972-1.jpeg",
+      "images/20cent_arg_1972-2.jpeg"
+    ]
+  },
+  {
+    "title": "20 Centavos 1899",
+    "price": "USD 65",
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "description": "Rara pieza",
+    "description_en": "Rare",
+    "year": 1899,
+    "images": [
+      "images/20cent_arg_1899-1-1.jpeg",
+      "images/20cent_arg_1899-1-2.jpeg"
+    ]
+  },
+  {
+    "title": "20 Centavos 1908",
+    "price": "USD 30",
+    "condition": "VG",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "description": "Rara pieza",
+    "description_en": "Rare",
+    "year": 1908,
+    "images": [
+      "images/20cent_arg_1908-1-1.jpeg",
+      "images/20cent_arg_1908-1-2.jpeg"
+    ]
+  },
+  {
+    "title": "20 Centésimos 1920",
+    "price": "USD 10",
+    "condition": "G",
+    "country": "Uruguay",
+    "composition": "Plata 0.800",
+    "year": 1920,
+    "images": [
+      "images/20cent_uru_1920-2.jpeg",
+      "images/20cent_uru_1920-1.jpeg"
+    ]
+  },
+  {
+    "title": "50 Centésimos 1917",
+    "price": "USD 27",
+    "condition": "F",
+    "country": "Uruguay",
+    "composition": "Plata 0.900",
+    "year": 1917,
+    "images": [
+      "images/50cent_uru_1917-1-1.jpeg",
+      "images/50cent_uru_1917-1-2.jpeg"
+    ]
+  },
+  {
+    "title": "50 Centésimos 1917",
+    "price": "USD 30",
+    "condition": "VF",
+    "country": "Uruguay",
+    "composition": "Plata 0.900",
+    "year": 1917,
+    "images": [
+      "images/50cent_uru_1917-2-1.jpeg",
+      "images/50cent_uru_1917-2-2.jpeg"
+    ]
+  },
+  {
+    "title": "50 Centésimos 1943",
+    "price": "USD 12",
+    "condition": "VF",
+    "country": "Uruguay",
+    "composition": "Plata 0.720",
+    "year": 1943,
+    "images": [
+      "images/50cent_uru_1943-2-1.jpeg",
+      "images/50cent_uru_1943-2-2.jpeg"
+    ]
+  },
+  {
+    "title": "1000 Pesos 2003 (Mundial 2006)",
+    "price": "USD 100",
+    "condition": "UNC",
+    "country": "Uruguay",
+    "diameter": "40 mm",
+    "weight": "27 g",
+    "composition": "Plata 0.925",
+    "description": "Moneda conmemorativa del mundial 2006 (Alemania)",
+    "description_en": "Commemorative coin - 2006 Germany World Cup",
+    "year": 2003,
+    "images": [
+      "images/1000pe_uru_2003-1.jpeg",
+      "images/1000pe_uru_2003-2.jpeg"
+    ]
+  },
+  {
+    "title": "1000 Pesos 2004 (Mundial 2006)",
+    "price": "USD 100",
+    "condition": "UNC",
+    "country": "Uruguay",
+    "diameter": "40 mm",
+    "weight": "27 g",
+    "composition": "Plata 0.925",
+    "description": "Moneda conmemorativa del mundial 2006 (Alemania)",
+    "description_en": "Commemorative coin - 2006 Germany World Cup",
+    "year": 2004,
+    "images": [
+      "images/1000pe_uru_2004-1.jpeg",
+      "images/1000pe_uru_2004-2.jpeg"
+    ]
+  },
+  {
+    "title": "1000 Pesos 2005 (Mundial 2006)",
+    "price": "USD 100",
+    "condition": "UNC",
+    "country": "Uruguay",
+    "diameter": "40 mm",
+    "weight": "27 g",
+    "composition": "Plata 0.925",
+    "description": "Moneda conmemorativa del mundial 2006 (Alemania)",
+    "description_en": "Commemorative coin - 2006 Germany World Cup",
+    "year": 2005,
+    "images": [
+      "images/1000pe_uru_2005-1.jpeg",
+      "images/1000pe_uru_2005-2.jpeg"
+    ]
+  },
+  {
+    "title": "3000 Pesos 1977 (Mundial 1978)",
+    "price": "USD 65",
+    "condition": "UNC",
+    "country": "Argentina",
+    "diameter": "37 mm",
+    "weight": "25 g",
+    "composition": "Plata 0.900",
+    "description": "Moneda conmemorativa del mundial 1978 (Argentina)",
+    "description_en": "Commemorative coin - 1978 Argentina World Cup",
+    "year": 1977,
+    "images": [
+      "images/3000pesos_arg_1977-1.jpeg",
+      "images/3000pesos_arg_1977-2.jpeg"
+    ]
   }
 ]

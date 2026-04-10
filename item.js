@@ -151,6 +151,10 @@ function renderItem(item) {
           <span class="item-label">${t("label_country")}</span>
           <span class="item-value">${item.country}</span>
         </div>
+        ${item.region ? `<div class="item-row">
+          <span class="item-label">${t("label_region")}</span>
+          <span class="item-value">${item.region}</span>
+        </div>` : ""}
         <div class="item-row">
           <span class="item-label">${t("label_year")}</span>
           <span class="item-value">${item.year}</span>

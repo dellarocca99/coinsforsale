@@ -79,6 +79,34 @@ function populateFilters(items) {
   const conditions = [...new Set(items.map(i => i.condition).filter(Boolean))].sort();
   appendOptions("filter-country",   countries);
   appendOptions("filter-condition", conditions);
+  updateRegionFilter("");
+}
+
+// Rebuilds the region <select> options for the given country (empty = all countries).
+// Hides the select entirely when no items have a region for that country.
+function updateRegionFilter(countryValue) {
+  const sel = document.getElementById("filter-region");
+  while (sel.options.length > 1) sel.remove(1);
+
+  const regions = [...new Set(
+    allItems
+      .filter(i => !countryValue || i.country === countryValue)
+      .map(i => i.region)
+      .filter(Boolean)
+  )].sort();
+
+  regions.forEach(r => {
+    const opt = document.createElement("option");
+    opt.value = r;
+    opt.textContent = r;
+    sel.appendChild(opt);
+  });
+
+  // Reset selection if the current value is no longer in the list
+  if (!regions.includes(sel.value)) sel.value = "";
+
+  // Show only when there are region options to choose from
+  sel.hidden = regions.length === 0;
 }
 
 function appendOptions(selectId, values) {
@@ -92,16 +120,24 @@ function appendOptions(selectId, values) {
 }
 
 function setupControls() {
-  ["search", "filter-country", "filter-condition", "sort"].forEach(id => {
+  ["search", "filter-condition", "filter-region", "sort"].forEach(id => {
     const el = document.getElementById(id);
     el.addEventListener("input",  () => renderItems(getFiltered()));
     el.addEventListener("change", () => renderItems(getFiltered()));
+  });
+
+  // Country filter: cascade-update region options before re-rendering
+  const countryEl = document.getElementById("filter-country");
+  countryEl.addEventListener("change", () => {
+    updateRegionFilter(countryEl.value);
+    renderItems(getFiltered());
   });
 }
 
 function getFiltered() {
   const q         = document.getElementById("search").value.toLowerCase().trim();
   const country   = document.getElementById("filter-country").value;
+  const region    = document.getElementById("filter-region").value;
   const condition = document.getElementById("filter-condition").value;
   const sort      = document.getElementById("sort").value;
 
@@ -110,6 +146,7 @@ function getFiltered() {
     return (
       (!q         || text.includes(q)) &&
       (!country   || item.country   === country) &&
+      (!region    || item.region    === region) &&
       (!condition || item.condition === condition)
     );
   });
