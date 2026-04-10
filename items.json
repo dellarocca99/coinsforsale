@@ -848,9 +848,9 @@
     ]
   },
   {
-    "title": "40 Centésimos 1857",
     "price": "USD 24",
     "condition": "F",
+    "denomination": "40 Centésimos",
     "country": "Uruguay",
     "composition": "Cu",
     "year": 1857,

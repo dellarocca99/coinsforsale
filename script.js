@@ -161,7 +161,7 @@ function getFiltered() {
   const sort      = document.getElementById("sort").value;
 
   let results = allItems.filter(item => {
-    const text = `${item.title} ${item.country} ${item.year} ${item.denomination || ""} ${item.reference || ""}`.toLowerCase();
+    const text = `${getItemTitle(item)} ${item.country} ${item.year} ${item.denomination || ""} ${item.reference || ""}`.toLowerCase();
     return (
       (!q         || text.includes(q)) &&
       (!country   || item.country   === country) &&
@@ -257,13 +257,13 @@ function renderItems(items) {
     card.innerHTML = `
       <div class="carousel">
         ${hasMany ? `<button class="nav left"  data-gi="${gi}" data-dir="prev">&#8249;</button>` : ""}
-        <img class="carousel-img" id="img-${gi}" src="${item.images[0]}" alt="${item.title}"${lazyAttr}>
+        <img class="carousel-img" id="img-${gi}" src="${item.images[0]}" alt="${getItemTitle(item)}"${lazyAttr}>
         ${hasMany ? `<button class="nav right" data-gi="${gi}" data-dir="next">&#8250;</button>` : ""}
         ${hasMany ? `<div class="dots" id="dots-${gi}">${dots}</div>` : ""}
         ${showQty ? `<span class="qty-badge">×${item.quantity}</span>` : ""}
       </div>
       <div class="card-body">
-        <div class="card-title">${item.title}</div>
+        <div class="card-title">${getItemTitle(item)}</div>
         <div class="card-meta">${item.country}&nbsp;&nbsp;·&nbsp;&nbsp;${item.year}</div>
         <div class="card-footer">
           <span class="badge ${badgeClass(item.condition)}">${item.condition}</span>

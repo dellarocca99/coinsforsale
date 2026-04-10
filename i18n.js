@@ -101,10 +101,15 @@
       ? window.t("n_items_one")
       : window.t("n_items_other").replace("{n}", n);
 
-  window.waMessage = (title, year) =>
+  // Returns the item's display title.
+  // Falls back to "denomination year" when the title field is absent.
+  window.getItemTitle = (item) =>
+    item.title || (item.denomination ? `${item.denomination} ${item.year}` : String(item.year));
+
+  window.waMessage = (title) =>
     window.getLang() === "en"
-      ? `Hi! I'm interested in: ${title} (${year})`
-      : `Hola! Me interesa: ${title} (${year})`;
+      ? `Hi! I'm interested in: ${title}`
+      : `Hola! Me interesa: ${title}`;
 
 })();
 
