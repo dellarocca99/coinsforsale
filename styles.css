@@ -356,7 +356,7 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
   gap: 24px;
-  padding: 8px 24px 52px;
+  padding: 8px 24px 16px;
   max-width: 1440px;
   margin: 0 auto;
   width: 100%;
@@ -527,6 +527,82 @@ header {
   font-weight: 600;
   color: var(--gold);
   letter-spacing: 0.02em;
+}
+
+/* ── Pagination ─────────────────────────────────────────── */
+.pagination-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 4px 24px 52px;
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.per-page-wrap {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.per-page-label {
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.page-btn {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--muted);
+  background: none;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  min-width: 30px;
+  height: 30px;
+  padding: 0 6px;
+  cursor: pointer;
+  transition: color var(--transition), border-color var(--transition), background var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.page-btn:hover:not(:disabled):not(.active) {
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.page-btn.active {
+  color: var(--gold);
+  border-color: rgba(185, 150, 60, 0.3);
+  background: var(--gold-glow);
+  font-weight: 500;
+}
+
+.page-btn:disabled {
+  opacity: 0.28;
+  cursor: default;
+}
+
+.page-ellipsis {
+  font-size: 0.78rem;
+  color: var(--dim);
+  padding: 0 2px;
+  user-select: none;
 }
 
 /* ── Empty state ───────────────────────────────────────── */
@@ -979,9 +1055,11 @@ button.footer-link { background: none; border: none; cursor: pointer; }
   .header-content { padding: 34px 16px 22px; }
 
   #grid {
-    padding: 6px 16px 40px;
+    padding: 6px 16px 12px;
     gap: 14px;
   }
+
+  .pagination-bar { padding: 4px 16px 40px; }
 
   .controls { padding: 14px 16px 10px; }
   .about-section { padding: 44px 16px 60px; }
@@ -1017,6 +1095,12 @@ button.footer-link { background: none; border: none; cursor: pointer; }
   .price       { font-size: 1.1rem; }
   .about-stats { grid-template-columns: 1fr 1fr; }
   .fedix-logo  { height: 88px; }
+
+  .pagination-bar {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 4px 16px 40px;
+  }
 
   /* Prevent toggles from overlapping the brand title on the detail page */
   .detail-header .header-content {

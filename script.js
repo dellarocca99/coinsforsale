@@ -1,6 +1,8 @@
 const PHONE = "5492235831244";
 
-let allItems = [];
+let allItems    = [];
+let currentPage = 1;
+let itemsPerPage = parseInt(localStorage.getItem("fedix_per_page"), 10) || 24;
 
 // ── Boot ─────────────────────────────────────────────────
 
@@ -12,10 +14,11 @@ fetch("items.json")
     populateFilters(allItems);
     renderItems(getFiltered());
     setupControls();
+    setupPagination();
     setupLangToggle();
     setupCurrencyToggle();
     setupSectionNav();
-    document.addEventListener('currencychange', () => renderItems(getFiltered()));
+    document.addEventListener("currencychange", () => renderItems(getFiltered()));
   });
 
 // ── i18n ─────────────────────────────────────────────────
@@ -122,14 +125,16 @@ function appendOptions(selectId, values) {
 function setupControls() {
   ["search", "filter-condition", "filter-region", "sort"].forEach(id => {
     const el = document.getElementById(id);
-    el.addEventListener("input",  () => renderItems(getFiltered()));
-    el.addEventListener("change", () => renderItems(getFiltered()));
+    const handler = () => { currentPage = 1; renderItems(getFiltered()); };
+    el.addEventListener("input",  handler);
+    el.addEventListener("change", handler);
   });
 
   // Country filter: cascade-update region options before re-rendering
   const countryEl = document.getElementById("filter-country");
   countryEl.addEventListener("change", () => {
     updateRegionFilter(countryEl.value);
+    currentPage = 1;
     renderItems(getFiltered());
   });
 }
@@ -177,22 +182,38 @@ function badgeClass(cond) {
 function renderItems(items) {
   const grid    = document.getElementById("grid");
   const countEl = document.getElementById("result-count");
+  const total   = items.length;
+  const pages   = Math.max(1, Math.ceil(total / itemsPerPage));
 
-  countEl.textContent = nItems(items.length);
+  if (currentPage > pages) currentPage = pages;
 
-  if (items.length === 0) {
+  const start     = (currentPage - 1) * itemsPerPage;
+  const end       = Math.min(start + itemsPerPage, total);
+  const pageItems = items.slice(start, end);
+
+  // Result count: show range when paginated, plain count otherwise
+  if (total === 0) {
+    countEl.textContent = nItems(0);
+  } else if (pages === 1) {
+    countEl.textContent = nItems(total);
+  } else {
+    countEl.textContent = `${start + 1}–${end} / ${nItems(total)}`;
+  }
+
+  if (total === 0) {
     grid.innerHTML = `
       <div class="empty">
         <div class="empty-icon">◎</div>
         <h3>${t("no_results")}</h3>
         <p>${t("no_results_hint")}</p>
       </div>`;
+    renderPagination(pages);
     return;
   }
 
   grid.innerHTML = "";
 
-  items.forEach((item, vi) => {
+  pageItems.forEach((item, vi) => {
     const gi      = allItems.indexOf(item);
     const card    = document.createElement("div");
     const hasMany = item.images.length > 1;
@@ -240,6 +261,87 @@ function renderItems(items) {
       e.stopPropagation();
       advanceCarousel(parseInt(btn.dataset.gi), btn.dataset.dir === "next" ? 1 : -1);
     });
+  });
+
+  renderPagination(pages);
+}
+
+// ── Pagination ───────────────────────────────────────────
+
+function renderPagination(totalPages) {
+  const nav = document.getElementById("page-nav");
+  nav.innerHTML = "";
+
+  if (totalPages <= 1) return;
+
+  // Previous button
+  const prev = document.createElement("button");
+  prev.className = "page-btn";
+  prev.innerHTML = "&#8249;";
+  prev.setAttribute("aria-label", "Previous page");
+  prev.disabled = currentPage === 1;
+  prev.addEventListener("click", () => changePage(currentPage - 1));
+  nav.appendChild(prev);
+
+  // Page number buttons with smart ellipsis
+  getPageRange(currentPage, totalPages).forEach(p => {
+    if (p === "...") {
+      const span = document.createElement("span");
+      span.className = "page-ellipsis";
+      span.textContent = "…";
+      nav.appendChild(span);
+    } else {
+      const btn = document.createElement("button");
+      btn.className = "page-btn" + (p === currentPage ? " active" : "");
+      btn.textContent = p;
+      btn.addEventListener("click", () => changePage(p));
+      nav.appendChild(btn);
+    }
+  });
+
+  // Next button
+  const next = document.createElement("button");
+  next.className = "page-btn";
+  next.innerHTML = "&#8250;";
+  next.setAttribute("aria-label", "Next page");
+  next.disabled = currentPage === totalPages;
+  next.addEventListener("click", () => changePage(currentPage + 1));
+  nav.appendChild(next);
+}
+
+// Returns page numbers and "..." placeholders for condensed display.
+// Example: current=5, total=10 → [1, "...", 4, 5, 6, "...", 10]
+function getPageRange(current, total) {
+  if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
+
+  const inner = [];
+  for (let i = Math.max(2, current - 1); i <= Math.min(total - 1, current + 1); i++) {
+    inner.push(i);
+  }
+
+  const result = [1];
+  if (inner[0] > 2)                        result.push("...");
+  result.push(...inner);
+  if (inner[inner.length - 1] < total - 1) result.push("...");
+  result.push(total);
+
+  return result;
+}
+
+function changePage(n) {
+  currentPage = n;
+  renderItems(getFiltered());
+  document.getElementById("section-coins").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function setupPagination() {
+  const sel = document.getElementById("per-page");
+  sel.value = String(itemsPerPage);
+  sel.addEventListener("change", () => {
+    itemsPerPage = parseInt(sel.value, 10);
+    localStorage.setItem("fedix_per_page", itemsPerPage);
+    currentPage = 1;
+    renderItems(getFiltered());
   });
 }
 
