@@ -113,22 +113,40 @@
 
 })();
 
-// ── Image extension case fallback ─────────────────────────
-// GitHub Pages (Linux) is case-sensitive: "coin.JPG" ≠ "coin.jpg".
-// If an image fails to load, this automatically retries with the
-// opposite extension case (.jpg ↔ .JPG), once per element.
-document.addEventListener("error", function (e) {
-  const img = e.target;
-  if (img.tagName !== "IMG" || img.dataset.fallbackTried) return;
+// ── Image extension fallback ──────────────────────────────
+// When an image fails to load, retries with alternative extensions
+// in the order defined below, skipping whichever were already tried.
+// Handles both extension-type differences (.jpg / .jpeg / .png) and
+// case sensitivity on GitHub Pages (Linux): "coin.JPG" ≠ "coin.jpg".
+(function () {
+  const EXTS = [".jpg", ".JPG", ".jpeg", ".JPEG", ".png", ".PNG"];
 
-  const src = img.getAttribute("src") || "";
-  let alt = null;
-
-  if (src.endsWith(".jpg"))  alt = src.slice(0, -4) + ".JPG";
-  else if (src.endsWith(".JPG")) alt = src.slice(0, -4) + ".jpg";
-
-  if (alt) {
-    img.dataset.fallbackTried = "1";
-    img.src = alt;
+  // Returns [basePath, matchedExt] by checking known extensions.
+  function splitExt(src) {
+    for (const ext of EXTS) {
+      if (src.endsWith(ext)) return [src.slice(0, -ext.length), ext];
+    }
+    return [src, ""];
   }
-}, true); // capture phase — "error" does not bubble
+
+  document.addEventListener("error", function (e) {
+    const img = e.target;
+    if (img.tagName !== "IMG") return;
+
+    const src = img.getAttribute("src") || "";
+    const [base, currentExt] = splitExt(src);
+    if (!base || !currentExt) return; // no recognised extension — nothing to try
+
+    // Build the set of already-tried extensions for this element.
+    const tried = img.dataset.extsTried
+      ? img.dataset.extsTried.split(",")
+      : [currentExt];
+
+    const next = EXTS.find(x => !tried.includes(x));
+    if (!next) return; // all extensions exhausted — fail gracefully
+
+    tried.push(next);
+    img.dataset.extsTried = tried.join(",");
+    img.src = base + next;
+  }, true); // capture phase — "error" does not bubble
+})();
