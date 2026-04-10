@@ -105,8 +105,8 @@ function updateRegionFilter(countryValue) {
   // Reset selection if the current value is no longer in the list
   if (!regions.includes(sel.value)) sel.value = "";
 
-  // Show only when there are region options to choose from
-  sel.hidden = regions.length === 0;
+  // Show only when a specific country is selected and it has regions
+  sel.hidden = !countryValue || regions.length === 0;
 }
 
 function appendOptions(selectId, values) {
