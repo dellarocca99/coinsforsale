@@ -858,5 +858,17 @@
       "images/40cent_uru_1857-1.jpeg",
       "images/40cent_uru_1857-2.jpeg"
     ]
+  },
+  {
+    "price": "USD 75",
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Plata 0.900",
+    "denomination": "50 Centavos",
+    "year": 1883,
+    "images": [
+      "images/50cent_arg_1883-1.jpeg",
+      "images/50cent_arg_1883.jpeg"
+    ]
   }
 ]
