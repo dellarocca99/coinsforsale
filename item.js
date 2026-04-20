@@ -153,7 +153,7 @@ function renderItem(item) {
       </div>
 
       <div class="item-info">
-        <div class="item-eyebrow">${item.country}&nbsp;&nbsp;·&nbsp;&nbsp;${item.year}</div>
+        <div class="item-eyebrow">${item.country}${item.year != null ? `&nbsp;&nbsp;·&nbsp;&nbsp;${item.year}` : ""}</div>
         <h1 class="item-title">${getItemTitle(item)}</h1>
 
         <div class="item-divider"></div>
@@ -170,10 +170,10 @@ function renderItem(item) {
           <span class="item-label">${t("label_region")}</span>
           <span class="item-value">${item.region}</span>
         </div>` : ""}
-        <div class="item-row">
+        ${item.year != null ? `<div class="item-row">
           <span class="item-label">${t("label_year")}</span>
           <span class="item-value">${item.year}</span>
-        </div>
+        </div>` : ""}
         ${qtyHtml}
         ${optFieldsHtml}
 
