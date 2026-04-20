@@ -120,7 +120,7 @@ function renderItem(item) {
   // Optional technical fields — only rendered when present
   const optFields = [
     ["label_denomination", item.denomination],
-    ["label_mint",         item.mint],
+    [item.book ? "label_editorial" : "label_mint", item.mint],
     ["label_weight",       item.weight],
     ["label_diameter",     item.diameter],
     ["label_composition",  getLocalizedField(item, "composition")],

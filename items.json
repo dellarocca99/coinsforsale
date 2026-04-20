@@ -628,6 +628,8 @@
     "country": "Uruguay",
     "composition": "Plata 0.800",
     "year": 1920,
+    "sold": true,
+    "soldon": "18-04-2026",
     "images": [
       "images/20cent_uru_1920-2.jpg",
       "images/20cent_uru_1920-1.jpg"
@@ -869,6 +871,37 @@
     "images": [
       "images/50cent_arg_1883-1.jpeg",
       "images/50cent_arg_1883-2.jpeg"
+    ]
+  }
+  ,
+  {
+    "price": "USD 30",
+    "condition": "UNC",
+    "country": "USA",
+    "mint": "Pace",
+    "title": "Presidents Series Album",
+    "book": true,
+    "images": [
+      "images/presidentes-1.jpg",
+      "images/presidentes-2.jpg",
+      "images/presidentes-3.jpg",
+      "images/presidentes-4.jpg",
+      "images/presidentes-5.jpg",
+      "images/presidentes-6.jpg"
+    ]
+  },
+  {
+    "denomination": "1 Real",
+    "price": "USD 16",
+    "condition": "G",
+    "country": "Perú",
+    "mint": "PTS PJ",
+    "composition": "Plata 0.903",
+    "composition_en": "0.903 Silver",
+    "year": 1772,
+    "images": [
+      "images/realito_1772-1.jpg",
+      "images/realito_1772-2.jpg"
     ]
   }
 ]
