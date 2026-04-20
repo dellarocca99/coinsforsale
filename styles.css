@@ -362,6 +362,59 @@ header {
   width: 100%;
 }
 
+/* ── Books grid ────────────────────────────────────────── */
+#books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+  gap: 24px;
+  padding: 8px 24px 32px;
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* ── Book type checkboxes ───────────────────────────────── */
+.book-type-filters {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.book-type-check {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 9px 13px;
+  cursor: pointer;
+  font-family: 'Jost', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 300;
+  color: var(--text);
+  transition: border-color var(--transition), color var(--transition);
+  user-select: none;
+}
+
+.book-type-check:hover {
+  border-color: var(--border-hover);
+  color: var(--cream);
+}
+
+.book-type-check input[type="checkbox"] {
+  accent-color: var(--gold);
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.book-type-check:has(input:checked) {
+  border-color: rgba(200, 168, 75, 0.4);
+  color: var(--gold-light);
+}
+
 /* ── Card ──────────────────────────────────────────────── */
 .card {
   background: var(--card);
@@ -519,6 +572,85 @@ header {
 .badge-vf    { background: rgba(200,168,75,0.1);  color: var(--gold-light); border: 1px solid rgba(200,168,75,0.22); }
 .badge-f     { background: rgba(212,133,74,0.1);  color: var(--amber); border: 1px solid rgba(212,133,74,0.22); }
 .badge-other { background: rgba(122,143,166,0.1); color: var(--blue);  border: 1px solid rgba(122,143,166,0.22); }
+.badge-sold  { background: rgba(107,96,74,0.1);   color: var(--muted); border: 1px solid rgba(107,96,74,0.28); }
+
+/* ── Sold state ─────────────────────────────────────────── */
+.img-sold {
+  filter: grayscale(80%);
+}
+
+.sold-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 9, 6, 0.52);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Larger stamp in the detail gallery */
+.gallery-sold-overlay {
+  border-radius: var(--radius);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.sold-stamp {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--cream);
+  border: 1px solid rgba(237, 228, 204, 0.45);
+  padding: 5px 16px;
+  opacity: 0.92;
+}
+
+.gallery-sold-overlay .sold-stamp {
+  font-size: 1.75rem;
+  padding: 8px 24px;
+}
+
+/* Detail page sold notice (between last divider and price) */
+.item-sold-notice {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: rgba(107, 96, 74, 0.07);
+  border: 1px solid rgba(107, 96, 74, 0.22);
+  border-radius: var(--radius-sm);
+  padding: 11px 15px;
+  margin-bottom: 14px;
+}
+
+.item-sold-badge {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: 1px solid rgba(107, 96, 74, 0.32);
+  padding: 3px 10px;
+  border-radius: 3px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.item-sold-text {
+  font-size: 0.84rem;
+  font-weight: 300;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.item-price-sold {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
 
 /* ── Price ─────────────────────────────────────────────── */
 .price {
@@ -1014,7 +1146,7 @@ button.footer-link { background: none; border: none; cursor: pointer; }
   object-fit: contain;
   border-radius: var(--radius-sm);
   transform: scale(0.94);
-  transition: transform 0.28s ease;
+  transition: transform 0.28s ease, opacity 0.16s ease;
 }
 
 .lightbox.open img { transform: scale(1); }
@@ -1031,6 +1163,48 @@ button.footer-link { background: none; border: none; cursor: pointer; }
 }
 
 .lightbox-close:hover { color: var(--cream); }
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(10, 9, 6, 0.70);
+  border: 1px solid rgba(185, 150, 60, 0.22);
+  color: var(--gold-light);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  line-height: 1;
+  transition: background var(--transition), border-color var(--transition);
+}
+
+.lightbox-nav:hover {
+  background: rgba(185, 150, 60, 0.18);
+  border-color: rgba(185, 150, 60, 0.5);
+}
+
+.lightbox-prev { left: 24px; }
+.lightbox-next { right: 24px; }
+
+.lightbox-counter {
+  position: absolute;
+  bottom: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Jost', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 300;
+  letter-spacing: 0.16em;
+  color: rgba(200, 168, 75, 0.55);
+  pointer-events: none;
+  z-index: 10;
+  white-space: nowrap;
+}
 
 /* ── Animation stagger ─────────────────────────────────── */
 .card:nth-child(2)  { animation-delay: 0.05s; }
@@ -1054,7 +1228,8 @@ button.footer-link { background: none; border: none; cursor: pointer; }
 
   .header-content { padding: 34px 16px 22px; }
 
-  #grid {
+  #grid,
+  #books-grid {
     padding: 6px 16px 12px;
     gap: 14px;
   }
@@ -1084,7 +1259,8 @@ button.footer-link { background: none; border: none; cursor: pointer; }
 }
 
 @media (max-width: 480px) {
-  #grid {
+  #grid,
+  #books-grid {
     grid-template-columns: 1fr 1fr;
     gap: 11px;
   }
@@ -1114,6 +1290,15 @@ button.footer-link { background: none; border: none; cursor: pointer; }
     width: 100%;
     margin-bottom: 6px;
   }
+
+  .lightbox-nav {
+    width: 38px;
+    height: 38px;
+    font-size: 24px;
+  }
+
+  .lightbox-prev { left: 10px; }
+  .lightbox-next { right: 10px; }
 
   /* On small phones the transparent zone only needs to protect a narrow text block */
   .header-coins {

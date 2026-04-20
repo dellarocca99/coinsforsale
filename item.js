@@ -12,7 +12,7 @@ fetch("items.json")
   .then(res => res.json())
   .then(items => {
     const item = items[itemIndex];
-    if (!item) { window.location.href = "index.html"; return; }
+    if (!item || isItemExpired(item)) { window.location.href = "index.html"; return; }
 
     loadedItem = item;
     images     = item.images || [];
@@ -72,6 +72,19 @@ function getDescription(item) {
   return getLocalizedField(item, "description");
 }
 
+// ── Sold / expiry ────────────────────────────────────────
+
+function isItemExpired(item) {
+  if (!item.soldon) return false;
+  const parts = item.soldon.split("-").map(Number);
+  if (parts.length !== 3 || parts.some(isNaN)) return false;
+  const [d, m, y] = parts;
+  const soldDate = new Date(y, m - 1, d);
+  const cutoff   = new Date();
+  cutoff.setMonth(cutoff.getMonth() - 1);
+  return soldDate < cutoff;
+}
+
 // ── Badge ────────────────────────────────────────────────
 
 function badgeClass(cond) {
@@ -87,11 +100,12 @@ function badgeClass(cond) {
 function renderItem(item) {
   const container = document.getElementById("item-detail");
 
+  const thumbImgClass = item.sold ? ' class="img-sold"' : "";
   const thumbsHtml = item.images.length > 1
     ? `<div class="gallery-thumbs">
         ${item.images.map((src, i) => `
           <div class="thumb${i === 0 ? " active" : ""}" data-index="${i}">
-            <img src="${src}" alt="${getItemTitle(item)} ${i + 1}">
+            <img src="${src}" alt="${getItemTitle(item)} ${i + 1}"${thumbImgClass}>
           </div>`).join("")}
        </div>`
     : "";
@@ -132,7 +146,8 @@ function renderItem(item) {
 
       <div class="gallery-side">
         <div class="gallery-main" id="gallery-main">
-          <img src="${item.images[0]}" id="gallery-img" alt="${getItemTitle(item)}">
+          <img src="${item.images[0]}" id="gallery-img" alt="${getItemTitle(item)}"${item.sold ? ' class="img-sold"' : ""}>
+          ${item.sold ? `<div class="sold-overlay gallery-sold-overlay"><span class="sold-stamp">${t("sold_badge")}</span></div>` : ""}
         </div>
         ${thumbsHtml}
       </div>
@@ -164,17 +179,24 @@ function renderItem(item) {
 
         <div class="item-divider"></div>
 
-        <div class="item-price">${formatPrice(item.price)}</div>
+        ${item.sold ? `
+        <div class="item-sold-notice">
+          <span class="item-sold-badge">${t("sold_badge")}</span>
+          <span class="item-sold-text">${item.soldon ? `${t("sold_on")} ${item.soldon}` : t("sold_notice")}</span>
+        </div>` : ""}
+
+        <div class="item-price${item.sold ? " item-price-sold" : ""}">${formatPrice(item.price)}</div>
 
         ${descHtml}
 
-        <button class="btn-whatsapp" id="wa-btn"
-                data-title="${getItemTitle(item)}">
+        ${!item.sold ? `<button class="btn-whatsapp" id="wa-btn"
+                data-title="${getItemTitle(item)}"
+                data-country="${item.country || ""}">
           <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
           </svg>
           ${t("whatsapp_btn")}
-        </button>
+        </button>` : ""}
       </div>
 
     </div>`;
@@ -196,11 +218,14 @@ function renderItem(item) {
     });
   }
 
-  // WhatsApp button
-  document.getElementById("wa-btn").addEventListener("click", function () {
-    const msg = waMessage(this.dataset.title);
-    window.open(`https://wa.me/${PHONE}?text=${encodeURIComponent(msg)}`, "_blank");
-  });
+  // WhatsApp button (absent for sold items)
+  const waBtn = document.getElementById("wa-btn");
+  if (waBtn) {
+    waBtn.addEventListener("click", function () {
+      const msg = waMessage(this.dataset.title, this.dataset.country, window.location.href);
+      window.open(`https://wa.me/${PHONE}?text=${encodeURIComponent(msg)}`, "_blank");
+    });
+  }
 }
 
 // ── Touch swipe ──────────────────────────────────────────
@@ -240,23 +265,43 @@ function setImage(i) {
 // ── Lightbox ─────────────────────────────────────────────
 
 function setupLightbox() {
-  const lb = document.getElementById("lightbox");
+  const lb   = document.getElementById("lightbox");
+  const prev = document.getElementById("lightbox-prev");
+  const next = document.getElementById("lightbox-next");
+
   lb.addEventListener("click", closeLightbox);
+
   document.getElementById("lightbox-close").addEventListener("click", e => {
     e.stopPropagation();
     closeLightbox();
   });
+
+  prev.addEventListener("click", e => { e.stopPropagation(); lightboxNavigate(-1); });
+  next.addEventListener("click", e => { e.stopPropagation(); lightboxNavigate(1); });
+
   document.addEventListener("keydown", e => {
-    if (e.key === "Escape") closeLightbox();
+    if (!document.getElementById("lightbox").classList.contains("open")) return;
+    if (e.key === "Escape")     { closeLightbox(); return; }
+    if (e.key === "ArrowLeft")  lightboxNavigate(-1);
+    if (e.key === "ArrowRight") lightboxNavigate(1);
   });
-  attachSwipe(lb, delta => {
-    if (images.length < 2) return;
-    currentIdx = (currentIdx + delta + images.length) % images.length;
-    document.getElementById("lightbox-img").src = images[currentIdx];
-    document.querySelectorAll(".thumb").forEach((th, k) => {
-      th.classList.toggle("active", k === currentIdx);
-    });
-  });
+
+  attachSwipe(lb, delta => lightboxNavigate(delta));
+}
+
+function lightboxNavigate(delta) {
+  if (images.length < 2) return;
+  const newIdx = (currentIdx + delta + images.length) % images.length;
+  const lbImg  = document.getElementById("lightbox-img");
+
+  lbImg.style.opacity = "0";
+  setTimeout(() => {
+    lbImg.src           = images[newIdx];
+    lbImg.style.opacity = "";
+    updateLightboxState();
+  }, 160);
+
+  setImage(newIdx);
 }
 
 function openLightbox(src) {
@@ -264,8 +309,22 @@ function openLightbox(src) {
   const lbImg = document.getElementById("lightbox-img");
   lbImg.src   = src;
   lb.classList.add("open");
+  document.body.style.overflow = "hidden";
+  updateLightboxState();
 }
 
 function closeLightbox() {
   document.getElementById("lightbox").classList.remove("open");
+  document.body.style.overflow = "";
+}
+
+function updateLightboxState() {
+  const multi   = images.length > 1;
+  const display = multi ? "" : "none";
+  document.getElementById("lightbox-prev").style.display    = display;
+  document.getElementById("lightbox-next").style.display    = display;
+  document.getElementById("lightbox-counter").style.display = display;
+  if (multi) {
+    document.getElementById("lightbox-counter").textContent = `${currentIdx + 1} / ${images.length}`;
+  }
 }

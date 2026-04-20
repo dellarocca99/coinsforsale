@@ -12,10 +12,10 @@
   <!-- ── Open Graph (WhatsApp, Facebook, Telegram, LinkedIn) ── -->
   <meta property="og:type"         content="website">
   <meta property="og:site_name"    content="Fedix Coins">
-  <meta property="og:url"          content="https://dellarocca99.github.io/coinsforsale/">
+  <meta property="og:url"          content="https://fedixcoins.com.ar/">
   <meta property="og:title"        content="Fedix Coins">
   <meta property="og:description"  content="Empresa numismática de Mar del Plata, Argentina. Monedas de USA, Argentina y Uruguay. Envíos a todo el país.">
-  <meta property="og:image"        content="https://dellarocca99.github.io/coinsforsale/images/background/og_image.jpg">
+  <meta property="og:image"        content="https://fedixcoins.com.ar/images/background/og_image.jpg">
   <meta property="og:image:width"  content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:locale"       content="es_AR">
@@ -24,7 +24,7 @@
   <meta name="twitter:card"        content="summary_large_image">
   <meta name="twitter:title"       content="Fedix Coins">
   <meta name="twitter:description" content="Empresa numismática de Mar del Plata, Argentina. Monedas de USA, Argentina y Uruguay. Envíos a todo el país.">
-  <meta name="twitter:image"       content="https://dellarocca99.github.io/coinsforsale/images/background/og_image.jpg">
+  <meta name="twitter:image"       content="https://fedixcoins.com.ar/images/background/og_image.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
@@ -71,6 +71,7 @@
   <!-- ── Main nav ── -->
   <nav class="main-nav">
     <button class="nav-tab active" data-section="coins" data-i18n="nav_coins"></button>
+    <button class="nav-tab" data-section="books" data-i18n="nav_books"></button>
     <button class="nav-tab" data-section="about" data-i18n="nav_about"></button>
   </nav>
 
@@ -124,6 +125,29 @@
     </div>
   </section>
 
+  <!-- ── Albums & Catalogs section ── -->
+  <section id="section-books" hidden>
+    <div class="controls">
+      <select id="books-filter-country" class="ctrl-select">
+        <option value="" data-i18n="all_countries"></option>
+      </select>
+
+      <div class="book-type-filters">
+        <label class="book-type-check">
+          <input type="checkbox" id="books-type-album" value="album">
+          <span data-i18n="book_type_album"></span>
+        </label>
+        <label class="book-type-check">
+          <input type="checkbox" id="books-type-catalog" value="catalog">
+          <span data-i18n="book_type_catalog"></span>
+        </label>
+      </div>
+
+      <span class="result-count" id="books-result-count"></span>
+    </div>
+    <main id="books-grid"></main>
+  </section>
+
   <!-- ── About section ── -->
   <section id="section-about" class="about-section" hidden>
     <div class="about-inner">
@@ -162,6 +186,8 @@
     <div class="footer-inner">
       <nav class="footer-nav">
         <button class="footer-link" data-section="coins" data-i18n="nav_coins"></button>
+        <span class="footer-sep">·</span>
+        <button class="footer-link" data-section="books" data-i18n="nav_books"></button>
         <span class="footer-sep">·</span>
         <button class="footer-link" data-section="about" data-i18n="nav_about"></button>
       </nav>

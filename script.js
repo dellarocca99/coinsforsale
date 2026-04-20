@@ -20,18 +20,24 @@ fetch("items.json")
     // paint as soon as this synchronous block returns.
     applyTranslations();
     renderItems(getFiltered());
+    renderBooks(getFilteredBooks());
 
     // ── Phase 2: deferred setup ─────────────────────────
     // Everything else (filter population, event wiring) is deferred one
     // task so the browser gets a chance to paint Phase 1 first.
     setTimeout(() => {
       populateFilters(allItems);
+      populateBooksFilters(allItems);
       setupControls();
+      setupBooksControls();
       setupPagination();
       setupLangToggle();
       setupCurrencyToggle();
       setupSectionNav();
-      document.addEventListener("currencychange", () => renderItems(getFiltered()));
+      document.addEventListener("currencychange", () => {
+        renderItems(getFiltered());
+        renderBooks(getFilteredBooks());
+      });
     }, 0);
   });
 
@@ -62,6 +68,7 @@ function setupLangToggle() {
   document.addEventListener("langchange", () => {
     applyTranslations();
     renderItems(getFiltered());
+    renderBooks(getFilteredBooks());
   });
 }
 
@@ -77,7 +84,7 @@ function showSection(id) {
   document.querySelectorAll(".footer-link[data-section]").forEach(btn => {
     btn.classList.toggle("active", btn.dataset.section === id);
   });
-  history.replaceState(null, "", id === "about" ? "#about" : location.pathname);
+  history.replaceState(null, "", id === "coins" ? location.pathname : `#${id}`);
 }
 
 function setupSectionNav() {
@@ -86,14 +93,16 @@ function setupSectionNav() {
   });
 
   // Honor URL hash on page load
-  if (location.hash === "#about") showSection("about");
+  const hash = location.hash.slice(1);
+  if (hash === "about" || hash === "books") showSection(hash);
 }
 
 // ── Filters ──────────────────────────────────────────────
 
 function populateFilters(items) {
-  const countries  = [...new Set(items.map(i => i.country).filter(Boolean))].sort();
-  const conditions = [...new Set(items.map(i => i.condition).filter(Boolean))].sort();
+  const coinItems  = items.filter(i => !i.book);
+  const countries  = [...new Set(coinItems.map(i => i.country).filter(Boolean))].sort();
+  const conditions = [...new Set(coinItems.map(i => i.condition).filter(Boolean))].sort();
   appendOptions("filter-country",   countries);
   appendOptions("filter-condition", conditions);
   updateRegionFilter("");
@@ -107,7 +116,7 @@ function updateRegionFilter(countryValue) {
 
   const regions = [...new Set(
     allItems
-      .filter(i => !countryValue || i.country === countryValue)
+      .filter(i => !i.book && (!countryValue || i.country === countryValue))
       .map(i => i.region)
       .filter(Boolean)
   )].sort();
@@ -161,6 +170,8 @@ function getFiltered() {
   const sort      = document.getElementById("sort").value;
 
   let results = allItems.filter(item => {
+    if (item.book) return false;
+    if (isItemExpired(item)) return false;
     const text = `${getItemTitle(item)} ${item.country} ${item.year} ${item.denomination || ""} ${item.reference || ""}`.toLowerCase();
     return (
       (!q         || text.includes(q)) &&
@@ -190,6 +201,18 @@ function getFiltered() {
 
 function parsePrice(str) {
   return parseFloat((str || "0").replace(/[^0-9.]/g, "")) || 0;
+}
+
+// Returns true when soldon is present and the date is more than one month in the past.
+function isItemExpired(item) {
+  if (!item.soldon) return false;
+  const parts = item.soldon.split("-").map(Number);
+  if (parts.length !== 3 || parts.some(isNaN)) return false;
+  const [d, m, y] = parts;
+  const soldDate = new Date(y, m - 1, d);
+  const cutoff   = new Date();
+  cutoff.setMonth(cutoff.getMonth() - 1);
+  return soldDate < cutoff;
 }
 
 // ── Render ───────────────────────────────────────────────
@@ -257,16 +280,19 @@ function renderItems(items) {
     card.innerHTML = `
       <div class="carousel">
         ${hasMany ? `<button class="nav left"  data-gi="${gi}" data-dir="prev">&#8249;</button>` : ""}
-        <img class="carousel-img" id="img-${gi}" src="${item.images[0]}" alt="${getItemTitle(item)}"${lazyAttr}>
+        <img class="carousel-img${item.sold ? " img-sold" : ""}" id="img-${gi}" src="${item.images[0]}" alt="${getItemTitle(item)}"${lazyAttr}>
         ${hasMany ? `<button class="nav right" data-gi="${gi}" data-dir="next">&#8250;</button>` : ""}
         ${hasMany ? `<div class="dots" id="dots-${gi}">${dots}</div>` : ""}
         ${showQty ? `<span class="qty-badge">×${item.quantity}</span>` : ""}
+        ${item.sold ? `<div class="sold-overlay"><span class="sold-stamp">${t("sold_badge")}</span></div>` : ""}
       </div>
       <div class="card-body">
         <div class="card-title">${getItemTitle(item)}</div>
         <div class="card-meta">${item.country}&nbsp;&nbsp;·&nbsp;&nbsp;${item.year}</div>
         <div class="card-footer">
-          <span class="badge ${badgeClass(item.condition)}">${item.condition}</span>
+          ${item.sold
+            ? `<span class="badge badge-sold">${t("sold_badge")}</span>`
+            : `<span class="badge ${badgeClass(item.condition)}">${item.condition}</span>`}
           <span class="price">${formatPrice(item.price)}</span>
         </div>
       </div>`;
@@ -371,6 +397,115 @@ function setupPagination() {
     currentPage = 1;
     renderItems(getFiltered());
   });
+}
+
+// ── Albums & Catalogs section ────────────────────────────
+
+function populateBooksFilters(items) {
+  const books     = items.filter(i => i.book);
+  const countries = [...new Set(books.map(i => i.country).filter(Boolean))].sort();
+  appendOptions("books-filter-country", countries);
+}
+
+function getFilteredBooks() {
+  const country     = document.getElementById("books-filter-country").value;
+  const typeAlbum   = document.getElementById("books-type-album").checked;
+  const typeCatalog = document.getElementById("books-type-catalog").checked;
+  const anyType     = typeAlbum || typeCatalog;
+
+  return allItems.filter(item => {
+    if (!item.book) return false;
+    if (isItemExpired(item)) return false;
+    if (country && item.country !== country) return false;
+    if (anyType) {
+      return (typeAlbum && item.book_type === "album") ||
+             (typeCatalog && item.book_type === "catalog");
+    }
+    return true;
+  });
+}
+
+function renderBooks(items) {
+  const grid    = document.getElementById("books-grid");
+  const countEl = document.getElementById("books-result-count");
+  countEl.textContent = nItems(items.length);
+
+  if (items.length === 0) {
+    grid.innerHTML = `
+      <div class="empty">
+        <div class="empty-icon">◎</div>
+        <h3>${t("no_results")}</h3>
+        <p>${t("no_results_hint")}</p>
+      </div>`;
+    return;
+  }
+
+  grid.innerHTML = "";
+
+  items.forEach((item, vi) => {
+    const gi      = item._gi;
+    const card    = document.createElement("div");
+    const hasMany = item.images && item.images.length > 1;
+    const showQty = item.quantity != null && item.quantity > 1;
+
+    card.className = "card";
+    card.style.animationDelay = `${vi * 0.045}s`;
+
+    const dots = (item.images || [])
+      .map((_, k) => `<span class="dot${k === 0 ? " active" : ""}"></span>`)
+      .join("");
+
+    const lazyAttr   = vi >= 6 ? ' loading="lazy"' : "";
+    const img0       = item.images && item.images[0] ? item.images[0] : "";
+    const typeLabel  = item.book_type ? `&nbsp;&nbsp;·&nbsp;&nbsp;${t(`book_type_${item.book_type}`)}` : "";
+    const meta       = `${item.country || ""}${typeLabel}`;
+
+    card.innerHTML = `
+      <div class="carousel">
+        ${hasMany ? `<button class="nav left"  data-gi="${gi}" data-dir="prev">&#8249;</button>` : ""}
+        <img class="carousel-img${item.sold ? " img-sold" : ""}" id="img-${gi}" src="${img0}" alt="${getItemTitle(item)}"${lazyAttr}>
+        ${hasMany ? `<button class="nav right" data-gi="${gi}" data-dir="next">&#8250;</button>` : ""}
+        ${hasMany ? `<div class="dots" id="dots-${gi}">${dots}</div>` : ""}
+        ${showQty ? `<span class="qty-badge">×${item.quantity}</span>` : ""}
+        ${item.sold ? `<div class="sold-overlay"><span class="sold-stamp">${t("sold_badge")}</span></div>` : ""}
+      </div>
+      <div class="card-body">
+        <div class="card-title">${getItemTitle(item)}</div>
+        <div class="card-meta">${meta}</div>
+        <div class="card-footer">
+          ${item.sold
+            ? `<span class="badge badge-sold">${t("sold_badge")}</span>`
+            : item.condition ? `<span class="badge ${badgeClass(item.condition)}">${item.condition}</span>` : `<span></span>`}
+          <span class="price">${formatPrice(item.price)}</span>
+        </div>
+      </div>`;
+
+    card.addEventListener("click", e => {
+      if (!e.target.closest(".nav")) {
+        window.location.href = `item.html?index=${gi}`;
+      }
+    });
+
+    grid.appendChild(card);
+
+    if (hasMany) {
+      attachSwipe(card.querySelector(".carousel"), delta => advanceCarousel(gi, delta));
+    }
+  });
+
+  grid.querySelectorAll(".nav").forEach(btn => {
+    btn.addEventListener("click", e => {
+      e.stopPropagation();
+      advanceCarousel(parseInt(btn.dataset.gi), btn.dataset.dir === "next" ? 1 : -1);
+    });
+  });
+}
+
+function setupBooksControls() {
+  const rerender = () => renderBooks(getFilteredBooks());
+  document.getElementById("books-filter-country").addEventListener("change", rerender);
+  document.getElementById("books-type-album").addEventListener("change", rerender);
+  document.getElementById("books-type-catalog").addEventListener("change", rerender);
 }
 
 // ── Touch swipe ──────────────────────────────────────────

@@ -41,6 +41,13 @@
       per_page_label:       "Por página",
       footer_contact_label: "Contacto",
       footer_rights:        "© 2026 Fedix Coins. Todos los derechos reservados.",
+      nav_books:            "Álbumes y Catálogos",
+      all_book_types:       "Todos los tipos",
+      book_type_album:      "Álbum",
+      book_type_catalog:    "Catálogo",
+      sold_badge:           "Vendido",
+      sold_notice:          "Este artículo ya no está disponible.",
+      sold_on:              "Vendido el",
     },
     en: {
       tagline:              "Premium Numismatic Pieces",
@@ -81,6 +88,13 @@
       per_page_label:       "Per page",
       footer_contact_label: "Contact",
       footer_rights:        "© 2026 Fedix Coins. All rights reserved.",
+      nav_books:            "Albums & Catalogs",
+      all_book_types:       "All types",
+      book_type_album:      "Album",
+      book_type_catalog:    "Catalog",
+      sold_badge:           "Sold",
+      sold_notice:          "This item is no longer available.",
+      sold_on:              "Sold on",
     },
   };
 
@@ -106,10 +120,14 @@
   window.getItemTitle = (item) =>
     item.title || (item.denomination ? `${item.denomination} ${item.year}` : String(item.year));
 
-  window.waMessage = (title) =>
-    window.getLang() === "en"
-      ? `Hi! I'm interested in: ${title}`
-      : `Hola! Me interesa: ${title}`;
+  window.waMessage = (title, country, link) => {
+    const lang         = window.getLang();
+    const countryLabel = T[lang]?.label_country ?? T.es.label_country;
+    const intro        = lang === "en"
+      ? "Hello, I'm interested in this item:"
+      : "Hola! Me interesa este artículo:";
+    return `${intro}\n\n${title}\n${countryLabel}: ${country}\n\n${link}`;
+  };
 
 })();
 
