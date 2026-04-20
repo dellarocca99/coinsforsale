@@ -881,6 +881,7 @@
     "mint": "Pace",
     "title": "Presidents Series Album",
     "book": true,
+    "book_type": "album",
     "images": [
       "images/presidentes-1.jpg",
       "images/presidentes-2.jpg",
