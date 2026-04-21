@@ -862,6 +862,21 @@
     ]
   },
   {
+    "price": 35,
+    "condition": "UNC",
+    "country": "USA",
+    "mint": "Whitman Publishing",
+    "title": "Red Book 2025",
+    "book": true,
+    "book_type": "catalog",
+    "images": [
+      "images/red_book_2025-1.jpg",
+      "images/red_book_2025-2.jpg",
+      "images/red_book_2025-3.jpg",
+      "images/red_book_2025-4.jpg"
+    ]
+  },
+  {
     "price": 8,
     "condition": "UNC",
     "country": "USA",
@@ -910,7 +925,7 @@
     "mint": "Whitman Publishing",
     "title": "Red Book 2025",
     "book": true,
-    "book_type": "catalogue",
+    "book_type": "catalog",
     "images": [
       "images/red_book_2025-1.jpg",
       "images/red_book_2025-2.jpg",
