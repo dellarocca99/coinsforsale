@@ -806,6 +806,7 @@ header {
   color: var(--text);
   line-height: 1.95;
   margin-bottom: 44px;
+  white-space: pre-line;
 }
 
 .about-stats {
