@@ -846,6 +846,21 @@
     ]
   },
   {
+    "price": 35,
+    "condition": "UNC",
+    "country": "USA",
+    "mint": "Whitman Publishing",
+    "title": "Red Book 2025",
+    "book": true,
+    "book_type": "catalog",
+    "images": [
+      "images/red_book_2025-1.jpg",
+      "images/red_book_2025-2.jpg",
+      "images/red_book_2025-3.jpg",
+      "images/red_book_2025-4.jpg"
+    ]
+  },
+  {
     "price": 30,
     "condition": "UNC",
     "country": "USA",
@@ -859,21 +874,6 @@
       "images/presidentes-3.jpg",
       "images/presidentes-4.jpg",
       "images/presidentes-5.jpg"
-    ]
-  },
-  {
-    "price": 35,
-    "condition": "UNC",
-    "country": "USA",
-    "mint": "Whitman Publishing",
-    "title": "Red Book 2025",
-    "book": true,
-    "book_type": "catalog",
-    "images": [
-      "images/red_book_2025-1.jpg",
-      "images/red_book_2025-2.jpg",
-      "images/red_book_2025-3.jpg",
-      "images/red_book_2025-4.jpg"
     ]
   },
   {
@@ -916,21 +916,6 @@
       "images/bicentennial_album-1.jpg",
       "images/bicentennial_album-2.jpg",
       "images/bicentennial_album-3.jpg"
-    ]
-  },
-  {
-    "price": 35,
-    "condition": "UNC",
-    "country": "USA",
-    "mint": "Whitman Publishing",
-    "title": "Red Book 2025",
-    "book": true,
-    "book_type": "catalog",
-    "images": [
-      "images/red_book_2025-1.jpg",
-      "images/red_book_2025-2.jpg",
-      "images/red_book_2025-3.jpg",
-      "images/red_book_2025-4.jpg"
     ]
   },
   {
