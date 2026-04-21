@@ -1,7 +1,7 @@
 [
   {
     "title": "1 Peso 1877",
-    "price": "USD 150",
+    "price": 150,
     "condition": "VF+",
     "country": "Uruguay",
     "year": 1877,
@@ -18,7 +18,7 @@
   },
   {
     "title": "1 Peso ONU 1995",
-    "price": "USD 180",
+    "price": 180,
     "condition": "UNC",
     "country": "Argentina",
     "year": 1995,
@@ -37,7 +37,7 @@
   },
   {
     "title": "1 Cent 1955-S",
-    "price": "USD 14",
+    "price": 14,
     "condition": "UNC",
     "country": "USA",
     "mint": "San Francisco",
@@ -52,7 +52,7 @@
   },
   {
     "title": "1 Dollar \"Morgan\" 1904",
-    "price": "USD 90",
+    "price": 90,
     "condition": "VF",
     "country": "USA",
     "mint": "Philadelphia",
@@ -68,7 +68,7 @@
   },
   {
     "title": "1 Dime 1829",
-    "price": "USD 65",
+    "price": 65,
     "condition": "G",
     "country": "USA",
     "mint": "Philadelphia",
@@ -82,7 +82,7 @@
   },
   {
     "title": "1 Centavo 1883",
-    "price": "USD 45",
+    "price": 45,
     "condition": "XF",
     "country": "Argentina",
     "composition": "Cobre",
@@ -95,7 +95,7 @@
   },
   {
     "title": "1 Centavo 1883",
-    "price": "USD 14",
+    "price": 14,
     "condition": "F",
     "country": "Argentina",
     "composition": "Cobre",
@@ -108,7 +108,7 @@
   },
   {
     "title": "8 Reales 1808",
-    "price": "USD 170",
+    "price": 170,
     "condition": "XF",
     "country": "Bolivia",
     "mint": "PTS PJ",
@@ -122,7 +122,7 @@
   },
   {
     "title": "Half Dime 1854",
-    "price": "USD 15",
+    "price": 15,
     "condition": "G",
     "country": "USA",
     "mint": "Philadelphia",
@@ -136,7 +136,7 @@
   },
   {
     "title": "1 Dollar \"Peace\" 1925",
-    "price": "USD 65",
+    "price": 65,
     "condition": "VF",
     "country": "USA",
     "mint": "Philadelphia",
@@ -152,7 +152,7 @@
   },
   {
     "title": "1000 Pesos 1969",
-    "price": "USD 60",
+    "price": 60,
     "condition": "XF",
     "country": "Uruguay",
     "diameter": "37 mm",
@@ -167,7 +167,7 @@
   },
   {
     "title": "5 Cents \"Buffalo\" 1914",
-    "price": "USD 32",
+    "price": 32,
     "condition": "VF",
     "country": "USA",
     "mint": "Philadelphia",
@@ -180,7 +180,7 @@
   },
   {
     "title": "5 Cents \"Buffalo\" 1914-S",
-    "price": "USD 38",
+    "price": 38,
     "condition": "F",
     "country": "USA",
     "composition": "Cu Ni",
@@ -193,7 +193,7 @@
   },
   {
     "title": "5 Cents \"Buffalo\" 1915",
-    "price": "USD 13",
+    "price": 13,
     "condition": "VF",
     "country": "USA",
     "composition": "Cu Ni",
@@ -206,7 +206,7 @@
   },
   {
     "title": "5 Cents \"Buffalo\" 1916",
-    "price": "USD 13",
+    "price": 13,
     "condition": "XF",
     "country": "USA",
     "composition": "Cu Ni",
@@ -219,7 +219,7 @@
   },
   {
     "title": "5 Cents \"Buffalo\" 1921",
-    "price": "USD 8",
+    "price": 8,
     "condition": "F",
     "country": "USA",
     "composition": "Cu Ni",
@@ -232,7 +232,7 @@
   },
   {
     "title": "5 Cents \"Liberty\" 1888",
-    "price": "USD 30",
+    "price": 30,
     "condition": "F",
     "country": "USA",
     "composition": "Cu Ni",
@@ -245,7 +245,7 @@
   },
   {
     "title": "5 Cents \"Liberty\" 1894",
-    "price": "USD 12",
+    "price": 12,
     "condition": "G",
     "country": "USA",
     "composition": "Cu Ni",
@@ -258,7 +258,7 @@
   },
   {
     "title": "1 Cent \"Lincoln\" 1910-S",
-    "price": "USD 22",
+    "price": 22,
     "condition": "VF Details",
     "country": "USA",
     "composition": "Cu",
@@ -271,7 +271,7 @@
   },
   {
     "title": "1 Cent \"Lincoln\" 1911-D",
-    "price": "USD 15",
+    "price": 15,
     "condition": "F",
     "country": "USA",
     "composition": "Cu",
@@ -284,7 +284,7 @@
   },
   {
     "title": "1 Cent \"Lincoln\" 1911-S",
-    "price": "USD 50",
+    "price": 50,
     "condition": "VG",
     "country": "USA",
     "composition": "Cu",
@@ -297,7 +297,7 @@
   },
   {
     "title": "1 Cent \"Lincoln\" 1912-D",
-    "price": "USD 22",
+    "price": 22,
     "condition": "F",
     "country": "USA",
     "composition": "Cu",
@@ -310,7 +310,7 @@
   },
   {
     "title": "1 Cent \"Lincoln\" 1912-S",
-    "price": "USD 24",
+    "price": 24,
     "condition": "VF Details",
     "country": "USA",
     "composition": "Cu",
@@ -323,7 +323,7 @@
   },
   {
     "title": "1 Cent \"Lincoln\" 1913-S",
-    "price": "USD 15",
+    "price": 15,
     "condition": "VF Details",
     "country": "USA",
     "composition": "Cu",
@@ -336,7 +336,7 @@
   },
   {
     "title": "1 Cent \"Lincoln\" 1914-S",
-    "price": "USD 30",
+    "price": 30,
     "condition": "XF",
     "country": "USA",
     "composition": "Cu",
@@ -349,7 +349,7 @@
   },
   {
     "title": "1 Cent \"Lincoln\" 1915-S",
-    "price": "USD 32",
+    "price": 32,
     "condition": "F",
     "country": "USA",
     "composition": "Cu",
@@ -362,7 +362,7 @@
   },
   {
     "title": "1 Cent \"Lincoln\" 1926-S",
-    "price": "USD 26",
+    "price": 26,
     "condition": "XF",
     "country": "USA",
     "composition": "Cu",
@@ -375,7 +375,7 @@
   },
   {
     "title": "5 Cents \"Buffalo\" 1913-S (type 1)",
-    "price": "USD 55",
+    "price": 55,
     "condition": "F",
     "country": "USA",
     "composition": "Cu Ni",
@@ -388,7 +388,7 @@
   },
   {
     "title": "5 Cents \"Buffalo\" 1914-S",
-    "price": "USD 95",
+    "price": 95,
     "condition": "AU",
     "country": "USA",
     "composition": "Cu Ni",
@@ -401,7 +401,7 @@
   },
   {
     "title": "Half Dollar 1920-S",
-    "price": "USD 38",
+    "price": 38,
     "condition": "VG",
     "country": "USA",
     "composition": "Plata 0.900",
@@ -414,7 +414,7 @@
   },
   {
     "title": "Half Dollar 1955",
-    "price": "USD 38",
+    "price": 38,
     "condition": "XF",
     "country": "USA",
     "composition": "Plata 0.900",
@@ -427,7 +427,7 @@
   },
   {
     "title": "1 Cent \"Indian\" 1873",
-    "price": "USD 30",
+    "price": 30,
     "condition": "G",
     "country": "USA",
     "composition": "Cu",
@@ -440,7 +440,7 @@
   },
   {
     "title": "1 Cent \"Indian\" 1875",
-    "price": "USD 45",
+    "price": 45,
     "condition": "VG",
     "country": "USA",
     "composition": "Cu",
@@ -453,7 +453,7 @@
   },
   {
     "title": "1 Cent \"Indian\" 1876",
-    "price": "USD 40",
+    "price": 40,
     "condition": "F Details",
     "country": "USA",
     "composition": "Cu",
@@ -466,7 +466,7 @@
   },
   {
     "title": "1 Cent \"Indian\" 1891",
-    "price": "USD 5",
+    "price": 5,
     "condition": "VF",
     "country": "USA",
     "composition": "Cu",
@@ -479,7 +479,7 @@
   },
   {
     "title": "1 Centavo 1885",
-    "price": "USD 18",
+    "price": 18,
     "condition": "VF",
     "country": "Argentina",
     "composition": "Cu",
@@ -491,7 +491,7 @@
   },
   {
     "title": "1 Centavo 1888",
-    "price": "USD 20",
+    "price": 20,
     "condition": "F",
     "country": "Argentina",
     "composition": "Cu",
@@ -503,7 +503,7 @@
   },
   {
     "title": "1 Centavo 1894",
-    "price": "USD 30",
+    "price": 30,
     "condition": "VF",
     "country": "Argentina",
     "composition": "Cu",
@@ -515,7 +515,7 @@
   },
   {
     "title": "10 Centavos 1882",
-    "price": "USD 18",
+    "price": 18,
     "condition": "XF",
     "country": "Argentina",
     "composition": "Plata 0.900",
@@ -527,7 +527,7 @@
   },
   {
     "title": "10 Centavos 1883",
-    "price": "USD 22",
+    "price": 22,
     "condition": "AU",
     "country": "Argentina",
     "composition": "Plata 0.900",
@@ -539,7 +539,7 @@
   },
   {
     "title": "1 Centavo 1854",
-    "price": "USD 30",
+    "price": 30,
     "condition": "XF",
     "country": "Argentina",
     "region": "Confederación Argentina",
@@ -552,7 +552,7 @@
   },
   {
     "title": "2 Centavos 1854",
-    "price": "USD 20",
+    "price": 20,
     "condition": "F",
     "country": "Argentina",
     "region": "Confederación Argentina",
@@ -565,7 +565,7 @@
   },
   {
     "title": "1 Real 1854",
-    "price": "USD 120",
+    "price": 120,
     "condition": "F",
     "country": "Argentina",
     "region": "Buenos Aires",
@@ -580,7 +580,7 @@
   },
   {
     "title": "20 Centavos 1972",
-    "price": "USD 30",
+    "price": 30,
     "condition": "UNC",
     "country": "Argentina",
     "composition": "Bronce de aluminio",
@@ -594,36 +594,8 @@
     ]
   },
   {
-    "title": "20 Centavos 1899",
-    "price": "USD 65",
-    "condition": "F",
-    "country": "Argentina",
-    "composition": "Cu Ni",
-    "description": "Rara pieza",
-    "description_en": "Rare",
-    "year": 1899,
-    "images": [
-      "images/20cent_arg_1899-1-1.jpg",
-      "images/20cent_arg_1899-1-2.jpg"
-    ]
-  },
-  {
-    "title": "20 Centavos 1908",
-    "price": "USD 30",
-    "condition": "VG",
-    "country": "Argentina",
-    "composition": "Cu Ni",
-    "description": "Rara pieza",
-    "description_en": "Rare",
-    "year": 1908,
-    "images": [
-      "images/20cent_arg_1908-1-1.jpg",
-      "images/20cent_arg_1908-1-2.jpg"
-    ]
-  },
-  {
     "title": "20 Centésimos 1920",
-    "price": "USD 10",
+    "price": 10,
     "condition": "G",
     "country": "Uruguay",
     "composition": "Plata 0.800",
@@ -637,7 +609,7 @@
   },
   {
     "title": "50 Centésimos 1917",
-    "price": "USD 27",
+    "price": 27,
     "condition": "F",
     "country": "Uruguay",
     "composition": "Plata 0.900",
@@ -649,7 +621,7 @@
   },
   {
     "title": "50 Centésimos 1917",
-    "price": "USD 30",
+    "price": 30,
     "condition": "VF",
     "country": "Uruguay",
     "composition": "Plata 0.900",
@@ -661,7 +633,7 @@
   },
   {
     "title": "50 Centésimos 1943",
-    "price": "USD 12",
+    "price": 12,
     "condition": "VF",
     "country": "Uruguay",
     "composition": "Plata 0.720",
@@ -673,7 +645,7 @@
   },
   {
     "title": "1000 Pesos 2003 (Mundial 2006)",
-    "price": "USD 100",
+    "price": 100,
     "condition": "UNC",
     "country": "Uruguay",
     "diameter": "40 mm",
@@ -689,7 +661,7 @@
   },
   {
     "title": "1000 Pesos 2004 (Mundial 2006)",
-    "price": "USD 100",
+    "price": 100,
     "condition": "UNC",
     "country": "Uruguay",
     "diameter": "40 mm",
@@ -705,7 +677,7 @@
   },
   {
     "title": "1000 Pesos 2005 (Mundial 2006)",
-    "price": "USD 100",
+    "price": 100,
     "condition": "UNC",
     "country": "Uruguay",
     "diameter": "40 mm",
@@ -721,7 +693,7 @@
   },
   {
     "title": "3000 Pesos 1977 (Mundial 1978)",
-    "price": "USD 65",
+    "price": 65,
     "condition": "UNC",
     "country": "Argentina",
     "diameter": "37 mm",
@@ -737,7 +709,7 @@
   },
   {
     "title": "10 Francs 1929",
-    "price": "USD 17",
+    "price": 17,
     "condition": "AU",
     "country": "Francia",
     "composition": "Plata 0.680",
@@ -749,7 +721,7 @@
   },
   {
     "title": "1 Peso 1942",
-    "price": "USD 16",
+    "price": 16,
     "condition": "XF",
     "country": "Uruguay",
     "composition": "Plata 0.720",
@@ -761,7 +733,7 @@
   },
   {
     "title": "1 Centavo 1974",
-    "price": "USD 5",
+    "price": 5,
     "condition": "UNC",
     "country": "Argentina",
     "composition": "Aluminio",
@@ -774,7 +746,7 @@
   },
   {
     "title": "1 Centavo 1975",
-    "price": "USD 5",
+    "price": 5,
     "condition": "UNC",
     "country": "Argentina",
     "composition": "Aluminio",
@@ -787,7 +759,7 @@
   },
   {
     "title": "10 Centavos 1976",
-    "price": "USD 8",
+    "price": 8,
     "condition": "AU",
     "country": "Argentina",
     "composition": "Bronce de aluminio",
@@ -800,7 +772,7 @@
   },
   {
     "title": "20 Centavos 1961",
-    "price": "USD 5",
+    "price": 5,
     "condition": "UNC",
     "country": "Argentina",
     "composition": "Acero enchapado",
@@ -813,7 +785,7 @@
   },
   {
     "title": "5/10 Real 1827",
-    "price": "USD 15",
+    "price": 15,
     "condition": "VF",
     "country": "Argentina",
     "region":"Buenos Aires",
@@ -826,7 +798,7 @@
   },
   {
     "title": "1/10 Real 1822/23",
-    "price": "USD 10",
+    "price": 10,
     "condition": "VG",
     "country": "Argentina",
     "region":"Buenos Aires",
@@ -839,7 +811,7 @@
   },
   {
     "title": "5 Centésimos 1857",
-    "price": "USD 24",
+    "price": 24,
     "condition": "F",
     "country": "Uruguay",
     "composition": "Cu",
@@ -850,7 +822,7 @@
     ]
   },
   {
-    "price": "USD 24",
+    "price": 24,
     "condition": "F",
     "denomination": "40 Centésimos",
     "country": "Uruguay",
@@ -862,7 +834,7 @@
     ]
   },
   {
-    "price": "USD 75",
+    "price": 75,
     "condition": "XF",
     "country": "Argentina",
     "composition": "Plata 0.900",
@@ -872,13 +844,12 @@
       "images/50cent_arg_1883-1.jpeg",
       "images/50cent_arg_1883-2.jpeg"
     ]
-  }
-  ,
+  },
   {
-    "price": "USD 30",
+    "price": 30,
     "condition": "UNC",
     "country": "USA",
-    "mint": "Pace",
+    "mint": "Pace Publishing",
     "title": "Presidents Series Album",
     "book": true,
     "book_type": "album",
@@ -887,22 +858,655 @@
       "images/presidentes-2.jpg",
       "images/presidentes-3.jpg",
       "images/presidentes-4.jpg",
-      "images/presidentes-5.jpg",
-      "images/presidentes-6.jpg"
+      "images/presidentes-5.jpg"
+    ]
+  },
+  {
+    "price": 8,
+    "condition": "UNC",
+    "country": "USA",
+    "mint": "AlbumsCoins",
+    "title": "Commemorative Nickels 2004-2005 Album",
+    "book": true,
+    "book_type": "album",
+    "images": [
+      "images/jeff_album-1.jpg",
+      "images/jeff_album-2.jpg",
+      "images/jeff_album-3.jpg"
+    ]
+  },
+  {
+    "price": 8,
+    "condition": "UNC",
+    "country": "USA",
+    "mint": "AlbumsCoins",
+    "title": "Commemorative Cents 2009 Album",
+    "book": true,
+    "book_type": "album",
+    "images": [
+      "images/linc_album-1.jpg",
+      "images/linc_album-2.jpg",
+      "images/linc_album-3.jpg"
+    ]
+  },
+  {
+    "price": 8,
+    "condition": "UNC",
+    "country": "USA",
+    "mint": "AlbumsCoins",
+    "title": "Bicentennial 1776-1976 Album",
+    "book": true,
+    "book_type": "album",
+    "images": [
+      "images/bicentennial_album-1.jpg",
+      "images/bicentennial_album-2.jpg",
+      "images/bicentennial_album-3.jpg"
+    ]
+  },
+  {
+    "price": 35,
+    "condition": "UNC",
+    "country": "USA",
+    "mint": "Whitman Publishing",
+    "title": "Red Book 2025",
+    "book": true,
+    "book_type": "catalogue",
+    "images": [
+      "images/red_book_2025-1.jpg",
+      "images/red_book_2025-2.jpg",
+      "images/red_book_2025-3.jpg",
+      "images/red_book_2025-4.jpg"
     ]
   },
   {
     "denomination": "1 Real",
-    "price": "USD 16",
+    "price": 16,
     "condition": "G",
     "country": "Perú",
-    "mint": "PTS PJ",
+    "mint": "LME JM",
     "composition": "Plata 0.903",
     "composition_en": "0.903 Silver",
     "year": 1772,
     "images": [
       "images/realito_1772-1.jpg",
       "images/realito_1772-2.jpg"
+    ]
+  },
+  {
+    "denomination": "5 Centavos",
+    "price": 20,
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1896,
+    "images": [
+      "images/5cent_arg_1896-1.jpg",
+      "images/5cent_arg_1896-2.jpg"
+    ]
+  },
+  {
+    "denomination": "5 Centavos",
+    "price": 4,
+    "condition": "G Details",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1898,
+    "images": [
+      "images/5cent_arg_1898-1-1.jpg",
+      "images/5cent_arg_1898-1-2.jpg"
+    ]
+  },
+  {
+    "denomination": "5 Centavos",
+    "price": 6,
+    "condition": "G",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1898,
+    "images": [
+      "images/5cent_arg_1898-2-1.jpg",
+      "images/5cent_arg_1898-2-2.jpg"
+    ]
+  },
+  {
+    "denomination": "5 Centavos",
+    "price": 6.5,
+    "condition": "G+",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1898,
+    "images": [
+      "images/5cent_arg_1898-3-1.jpg",
+      "images/5cent_arg_1898-3-2.jpg"
+    ]
+  },
+  {
+    "denomination": "5 Centavos",
+    "price": 8,
+    "condition": "VG",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1898,
+    "images": [
+      "images/5cent_arg_1898-4-1.jpg",
+      "images/5cent_arg_1898-4-2.jpg"
+    ]
+  },
+  {
+    "denomination": "5 Centavos",
+    "price": 17,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1898,
+    "images": [
+      "images/5cent_arg_1898-5-1.jpg",
+      "images/5cent_arg_1898-5-2.jpg"
+    ]
+  },
+  {
+    "denomination": "5 Centavos",
+    "price": 8,
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1909,
+    "images": [
+      "images/5cent_arg_1909-1.jpg",
+      "images/5cent_arg_1909-2.jpg"
+    ]
+  },
+  {
+    "denomination": "5 Centavos",
+    "price": 3,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1919,
+    "images": [
+      "images/5cent_arg_1919-1.jpg",
+      "images/5cent_arg_1919-2.jpg"
+    ]
+  },
+  {
+    "denomination": "5 Centavos",
+    "price": 1,
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1921,
+    "images": [
+      "images/5cent_arg_1921-1.jpg",
+      "images/5cent_arg_1921-2.jpg"
+    ]
+  },
+  {
+    "denomination": "5 Centavos",
+    "price": 1.5,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1924,
+    "images": [
+      "images/5cent_arg_1924-1.jpg",
+      "images/5cent_arg_1924-2.jpg"
+    ]
+  },
+  {
+    "denomination": "5 Centavos",
+    "price": 40,
+    "condition": "AU",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1931,
+    "images": [
+      "images/5cent_arg_1931-1-1.jpg",
+      "images/5cent_arg_1931-1-2.jpg"
+    ]
+  },
+  {
+    "denomination": "5 Centavos",
+    "price": 6,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1931,
+    "images": [
+      "images/5cent_arg_1931-2-1.jpg",
+      "images/5cent_arg_1931-2-2.jpg"
+    ]
+  },
+  {
+    "denomination": "5 Centavos",
+    "price": 20,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1931,
+    "images": [
+      "images/5cent_arg_1931-3-1.jpg",
+      "images/5cent_arg_1931-3-2.jpg"
+    ]
+  },
+  {
+    "denomination": "5 Centavos",
+    "price": 1,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1936,
+    "images": [
+      "images/5cent_arg_1936-1.jpg",
+      "images/5cent_arg_1936-2.jpg"
+    ]
+  },
+
+  {
+    "denomination": "10 Centavos",
+    "price": 22,
+    "condition": "AU",
+    "country": "Argentina",
+    "composition": "Ag 0.900",
+    "year": 1882,
+    "images": [
+      "images/10cent_arg_1882-2-1.jpg",
+      "images/10cent_arg_1882-2-2.jpg"
+    ]
+  },
+  {
+    "denomination": "10 Centavos",
+    "price": 30,
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1907,
+    "images": [
+      "images/10cent_arg_1907-1-1.jpg",
+      "images/10cent_arg_1907-1-2.jpg"
+    ]
+  },
+  {
+    "denomination": "10 Centavos",
+    "price": 13,
+    "condition": "G",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1907,
+    "images": [
+      "images/10cent_arg_1907-2-1.jpg",
+      "images/10cent_arg_1907-2-2.jpg"
+    ]
+  },
+  {
+    "denomination": "10 Centavos",
+    "price": 14,
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1914,
+    "images": [
+      "images/10cent_arg_1914-1.jpg",
+      "images/10cent_arg_1914-2.jpg"
+    ]
+  },
+  {
+    "denomination": "10 Centavos",
+    "price": 13,
+    "condition": "VF+",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1931,
+    "images": [
+      "images/10cent_arg_1931-1-1.jpg",
+      "images/10cent_arg_1931-1-2.jpg"
+    ]
+  },
+  {
+    "denomination": "10 Centavos",
+    "price": 7,
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1931,
+    "images": [
+      "images/10cent_arg_1931-2-1.jpg",
+      "images/10cent_arg_1931-2-2.jpg"
+    ]
+  },
+  {
+    "denomination": "10 Centavos",
+    "price": 5,
+    "condition": "VG",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1931,
+    "images": [
+      "images/10cent_arg_1931-3-1.jpg",
+      "images/10cent_arg_1931-3-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 22,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1896,
+    "images": [
+      "images/20cent_arg_1896-1-1.jpg",
+      "images/20cent_arg_1896-1-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 18,
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1896,
+    "images": [
+      "images/20cent_arg_1896-2-1.jpg",
+      "images/20cent_arg_1896-2-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 6,
+    "condition": "AG",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1896,
+    "images": [
+      "images/20cent_arg_1896-3-1.jpg",
+      "images/20cent_arg_1896-3-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 15,
+    "condition": "VG",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1898,
+    "images": [
+      "images/20cent_arg_1898-1.jpg",
+      "images/20cent_arg_1898-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 60,
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1899,
+    "images": [
+      "images/20cent_arg_1899-1-1.jpg",
+      "images/20cent_arg_1899-1-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 15,
+    "condition": "AG",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1899,
+    "images": [
+      "images/20cent_arg_1899-2-1.jpg",
+      "images/20cent_arg_1899-2-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 20,
+    "condition": "G",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1899,
+    "images": [
+      "images/20cent_arg_1899-3-1.jpg",
+      "images/20cent_arg_1899-3-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 27,
+    "condition": "VG",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1899,
+    "images": [
+      "images/20cent_arg_1899-4-1.jpg",
+      "images/20cent_arg_1899-4-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 28,
+    "condition": "VG",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1899,
+    "images": [
+      "images/20cent_arg_1899-5-1.jpg",
+      "images/20cent_arg_1899-5-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 32,
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1899,
+    "images": [
+      "images/20cent_arg_1899-6-1.jpg",
+      "images/20cent_arg_1899-6-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 26,
+    "condition": "VG",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1899,
+    "images": [
+      "images/20cent_arg_1899-7-1.jpg",
+      "images/20cent_arg_1899-7-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 30,
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1908,
+    "images": [
+      "images/20cent_arg_1908-1-1.jpg",
+      "images/20cent_arg_1908-1-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 40,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1908,
+    "images": [
+      "images/20cent_arg_1908-2-1.jpg",
+      "images/20cent_arg_1908-2-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 26,
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1908,
+    "images": [
+      "images/20cent_arg_1908-3-1.jpg",
+      "images/20cent_arg_1908-3-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 28,
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1908,
+    "images": [
+      "images/20cent_arg_1908-4-1.jpg",
+      "images/20cent_arg_1908-4-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 100,
+    "condition": "VF+",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1908,
+    "images": [
+      "images/20cent_arg_1908-5-1.jpg",
+      "images/20cent_arg_1908-5-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 16,
+    "condition": "G",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1908,
+    "images": [
+      "images/20cent_arg_1908-6-1.jpg",
+      "images/20cent_arg_1908-6-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 12,
+    "condition": "AG",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1908,
+    "images": [
+      "images/20cent_arg_1908-7-1.jpg",
+      "images/20cent_arg_1908-7-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 14,
+    "condition": "AG",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1908,
+    "images": [
+      "images/20cent_arg_1908-8-1.jpg",
+      "images/20cent_arg_1908-8-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 12,
+    "condition": "AG",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1908,
+    "images": [
+      "images/20cent_arg_1908-9-1.jpg",
+      "images/20cent_arg_1908-9-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 22,
+    "condition": "VG",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1908,
+    "images": [
+      "images/20cent_arg_1908-10-1.jpg",
+      "images/20cent_arg_1908-10-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 7,
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1909,
+    "images": [
+      "images/20cent_arg_1909-1.jpg",
+      "images/20cent_arg_1909-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 36,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1914,
+    "images": [
+      "images/20cent_arg_1914-1-1.jpg",
+      "images/20cent_arg_1914-1-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 18,
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1914,
+    "images": [
+      "images/20cent_arg_1914-2-1.jpg",
+      "images/20cent_arg_1914-2-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 40,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1931,
+    "images": [
+      "images/20cent_arg_1931-1-1.jpg",
+      "images/20cent_arg_1931-1-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 14,
+    "condition": "F+",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1931,
+    "images": [
+      "images/20cent_arg_1931-2-1.jpg",
+      "images/20cent_arg_1931-2-2.jpg"
+    ]
+  },
+  {
+    "denomination": "20 Centavos",
+    "price": 8,
+    "condition": "VF Details",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 1931,
+    "images": [
+      "images/20cent_arg_1931-3-1.jpg",
+      "images/20cent_arg_1931-3-2.jpg"
     ]
   }
 ]

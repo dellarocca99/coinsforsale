@@ -199,8 +199,8 @@ function getFiltered() {
   return results;
 }
 
-function parsePrice(str) {
-  return parseFloat((str || "0").replace(/[^0-9.]/g, "")) || 0;
+function parsePrice(p) {
+  return typeof p === 'number' ? p : parseFloat(p) || 0;
 }
 
 // Returns true when soldon is present and the date is more than one month in the past.

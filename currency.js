@@ -56,15 +56,16 @@
     minimumFractionDigits: 0,
   });
 
-  // Converts "USD 150" → the active-currency display string.
-  // Falls back to the original USD string when the rate is unavailable.
-  window.formatPrice = (usdStr) => {
-    if (getCurrency() !== 'ARS') return usdStr;
-    const rate = getRate();
-    if (!rate) return usdStr;
-    const usd = parseFloat((usdStr || '0').replace(/[^0-9.]/g, ''));
-    if (isNaN(usd)) return usdStr;
-    return arsFormatter.format(Math.round(usd * rate));
+  // Converts a numeric USD price → the active-currency display string.
+  // Non-numeric values (e.g. "DETERMINAR") are returned as-is.
+  window.formatPrice = (price) => {
+    const usd = typeof price === 'number' ? price : parseFloat(price);
+    if (isNaN(usd)) return String(price ?? '');
+    if (getCurrency() === 'ARS') {
+      const rate = getRate();
+      if (rate) return arsFormatter.format(Math.round(usd * rate));
+    }
+    return `USD ${usd}`;
   };
 
   // Wires up the USD / ARS toggle buttons and keeps their active state in sync.
