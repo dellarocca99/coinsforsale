@@ -1530,8 +1530,8 @@
     "composition": "Cu Ni - Bronce de aluminio",
     "year": 2010,
     "images": [
-      "images/2pesos_arg_2010_ojossaltones-1.jpg",
-      "images/2pesos_arg_2010_ojossaltones-2.jpg"
+      "images/2pesos_2010_ojossaltones-1.jpg",
+      "images/2pesos_2010_ojossaltones-2.jpg"
     ]
   },
   {
@@ -1554,7 +1554,7 @@
     "country": "USA",
     "composition": "Ag 0.900",
     "mint": "Philadelphia",
-    "year": 1964,
+    "year": 1945,
     "images": [
       "images/quarter_1945-1.jpg",
       "images/quarter_1945-2.jpg"
@@ -1568,7 +1568,7 @@
     "country": "USA",
     "composition": "Ag 0.900",
     "mint": "San Francisco",
-    "year": 1964,
+    "year": 1917,
     "images": [
       "images/quarter_standing-1.jpg",
       "images/quarter_standing-2.jpg"
@@ -1668,8 +1668,8 @@
     "composition": "Bronce de aluminio",
     "year": 1942,
     "images": [
-      "images/5cent_arg_1942-1.jpg",
-      "images/5cent_arg_1942-2.jpg"
+      "images/5cent_arg_1942-1-1.jpg",
+      "images/5cent_arg_1942-1-2.jpg"
     ]
   },
   { 
@@ -1698,8 +1698,9 @@
     ]
   },
   { 
-    "denomination": "1 Peso \"Restauración de la Democracia\" 2023",
+    "title": "1 Peso \"Restauración de la Democracia\" 2023",
     "price": 180,
+    "denomination": "1 Peso",
     "condition": "UNC",
     "country": "Argentina",
     "composition": "Ag 0.900",
@@ -1712,8 +1713,9 @@
     ]
   },
   { 
-    "denomination": "5 Pesos \"Tango\" 2013",
+    "title": "5 Pesos \"Tango\" 2013",
     "price": 150,
+    "denomination": "5 Pesos",
     "condition": "UNC",
     "country": "Argentina",
     "composition": "Ag 0.925",
@@ -1725,8 +1727,9 @@
     ]
   },
   { 
-    "denomination": "5 Pesos \"Payador\" 2014",
+    "title": "5 Pesos \"Payador\" 2014",
     "price": 150,
+    "denomination": "5 Pesos",
     "condition": "UNC",
     "country": "Argentina",
     "composition": "Ag 0.925",
@@ -1740,6 +1743,7 @@
   { 
     "denomination": "1 \"Peace Dollar 100th Anniversary\" 2021",
     "price": 250,
+    "denomination": "1 Dollar",
     "condition": "UNC",
     "country": "USA",
     "composition": "Ag 0.999",
