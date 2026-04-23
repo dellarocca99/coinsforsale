@@ -519,6 +519,8 @@
     "condition": "XF",
     "country": "Argentina",
     "composition": "Plata 0.900",
+    "sold": true,
+    "soldon": "22-04-2026",
     "year": 1882,
     "images": [
       "images/10cent_arg_1882-1.jpg",
@@ -840,6 +842,8 @@
     "composition": "Plata 0.900",
     "denomination": "50 Centavos",
     "year": 1883,
+    "sold": true,
+    "soldon": "22-04-2026",
     "images": [
       "images/50cent_arg_1883-1.jpeg",
       "images/50cent_arg_1883-2.jpeg"
@@ -1059,6 +1063,8 @@
     "country": "Argentina",
     "composition": "Cu Ni",
     "year": 1931,
+    "sold": true,
+    "soldon": "22-04-2026",
     "images": [
       "images/5cent_arg_1931-1-1.jpg",
       "images/5cent_arg_1931-1-2.jpg"
@@ -1107,6 +1113,8 @@
     "condition": "AU",
     "country": "Argentina",
     "composition": "Ag 0.900",
+    "sold": true,
+    "soldon": "22-04-2026",
     "year": 1882,
     "images": [
       "images/10cent_arg_1882-2-1.jpg",
@@ -1191,6 +1199,8 @@
     "condition": "VF",
     "country": "Argentina",
     "composition": "Cu Ni",
+    "sold": true,
+    "soldon": "22-04-2026",
     "year": 1896,
     "images": [
       "images/20cent_arg_1896-1-1.jpg",
