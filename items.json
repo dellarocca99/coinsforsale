@@ -1520,5 +1520,236 @@
       "images/20cent_arg_1931-3-1.jpg",
       "images/20cent_arg_1931-3-2.jpg"
     ]
+  },
+  {
+    "title": "2 Pesos \"Ojos Saltones\" 2010",
+    "denomination": "2 Pesos",
+    "price": 6,
+    "condition": "AU",
+    "country": "Argentina",
+    "composition": "Cu Ni - Bronce de aluminio",
+    "year": 2010,
+    "images": [
+      "images/2pesos_arg_2010_ojossaltones-1.jpg",
+      "images/2pesos_arg_2010_ojossaltones-2.jpg"
+    ]
+  },
+  {
+    "denomination": "Half dollar",
+    "price": 6,
+    "condition": "AU",
+    "country": "USA",
+    "composition": "Ag 0.900",
+    "mint": "Philadelphia",
+    "year": 1964,
+    "images": [
+      "images/half_1964-1.jpg",
+      "images/half_1964-2.jpg"
+    ]
+  },
+  {
+    "denomination": "Quarter dollar",
+    "price": 15,
+    "condition": "F",
+    "country": "USA",
+    "composition": "Ag 0.900",
+    "mint": "Philadelphia",
+    "year": 1964,
+    "images": [
+      "images/quarter_1945-1.jpg",
+      "images/quarter_1945-2.jpg"
+    ]
+  },
+  {
+    "title": "Quarter dollar 1917-30 S",
+    "denomination": "Quarter dollar",
+    "price": 16,
+    "condition": "G",
+    "country": "USA",
+    "composition": "Ag 0.900",
+    "mint": "San Francisco",
+    "year": 1964,
+    "images": [
+      "images/quarter_standing-1.jpg",
+      "images/quarter_standing-2.jpg"
+    ]
+  },
+  {
+    "denomination": "5/10 Qirsh",
+    "price": 4.5,
+    "condition": "VF",
+    "country": "Egipto",
+    "composition": "Cu Ni",
+    "year": 1885,
+    "images": [
+      "images/qirsh-1.jpg",
+      "images/qirsh-2.jpg"
+    ]
+  },
+  { 
+    "title": "50 Centavos \"Voto Femenino\" 1997",
+    "denomination": "50 Centavos",
+    "price": 3.5,
+    "condition": "UNC",
+    "country": "Argentina",
+    "composition": "Bronce de aluminio",
+    "year": 1997,
+    "images": [
+      "images/eva_50-1.jpg",
+      "images/eva_50-2.jpg"
+    ]
+  },
+  { 
+    "title": "2 Pesos \"Evita\" 2002",
+    "denomination": "2 Pesos",
+    "price": 2.5,
+    "condition": "UNC",
+    "country": "Argentina",
+    "composition": "Cu Ni",
+    "year": 2002,
+    "images": [
+      "images/2pesos_eva-1.jpg",
+      "images/2pesos_eva-2.jpg"
+    ]
+  },
+  { 
+    "denomination": "2 Lire",
+    "price": 6,
+    "condition": "VF",
+    "country": "Italia",
+    "composition": "Cu Ni",
+    "year": 1923,
+    "images": [
+      "images/2lire_1923-1.jpg",
+      "images/2lire_1923-2.jpg"
+    ]
+  },
+  { 
+    "denomination": "2 Centavos",
+    "price": 2.5,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "year": 1941,
+    "images": [
+      "images/2cent_arg_1941-1.jpg",
+      "images/2cent_arg_1941-2.jpg"
+    ]
+  },
+  { 
+    "denomination": "2 Centavos",
+    "price": 2.5,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "year": 1945,
+    "images": [
+      "images/2cent_arg_1945-1-1.jpg",
+      "images/2cent_arg_1945-1-2.jpg"
+    ]
+  },
+  { 
+    "denomination": "2 Centavos",
+    "price": 2,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "year": 1948,
+    "images": [
+      "images/2cent_arg_1948-1.jpg",
+      "images/2cent_arg_1948-2.jpg"
+    ]
+  },
+  { 
+    "denomination": "5 Centavos",
+    "price": 6,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Bronce de aluminio",
+    "year": 1942,
+    "images": [
+      "images/5cent_arg_1942-1.jpg",
+      "images/5cent_arg_1942-2.jpg"
+    ]
+  },
+  { 
+    "title": "5 Pesos 1977 - Capada",
+    "denomination": "5 Pesos",
+    "price": 15,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Bronce de aluminio",
+    "year": 1977,
+    "images": [
+      "images/5pesos_arg_1977_capada-1.jpg",
+      "images/5pesos_arg_1977_capada-2.jpg"
+    ]
+  },
+  { 
+    "denomination": "1 Centavo",
+    "price": 4,
+    "condition": "UNC",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "year": 1946,
+    "images": [
+      "images/1cent_arg_1946-1.jpg",
+      "images/1cent_arg_1946-2.jpg"
+    ]
+  },
+  { 
+    "denomination": "1 Peso \"Restauración de la Democracia\" 2023",
+    "price": 180,
+    "condition": "UNC",
+    "country": "Argentina",
+    "composition": "Ag 0.900",
+    "year": 2023,
+    "images": [
+      "images/democracia-1.jpg",
+      "images/democracia-2.jpg",
+      "images/democracia-3.jpg",
+      "images/democracia-4.jpg"
+    ]
+  },
+  { 
+    "denomination": "5 Pesos \"Tango\" 2013",
+    "price": 150,
+    "condition": "UNC",
+    "country": "Argentina",
+    "composition": "Ag 0.925",
+    "year": 2013,
+    "images": [
+      "images/tango-1.jpg",
+      "images/tango-2.jpg",
+      "images/tango-3.jpg"
+    ]
+  },
+  { 
+    "denomination": "5 Pesos \"Payador\" 2014",
+    "price": 150,
+    "condition": "UNC",
+    "country": "Argentina",
+    "composition": "Ag 0.925",
+    "year": 2014,
+    "images": [
+      "images/payador-1.jpg",
+      "images/payador-2.jpg",
+      "images/payador-3.jpg"
+    ]
+  },
+  { 
+    "denomination": "1 \"Peace Dollar 100th Anniversary\" 2021",
+    "price": 250,
+    "condition": "UNC",
+    "country": "USA",
+    "composition": "Ag 0.999",
+    "year": 2021,
+    "images": [
+      "images/peace_2021-1.jpg",
+      "images/peace_2021-2.jpg",
+      "images/peace_2021-3.jpg",
+      "images/peace_2021-4.jpg",
+      "images/peace_2021-5.jpg"
+    ]
   }
 ]
