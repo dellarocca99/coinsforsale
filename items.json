@@ -534,6 +534,8 @@
     "country": "Argentina",
     "composition": "Plata 0.900",
     "year": 1883,
+    "sold": true,
+    "soldon": "22-04-2026",
     "images": [
       "images/10cent_arg_1883-1.jpg",
       "images/10cent_arg_1883-2.jpg"

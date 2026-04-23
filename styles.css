@@ -417,6 +417,9 @@ header {
 
 /* ── Card ──────────────────────────────────────────────── */
 .card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
   background: var(--card);
   border-radius: var(--radius);
   border: 1px solid var(--border);

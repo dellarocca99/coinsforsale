@@ -27,6 +27,7 @@ fetch("items.json")
     // task so the browser gets a chance to paint Phase 1 first.
     setTimeout(() => {
       populateFilters(allItems);
+      const hadSavedState = restoreFilterState();
       populateBooksFilters(allItems);
       setupControls();
       setupBooksControls();
@@ -34,6 +35,10 @@ fetch("items.json")
       setupLangToggle();
       setupCurrencyToggle();
       setupSectionNav();
+      if (hadSavedState) {
+        renderItems(getFiltered());
+        renderBooks(getFilteredBooks());
+      }
       document.addEventListener("currencychange", () => {
         renderItems(getFiltered());
         renderBooks(getFilteredBooks());
@@ -97,14 +102,43 @@ function setupSectionNav() {
   if (hash === "about" || hash === "books") showSection(hash);
 }
 
+// ── Filter persistence ───────────────────────────────────
+
+const FILTER_KEY = "fedix_filters";
+
+function saveFilterState() {
+  sessionStorage.setItem(FILTER_KEY, JSON.stringify({
+    search:  document.getElementById("search").value,
+    country: document.getElementById("filter-country").value,
+    region:  document.getElementById("filter-region").value,
+    sort:    document.getElementById("sort").value,
+    page:    currentPage,
+  }));
+}
+
+// Returns true when state was restored (caller should re-render).
+function restoreFilterState() {
+  const raw = sessionStorage.getItem(FILTER_KEY);
+  if (!raw) return false;
+  let s;
+  try { s = JSON.parse(raw); } catch { return false; }
+  document.getElementById("search").value = s.search || "";
+  document.getElementById("filter-country").value = s.country || "";
+  document.getElementById("sort").value = s.sort || "";
+  if (s.page) currentPage = s.page;
+  if (s.region && s.country) {
+    updateRegionFilter(s.country);
+    document.getElementById("filter-region").value = s.region;
+  }
+  return true;
+}
+
 // ── Filters ──────────────────────────────────────────────
 
 function populateFilters(items) {
-  const coinItems  = items.filter(i => !i.book);
-  const countries  = [...new Set(coinItems.map(i => i.country).filter(Boolean))].sort();
-  const conditions = [...new Set(coinItems.map(i => i.condition).filter(Boolean))].sort();
-  appendOptions("filter-country",   countries);
-  appendOptions("filter-condition", conditions);
+  const coinItems = items.filter(i => !i.book);
+  const countries = [...new Set(coinItems.map(i => i.country).filter(Boolean))].sort();
+  appendOptions("filter-country", countries);
   updateRegionFilter("");
 }
 
@@ -146,9 +180,9 @@ function appendOptions(selectId, values) {
 }
 
 function setupControls() {
-  ["search", "filter-condition", "filter-region", "sort"].forEach(id => {
+  ["search", "filter-region", "sort"].forEach(id => {
     const el = document.getElementById(id);
-    const handler = () => { currentPage = 1; renderItems(getFiltered()); };
+    const handler = () => { currentPage = 1; renderItems(getFiltered()); saveFilterState(); };
     el.addEventListener("input",  handler);
     el.addEventListener("change", handler);
   });
@@ -159,25 +193,24 @@ function setupControls() {
     updateRegionFilter(countryEl.value);
     currentPage = 1;
     renderItems(getFiltered());
+    saveFilterState();
   });
 }
 
 function getFiltered() {
-  const q         = document.getElementById("search").value.toLowerCase().trim();
-  const country   = document.getElementById("filter-country").value;
-  const region    = document.getElementById("filter-region").value;
-  const condition = document.getElementById("filter-condition").value;
-  const sort      = document.getElementById("sort").value;
+  const q       = document.getElementById("search").value.toLowerCase().trim();
+  const country = document.getElementById("filter-country").value;
+  const region  = document.getElementById("filter-region").value;
+  const sort    = document.getElementById("sort").value;
 
   let results = allItems.filter(item => {
     if (item.book) return false;
     if (isItemExpired(item)) return false;
     const text = `${getItemTitle(item)} ${item.country} ${item.year} ${item.denomination || ""} ${item.reference || ""}`.toLowerCase();
     return (
-      (!q         || text.includes(q)) &&
-      (!country   || item.country   === country) &&
-      (!region    || item.region    === region) &&
-      (!condition || item.condition === condition)
+      (!q       || text.includes(q)) &&
+      (!country || item.country === country) &&
+      (!region  || item.region  === region)
     );
   });
 
@@ -262,11 +295,12 @@ function renderItems(items) {
   pageItems.forEach((item, vi) => {
     // _gi was tagged in boot — O(1) lookup instead of allItems.indexOf (O(N))
     const gi      = item._gi;
-    const card    = document.createElement("div");
+    const card    = document.createElement("a");
     const hasMany = item.images.length > 1;
     const showQty = item.quantity != null && item.quantity > 1;
 
     card.className = "card";
+    card.href = `item.html?index=${gi}`;
     card.style.animationDelay = `${vi * 0.045}s`;
 
     const dots = item.images
@@ -297,12 +331,6 @@ function renderItems(items) {
         </div>
       </div>`;
 
-    card.addEventListener("click", e => {
-      if (!e.target.closest(".nav")) {
-        window.location.href = `item.html?index=${gi}`;
-      }
-    });
-
     grid.appendChild(card);
 
     if (hasMany) {
@@ -313,6 +341,7 @@ function renderItems(items) {
   grid.querySelectorAll(".nav").forEach(btn => {
     btn.addEventListener("click", e => {
       e.stopPropagation();
+      e.preventDefault();
       advanceCarousel(parseInt(btn.dataset.gi), btn.dataset.dir === "next" ? 1 : -1);
     });
   });
@@ -385,6 +414,7 @@ function getPageRange(current, total) {
 function changePage(n) {
   currentPage = n;
   renderItems(getFiltered());
+  saveFilterState();
   document.getElementById("section-coins").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
@@ -396,6 +426,7 @@ function setupPagination() {
     localStorage.setItem("fedix_per_page", itemsPerPage);
     currentPage = 1;
     renderItems(getFiltered());
+    saveFilterState();
   });
 }
 
@@ -444,11 +475,12 @@ function renderBooks(items) {
 
   items.forEach((item, vi) => {
     const gi      = item._gi;
-    const card    = document.createElement("div");
+    const card    = document.createElement("a");
     const hasMany = item.images && item.images.length > 1;
     const showQty = item.quantity != null && item.quantity > 1;
 
     card.className = "card";
+    card.href = `item.html?index=${gi}`;
     card.style.animationDelay = `${vi * 0.045}s`;
 
     const dots = (item.images || [])
@@ -480,12 +512,6 @@ function renderBooks(items) {
         </div>
       </div>`;
 
-    card.addEventListener("click", e => {
-      if (!e.target.closest(".nav")) {
-        window.location.href = `item.html?index=${gi}`;
-      }
-    });
-
     grid.appendChild(card);
 
     if (hasMany) {
@@ -496,6 +522,7 @@ function renderBooks(items) {
   grid.querySelectorAll(".nav").forEach(btn => {
     btn.addEventListener("click", e => {
       e.stopPropagation();
+      e.preventDefault();
       advanceCarousel(parseInt(btn.dataset.gi), btn.dataset.dir === "next" ? 1 : -1);
     });
   });
