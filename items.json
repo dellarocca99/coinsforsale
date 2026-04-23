@@ -1536,7 +1536,7 @@
   },
   {
     "denomination": "Half dollar",
-    "price": 6,
+    "price": 32,
     "condition": "AU",
     "country": "USA",
     "composition": "Ag 0.900",
@@ -1699,7 +1699,7 @@
   },
   { 
     "title": "1 Peso \"Restauración de la Democracia\" 2023",
-    "price": 180,
+    "price": 200,
     "denomination": "1 Peso",
     "condition": "UNC",
     "country": "Argentina",
