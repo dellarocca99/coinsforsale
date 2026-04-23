@@ -1530,8 +1530,8 @@
     "composition": "Cu Ni - Bronce de aluminio",
     "year": 2010,
     "images": [
-      "images/2pesos_2010_ojossaltones-1.jpg",
-      "images/2pesos_2010_ojossaltones-2.jpg"
+      "images/2pesos_arg_ojossaltones-1.jpg",
+      "images/2pesos_arg_ojossaltones-2.jpg"
     ]
   },
   {
@@ -1741,7 +1741,7 @@
     ]
   },
   { 
-    "denomination": "1 \"Peace Dollar 100th Anniversary\" 2021",
+    "title": "1 \"Peace Dollar 100th Anniversary\" 2021",
     "price": 250,
     "denomination": "1 Dollar",
     "condition": "UNC",
