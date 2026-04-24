@@ -1,5 +1,9 @@
 const PHONE = "5492235831244";
 
+// Chevron glyphs for the carousel nav — SVG for crisp, optically centered arrows.
+const CHEV_LEFT  = `<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="8 2 4 6 8 10"/></svg>`;
+const CHEV_RIGHT = `<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="4 2 8 6 4 10"/></svg>`;
+
 let allItems    = [];
 let currentPage = 1;
 let itemsPerPage = parseInt(localStorage.getItem("fedix_per_page"), 10) || 24;
@@ -108,11 +112,12 @@ const FILTER_KEY = "fedix_filters";
 
 function saveFilterState() {
   sessionStorage.setItem(FILTER_KEY, JSON.stringify({
-    search:  document.getElementById("search").value,
-    country: document.getElementById("filter-country").value,
-    region:  document.getElementById("filter-region").value,
-    sort:    document.getElementById("sort").value,
-    page:    currentPage,
+    search:       document.getElementById("search").value,
+    country:      document.getElementById("filter-country").value,
+    region:       document.getElementById("filter-region").value,
+    denomination: document.getElementById("filter-denomination").value,
+    sort:         document.getElementById("sort").value,
+    page:         currentPage,
   }));
 }
 
@@ -126,9 +131,11 @@ function restoreFilterState() {
   document.getElementById("filter-country").value = s.country || "";
   document.getElementById("sort").value = s.sort || "";
   if (s.page) currentPage = s.page;
-  if (s.region && s.country) {
+  if (s.country) {
     updateRegionFilter(s.country);
-    document.getElementById("filter-region").value = s.region;
+    updateDenominationFilter(s.country);
+    if (s.region)       document.getElementById("filter-region").value = s.region;
+    if (s.denomination) document.getElementById("filter-denomination").value = s.denomination;
   }
   return true;
 }
@@ -140,6 +147,7 @@ function populateFilters(items) {
   const countries = [...new Set(coinItems.map(i => i.country).filter(Boolean))].sort();
   appendOptions("filter-country", countries);
   updateRegionFilter("");
+  updateDenominationFilter("");
 }
 
 // Rebuilds the region <select> options for the given country (empty = all countries).
@@ -169,6 +177,33 @@ function updateRegionFilter(countryValue) {
   sel.hidden = !countryValue || regions.length === 0;
 }
 
+// Rebuilds the denomination <select> scoped to the chosen country.
+// Appears only after a country is selected and that country's catalog
+// contains denominations worth filtering by.
+function updateDenominationFilter(countryValue) {
+  const sel = document.getElementById("filter-denomination");
+  while (sel.options.length > 1) sel.remove(1);
+
+  if (!countryValue) { sel.hidden = true; sel.value = ""; return; }
+
+  const denoms = [...new Set(
+    allItems
+      .filter(i => !i.book && i.country === countryValue)
+      .map(i => i.denomination)
+      .filter(Boolean)
+  )].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+
+  denoms.forEach(d => {
+    const opt = document.createElement("option");
+    opt.value = d;
+    opt.textContent = d;
+    sel.appendChild(opt);
+  });
+
+  if (!denoms.includes(sel.value)) sel.value = "";
+  sel.hidden = denoms.length < 2;
+}
+
 function appendOptions(selectId, values) {
   const sel = document.getElementById(selectId);
   values.forEach(v => {
@@ -180,17 +215,18 @@ function appendOptions(selectId, values) {
 }
 
 function setupControls() {
-  ["search", "filter-region", "sort"].forEach(id => {
+  ["search", "filter-region", "filter-denomination", "sort"].forEach(id => {
     const el = document.getElementById(id);
     const handler = () => { currentPage = 1; renderItems(getFiltered()); saveFilterState(); };
     el.addEventListener("input",  handler);
     el.addEventListener("change", handler);
   });
 
-  // Country filter: cascade-update region options before re-rendering
+  // Country filter: cascade-update region + denomination options before re-rendering
   const countryEl = document.getElementById("filter-country");
   countryEl.addEventListener("change", () => {
     updateRegionFilter(countryEl.value);
+    updateDenominationFilter(countryEl.value);
     currentPage = 1;
     renderItems(getFiltered());
     saveFilterState();
@@ -198,19 +234,21 @@ function setupControls() {
 }
 
 function getFiltered() {
-  const q       = document.getElementById("search").value.toLowerCase().trim();
-  const country = document.getElementById("filter-country").value;
-  const region  = document.getElementById("filter-region").value;
-  const sort    = document.getElementById("sort").value;
+  const q            = document.getElementById("search").value.toLowerCase().trim();
+  const country      = document.getElementById("filter-country").value;
+  const region       = document.getElementById("filter-region").value;
+  const denomination = document.getElementById("filter-denomination").value;
+  const sort         = document.getElementById("sort").value;
 
   let results = allItems.filter(item => {
     if (item.book) return false;
     if (isItemExpired(item)) return false;
     const text = `${getItemTitle(item)} ${item.country} ${item.year} ${item.denomination || ""} ${item.reference || ""}`.toLowerCase();
     return (
-      (!q       || text.includes(q)) &&
-      (!country || item.country === country) &&
-      (!region  || item.region  === region)
+      (!q            || text.includes(q)) &&
+      (!country      || item.country      === country) &&
+      (!region       || item.region       === region) &&
+      (!denomination || item.denomination === denomination)
     );
   });
 
@@ -313,9 +351,9 @@ function renderItems(items) {
 
     card.innerHTML = `
       <div class="carousel">
-        ${hasMany ? `<button class="nav left"  data-gi="${gi}" data-dir="prev">&#8249;</button>` : ""}
+        ${hasMany ? `<button class="nav left"  data-gi="${gi}" data-dir="prev" aria-label="Previous image">${CHEV_LEFT}</button>` : ""}
         <img class="carousel-img${item.sold ? " img-sold" : ""}" id="img-${gi}" src="${item.images[0]}" alt="${getItemTitle(item)}"${lazyAttr}>
-        ${hasMany ? `<button class="nav right" data-gi="${gi}" data-dir="next">&#8250;</button>` : ""}
+        ${hasMany ? `<button class="nav right" data-gi="${gi}" data-dir="next" aria-label="Next image">${CHEV_RIGHT}</button>` : ""}
         ${hasMany ? `<div class="dots" id="dots-${gi}">${dots}</div>` : ""}
         ${showQty ? `<span class="qty-badge">×${item.quantity}</span>` : ""}
         ${item.sold ? `<div class="sold-overlay"><span class="sold-stamp">${t("sold_badge")}</span></div>` : ""}
@@ -494,9 +532,9 @@ function renderBooks(items) {
 
     card.innerHTML = `
       <div class="carousel">
-        ${hasMany ? `<button class="nav left"  data-gi="${gi}" data-dir="prev">&#8249;</button>` : ""}
+        ${hasMany ? `<button class="nav left"  data-gi="${gi}" data-dir="prev" aria-label="Previous image">${CHEV_LEFT}</button>` : ""}
         <img class="carousel-img${item.sold ? " img-sold" : ""}" id="img-${gi}" src="${img0}" alt="${getItemTitle(item)}"${lazyAttr}>
-        ${hasMany ? `<button class="nav right" data-gi="${gi}" data-dir="next">&#8250;</button>` : ""}
+        ${hasMany ? `<button class="nav right" data-gi="${gi}" data-dir="next" aria-label="Next image">${CHEV_RIGHT}</button>` : ""}
         ${hasMany ? `<div class="dots" id="dots-${gi}">${dots}</div>` : ""}
         ${showQty ? `<span class="qty-badge">×${item.quantity}</span>` : ""}
         ${item.sold ? `<div class="sold-overlay"><span class="sold-stamp">${t("sold_badge")}</span></div>` : ""}
