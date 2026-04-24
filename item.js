@@ -110,36 +110,28 @@ function renderItem(item) {
        </div>`
     : "";
 
-  const qtyHtml = (item.quantity != null && item.quantity > 1)
-    ? `<div class="item-row">
-         <span class="item-label">${t("label_qty")}</span>
-         <span class="item-value">${item.quantity}</span>
-       </div>`
-    : "";
+  // Specs — condition first (with badge), then region/qty, then technical fields.
+  // Country and Year are intentionally omitted: they already appear in the eyebrow.
+  const specs = [
+    ["label_grade", `<span class="badge ${badgeClass(item.condition)}">${item.condition}</span>`, true],
+    item.region                                     ? ["label_region",       item.region, false] : null,
+    (item.quantity != null && item.quantity > 1)    ? ["label_qty",          item.quantity, false] : null,
+    item.denomination                               ? ["label_denomination", item.denomination, false] : null,
+    item.mint                                       ? [item.book ? "label_editorial" : "label_mint", item.mint, false] : null,
+    item.weight                                     ? ["label_weight",       item.weight, false] : null,
+    item.diameter                                   ? ["label_diameter",     item.diameter, false] : null,
+    getLocalizedField(item, "composition")          ? ["label_composition",  getLocalizedField(item, "composition"), false] : null,
+    item.reference                                  ? ["label_reference",    item.reference, false] : null,
+  ].filter(Boolean);
 
-  // Optional technical fields — only rendered when present
-  const optFields = [
-    ["label_denomination", item.denomination],
-    [item.book ? "label_editorial" : "label_mint", item.mint],
-    ["label_weight",       item.weight],
-    ["label_diameter",     item.diameter],
-    ["label_composition",  getLocalizedField(item, "composition")],
-    ["label_reference",    item.reference],
-  ].filter(([, v]) => v != null && v !== "");
-
-  const optFieldsHtml = optFields.length
-    ? `<div class="item-divider"></div>
-       ${optFields.map(([k, v]) => `
-         <div class="item-row">
-           <span class="item-label">${t(k)}</span>
-           <span class="item-value">${v}</span>
-         </div>`).join("")}`
-    : "";
+  const specsHtml = specs.map(([k, v, isHtml]) => `
+    <div class="item-row">
+      <span class="item-label">${t(k)}</span>
+      ${isHtml ? v : `<span class="item-value">${v}</span>`}
+    </div>`).join("");
 
   const desc = getDescription(item);
-  const descHtml = desc
-    ? `<p class="item-description">${desc}</p>`
-    : "";
+  const descHtml = desc ? `<p class="item-description">${desc}</p>` : "";
 
   container.innerHTML = `
     <div class="detail-layout">
@@ -156,38 +148,19 @@ function renderItem(item) {
         <div class="item-eyebrow">${item.country}${item.year != null ? `&nbsp;&nbsp;·&nbsp;&nbsp;${item.year}` : ""}</div>
         <h1 class="item-title">${getItemTitle(item)}</h1>
 
-        <div class="item-divider"></div>
-
-        <div class="item-row">
-          <span class="item-label">${t("label_grade")}</span>
-          <span class="badge ${badgeClass(item.condition)}">${item.condition}</span>
-        </div>
-        <div class="item-row">
-          <span class="item-label">${t("label_country")}</span>
-          <span class="item-value">${item.country}</span>
-        </div>
-        ${item.region ? `<div class="item-row">
-          <span class="item-label">${t("label_region")}</span>
-          <span class="item-value">${item.region}</span>
-        </div>` : ""}
-        ${item.year != null ? `<div class="item-row">
-          <span class="item-label">${t("label_year")}</span>
-          <span class="item-value">${item.year}</span>
-        </div>` : ""}
-        ${qtyHtml}
-        ${optFieldsHtml}
+        <div class="item-price${item.sold ? " item-price-sold" : ""}">${formatPrice(item.price)}</div>
 
         <div class="item-divider"></div>
+
+        ${specsHtml}
+
+        ${descHtml}
 
         ${item.sold ? `
         <div class="item-sold-notice">
           <span class="item-sold-badge">${t("sold_badge")}</span>
           <span class="item-sold-text">${item.soldon ? `${t("sold_on")} ${item.soldon}` : t("sold_notice")}</span>
         </div>` : ""}
-
-        <div class="item-price${item.sold ? " item-price-sold" : ""}">${formatPrice(item.price)}</div>
-
-        ${descHtml}
 
         ${!item.sold ? `<button class="btn-whatsapp" id="wa-btn"
                 data-title="${getItemTitle(item)}"
