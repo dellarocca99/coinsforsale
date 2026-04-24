@@ -1029,6 +1029,8 @@
     "country": "Argentina",
     "composition": "Cu Ni",
     "year": 1919,
+    "sold": true,
+    "soldon": "23-04-2026",
     "images": [
       "images/5cent_arg_1919-1.jpg",
       "images/5cent_arg_1919-2.jpg"
@@ -1384,6 +1386,8 @@
     "country": "Argentina",
     "composition": "Cu Ni",
     "year": 1908,
+    "sold": true,
+    "soldon": "22-04-2026",
     "images": [
       "images/20cent_arg_1908-5-1.jpg",
       "images/20cent_arg_1908-5-2.jpg"
