@@ -41,6 +41,7 @@
     "condition": "UNC",
     "country": "USA",
     "mint": "San Francisco",
+    "denomination": "1 Cent",
     "year": 1955,
     "quantity": 1,
     "composition": "Cobre",
@@ -57,6 +58,7 @@
     "country": "USA",
     "mint": "Philadelphia",
     "diameter": "38.1 mm",
+    "denomination": "1 Dollar",
     "weight": "26.7 g",
     "year": 1904,
     "composition": "Plata 0.900",
@@ -72,6 +74,7 @@
     "condition": "G",
     "country": "USA",
     "mint": "Philadelphia",
+    "denomination": "1 Dime",
     "composition": "Plata 0.8924",
     "composition_en": "0.8924 Silver",
     "year": 1829,
@@ -85,6 +88,7 @@
     "price": 45,
     "condition": "XF",
     "country": "Argentina",
+    "denomination": "1 Centavo",
     "composition": "Cobre",
     "composition_en": "Copper",
     "year": 1883,
@@ -98,6 +102,7 @@
     "price": 14,
     "condition": "F",
     "country": "Argentina",
+    "denomination": "1 Centavo",
     "composition": "Cobre",
     "composition_en": "Copper",
     "year": 1883,
@@ -107,10 +112,10 @@
     ]
   },
   {
-    "title": "8 Reales 1808",
     "price": 170,
     "condition": "XF",
     "country": "Bolivia",
+    "denomination": "8 Reales",
     "mint": "PTS PJ",
     "composition": "Plata 0.896",
     "composition_en": "0.896 Silver",
@@ -126,6 +131,7 @@
     "condition": "G",
     "country": "USA",
     "mint": "Philadelphia",
+    "denomination": "Half dime",
     "composition": "Plata 0.900",
     "composition_en": "0.900 Silver",
     "year": 1854,
@@ -141,6 +147,7 @@
     "country": "USA",
     "mint": "Philadelphia",
     "diameter": "38.1 mm",
+    "denomination": "1 Dollar",
     "weight": "26.7 g",
     "composition": "Plata 0.900",
     "composition_en": "0.900 Silver",
@@ -156,6 +163,7 @@
     "condition": "XF",
     "country": "Uruguay",
     "diameter": "37 mm",
+    "denomination": "1000 Pesos",
     "weight": "25 g",
     "composition": "Plata 0.900",
     "composition_en": "0.900 Silver",
@@ -171,6 +179,7 @@
     "condition": "VF",
     "country": "USA",
     "mint": "Philadelphia",
+    "denomination": "5 Cents",
     "composition": "Cu Ni",
     "year": 1914,
     "images": [
@@ -184,6 +193,7 @@
     "condition": "F",
     "country": "USA",
     "composition": "Cu Ni",
+    "denomination": "5 Cents",
     "mint": "San Francisco",
     "year": 1914,
     "images": [
@@ -197,6 +207,7 @@
     "condition": "VF",
     "country": "USA",
     "composition": "Cu Ni",
+    "denomination": "5 Cents",
     "mint": "Philadelphia",
     "year": 1915,
     "images": [
@@ -210,6 +221,7 @@
     "condition": "XF",
     "country": "USA",
     "composition": "Cu Ni",
+    "denomination": "5 Cents",
     "mint": "Philadelphia",
     "year": 1916,
     "images": [
@@ -223,6 +235,7 @@
     "condition": "F",
     "country": "USA",
     "composition": "Cu Ni",
+    "denomination": "5 Cents",
     "mint": "Philadelphia",
     "year": 1921,
     "images": [
@@ -236,6 +249,7 @@
     "condition": "F",
     "country": "USA",
     "composition": "Cu Ni",
+    "denomination": "5 Cents",
     "mint": "Philadelphia",
     "year": 1888,
     "images": [
@@ -249,6 +263,7 @@
     "condition": "G",
     "country": "USA",
     "composition": "Cu Ni",
+    "denomination": "5 Cents",
     "mint": "Philadelphia",
     "year": 1894,
     "images": [
@@ -262,6 +277,7 @@
     "condition": "VF Details",
     "country": "USA",
     "composition": "Cu",
+    "denomination": "1 Cent",
     "mint": "San Francisco",
     "year": 1910,
     "images": [
@@ -275,6 +291,7 @@
     "condition": "F",
     "country": "USA",
     "composition": "Cu",
+    "denomination": "1 Cent",
     "mint": "Denver",
     "year": 1911,
     "images": [
@@ -289,6 +306,7 @@
     "country": "USA",
     "composition": "Cu",
     "mint": "San Francisco",
+    "denomination": "1 Cent",
     "year": 1911,
     "images": [
       "images/lin_1911s-1.jpg",
@@ -301,6 +319,7 @@
     "condition": "F",
     "country": "USA",
     "composition": "Cu",
+    "denomination": "1 Cent",
     "mint": "Denver",
     "year": 1912,
     "images": [
@@ -314,6 +333,7 @@
     "condition": "VF Details",
     "country": "USA",
     "composition": "Cu",
+    "denomination": "1 Cent",
     "mint": "San Francisco",
     "year": 1912,
     "images": [
@@ -326,6 +346,7 @@
     "price": 15,
     "condition": "VF Details",
     "country": "USA",
+    "denomination": "1 Cent",
     "composition": "Cu",
     "mint": "San Francisco",
     "year": 1913,
@@ -340,6 +361,7 @@
     "condition": "XF",
     "country": "USA",
     "composition": "Cu",
+    "denomination": "1 Cent",
     "mint": "San Francisco",
     "year": 1914,
     "images": [
@@ -354,6 +376,7 @@
     "country": "USA",
     "composition": "Cu",
     "mint": "San Francisco",
+    "denomination": "1 Cent",
     "year": 1915,
     "images": [
       "images/lin_1915s-1.jpg",
@@ -367,6 +390,7 @@
     "country": "USA",
     "composition": "Cu",
     "mint": "San Francisco",
+    "denomination": "1 Cent",
     "year": 1926,
     "images": [
       "images/lin_1926s-1.jpg",
@@ -380,6 +404,7 @@
     "country": "USA",
     "composition": "Cu Ni",
     "mint": "San Francisco",
+    "denomination": "5 Cents",
     "year": 1913,
     "images": [
       "images/buf_1913s_t1-1.jpg",
@@ -392,6 +417,7 @@
     "condition": "AU",
     "country": "USA",
     "composition": "Cu Ni",
+    "denomination": "5 Cents",
     "mint": "San Francisco",
     "year": 1914,
     "images": [
@@ -405,6 +431,7 @@
     "condition": "VG",
     "country": "USA",
     "composition": "Plata 0.900",
+    "denomination": "Half dollar",
     "mint": "San Francisco",
     "year": 1920,
     "images": [
@@ -418,6 +445,7 @@
     "condition": "XF",
     "country": "USA",
     "composition": "Plata 0.900",
+    "denomination": "Half dollar",
     "mint": "Philadelphia",
     "year": 1955,
     "images": [
@@ -432,6 +460,7 @@
     "country": "USA",
     "composition": "Cu",
     "mint": "Philadelphia",
+    "denomination": "1 Cent",
     "year": 1873,
     "images": [
       "images/indian_1873-1.jpeg",
@@ -445,6 +474,7 @@
     "country": "USA",
     "composition": "Cu",
     "mint": "Philadelphia",
+    "denomination": "1 Cent",
     "year": 1875,
     "images": [
       "images/indian_1875-1.jpeg",
@@ -458,6 +488,7 @@
     "country": "USA",
     "composition": "Cu",
     "mint": "Philadelphia",
+    "denomination": "1 Cent",
     "year": 1876,
     "images": [
       "images/indian_1876-1.jpeg",
@@ -471,6 +502,7 @@
     "country": "USA",
     "composition": "Cu",
     "mint": "Philadelphia",
+    "denomination": "1 Cent",
     "year": 1891,
     "images": [
       "images/indian_1891-1.jpeg",
@@ -482,6 +514,7 @@
     "price": 18,
     "condition": "VF",
     "country": "Argentina",
+    "denomination": "1 Centavo",
     "composition": "Cu",
     "year": 1885,
     "images": [
@@ -494,6 +527,7 @@
     "price": 20,
     "condition": "F",
     "country": "Argentina",
+    "denomination": "1 Centavo",
     "composition": "Cu",
     "year": 1888,
     "images": [
@@ -506,6 +540,7 @@
     "price": 30,
     "condition": "VF",
     "country": "Argentina",
+    "denomination": "1 Centavo",
     "composition": "Cu",
     "year": 1894,
     "images": [
@@ -519,6 +554,7 @@
     "condition": "XF",
     "country": "Argentina",
     "composition": "Plata 0.900",
+    "denomination": "10 Centavos",
     "sold": true,
     "soldon": "22-04-2026",
     "year": 1882,
@@ -533,6 +569,7 @@
     "condition": "AU",
     "country": "Argentina",
     "composition": "Plata 0.900",
+    "denomination": "10 Centavos",
     "year": 1883,
     "sold": true,
     "soldon": "22-04-2026",
@@ -547,6 +584,7 @@
     "condition": "XF",
     "country": "Argentina",
     "region": "Confederación Argentina",
+    "denomination": "1 Centavo",
     "composition": "Cu",
     "year": 1854,
     "images": [
@@ -555,11 +593,11 @@
     ]
   },
   {
-    "title": "2 Centavos 1854",
     "price": 20,
     "condition": "F",
     "country": "Argentina",
     "region": "Confederación Argentina",
+    "denomination": "2 Centavos",
     "composition": "Cu",
     "year": 1854,
     "images": [
@@ -573,6 +611,7 @@
     "condition": "F",
     "country": "Argentina",
     "region": "Buenos Aires",
+    "denomination": "1 Real",
     "composition": "Cu",
     "description": "Rara pieza",
     "description_en": "Rare",
@@ -591,6 +630,7 @@
     "composition_en": "Aluminium-bronze",
     "description": "Rara pieza",
     "description_en": "Rare",
+    "denomination": "20 Centavos",
     "year": 1972,
     "images": [
       "images/20cent_arg_1972-1.jpg",
@@ -598,11 +638,11 @@
     ]
   },
   {
-    "title": "20 Centésimos 1920",
     "price": 10,
     "condition": "G",
     "country": "Uruguay",
     "composition": "Plata 0.800",
+    "denomination": "20 Centésimos",
     "year": 1920,
     "sold": true,
     "soldon": "18-04-2026",
@@ -617,6 +657,7 @@
     "condition": "F",
     "country": "Uruguay",
     "composition": "Plata 0.900",
+    "denomination": "50 Centésimos",
     "year": 1917,
     "images": [
       "images/50cent_uru_1917-1-1.jpg",
@@ -628,6 +669,7 @@
     "price": 30,
     "condition": "VF",
     "country": "Uruguay",
+    "denomination": "50 Centésimos",
     "composition": "Plata 0.900",
     "year": 1917,
     "images": [
@@ -640,6 +682,7 @@
     "price": 12,
     "condition": "VF",
     "country": "Uruguay",
+    "denomination": "50 Centésimos",
     "composition": "Plata 0.720",
     "year": 1943,
     "images": [
@@ -654,6 +697,7 @@
     "country": "Uruguay",
     "diameter": "40 mm",
     "weight": "27 g",
+    "denomination": "1000 Pesos",
     "composition": "Plata 0.925",
     "description": "Moneda conmemorativa del mundial 2006 (Alemania)",
     "description_en": "Commemorative coin - 2006 Germany World Cup",
@@ -670,6 +714,7 @@
     "country": "Uruguay",
     "diameter": "40 mm",
     "weight": "27 g",
+    "denomination": "1000 Pesos",
     "composition": "Plata 0.925",
     "description": "Moneda conmemorativa del mundial 2006 (Alemania)",
     "description_en": "Commemorative coin - 2006 Germany World Cup",
@@ -686,6 +731,7 @@
     "country": "Uruguay",
     "diameter": "40 mm",
     "weight": "27 g",
+    "denomination": "1000 Pesos",
     "composition": "Plata 0.925",
     "description": "Moneda conmemorativa del mundial 2006 (Alemania)",
     "description_en": "Commemorative coin - 2006 Germany World Cup",
@@ -702,6 +748,7 @@
     "country": "Argentina",
     "diameter": "37 mm",
     "weight": "25 g",
+    "denomination": "3000 Pesos",
     "composition": "Plata 0.900",
     "description": "Moneda conmemorativa del mundial 1978 (Argentina)",
     "description_en": "Commemorative coin - 1978 Argentina World Cup",
@@ -716,6 +763,7 @@
     "price": 17,
     "condition": "AU",
     "country": "Francia",
+    "denomination": "10 Francs",
     "composition": "Plata 0.680",
     "year": 1929,
     "images": [
@@ -728,6 +776,7 @@
     "price": 16,
     "condition": "XF",
     "country": "Uruguay",
+    "denomination": "1 Peso",
     "composition": "Plata 0.720",
     "year": 1942,
     "images": [
@@ -741,6 +790,7 @@
     "condition": "UNC",
     "country": "Argentina",
     "composition": "Aluminio",
+    "denomination": "1 Centavo",
     "year": 1974,
     "description": "Escasa",
     "images": [
@@ -754,6 +804,7 @@
     "condition": "UNC",
     "country": "Argentina",
     "composition": "Aluminio",
+    "denomination": "1 Centavo",
     "year": 1975,
     "description": "Escasa",
     "images": [
@@ -767,6 +818,7 @@
     "condition": "AU",
     "country": "Argentina",
     "composition": "Bronce de aluminio",
+    "denomination": "10 Centavos",
     "year": 1976,
     "description": "Escasa",
     "images": [
@@ -780,6 +832,7 @@
     "condition": "UNC",
     "country": "Argentina",
     "composition": "Acero enchapado",
+    "denomination": "20 Centavos",
     "year": 1961,
     "description": "Escasa",
     "images": [
@@ -793,6 +846,7 @@
     "condition": "VF",
     "country": "Argentina",
     "region":"Buenos Aires",
+    "denomination": "5/10 Real",
     "composition": "Cu",
     "year": 1827,
     "images": [
@@ -806,6 +860,7 @@
     "condition": "VG",
     "country": "Argentina",
     "region":"Buenos Aires",
+    "denomination": "1/10 Real",
     "composition": "Cu",
     "year": 1822,
     "images": [
@@ -818,6 +873,7 @@
     "price": 24,
     "condition": "F",
     "country": "Uruguay",
+    "denomination": "5 Centésimos",
     "composition": "Cu",
     "year": 1857,
     "images": [
