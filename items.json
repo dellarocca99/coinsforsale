@@ -63,6 +63,8 @@
     "year": 1904,
     "composition": "Plata 0.900",
     "composition_en": "0.900 Silver",
+    "sold": true,
+    "soldon": "25-04-2026",
     "images": [
       "images/morgan_1904-2.jpg",
       "images/morgan_1904-1.jpg"
