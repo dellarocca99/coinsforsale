@@ -1397,13 +1397,13 @@
     "composition": "Cu Ni",
     "year": 1908,
     "images": [
-      "images/20cent_arg_1908-1-1.jpg",
-      "images/20cent_arg_1908-1-2.jpg"
+      "images/20cent_arg_1908-1-2.jpg",
+      "images/20cent_arg_1908-1-1.jpg"
     ]
   },
   {
     "denomination": "20 Centavos",
-    "price": 40,
+    "price": 70,
     "condition": "VF",
     "country": "Argentina",
     "composition": "Cu Ni",
