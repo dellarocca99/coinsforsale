@@ -246,6 +246,20 @@
     ]
   },
   {
+    "title": "5 Cents \"Buffalo\" 1921",
+    "price": 9,
+    "condition": "F",
+    "country": "USA",
+    "composition": "Cu Ni",
+    "denomination": "5 Cents",
+    "mint": "Philadelphia",
+    "year": 1921,
+    "images": [
+      "images/buf_1921-1-2.jpg",
+      "images/buf_1921-2-2.jpg"
+    ]
+  },
+  {
     "title": "5 Cents \"Liberty\" 1888",
     "price": 30,
     "condition": "F",
