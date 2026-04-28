@@ -8,7 +8,8 @@
       "Bash(pip show:*)",
       "Bash(python:*)",
       "Bash(gh auth:*)",
-      "Bash(node generate.js)"
+      "Bash(node generate.js)",
+      "Bash(python3 -c ' *)"
     ]
   }
 }

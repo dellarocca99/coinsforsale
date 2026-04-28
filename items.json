@@ -544,6 +544,8 @@
     "country": "Argentina",
     "denomination": "1 Centavo",
     "composition": "Cu",
+    "sold": true,
+    "soldon": "27-04-2026",
     "year": 1894,
     "images": [
       "images/1cent_arg_1894-1.jpg",
