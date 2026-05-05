@@ -1825,6 +1825,7 @@
     "condition": "UNC",
     "country": "USA",
     "composition": "Ag 0.999",
+    "mint": "Philadelphia",
     "year": 2021,
     "images": [
       "images/peace_2021-1.jpg",
@@ -1832,6 +1833,23 @@
       "images/peace_2021-3.jpg",
       "images/peace_2021-4.jpg",
       "images/peace_2021-5.jpg"
+    ]
+  },
+  { 
+    "title": "1 \"Morgan\" 1884-CC",
+    "price": 350,
+    "denomination": "1 Dollar",
+    "condition": "UNC",
+    "country": "USA",
+    "composition": "Ag 0.900",
+    "mint": "Carson City",
+    "year": 1884,
+    "description": "Esta moneda histórica es un valioso recuerdo de una época de la historia estadounidense en la que los pioneros desafiaban al Oeste. La plata de este dólar fue extraída del rico yacimiento Comstock Lode, descubierto en las montañas cercanas a Carson City, Nevada. La Casa de Moneda de Carson City se estableció allí en 1870 y, aunque existió solo durante 24 años, produjo muchas monedas que han perdurado como piezas de colección, entre ellas la serie de 13 monedas Morgan acuñadas entre 1878 y 1893. Su vínculo con un período histórico de la historia de la nación les otorga un atractivo adicional.\n\nEsta moneda es un ejemplar sin circular del dólar Morgan, con un noventa por ciento de plata, que de algún modo sobrevivió a las masivas fundiciones de monedas de principios del siglo XX. Fueron descubiertas en una auditoría del Tesoro en 1964, tras casi un siglo de permanecer en la oscuridad dentro de las bóvedas.\n\nEsta emisión, realizada por la Administración de Servicios Generales de los Estados Unidos, de los últimos dólares Carson City sin circular, servirá para millones de estadounidenses como valiosos recuerdos de una época llena de color.\n\nGobierno de los Estados Unidos / 1972",
+    "images": [
+      "images/morgan_1884_cc-1.jpg",
+      "images/morgan_1884_cc-2.jpg",
+      "images/morgan_1884_cc-3.jpg",
+      "images/morgan_1884_cc-4.jpg"
     ]
   }
 ]
