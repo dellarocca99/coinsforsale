@@ -18,7 +18,7 @@
   },
   {
     "title": "1 Peso ONU 1995",
-    "price": 180,
+    "price": 200,
     "condition": "UNC",
     "country": "Argentina",
     "year": 1995,
@@ -1792,7 +1792,7 @@
   },
   { 
     "title": "5 Pesos \"Tango\" 2013",
-    "price": 150,
+    "price": 180,
     "denomination": "5 Pesos",
     "condition": "UNC",
     "country": "Argentina",
@@ -1806,12 +1806,14 @@
   },
   { 
     "title": "5 Pesos \"Payador\" 2014",
-    "price": 150,
+    "price": 180,
     "denomination": "5 Pesos",
     "condition": "UNC",
     "country": "Argentina",
     "composition": "Ag 0.925",
     "year": 2014,
+    "sold": true,
+    "soldon": "06-05-2026",
     "images": [
       "images/payador-1.jpg",
       "images/payador-2.jpg",
