@@ -46,6 +46,8 @@
     "quantity": 1,
     "composition": "Cobre",
     "composition_en": "Copper",
+    "sold": true,
+    "soldon": "08-05-2026",
     "images": [
       "images/cent_1955-2.jpg",
       "images/cent_1955-1.jpg"
