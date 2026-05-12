@@ -535,6 +535,8 @@
     "denomination": "1 Centavo",
     "composition": "Cu",
     "year": 1885,
+    "sold": true,
+    "soldon": "10-05-2026",
     "images": [
       "images/1cent_arg_1885-1.jpg",
       "images/1cent_arg_1885-2.jpg"
@@ -547,6 +549,8 @@
     "country": "Argentina",
     "denomination": "1 Centavo",
     "composition": "Cu",
+    "sold": true,
+    "soldon": "10-05-2026",
     "year": 1888,
     "images": [
       "images/1cent_arg_1888-1.jpg",
@@ -1119,6 +1123,8 @@
     "country": "Argentina",
     "composition": "Cu Ni",
     "year": 1921,
+    "sold": true,
+    "soldon": "10-05-2026",
     "images": [
       "images/5cent_arg_1921-1.jpg",
       "images/5cent_arg_1921-2.jpg"
