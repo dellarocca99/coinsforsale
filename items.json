@@ -473,7 +473,7 @@
   },
   {
     "title": "1 Cent \"Indian\" 1873",
-    "price": 30,
+    "price": 28,
     "condition": "G",
     "country": "USA",
     "composition": "Cu",
@@ -487,7 +487,7 @@
   },
   {
     "title": "1 Cent \"Indian\" 1875",
-    "price": 45,
+    "price": 40,
     "condition": "VG",
     "country": "USA",
     "composition": "Cu",
@@ -501,7 +501,7 @@
   },
   {
     "title": "1 Cent \"Indian\" 1876",
-    "price": 40,
+    "price": 35,
     "condition": "F Details",
     "country": "USA",
     "composition": "Cu",
@@ -1854,12 +1854,658 @@
     "composition": "Ag 0.900",
     "mint": "Carson City",
     "year": 1884,
+    "sold": true,
+    "soldon": "14-05-2026",
     "description": "Esta moneda histórica es un valioso recuerdo de una época de la historia estadounidense en la que los pioneros desafiaban al Oeste. La plata de este dólar fue extraída del rico yacimiento Comstock Lode, descubierto en las montañas cercanas a Carson City, Nevada. La Casa de Moneda de Carson City se estableció allí en 1870 y, aunque existió solo durante 24 años, produjo muchas monedas que han perdurado como piezas de colección, entre ellas la serie de 13 monedas Morgan acuñadas entre 1878 y 1893. Su vínculo con un período histórico de la historia de la nación les otorga un atractivo adicional.\n\nEsta moneda es un ejemplar sin circular del dólar Morgan, con un noventa por ciento de plata, que de algún modo sobrevivió a las masivas fundiciones de monedas de principios del siglo XX. Fueron descubiertas en una auditoría del Tesoro en 1964, tras casi un siglo de permanecer en la oscuridad dentro de las bóvedas.\n\nEsta emisión, realizada por la Administración de Servicios Generales de los Estados Unidos, de los últimos dólares Carson City sin circular, servirá para millones de estadounidenses como valiosos recuerdos de una época llena de color.\n\nGobierno de los Estados Unidos / 1972",
     "images": [
       "images/morgan_1884_cc-1.jpg",
       "images/morgan_1884_cc-2.jpg",
       "images/morgan_1884_cc-3.jpg",
       "images/morgan_1884_cc-4.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Flying Eagle\" 1858",
+    "price": 25,
+    "condition": "VG Details",
+    "country": "USA",
+    "composition": "Cu Ni",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1858,
+    "images": [
+      "indians/indian_cent_1858-1.jpg",
+      "indians/indian_cent_1858-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1859",
+    "price": 22,
+    "condition": "F",
+    "country": "USA",
+    "composition": "Cu Ni",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1859,
+    "images": [
+      "indians/indian_cent_1859-1.jpg",
+      "indians/indian_cent_1859-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1860",
+    "price": 22,
+    "condition": "VF Details",
+    "country": "USA",
+    "composition": "Cu Ni",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1860,
+    "images": [
+      "indians/indian_cent_1860-1.jpg",
+      "indians/indian_cent_1860-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1861",
+    "price": 45,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu Ni",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1861,
+    "images": [
+      "indians/indian_cent_1861-1.jpg",
+      "indians/indian_cent_1861-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1862",
+    "price": 55,
+    "condition": "XF",
+    "country": "USA",
+    "composition": "Cu Ni",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1862,
+    "images": [
+      "indians/indian_cent_1862-1.jpg",
+      "indians/indian_cent_1862-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1864 CN",
+    "price": 40,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu Ni",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1864,
+    "images": [
+      "indians/indian_cent_1864cn-1.jpg",
+      "indians/indian_cent_1864cn-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1864",
+    "price": 20,
+    "condition": "F",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1864,
+    "images": [
+      "indians/indian_cent_1864b-1.jpg",
+      "indians/indian_cent_1864b-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1865",
+    "price": 20,
+    "condition": "VG",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1865,
+    "images": [
+      "indians/indian_cent_1865-1.jpg",
+      "indians/indian_cent_1865-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1867",
+    "price": 55,
+    "condition": "F Details",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1867,
+    "images": [
+      "indians/indian_cent_1867-1.jpg",
+      "indians/indian_cent_1867-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1868",
+    "price": 60,
+    "condition": "F",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1868,
+    "images": [
+      "indians/indian_cent_1868-1.jpg",
+      "indians/indian_cent_1868-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1873",
+    "price": 75,
+    "condition": "XF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1873,
+    "images": [
+      "indians/indian_cent_1873-1.jpg",
+      "indians/indian_cent_1873-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1874",
+    "price": 25,
+    "condition": "G",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1874,
+    "images": [
+      "indians/indian_cent_1874-1.jpg",
+      "indians/indian_cent_1874-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1875",
+    "price": 42,
+    "condition": "VG",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1875,
+    "images": [
+      "indians/indian_cent_1875-1.jpg",
+      "indians/indian_cent_1875-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1876",
+    "price": 70,
+    "condition": "F",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1876,
+    "images": [
+      "indians/indian_cent_1876-1.jpg",
+      "indians/indian_cent_1876-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1879",
+    "price": 22,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1879,
+    "images": [
+      "indians/indian_cent_1879-1.jpg",
+      "indians/indian_cent_1879-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1880",
+    "price": 12,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1880,
+    "images": [
+      "indians/indian_cent_1880-1-1.jpg",
+      "indians/indian_cent_1880-1-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1880",
+    "price": 20,
+    "condition": "XF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1880,
+    "images": [
+      "indians/indian_cent_1880-2-1.jpg",
+      "indians/indian_cent_1880-2-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1881",
+    "price": 10,
+    "condition": "F",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1881,
+    "images": [
+      "indians/indian_cent_1881-1.jpg",
+      "indians/indian_cent_1881-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1882",
+    "price": 12,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1882,
+    "images": [
+      "indians/indian_cent_1882-1.jpg",
+      "indians/indian_cent_1882-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1883",
+    "price": 12,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1883,
+    "images": [
+      "indians/indian_cent_1883-1.jpg",
+      "indians/indian_cent_1883-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1884",
+    "price": 12,
+    "condition": "VF Details",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1884,
+    "images": [
+      "indians/indian_cent_1884-1.jpg",
+      "indians/indian_cent_1884-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1885",
+    "price": 14,
+    "condition": "VG",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1885,
+    "images": [
+      "indians/indian_cent_1885-1.jpg",
+      "indians/indian_cent_1885-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1886",
+    "price": 14,
+    "condition": "G",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1886,
+    "images": [
+      "indians/indian_cent_1886-1.jpg",
+      "indians/indian_cent_1886-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1887",
+    "price": 9,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1887,
+    "images": [
+      "indians/indian_cent_1887-1.jpg",
+      "indians/indian_cent_1887-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1888",
+    "price": 9,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1888,
+    "images": [
+      "indians/indian_cent_1888-1.jpg",
+      "indians/indian_cent_1888-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1889",
+    "price": 5,
+    "condition": "F",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1889,
+    "images": [
+      "indians/indian_cent_1889-1.jpg",
+      "indians/indian_cent_1889-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1890",
+    "price": 9,
+    "condition": "XF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1890,
+    "images": [
+      "indians/indian_cent_1890-1.jpg",
+      "indians/indian_cent_1890-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1891",
+    "price": 6,
+    "condition": "XF Details",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1891,
+    "images": [
+      "indians/indian_cent_1891-1.jpg",
+      "indians/indian_cent_1891-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1892",
+    "price": 6,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1892,
+    "images": [
+      "indians/indian_cent_1892-1.jpg",
+      "indians/indian_cent_1892-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1893",
+    "price": 5,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1893,
+    "images": [
+      "indians/indian_cent_1893-1.jpg",
+      "indians/indian_cent_1893-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1894",
+    "price": 15,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1894,
+    "images": [
+      "indians/indian_cent_1894-1.jpg",
+      "indians/indian_cent_1894-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1895",
+    "price": 8,
+    "condition": "XF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1895,
+    "images": [
+      "indians/indian_cent_1895-1.jpg",
+      "indians/indian_cent_1895-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1896",
+    "price": 5,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1896,
+    "images": [
+      "indians/indian_cent_1896-1.jpg",
+      "indians/indian_cent_1896-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1897",
+    "price": 5,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1897,
+    "images": [
+      "indians/indian_cent_1897-1.jpg",
+      "indians/indian_cent_1897-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1898",
+    "price": 6,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1898,
+    "images": [
+      "indians/indian_cent_1898-1.jpg",
+      "indians/indian_cent_1898-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1899",
+    "price": 6,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1899,
+    "images": [
+      "indians/indian_cent_1899-1.jpg",
+      "indians/indian_cent_1899-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1900",
+    "price": 4,
+    "condition": "F",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1900,
+    "images": [
+      "indians/indian_cent_1900-1.jpg",
+      "indians/indian_cent_1900-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1901",
+    "price": 4,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1901,
+    "images": [
+      "indians/indian_cent_1901-1.jpg",
+      "indians/indian_cent_1901-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1902",
+    "price": 6.5,
+    "condition": "XF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1902,
+    "images": [
+      "indians/indian_cent_1902-1.jpg",
+      "indians/indian_cent_1902-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1903",
+    "price": 6,
+    "condition": "XF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1903,
+    "images": [
+      "indians/indian_cent_1903-1.jpg",
+      "indians/indian_cent_1903-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1904",
+    "price": 4,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1904,
+    "images": [
+      "indians/indian_cent_1904-1.jpg",
+      "indians/indian_cent_1904-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1905",
+    "price": 4,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1905,
+    "images": [
+      "indians/indian_cent_1905-1.jpg",
+      "indians/indian_cent_1905-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1906",
+    "price": 5,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1906,
+    "images": [
+      "indians/indian_cent_1906-1.jpg",
+      "indians/indian_cent_1906-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1907",
+    "price": 7,
+    "condition": "XF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1907,
+    "images": [
+      "indians/indian_cent_1907-1.jpg",
+      "indians/indian_cent_1907-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1908",
+    "price": 6,
+    "condition": "VF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1908,
+    "images": [
+      "indians/indian_cent_1908-1.jpg",
+      "indians/indian_cent_1908-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Indian\" 1909",
+    "price": 16,
+    "condition": "XF",
+    "country": "USA",
+    "composition": "Cu",
+    "mint": "Philadelphia",
+    "denomination": "1 Cent",
+    "year": 1909,
+    "images": [
+      "indians/indian_cent_1909-1.jpg",
+      "indians/indian_cent_1909-2.jpg"
     ]
   }
 ]

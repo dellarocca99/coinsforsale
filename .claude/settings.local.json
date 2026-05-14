@@ -9,7 +9,8 @@
       "Bash(python:*)",
       "Bash(gh auth:*)",
       "Bash(node generate.js)",
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(Sort-Object Name)"
     ]
   }
 }
