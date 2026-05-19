@@ -10,7 +10,9 @@
       "Bash(gh auth:*)",
       "Bash(node generate.js)",
       "Bash(python3 -c ' *)",
-      "Bash(Sort-Object Name)"
+      "Bash(Sort-Object Name)",
+      "Bash(del gen_final.py)",
+      "Bash(dir *.xlsx)"
     ]
   }
 }

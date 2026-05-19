@@ -521,6 +521,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1891,
     "images": [
       "images/indian_1891-1.jpeg",
@@ -1886,6 +1888,8 @@
     "composition": "Cu Ni",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1859,
     "images": [
       "indians/indian_cent_1859-1.jpg",
@@ -1900,6 +1904,8 @@
     "composition": "Cu Ni",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1860,
     "images": [
       "indians/indian_cent_1860-1.jpg",
@@ -2110,6 +2116,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1881,
     "images": [
       "indians/indian_cent_1881-1.jpg",
@@ -2138,6 +2146,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1883,
     "images": [
       "indians/indian_cent_1883-1.jpg",
@@ -2208,6 +2218,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1888,
     "images": [
       "indians/indian_cent_1888-1.jpg",
@@ -2236,6 +2248,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1890,
     "images": [
       "indians/indian_cent_1890-1.jpg",
@@ -2264,6 +2278,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1892,
     "images": [
       "indians/indian_cent_1892-1.jpg",
@@ -2292,6 +2308,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1894,
     "images": [
       "indians/indian_cent_1894-1.jpg",
@@ -2306,6 +2324,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1895,
     "images": [
       "indians/indian_cent_1895-1.jpg",
@@ -2320,6 +2340,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1896,
     "images": [
       "indians/indian_cent_1896-1.jpg",
@@ -2334,6 +2356,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1897,
     "images": [
       "indians/indian_cent_1897-1.jpg",
@@ -2348,6 +2372,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1898,
     "images": [
       "indians/indian_cent_1898-1.jpg",
@@ -2362,6 +2388,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1899,
     "images": [
       "indians/indian_cent_1899-1.jpg",
@@ -2376,6 +2404,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1900,
     "images": [
       "indians/indian_cent_1900-1.jpg",
@@ -2390,6 +2420,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1901,
     "images": [
       "indians/indian_cent_1901-1.jpg",
@@ -2418,6 +2450,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1903,
     "images": [
       "indians/indian_cent_1903-1.jpg",
@@ -2488,6 +2522,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1908,
     "images": [
       "indians/indian_cent_1908-1.jpg",
@@ -2502,6 +2538,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "19-05-2026",
     "year": 1909,
     "images": [
       "indians/indian_cent_1909-1.jpg",
