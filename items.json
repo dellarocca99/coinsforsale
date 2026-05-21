@@ -1643,6 +1643,8 @@
     "composition": "Ag 0.900",
     "mint": "Philadelphia",
     "year": 1945,
+    "sold": true,
+    "soldon": "20-05-2026",
     "images": [
       "images/quarter_1945-1.jpg",
       "images/quarter_1945-2.jpg"
