@@ -2797,5 +2797,19 @@
       "images/quarter_2021-1.jpeg",
       "images/quarter_2021-2.jpeg"
     ]
-  }
+  },
+  {
+    "title": "Quarter \"Bicentennial 1776-1976\" 1976-D",
+    "denomination": "Quarter dollar",
+    "price": 1,
+    "condition": "VF",
+    "country": "USA",
+    "mint": "Denver",
+    "composition": "Cu Ni",
+    "year": 1976,
+    "images": [
+      "images/quarter_1976d-1.jpeg",
+      "images/quarter_1976d-2.jpeg"
+    ]
+  },
 ]
