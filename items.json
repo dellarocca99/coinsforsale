@@ -1884,14 +1884,12 @@
   },
   {
     "title": "1 Cent \"Indian\" 1859",
-    "price": 22,
+    "price": 20,
     "condition": "F",
     "country": "USA",
     "composition": "Cu Ni",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
-    "sold": true,
-    "soldon": "19-05-2026",
     "year": 1859,
     "images": [
       "indians/indian_cent_1859-1.jpg",
@@ -2546,6 +2544,258 @@
     "images": [
       "indians/indian_cent_1909-1.jpg",
       "indians/indian_cent_1909-2.jpg"
+    ]
+  },
+  {
+    "title": "1 Dollar \"Anthony\" 1979-D",
+    "denomination": "1 Dollar",
+    "price": 3,
+    "condition": "UNC",
+    "country": "USA",
+    "mint": "Denver",
+    "composition": "Cu Ni",
+    "year": 1979,
+    "images": [
+      "images/anthony_1979d-1.jpeg",
+      "images/anthony_1979d-2.jpeg"
+    ]
+  },
+  {
+    "title": "1 Dollar \"Anthony\" 1979-S",
+    "denomination": "1 Dollar",
+    "price": 3,
+    "condition": "UNC",
+    "country": "USA",
+    "mint": "San Francisco",
+    "composition": "Cu Ni",
+    "year": 1979,
+    "images": [
+      "images/anthony_1979s-1.jpeg",
+      "images/anthony_1979s-2.jpeg"
+    ]
+  },
+  {
+    "title": "1 Cent \"Formation Years\" 2009-P",
+    "denomination": "1 Cent",
+    "price": 1,
+    "condition": "UNC",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Cu",
+    "year": 2009,
+    "images": [
+      "images/cent_formation-1.jpeg",
+      "images/cent_formation-2.jpeg"
+    ]
+  },
+  {
+    "title": "Half Dollar 2021-D",
+    "denomination": "Half dollar",
+    "price": 3,
+    "condition": "UNC",
+    "country": "USA",
+    "mint": "Denver",
+    "composition": "Cu Ni",
+    "year": 2021,
+    "images": [
+      "images/half_dollar_2021d-1.jpeg",
+      "images/half_dollar_2021d-2.jpeg"
+    ]
+  },
+  {
+    "title": "1 Dollar \"Haudenosaunee\" 2010-D",
+    "denomination": "1 Dollar",
+    "price": 3,
+    "condition": "XF",
+    "country": "USA",
+    "mint": "Denver",
+    "composition": "Brass",
+    "year": 2010,
+    "images": [
+      "images/haudenosaunee-1.jpeg",
+      "images/haudenosaunee-2.jpeg"
+    ]
+  },
+  {
+    "title": "1 Dollar \"Sacagawea\" 2000-D",
+    "denomination": "1 Dollar",
+    "price": 2,
+    "condition": "XF",
+    "country": "USA",
+    "mint": "Denver",
+    "composition": "Brass",
+    "year": 2000,
+    "images": [
+      "images/sacagawea_2000-1.jpeg",
+      "images/sacagawea_2000-2.jpeg"
+    ]
+  },
+  {
+    "title": "1 Dollar \"Sacagawea\" 2001-P",
+    "denomination": "1 Dollar",
+    "price": 3,
+    "condition": "UNC",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Brass",
+    "year": 2001,
+    "images": [
+      "images/sacagawea_2001-1.jpeg",
+      "images/sacagawea_2001-2.jpeg"
+    ]
+  },
+  {
+    "title": "5 Cents 1965",
+    "denomination": "5 Cents",
+    "price": 3,
+    "condition": "UNC",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Cu Ni",
+    "year": 1965,
+    "images": [
+      "images/nickel_1965-1.jpeg",
+      "images/nickel_1965-2.jpeg"
+    ]
+  },
+  {
+    "title": "5 Cents \"Lewis and Clark\" 2004-D",
+    "denomination": "5 Cents",
+    "price": 0.5,
+    "condition": "XF",
+    "country": "USA",
+    "mint": "Denver",
+    "composition": "Cu Ni",
+    "year": 2004,
+    "images": [
+      "images/nickel_boat_d-1.jpeg",
+      "images/nickel_boat_d-2.jpeg"
+    ]
+  },
+  {
+    "title": "5 Cents \"Buffalo\" 2005-D",
+    "denomination": "5 Cents",
+    "price": 0.5,
+    "condition": "XF",
+    "country": "USA",
+    "mint": "Denver",
+    "composition": "Cu Ni",
+    "year": 2005,
+    "images": [
+      "images/nickel_buff_d-1.jpeg",
+      "images/nickel_buff_d-2.jpeg"
+    ]
+  },
+  {
+    "title": "5 Cents \"Buffalo\" 2005-P",
+    "denomination": "5 Cents",
+    "price": 0.5,
+    "condition": "XF",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Cu Ni",
+    "year": 2005,
+    "images": [
+      "images/nickel_buff_p-1.jpeg",
+      "images/nickel_buff_p-2.jpeg"
+    ]
+  },
+  {
+    "title": "5 Cents \"Ocean in View\" 2005-D",
+    "denomination": "5 Cents",
+    "price": 0.5,
+    "condition": "XF",
+    "country": "USA",
+    "mint": "Denver",
+    "composition": "Cu Ni",
+    "year": 2005,
+    "images": [
+      "images/nickel_lakeview_d-1.jpeg",
+      "images/nickel_lakeview_d-2.jpeg"
+    ]
+  },
+  {
+    "title": "5 Cents \"Ocean in View\" 2005-P",
+    "denomination": "5 Cents",
+    "price": 0.5,
+    "condition": "UNC",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Cu Ni",
+    "year": 2005,
+    "images": [
+      "images/nickel_lakeview_p-1.jpeg",
+      "images/nickel_lakeview_p-2.jpeg"
+    ]
+  },
+  {
+    "title": "5 Cents \"Louisiana Purchase\" 2004-D",
+    "denomination": "5 Cents",
+    "price": 0.5,
+    "condition": "XF",
+    "country": "USA",
+    "mint": "Denver",
+    "composition": "Cu Ni",
+    "year": 2004,
+    "images": [
+      "images/nickel_purchase_d-1.jpeg",
+      "images/nickel_purchase_d-2.jpeg"
+    ]
+  },
+  {
+    "title": "5 Cents \"Louisiana Purchase\" 2004-P",
+    "denomination": "5 Cents",
+    "price": 0.5,
+    "condition": "XF",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Cu Ni",
+    "year": 2004,
+    "images": [
+      "images/nickel_purchase_p-1.jpeg",
+      "images/nickel_purchase_p-2.jpeg"
+    ]
+  },
+  {
+    "title": "Quarter \"Barber\" 1908-D",
+    "denomination": "Quarter dollar",
+    "price": 18,
+    "condition": "VG",
+    "country": "USA",
+    "mint": "Denver",
+    "composition": "Ag 0.900",
+    "year": 1908,
+    "images": [
+      "images/quarter_1908d-1.jpeg",
+      "images/quarter_1908d-2.jpeg"
+    ]
+  },
+  {
+    "title": "Quarter \"Bicentennial 1776-1976\" 1976-P",
+    "denomination": "Quarter dollar",
+    "price": 1,
+    "condition": "VF",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Cu Ni",
+    "year": 1976,
+    "images": [
+      "images/quarter_1976-1.jpeg",
+      "images/quarter_1976-2.jpeg"
+    ]
+  },
+  {
+    "title": "Quarter \"Crossing the Delaware\" 2021-D",
+    "denomination": "Quarter dollar",
+    "price": 1,
+    "condition": "UNC",
+    "country": "USA",
+    "mint": "Denver",
+    "composition": "Cu Ni",
+    "year": 2021,
+    "images": [
+      "images/quarter_2021-1.jpeg",
+      "images/quarter_2021-2.jpeg"
     ]
   }
 ]
