@@ -12,7 +12,11 @@
       "Bash(python3 -c ' *)",
       "Bash(Sort-Object Name)",
       "Bash(del gen_final.py)",
-      "Bash(dir *.xlsx)"
+      "Bash(dir *.xlsx)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\feder\\\\.claude\\\\plugins\" -Recurse -Depth 3 | Where-Object { $_.Name -match \"mercado|skill|ml\" -or $_.PSIsContainer } | Select-Object FullName -First 40)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\feder\\\\.claude\" -Recurse -Filter \"SKILL.md\" -ErrorAction SilentlyContinue | Select-Object FullName; Get-ChildItem \"C:\\\\Users\\\\feder\\\\.claude\" -Directory -Recurse -ErrorAction SilentlyContinue | Where-Object { $_.Name -match \"mercado|ml-|publi\" } | Select-Object FullName)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\feder\\\\.claude\" -Recurse -ErrorAction SilentlyContinue | Where-Object { $_.Name -match \"mercadolibre|mercado-libre|ml-excel\" } | Select-Object FullName)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\feder\" -Directory -Recurse -ErrorAction SilentlyContinue -Depth 4 | Where-Object { $_.Name -match \"mercado\" } | Select-Object FullName)"
     ]
   }
 }

@@ -112,11 +112,11 @@ The script prints: rows written, skipped (sold/book), truncated titles (>60 char
 | U–X | Garantía / Factura A | no | Template defaults are fine |
 | Y  | Año de emisión | yes (if present) | Required by ML |
 | Z  | Origen | yes (if mapped) | Country mapped via `COUNTRY_ORIGEN` |
-| AA | Marca | no | — |
-| AB | Modelo | no | — |
+| AA | Marca | yes | Always `No aplica` (coins have no brand — equivalent to ticking the "No aplica" box in the ML web UI) |
+| AB | Modelo | yes | Always `No aplica` (same rationale as Marca) |
 | AC | Tipo de metal | yes (if derived) | Plata / Cobre / Níquel / Bronce / Oro |
-| AD | Moneda conmemorativa | no | — |
-| AE | Valor de la moneda | no | — |
+| AD | Moneda conmemorativa | yes | `Sí` / `No` from `is_commemorative()` — keyword match on title + descriptions (conmemorativ/commemorative, aniversario, centenario/bicentennial, ONU, FIFA, Westward Journey series, Crossing the Delaware, Haudenosaunee, Sacagawea, etc.) |
+| AE | Valor de la moneda | yes (if present) | Copied verbatim from items.json `denomination` (e.g. `1 Peso`, `1 Dollar`, `Quarter dollar`) |
 | AF | Tipo de moneda | yes (if derived) | Peso / Dólar / Real |
 | AG–AI | Internal ML helpers | skip | — |
 
@@ -142,6 +142,7 @@ What is intentionally NOT done:
 
 ## Notes
 
+- The ARCA / "información tributaria" checkbox ("este producto no está relacionado con mi actividad tributaria") is **not** part of the Excel template — the columns end at AF (product features) and AG–AI are internal helpers. That setting only exists in ML's web UI per listing or at the account level; it cannot be set from this bulk file.
 - Items with `sold: true` or `book: true` are skipped automatically and reported.
 - Items with `country: "Egipto"` get a blank `Z` because ML's dropdown doesn't include Egypt.
 - Some denominations (Lira, Qirsh, Franc) don't map to ML's `Tipo de moneda` dropdown — AF stays blank for those.
