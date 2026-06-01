@@ -129,7 +129,7 @@ function restoreFilterState() {
   try { s = JSON.parse(raw); } catch { return false; }
   document.getElementById("search").value = s.search || "";
   document.getElementById("filter-country").value = s.country || "";
-  document.getElementById("sort").value = s.sort || "";
+  document.getElementById("sort").value = s.sort || "year-asc";
   if (s.page) currentPage = s.page;
   if (s.country) {
     updateRegionFilter(s.country);
