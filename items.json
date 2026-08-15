@@ -547,21 +547,6 @@
     ]
   },
   {
-    "title": "1 Centavo 1888",
-    "price": 20,
-    "condition": "F",
-    "country": "Argentina",
-    "denomination": "1 Centavo",
-    "composition": "Cu",
-    "sold": true,
-    "soldon": "10-05-2026",
-    "year": 1888,
-    "images": [
-      "images/1cent_arg_1888-1.jpg",
-      "images/1cent_arg_1888-2.jpg"
-    ]
-  },
-  {
     "title": "1 Centavo 1894",
     "price": 30,
     "condition": "VF",
@@ -574,36 +559,6 @@
     "images": [
       "images/1cent_arg_1894-1.jpg",
       "images/1cent_arg_1894-2.jpg"
-    ]
-  },
-  {
-    "title": "10 Centavos 1882",
-    "price": 18,
-    "condition": "XF",
-    "country": "Argentina",
-    "composition": "Plata 0.900",
-    "denomination": "10 Centavos",
-    "sold": true,
-    "soldon": "22-04-2026",
-    "year": 1882,
-    "images": [
-      "images/10cent_arg_1882-1.jpg",
-      "images/10cent_arg_1882-2.jpg"
-    ]
-  },
-  {
-    "title": "10 Centavos 1883",
-    "price": 22,
-    "condition": "AU",
-    "country": "Argentina",
-    "composition": "Plata 0.900",
-    "denomination": "10 Centavos",
-    "year": 1883,
-    "sold": true,
-    "soldon": "22-04-2026",
-    "images": [
-      "images/10cent_arg_1883-1.jpg",
-      "images/10cent_arg_1883-2.jpg"
     ]
   },
   {
@@ -922,20 +877,6 @@
     ]
   },
   {
-    "price": 75,
-    "condition": "XF",
-    "country": "Argentina",
-    "composition": "Plata 0.900",
-    "denomination": "50 Centavos",
-    "year": 1883,
-    "sold": true,
-    "soldon": "22-04-2026",
-    "images": [
-      "images/50cent_arg_1883-1.jpeg",
-      "images/50cent_arg_1883-2.jpeg"
-    ]
-  },
-  {
     "price": 35,
     "condition": "UNC",
     "country": "USA",
@@ -1194,21 +1135,6 @@
     "images": [
       "images/5cent_arg_1936-1.jpg",
       "images/5cent_arg_1936-2.jpg"
-    ]
-  },
-
-  {
-    "denomination": "10 Centavos",
-    "price": 22,
-    "condition": "AU",
-    "country": "Argentina",
-    "composition": "Ag 0.900",
-    "sold": true,
-    "soldon": "22-04-2026",
-    "year": 1882,
-    "images": [
-      "images/10cent_arg_1882-2-1.jpg",
-      "images/10cent_arg_1882-2-2.jpg"
     ]
   },
   {
@@ -2208,6 +2134,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "15-08-2026",
     "year": 1887,
     "images": [
       "indians/indian_cent_1887-1.jpg",
@@ -2268,6 +2196,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "15-08-2026",
     "year": 1891,
     "images": [
       "indians/indian_cent_1891-1.jpg",
@@ -2824,6 +2754,164 @@
     "images": [
       "images/quarter_1976d-1.jpeg",
       "images/quarter_1976d-2.jpeg"
+    ]
+  },
+  {
+    "title": "10 Centavos 1882",
+    "price": 18,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Plata 0.900",
+    "denomination": "10 Centavos",
+    "year": 1882,
+    "images": [
+      "images/10cent_arg_1882-1.jpg",
+      "images/10cent_arg_1882-2.jpg"
+    ]
+  },
+  {
+    "title": "10 Centavos 1883",
+    "price": 22,
+    "condition": "AU",
+    "country": "Argentina",
+    "composition": "Plata 0.900",
+    "denomination": "10 Centavos",
+    "year": 1883,
+    "images": [
+      "images/10cent_arg_1883-1.jpg",
+      "images/10cent_arg_1883-2.jpg"
+    ]
+  },
+  {
+    "price": 85,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Plata 0.900",
+    "denomination": "50 Centavos",
+    "year": 1883,
+    "images": [
+      "images/50cent_arg_1883-1.jpeg",
+      "images/50cent_arg_1883-2.jpeg"
+    ]
+  },
+  {
+    "price": 100,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Plata 0.900",
+    "denomination": "50 Centavos",
+    "year": 1882,
+    "images": [
+      "images/50cent_arg_1882-1.jpeg",
+      "images/50cent_arg_1882-2.jpeg"
+    ]
+  },
+  {
+    "price": 300,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "1 Centavo",
+    "year": 1882,
+    "images": [
+      "images/1cent_arg_1882-1.jpeg",
+      "images/1cent_arg_1882-2.jpeg"
+    ]
+  },
+  {
+    "price": 50,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "1 Centavo",
+    "year": 1883,
+    "images": [
+      "images/1cent_arg_1883-1.jpeg",
+      "images/1cent_arg_1883-2.jpeg"
+    ]
+  },
+  {
+    "price": 85,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "1 Centavo",
+    "year": 1886,
+    "images": [
+      "images/1cent_arg_1886-1.jpeg",
+      "images/1cent_arg_1886-2.jpeg"
+    ]
+  },
+  {
+    "price": 30,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "1 Centavo",
+    "year": 1888,
+    "images": [
+      "images/1cent_arg_1888-1.jpeg",
+      "images/1cent_arg_1888-2.jpeg"
+    ]
+  },
+  {
+    "price": 17,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "1 Centavo",
+    "year": 1889,
+    "images": [
+      "images/1cent_arg_1889-1.jpeg",
+      "images/1cent_arg_1889-2.jpeg"
+    ]
+  },
+  {
+    "price": 35,
+    "condition": "VF+",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "1 Centavo",
+    "year": 1895,
+    "images": [
+      "images/1cent_arg_1895-1.jpeg",
+      "images/1cent_arg_1895-2.jpeg"
+    ]
+  },
+  {
+    "price": 150,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "1 Centavo",
+    "year": 1896,
+    "images": [
+      "images/1cent_arg_1896-1.jpeg",
+      "images/1cent_arg_1896-2.jpeg"
+    ]
+  },
+  {
+    "price": 15,
+    "condition": "VF+",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "2 Centavos",
+    "year": 1888,
+    "images": [
+      "images/2cent_arg_1888-1.jpeg",
+      "images/2cent_arg_1888-2.jpeg"
+    ]
+  },
+  {
+    "price": 25,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "2 Centavos",
+    "year": 1896,
+    "images": [
+      "images/2cent_arg_1896-1.jpeg",
+      "images/2cent_arg_1896-2.jpeg"
     ]
   }
 ]
