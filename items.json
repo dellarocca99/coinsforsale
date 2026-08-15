@@ -121,6 +121,8 @@
     "country": "Bolivia",
     "denomination": "8 Reales",
     "mint": "PTS PJ",
+    "sold": true,
+    "soldon": "15-08-2026",
     "composition": "Plata 0.896",
     "composition_en": "0.896 Silver",
     "year": 1808,
@@ -1657,6 +1659,8 @@
     "condition": "G",
     "country": "USA",
     "composition": "Ag 0.900",
+    "sold": true,
+    "soldon": "15-08-2026",
     "mint": "San Francisco",
     "year": 1917,
     "images": [
@@ -2772,6 +2776,8 @@
     "country": "USA",
     "mint": "Denver",
     "composition": "Ag 0.900",
+    "sold": true,
+    "soldon": "15-08-2026",
     "year": 1908,
     "images": [
       "images/quarter_1908d-1.jpeg",
