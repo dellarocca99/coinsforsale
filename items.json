@@ -605,22 +605,6 @@
     ]
   },
   {
-    "title": "20 Centavos 1972",
-    "price": 30,
-    "condition": "UNC",
-    "country": "Argentina",
-    "composition": "Bronce de aluminio",
-    "composition_en": "Aluminium-bronze",
-    "description": "Rara pieza",
-    "description_en": "Rare",
-    "denomination": "20 Centavos",
-    "year": 1972,
-    "images": [
-      "images/20cent_arg_1972-1.jpg",
-      "images/20cent_arg_1972-2.jpg"
-    ]
-  },
-  {
     "price": 10,
     "condition": "G",
     "country": "Uruguay",
@@ -2801,6 +2785,8 @@
     "composition": "Plata 0.900",
     "denomination": "50 Centavos",
     "year": 1882,
+    "sold": true,
+    "soldon": "17-08-2026",
     "images": [
       "images/50cent_arg_1882-1.jpeg",
       "images/50cent_arg_1882-2.jpeg"
@@ -2884,6 +2870,8 @@
     "country": "Argentina",
     "composition": "Cobre",
     "denomination": "1 Centavo",
+    "sold": true,
+    "soldon": "17-08-2026",
     "year": 1896,
     "images": [
       "images/1cent_arg_1896-1.jpeg",
@@ -2912,6 +2900,153 @@
     "images": [
       "images/2cent_arg_1896-1.jpeg",
       "images/2cent_arg_1896-2.jpeg"
+    ]
+  },
+  {
+    "price": 30,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Bronce de aluminio",
+    "composition_en": "Aluminium-bronze",
+    "description": "Rara pieza",
+    "description_en": "Rare",
+    "denomination": "20 Centavos",
+    "year": 1972,
+    "images": [
+      "images/20cent_arg_1972-1.jpg",
+      "images/20cent_arg_1972-2.jpg"
+    ]
+  },
+  {
+    "price": 10,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "1 Centavo",
+    "year": 1884,
+    "images": [
+      "images/1cent_arg_1884-1.jpeg",
+      "images/1cent_arg_1884-2.jpeg"
+    ]
+  },
+  {
+    "price": 12,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "1 Centavo",
+    "year": 1890,
+    "images": [
+      "images/1cent_arg_1890-1.jpeg",
+      "images/1cent_arg_1890-2.jpeg"
+    ]
+  },
+  {
+    "price": 25,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "1 Centavo",
+    "year": 1891,
+    "images": [
+      "images/1cent_arg_1891-1.jpeg",
+      "images/1cent_arg_1891-2.jpeg"
+    ]
+  },
+  {
+    "price": 6,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "2 Centavos",
+    "year": 1883,
+    "images": [
+      "images/2cent_arg_1883-1.jpeg",
+      "images/2cent_arg_1883-2.jpeg"
+    ]
+  },
+  {
+    "price": 3,
+    "condition": "F+",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "2 Centavos",
+    "year": 1884,
+    "images": [
+      "images/2cent_arg_1884-1.jpeg",
+      "images/2cent_arg_1884-2.jpeg"
+    ]
+  },
+  {
+    "price": 6,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "2 Centavos",
+    "year": 1885,
+    "images": [
+      "images/2cent_arg_1885-1.jpeg",
+      "images/2cent_arg_1885-2.jpeg"
+    ]
+  },
+  {
+    "price": 4,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "2 Centavos",
+    "year": 1889,
+    "images": [
+      "images/2cent_arg_1889-1.jpeg",
+      "images/2cent_arg_1889-2.jpeg"
+    ]
+  },
+  {
+    "price": 2,
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "2 Centavos",
+    "year": 1891,
+    "images": [
+      "images/2cent_arg_1891-1.jpeg",
+      "images/2cent_arg_1891-2.jpeg"
+    ]
+  },
+  {
+    "price": 3,
+    "condition": "VF+",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "2 Centavos",
+    "year": 1892,
+    "images": [
+      "images/2cent_arg_1892-1.jpeg",
+      "images/2cent_arg_1892-2.jpeg"
+    ]
+  },
+  {
+    "price": 9,
+    "condition": "XF+",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "2 Centavos",
+    "year": 1893,
+    "images": [
+      "images/2cent_arg_1893-1.jpeg",
+      "images/2cent_arg_1893-2.jpeg"
+    ]
+  },
+  {
+    "price": 8,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "2 Centavos",
+    "year": 1894,
+    "images": [
+      "images/2cent_arg_1894-1.jpeg",
+      "images/2cent_arg_1894-2.jpeg"
     ]
   }
 ]
