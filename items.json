@@ -3048,5 +3048,100 @@
       "images/2cent_arg_1894-1.jpeg",
       "images/2cent_arg_1894-2.jpeg"
     ]
+  },
+  {
+    "price": 30,
+    "condition": "UNC",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "2 Centavos",
+    "year": 1944,
+    "images": [
+      "images/2cent_arg_1944-1.jpeg",
+      "images/2cent_arg_1944-2.jpeg"
+    ]
+  },
+  {
+    "price": 20,
+    "condition": "XF",
+    "country": "Argentina",
+    "composition": "Cobre",
+    "denomination": "2 Centavos",
+    "year": 1950,
+    "images": [
+      "images/2cent_arg_1950-1.jpeg",
+      "images/2cent_arg_1950-2.jpeg"
+    ]
+  },
+  {
+    "price": 10,
+    "condition": "UNC",
+    "country": "Argentina",
+    "composition": "Aluminio",
+    "denomination": "5 Centavos",
+    "year": 1971,
+    "images": [
+      "images/5cent_arg_1971-1.jpeg",
+      "images/5cent_arg_1971-2.jpeg"
+    ]
+  },
+  {
+    "price": 4,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Bronce de aluminio",
+    "denomination": "20 Centavos",
+    "year": 1976,
+    "images": [
+      "images/20cent_arg_1976-1.jpeg",
+      "images/20cent_arg_1976-2.jpeg"
+    ]
+  },
+  {
+    "title": "3000 Pesos 1977 (Mundial 1978)",
+    "price": 60,
+    "condition": "AU",
+    "country": "Argentina",
+    "diameter": "37 mm",
+    "weight": "25 g",
+    "denomination": "3000 Pesos",
+    "composition": "Plata 0.900",
+    "description": "Moneda conmemorativa del mundial 1978 (Argentina)",
+    "description_en": "Commemorative coin - 1978 Argentina World Cup",
+    "year": 1977,
+    "images": [
+      "images/3000pesos_arg_1977-2-1.jpg",
+      "images/3000pesos_arg_1977-2-2.jpg"
+    ]
+  },
+  {
+    "title": "2000 Pesos 1977 (Mundial 1978)",
+    "price": 45,
+    "condition": "UNC",
+    "country": "Argentina",
+    "denomination": "2000 Pesos",
+    "composition": "Plata 0.900",
+    "description": "Moneda conmemorativa del mundial 1978 (Argentina)",
+    "description_en": "Commemorative coin - 1978 Argentina World Cup",
+    "year": 1977,
+    "images": [
+      "images/2000pesos_arg_1977-1.jpg",
+      "images/2000pesos_arg_1977-2.jpg"
+    ]
+  },
+  {
+    "title": "1000 Pesos 1977 (Mundial 1978)",
+    "price": 25,
+    "condition": "UNC",
+    "country": "Argentina",
+    "denomination": "1000 Pesos",
+    "composition": "Plata 0.900",
+    "description": "Moneda conmemorativa del mundial 1978 (Argentina)",
+    "description_en": "Commemorative coin - 1978 Argentina World Cup",
+    "year": 1977,
+    "images": [
+      "images/1000pesos_arg_1977-1.jpg",
+      "images/1000pesos_arg_1977-2.jpg"
+    ]
   }
 ]
