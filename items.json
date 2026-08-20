@@ -3142,5 +3142,19 @@
       "images/1000pesos_arg_1977-1.jpeg",
       "images/1000pesos_arg_1977-2.jpeg"
     ]
+  },
+  {
+    "title": "Blister Mundial 1978 (cuño 1977)",
+    "price": 120,
+    "condition": "UNC",
+    "country": "Argentina",
+    "composition": "Plata 0.900 - Bronce de aluminio",
+    "description": "Blister conmemorativo del mundial 1978 (Argentina)",
+    "year": 1977,
+    "images": [
+      "images/arg_blister_mundial-1.jpeg",
+      "images/arg_blister_mundial-2.jpeg",
+      "images/arg_blister_mundial-3.jpeg"
+    ]
   }
 ]
