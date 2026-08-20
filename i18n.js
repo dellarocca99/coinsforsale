@@ -160,7 +160,12 @@
     if (!base || !currentExt) return; // no recognised extension — nothing to try
 
     // Build the set of already-tried extensions for this element.
-    const tried = img.dataset.extsTried
+    // The list belongs to one base path: <img> elements are reused (carousel,
+    // gallery, lightbox), so reset it whenever the base changes. Otherwise the
+    // previous image's exhausted list makes the new one skip the extension it
+    // actually needs, and it stays broken.
+    const sameBase = img.dataset.extsBase === base;
+    const tried = sameBase && img.dataset.extsTried
       ? img.dataset.extsTried.split(",")
       : [currentExt];
 
@@ -168,6 +173,7 @@
     if (!next) return; // all extensions exhausted — fail gracefully
 
     tried.push(next);
+    img.dataset.extsBase  = base;
     img.dataset.extsTried = tried.join(",");
     img.src = base + next;
   }, true); // capture phase — "error" does not bubble

@@ -1586,8 +1586,7 @@
     "composition": "Cu Ni",
     "year": 1885,
     "images": [
-      "images/qirsh-1.jpg",
-      "images/qirsh-2.jpg"
+      "images/qirsh-1.jpg"
     ]
   },
   { 
@@ -1806,8 +1805,8 @@
     "denomination": "1 Cent",
     "year": 1859,
     "images": [
-      "indians/indian_cent_1859-1.jpg",
-      "indians/indian_cent_1859-2.jpg"
+      "indians/indian_cent_1859-1.jpeg",
+      "indians/indian_cent_1859-2.jpeg"
     ]
   },
   {
@@ -2749,8 +2748,8 @@
     "denomination": "10 Centavos",
     "year": 1882,
     "images": [
-      "images/10cent_arg_1882-1.jpg",
-      "images/10cent_arg_1882-2.jpg"
+      "images/10cent_arg_1882-1.jpeg",
+      "images/10cent_arg_1882-2.jpeg"
     ]
   },
   {
@@ -2762,8 +2761,8 @@
     "denomination": "10 Centavos",
     "year": 1883,
     "images": [
-      "images/10cent_arg_1883-1.jpg",
-      "images/10cent_arg_1883-2.jpg"
+      "images/10cent_arg_1883-1.jpeg",
+      "images/10cent_arg_1883-2.jpeg"
     ]
   },
   {
@@ -2913,8 +2912,8 @@
     "denomination": "20 Centavos",
     "year": 1972,
     "images": [
-      "images/20cent_arg_1972-1.jpg",
-      "images/20cent_arg_1972-2.jpg"
+      "images/20cent_arg_1972-1.jpeg",
+      "images/20cent_arg_1972-2.jpeg"
     ]
   },
   {
@@ -3110,8 +3109,8 @@
     "description_en": "Commemorative coin - 1978 Argentina World Cup",
     "year": 1977,
     "images": [
-      "images/3000pesos_arg_1977-2-1.jpg",
-      "images/3000pesos_arg_1977-2-2.jpg"
+      "images/3000pesos_arg_1977-2-1.jpeg",
+      "images/3000pesos_arg_1977-2-2.jpeg"
     ]
   },
   {
@@ -3125,8 +3124,8 @@
     "description_en": "Commemorative coin - 1978 Argentina World Cup",
     "year": 1977,
     "images": [
-      "images/2000pesos_arg_1977-1.jpg",
-      "images/2000pesos_arg_1977-2.jpg"
+      "images/2000pesos_arg_1977-1.jpeg",
+      "images/2000pesos_arg_1977-2.jpeg"
     ]
   },
   {
@@ -3140,8 +3139,8 @@
     "description_en": "Commemorative coin - 1978 Argentina World Cup",
     "year": 1977,
     "images": [
-      "images/1000pesos_arg_1977-1.jpg",
-      "images/1000pesos_arg_1977-2.jpg"
+      "images/1000pesos_arg_1977-1.jpeg",
+      "images/1000pesos_arg_1977-2.jpeg"
     ]
   }
 ]
