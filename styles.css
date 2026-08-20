@@ -1420,6 +1420,13 @@ button.footer-link { background: none; border: none; cursor: pointer; }
 /* Touch devices: always show carousel nav arrows */
 @media (hover: none) {
   .nav { opacity: 0.65; }
+
+  /* iOS Safari auto-zooms any focused field under 16px and never zooms back
+     out on blur — keep these at 16px so the zoom never happens. */
+  .search-input,
+  .ctrl-select {
+    font-size: 16px;
+  }
 }
 
 /* Respect reduced-motion */
