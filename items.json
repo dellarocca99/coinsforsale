@@ -3156,5 +3156,17 @@
       "images/arg_blister_mundial-2.jpeg",
       "images/arg_blister_mundial-3.jpeg"
     ]
+  },
+  {
+    "title": "1 \"Morgan\" Dollar 1897",
+    "price": 75,
+    "condition": "XF",
+    "country": "USA",
+    "denomination": "1 Dollar",
+    "year": 1897,
+    "images": [
+      "images/morgan_1897-1.jpeg",
+      "images/morgan_1897-2.jpeg"
+    ]
   }
 ]
