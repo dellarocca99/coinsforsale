@@ -81,9 +81,12 @@ Output is saved as `<template>_filled.xlsx` next to the original. The original i
 
 ### 6. Report results
 
-The script prints: rows written, skipped (sold/book), truncated titles (>60 chars), and any items missing a year (ML requires it). Surface this to the user and ask them to:
+The script prints: rows written, skipped (sold/book), truncated titles (>60 chars), items missing a year, and items with a blank `AE` (Valor de la moneda) or `AF` (Tipo de moneda). Surface this to the user and ask them to:
 - Fix truncated titles manually in the Excel.
 - Fill in the year for items where it was missing from items.json.
+- Fill `AE` / `AF` by hand for the reported rows — **both are mandatory fields in ML** and the upload is rejected without them. Typical cause is a set/blister with no single `denomination` (e.g. the 1978 Mundial blister → the user's own convention is `AE = 3000 Pesos`, `AF = Peso`), or a denomination that isn't in ML's dropdown.
+
+**Never regenerate the output file after the user has made manual edits to it** — the script overwrites `<template>_filled.xlsx` wholesale. If a re-run is genuinely needed, ask first, and re-apply their manual cell edits afterwards.
 
 ## Column reference (Monedas sheet, data starts row 9)
 
@@ -116,8 +119,8 @@ The script prints: rows written, skipped (sold/book), truncated titles (>60 char
 | AB | Modelo | yes | Always `No aplica` (same rationale as Marca) |
 | AC | Tipo de metal | yes (if derived) | Plata / Cobre / Níquel / Bronce / Oro |
 | AD | Moneda conmemorativa | yes | `Sí` / `No` from `is_commemorative()` — keyword match on title + descriptions (conmemorativ/commemorative, aniversario, centenario/bicentennial, ONU, FIFA, Westward Journey series, Crossing the Delaware, Haudenosaunee, Sacagawea, etc.) |
-| AE | Valor de la moneda | yes (if present) | Copied verbatim from items.json `denomination` (e.g. `1 Peso`, `1 Dollar`, `Quarter dollar`) |
-| AF | Tipo de moneda | yes (if derived) | Peso / Dólar / Real |
+| AE | Valor de la moneda | yes (if present) | **Required by ML.** Copied verbatim from items.json `denomination` (e.g. `1 Peso`, `1 Dollar`, `Quarter dollar`). Blank when the item has no `denomination` — the script reports these; they must be filled by hand. |
+| AF | Tipo de moneda | yes (if derived) | **Required by ML.** Peso / Dólar / Real. Blank when `denomination` is missing or doesn't map to ML's dropdown — the script reports these; they must be filled by hand. |
 | AG–AI | Internal ML helpers | skip | — |
 
 ## Title rules (search-optimized)
@@ -145,6 +148,6 @@ What is intentionally NOT done:
 - The ARCA / "información tributaria" checkbox ("este producto no está relacionado con mi actividad tributaria") is **not** part of the Excel template — the columns end at AF (product features) and AG–AI are internal helpers. That setting only exists in ML's web UI per listing or at the account level; it cannot be set from this bulk file.
 - Items with `sold: true` or `book: true` are skipped automatically and reported.
 - Items with `country: "Egipto"` get a blank `Z` because ML's dropdown doesn't include Egypt.
-- Some denominations (Lira, Qirsh, Franc) don't map to ML's `Tipo de moneda` dropdown — AF stays blank for those.
-- Per-item package dimensions and surcharge are supported via `--overrides path/to/file.json`. Keep override files out of git — write them to `.claude/skills/mercadolibre-excel/_overrides.json` (the leading underscore puts them in `.gitignore` patterns the user already uses, or add an explicit ignore line if needed).
+- Some denominations (Lira, Qirsh, Franc) don't map to ML's `Tipo de moneda` dropdown, and sets/blisters have no single `denomination` at all — `AE` and `AF` stay blank for those. Both columns are **mandatory in ML**, so the script reports every blank one and the user has to fill them in by hand before uploading.
+- Per-item package dimensions and surcharge are supported via `--overrides path/to/file.json`. Keep override files out of git — write them to `.claude/skills/mercadolibre-excel/_overrides.json`, which `.gitignore` covers via an explicit `_overrides.json` line (the repo's other two patterns are just `*.py` and `*.xlsx`, so the leading underscore alone does **not** ignore it).
 - Whenever the user changes dimensions for an item, the 12,160 ARS surcharge for that item must also be revisited — it's the price ML charges the seller for free shipping at the default package size, and it scales with the package.
