@@ -2149,6 +2149,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "04-09-2026",
     "year": 1889,
     "images": [
       "indians/indian_cent_1889-1.jpg",
@@ -2211,6 +2213,8 @@
     "composition": "Cu",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
+    "sold": true,
+    "soldon": "04-09-2026",
     "year": 1893,
     "images": [
       "indians/indian_cent_1893-1.jpg",
