@@ -300,6 +300,8 @@
     "denomination": "1 Cent",
     "mint": "San Francisco",
     "year": 1910,
+    "sold": true,
+    "soldon": "06-09-2026",
     "images": [
       "images/lin_1910s-1.jpg",
       "images/lin_1910s-2.jpg"
@@ -314,6 +316,8 @@
     "denomination": "1 Cent",
     "mint": "Denver",
     "year": 1911,
+    "sold": true,
+    "soldon": "06-09-2026",
     "images": [
       "images/lin_1911d-1.jpg",
       "images/lin_1911d-2.jpg"
@@ -328,6 +332,8 @@
     "mint": "San Francisco",
     "denomination": "1 Cent",
     "year": 1911,
+    "sold": true,
+    "soldon": "06-09-2026",
     "images": [
       "images/lin_1911s-1.jpg",
       "images/lin_1911s-2.jpg"
@@ -342,6 +348,8 @@
     "denomination": "1 Cent",
     "mint": "Denver",
     "year": 1912,
+    "sold": true,
+    "soldon": "06-09-2026",
     "images": [
       "images/lin_1912d-1.jpg",
       "images/lin_1912d-2.jpg"
@@ -356,6 +364,8 @@
     "denomination": "1 Cent",
     "mint": "San Francisco",
     "year": 1912,
+    "sold": true,
+    "soldon": "06-09-2026",
     "images": [
       "images/lin_1912s-1.jpg",
       "images/lin_1912s-2.jpg"
@@ -370,6 +380,8 @@
     "composition": "Cu",
     "mint": "San Francisco",
     "year": 1913,
+    "sold": true,
+    "soldon": "06-09-2026",
     "images": [
       "images/lin_1913s-1.jpg",
       "images/lin_1913s-2.jpg"
@@ -412,6 +424,8 @@
     "mint": "San Francisco",
     "denomination": "1 Cent",
     "year": 1926,
+    "sold": true,
+    "soldon": "06-09-2026",
     "images": [
       "images/lin_1926s-1.jpg",
       "images/lin_1926s-2.jpg"
