@@ -7,14 +7,18 @@
     "year": 1877,
     "quantity": 1,
     "denomination": "1 Peso",
-    "composition": "0.900 Silver",
+    "composition": "Plata 0.900",
     "reference": "KM# 17",
     "description": "Peso de plata de los inicios de la República Oriental del Uruguay. Pátina original.",
     "description_en": "Silver peso from the early Uruguayan Republic. Original luster.",
     "images": [
       "images/peso_1877-2.jpg",
       "images/peso_1877-1.jpg"
-    ]
+    ],
+    "diameter": "37 mm",
+    "weight": "25 g",
+    "currency": "Peso",
+    "numista_id": 27128
   },
   {
     "title": "1 Peso ONU 1995",
@@ -33,7 +37,10 @@
     "images": [
       "images/onu-1.jpg",
       "images/onu-2.jpg"
-    ]
+    ],
+    "numista_id": 49025,
+    "currency": "Peso convertible",
+    "reference": "KM# 126"
   },
   {
     "title": "1 Cent 1955-S",
@@ -85,7 +92,12 @@
     "images": [
       "images/dime_1829-1.jpg",
       "images/dime_1829-2.jpg"
-    ]
+    ],
+    "diameter": "18.5 mm",
+    "weight": "2.7 g",
+    "currency": "Dollar",
+    "reference": "KM# 48",
+    "numista_id": 21828
   },
   {
     "title": "1 Centavo 1883",
@@ -93,13 +105,18 @@
     "condition": "XF",
     "country": "Argentina",
     "denomination": "1 Centavo",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "composition_en": "Copper",
     "year": 1883,
     "images": [
       "images/cent_arg_1883-1.jpg",
       "images/cent_arg_1883-2.jpg"
-    ]
+    ],
+    "diameter": "25 mm",
+    "weight": "5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 32",
+    "numista_id": 1156
   },
   {
     "title": "1 Centavo 1883",
@@ -107,13 +124,18 @@
     "condition": "F",
     "country": "Argentina",
     "denomination": "1 Centavo",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "composition_en": "Copper",
     "year": 1883,
     "images": [
       "images/cent_arg_1883-3.jpg",
       "images/cent_arg_1883-4.jpg"
-    ]
+    ],
+    "diameter": "25 mm",
+    "weight": "5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 32",
+    "numista_id": 1156
   },
   {
     "price": 170,
@@ -144,7 +166,12 @@
     "images": [
       "images/halfdime_1854-2.jpg",
       "images/halfdime_1854-1.jpg"
-    ]
+    ],
+    "diameter": "15.5 mm",
+    "weight": "1.24 g",
+    "currency": "Dollar",
+    "reference": "KM# 76",
+    "numista_id": 6846
   },
   {
     "title": "1 Dollar \"Peace\" 1925",
@@ -154,14 +181,17 @@
     "mint": "Philadelphia",
     "diameter": "38.1 mm",
     "denomination": "1 Dollar",
-    "weight": "26.7 g",
+    "weight": "26.73 g",
     "composition": "Plata 0.900",
     "composition_en": "0.900 Silver",
     "year": 1925,
     "images": [
       "images/peace_1925-1.jpg",
       "images/peace_1925-2.jpg"
-    ]
+    ],
+    "currency": "Dollar",
+    "reference": "KM# 150",
+    "numista_id": 5580
   },
   {
     "title": "1000 Pesos 1969",
@@ -177,7 +207,10 @@
     "images": [
       "images/fao_uru-1.jpg",
       "images/fao_uru-2.jpg"
-    ]
+    ],
+    "currency": "Peso",
+    "reference": "KM# 55",
+    "numista_id": 23255
   },
   {
     "title": "5 Cents \"Buffalo\" 1914",
@@ -191,7 +224,12 @@
     "images": [
       "images/buf_1914-1.jpg",
       "images/buf_1914-2.jpg"
-    ]
+    ],
+    "diameter": "21.2 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 134",
+    "numista_id": 1109
   },
   {
     "title": "5 Cents \"Buffalo\" 1914-S",
@@ -205,7 +243,12 @@
     "images": [
       "images/buf_1914s-1.jpg",
       "images/buf_1914s-2.jpg"
-    ]
+    ],
+    "diameter": "21.2 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 134",
+    "numista_id": 1109
   },
   {
     "title": "5 Cents \"Buffalo\" 1915",
@@ -219,7 +262,12 @@
     "images": [
       "images/buf_1915-1.jpg",
       "images/buf_1915-2.jpg"
-    ]
+    ],
+    "diameter": "21.2 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 134",
+    "numista_id": 1109
   },
   {
     "title": "5 Cents \"Buffalo\" 1916",
@@ -233,7 +281,12 @@
     "images": [
       "images/buf_1916-1.jpg",
       "images/buf_1916-2.jpg"
-    ]
+    ],
+    "diameter": "21.2 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 134",
+    "numista_id": 1109
   },
   {
     "title": "5 Cents \"Buffalo\" 1921",
@@ -247,7 +300,12 @@
     "images": [
       "images/buf_1921-1.jpg",
       "images/buf_1921-2.jpg"
-    ]
+    ],
+    "diameter": "21.2 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 134",
+    "numista_id": 1109
   },
   {
     "title": "5 Cents \"Buffalo\" 1921",
@@ -261,7 +319,12 @@
     "images": [
       "images/buf_1921-2-1.jpg",
       "images/buf_1921-2-2.jpg"
-    ]
+    ],
+    "diameter": "21.2 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 134",
+    "numista_id": 1109
   },
   {
     "title": "5 Cents \"Liberty\" 1888",
@@ -275,7 +338,12 @@
     "images": [
       "images/lib_1888-1.jpg",
       "images/lib_1888-2.jpg"
-    ]
+    ],
+    "diameter": "21.2 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 112",
+    "numista_id": 3683
   },
   {
     "title": "5 Cents \"Liberty\" 1894",
@@ -289,7 +357,12 @@
     "images": [
       "images/lib_1894-1.jpg",
       "images/lib_1894-2.jpg"
-    ]
+    ],
+    "diameter": "21.2 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 112",
+    "numista_id": 3683
   },
   {
     "title": "1 Cent \"Lincoln\" 1910-S",
@@ -392,28 +465,38 @@
     "price": 30,
     "condition": "XF",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "denomination": "1 Cent",
     "mint": "San Francisco",
     "year": 1914,
     "images": [
       "images/lin_1914s-1.jpg",
       "images/lin_1914s-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 132",
+    "numista_id": 908
   },
   {
     "title": "1 Cent \"Lincoln\" 1915-S",
     "price": 32,
     "condition": "F",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "San Francisco",
     "denomination": "1 Cent",
     "year": 1915,
     "images": [
       "images/lin_1915s-1.jpg",
       "images/lin_1915s-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 132",
+    "numista_id": 908
   },
   {
     "title": "1 Cent \"Lincoln\" 1926-S",
@@ -443,7 +526,12 @@
     "images": [
       "images/buf_1913s_t1-1.jpg",
       "images/buf_1913s_t1-2.jpg"
-    ]
+    ],
+    "numista_id": 4728,
+    "diameter": "21.2 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 133"
   },
   {
     "title": "5 Cents \"Buffalo\" 1914-S",
@@ -457,7 +545,12 @@
     "images": [
       "images/buf_1914s_bis-1.jpg",
       "images/buf_1914s_bis-2.jpg"
-    ]
+    ],
+    "diameter": "21.2 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 134",
+    "numista_id": 1109
   },
   {
     "title": "Half Dollar 1920-S",
@@ -471,7 +564,12 @@
     "images": [
       "images/half_1920s-1.jpg",
       "images/half_1920s-2.jpg"
-    ]
+    ],
+    "numista_id": 4455,
+    "diameter": "30.6 mm",
+    "weight": "12.5 g",
+    "currency": "Dollar",
+    "reference": "KM# 142"
   },
   {
     "title": "Half Dollar 1955",
@@ -485,49 +583,69 @@
     "images": [
       "images/half_1955-1.jpg",
       "images/half_1955-2.jpg"
-    ]
+    ],
+    "diameter": "30.6 mm",
+    "weight": "12.5 g",
+    "currency": "Dollar",
+    "reference": "KM# 199",
+    "numista_id": 2835
   },
   {
     "title": "1 Cent \"Indian\" 1873",
     "price": 28,
     "condition": "G",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1873,
     "images": [
       "images/indian_1873-1.jpeg",
       "images/indian_1873-2.jpeg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a",
+    "numista_id": 2356
   },
   {
     "title": "1 Cent \"Indian\" 1875",
     "price": 40,
     "condition": "VG",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1875,
     "images": [
       "images/indian_1875-1.jpeg",
       "images/indian_1875-2.jpeg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a",
+    "numista_id": 2356
   },
   {
     "title": "1 Cent \"Indian\" 1876",
     "price": 35,
     "condition": "F Details",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1876,
     "images": [
       "images/indian_1876-1.jpeg",
       "images/indian_1876-2.jpeg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a",
+    "numista_id": 2356
   },
   {
     "title": "1 Cent \"Indian\" 1891",
@@ -582,12 +700,17 @@
     "country": "Argentina",
     "region": "Confederación Argentina",
     "denomination": "1 Centavo",
-    "composition": "Cu",
+    "composition": "Cobre",
     "year": 1854,
     "images": [
       "images/1cent_conf-1.jpg",
       "images/1cent_conf-2.jpg"
-    ]
+    ],
+    "diameter": "21.83 mm",
+    "weight": "4.9 g",
+    "currency": "Peso",
+    "reference": "KM# 23",
+    "numista_id": 26714
   },
   {
     "price": 20,
@@ -595,12 +718,17 @@
     "country": "Argentina",
     "region": "Confederación Argentina",
     "denomination": "2 Centavos",
-    "composition": "Cu",
+    "composition": "Cobre",
     "year": 1854,
     "images": [
       "images/2cent_conf-1.jpg",
       "images/2cent_conf-2.jpg"
-    ]
+    ],
+    "diameter": "29.77 mm",
+    "weight": "10 g",
+    "currency": "Peso",
+    "reference": "KM# 24",
+    "numista_id": 25415
   },
   {
     "title": "1 Real 1854",
@@ -609,14 +737,19 @@
     "country": "Argentina",
     "region": "Buenos Aires",
     "denomination": "1 Real",
-    "composition": "Cu",
+    "composition": "Cobre",
     "description": "Rara pieza",
     "description_en": "Rare",
     "year": 1854,
     "images": [
       "images/1real_bsas_1854-1.jpg",
       "images/1real_bsas_1854-2.jpg"
-    ]
+    ],
+    "diameter": "26.3 mm",
+    "weight": "5 g",
+    "currency": "Real",
+    "reference": "KM# 10",
+    "numista_id": 89397
   },
   {
     "price": 10,
@@ -643,7 +776,12 @@
     "images": [
       "images/50cent_uru_1917-1-1.jpg",
       "images/50cent_uru_1917-1-2.jpg"
-    ]
+    ],
+    "diameter": "30.4 mm",
+    "weight": "12.5 g",
+    "currency": "Peso",
+    "reference": "KM# 22",
+    "numista_id": 14534
   },
   {
     "title": "50 Centésimos 1917",
@@ -656,7 +794,12 @@
     "images": [
       "images/50cent_uru_1917-2-1.jpg",
       "images/50cent_uru_1917-2-2.jpg"
-    ]
+    ],
+    "diameter": "30.4 mm",
+    "weight": "12.5 g",
+    "currency": "Peso",
+    "reference": "KM# 22",
+    "numista_id": 14534
   },
   {
     "title": "50 Centésimos 1943",
@@ -669,7 +812,12 @@
     "images": [
       "images/50cent_uru_1943-1-1.jpg",
       "images/50cent_uru_1943-1-2.jpg"
-    ]
+    ],
+    "diameter": "24 mm",
+    "weight": "7 g",
+    "currency": "Peso",
+    "reference": "KM# 31",
+    "numista_id": 3784
   },
   {
     "title": "1000 Pesos 2003 (Mundial 2006)",
@@ -686,7 +834,10 @@
     "images": [
       "images/1000pe_uru_2003-1.jpg",
       "images/1000pe_uru_2003-2.jpg"
-    ]
+    ],
+    "currency": "Peso uruguayo",
+    "reference": "KM# 122",
+    "numista_id": 41549
   },
   {
     "title": "1000 Pesos 2004 (Mundial 2006)",
@@ -703,7 +854,10 @@
     "images": [
       "images/1000pe_uru_2004-1.jpg",
       "images/1000pe_uru_2004-2.jpg"
-    ]
+    ],
+    "numista_id": 42108,
+    "currency": "Peso uruguayo",
+    "reference": "KM# 123"
   },
   {
     "title": "1000 Pesos 2005 (Mundial 2006)",
@@ -720,14 +874,17 @@
     "images": [
       "images/1000pe_uru_2005-1.jpg",
       "images/1000pe_uru_2005-2.jpg"
-    ]
+    ],
+    "currency": "Peso uruguayo",
+    "reference": "KM# 124",
+    "numista_id": 42109
   },
   {
     "title": "3000 Pesos 1977 (Mundial 1978)",
     "price": 65,
     "condition": "UNC",
     "country": "Argentina",
-    "diameter": "37 mm",
+    "diameter": "38 mm",
     "weight": "25 g",
     "denomination": "3000 Pesos",
     "composition": "Plata 0.900",
@@ -737,7 +894,10 @@
     "images": [
       "images/3000pesos_arg_1977-1.jpg",
       "images/3000pesos_arg_1977-2.jpg"
-    ]
+    ],
+    "currency": "Peso ley",
+    "reference": "KM# 80",
+    "numista_id": 14508
   },
   {
     "title": "10 Francs 1929",
@@ -750,7 +910,12 @@
     "images": [
       "images/10franc_1929-1.jpg",
       "images/10franc_1929-2.jpg"
-    ]
+    ],
+    "diameter": "28 mm",
+    "weight": "10 g",
+    "currency": "Franc",
+    "reference": "KM# 878",
+    "numista_id": 687
   },
   {
     "title": "1 Peso 1942",
@@ -763,7 +928,12 @@
     "images": [
       "images/1peso_uru_1942-1-1.jpg",
       "images/1peso_uru_1942-1-2.jpg"
-    ]
+    ],
+    "diameter": "27 mm",
+    "weight": "9 g",
+    "currency": "Peso",
+    "reference": "KM# 30",
+    "numista_id": 10344
   },
   {
     "title": "1 Centavo 1974",
@@ -777,7 +947,12 @@
     "images": [
       "images/1cent_arg_1974-1.jpeg",
       "images/1cent_arg_1974-2.jpeg"
-    ]
+    ],
+    "diameter": "15.74 mm",
+    "weight": "0.62 g",
+    "currency": "Peso ley",
+    "reference": "KM# 64",
+    "numista_id": 3236
   },
   {
     "title": "1 Centavo 1975",
@@ -791,7 +966,12 @@
     "images": [
       "images/1cent_arg_1975-1.jpeg",
       "images/1cent_arg_1975-2.jpeg"
-    ]
+    ],
+    "diameter": "15.74 mm",
+    "weight": "0.62 g",
+    "currency": "Peso ley",
+    "reference": "KM# 64",
+    "numista_id": 3236
   },
   {
     "title": "10 Centavos 1976",
@@ -805,7 +985,12 @@
     "images": [
       "images/10cent_arg_1976-1.jpeg",
       "images/10cent_arg_1976-2.jpeg"
-    ]
+    ],
+    "diameter": "16.5 mm",
+    "weight": "2 g",
+    "currency": "Peso ley",
+    "reference": "KM# 66",
+    "numista_id": 2215
   },
   {
     "title": "20 Centavos 1961",
@@ -819,35 +1004,52 @@
     "images": [
       "images/20cent_arg_1961-1.jpeg",
       "images/20cent_arg_1961-2.jpeg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 55",
+    "numista_id": 3254
   },
   {
     "title": "5/10 Real 1827",
     "price": 15,
     "condition": "VF",
     "country": "Argentina",
-    "region":"Buenos Aires",
+    "region": "Buenos Aires",
     "denomination": "5/10 Real",
-    "composition": "Cu",
+    "composition": "Cobre",
     "year": 1827,
+    "sold": true,
+    "soldon": "07-09-2026",
     "images": [
       "images/5dec_bsas_1827-1.jpeg",
       "images/5dec_bsas_1827-2.jpeg"
-    ]
+    ],
+    "diameter": "22.8 mm",
+    "weight": "4.6 g",
+    "currency": "Real",
+    "reference": "KM# 3",
+    "numista_id": 26204
   },
   {
     "title": "1/10 Real 1822/23",
     "price": 10,
     "condition": "VG",
     "country": "Argentina",
-    "region":"Buenos Aires",
+    "region": "Buenos Aires",
     "denomination": "1/10 Real",
-    "composition": "Cu",
+    "composition": "Cobre",
     "year": 1822,
     "images": [
       "images/1dec_bsas-1.jpeg",
       "images/1dec_bsas-2.jpeg"
-    ]
+    ],
+    "numista_id": 4089,
+    "diameter": "23.6 mm",
+    "weight": "6.8 g",
+    "currency": "Real",
+    "reference": "KM# 1"
   },
   {
     "title": "5 Centésimos 1857",
@@ -855,24 +1057,34 @@
     "condition": "F",
     "country": "Uruguay",
     "denomination": "5 Centésimos",
-    "composition": "Cu",
+    "composition": "Cobre",
     "year": 1857,
     "images": [
       "images/5cent_uru_1857-1.jpeg",
       "images/5cent_uru_1857-2.jpeg"
-    ]
+    ],
+    "diameter": "23.2 mm",
+    "weight": "4.5 g",
+    "currency": "Peso fuerte",
+    "reference": "KM# 8",
+    "numista_id": 19101
   },
   {
     "price": 24,
     "condition": "F",
     "denomination": "40 Centésimos",
     "country": "Uruguay",
-    "composition": "Cu",
+    "composition": "Cobre",
     "year": 1857,
     "images": [
       "images/40cent_uru_1857-1.jpeg",
       "images/40cent_uru_1857-2.jpeg"
-    ]
+    ],
+    "diameter": "38 mm",
+    "weight": "35 g",
+    "currency": "Peso fuerte",
+    "reference": "KM# 10",
+    "numista_id": 8897
   },
   {
     "price": 35,
@@ -959,7 +1171,12 @@
     "images": [
       "images/realito_1772-1.jpg",
       "images/realito_1772-2.jpg"
-    ]
+    ],
+    "numista_id": 43927,
+    "diameter": "22 mm",
+    "weight": "3.3834 g",
+    "currency": "Real",
+    "reference": "KM# 75"
   },
   {
     "denomination": "5 Centavos",
@@ -971,7 +1188,12 @@
     "images": [
       "images/5cent_arg_1896-1.jpg",
       "images/5cent_arg_1896-2.jpg"
-    ]
+    ],
+    "diameter": "17 mm",
+    "weight": "2 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 34",
+    "numista_id": 3240
   },
   {
     "denomination": "5 Centavos",
@@ -983,7 +1205,12 @@
     "images": [
       "images/5cent_arg_1898-1-1.jpg",
       "images/5cent_arg_1898-1-2.jpg"
-    ]
+    ],
+    "diameter": "17 mm",
+    "weight": "2 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 34",
+    "numista_id": 3240
   },
   {
     "denomination": "5 Centavos",
@@ -995,7 +1222,12 @@
     "images": [
       "images/5cent_arg_1898-2-1.jpg",
       "images/5cent_arg_1898-2-2.jpg"
-    ]
+    ],
+    "diameter": "17 mm",
+    "weight": "2 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 34",
+    "numista_id": 3240
   },
   {
     "denomination": "5 Centavos",
@@ -1007,7 +1239,12 @@
     "images": [
       "images/5cent_arg_1898-3-1.jpg",
       "images/5cent_arg_1898-3-2.jpg"
-    ]
+    ],
+    "diameter": "17 mm",
+    "weight": "2 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 34",
+    "numista_id": 3240
   },
   {
     "denomination": "5 Centavos",
@@ -1019,7 +1256,12 @@
     "images": [
       "images/5cent_arg_1898-4-1.jpg",
       "images/5cent_arg_1898-4-2.jpg"
-    ]
+    ],
+    "diameter": "17 mm",
+    "weight": "2 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 34",
+    "numista_id": 3240
   },
   {
     "denomination": "5 Centavos",
@@ -1031,7 +1273,12 @@
     "images": [
       "images/5cent_arg_1898-5-1.jpg",
       "images/5cent_arg_1898-5-2.jpg"
-    ]
+    ],
+    "diameter": "17 mm",
+    "weight": "2 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 34",
+    "numista_id": 3240
   },
   {
     "denomination": "5 Centavos",
@@ -1043,7 +1290,12 @@
     "images": [
       "images/5cent_arg_1909-1.jpg",
       "images/5cent_arg_1909-2.jpg"
-    ]
+    ],
+    "diameter": "17 mm",
+    "weight": "2 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 34",
+    "numista_id": 3240
   },
   {
     "denomination": "5 Centavos",
@@ -1083,7 +1335,12 @@
     "images": [
       "images/5cent_arg_1924-1.jpg",
       "images/5cent_arg_1924-2.jpg"
-    ]
+    ],
+    "diameter": "17 mm",
+    "weight": "2 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 34",
+    "numista_id": 3240
   },
   {
     "denomination": "5 Centavos",
@@ -1109,7 +1366,12 @@
     "images": [
       "images/5cent_arg_1931-2-1.jpg",
       "images/5cent_arg_1931-2-2.jpg"
-    ]
+    ],
+    "diameter": "17 mm",
+    "weight": "2 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 34",
+    "numista_id": 3240
   },
   {
     "denomination": "5 Centavos",
@@ -1121,7 +1383,12 @@
     "images": [
       "images/5cent_arg_1931-3-1.jpg",
       "images/5cent_arg_1931-3-2.jpg"
-    ]
+    ],
+    "diameter": "17 mm",
+    "weight": "2 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 34",
+    "numista_id": 3240
   },
   {
     "denomination": "5 Centavos",
@@ -1133,7 +1400,12 @@
     "images": [
       "images/5cent_arg_1936-1.jpg",
       "images/5cent_arg_1936-2.jpg"
-    ]
+    ],
+    "diameter": "17 mm",
+    "weight": "2 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 34",
+    "numista_id": 3240
   },
   {
     "denomination": "10 Centavos",
@@ -1145,7 +1417,12 @@
     "images": [
       "images/10cent_arg_1907-1-1.jpg",
       "images/10cent_arg_1907-1-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 35",
+    "numista_id": 2594
   },
   {
     "denomination": "10 Centavos",
@@ -1157,7 +1434,12 @@
     "images": [
       "images/10cent_arg_1907-2-1.jpg",
       "images/10cent_arg_1907-2-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 35",
+    "numista_id": 2594
   },
   {
     "denomination": "10 Centavos",
@@ -1169,7 +1451,12 @@
     "images": [
       "images/10cent_arg_1914-1.jpg",
       "images/10cent_arg_1914-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 35",
+    "numista_id": 2594
   },
   {
     "denomination": "10 Centavos",
@@ -1181,7 +1468,12 @@
     "images": [
       "images/10cent_arg_1931-1-1.jpg",
       "images/10cent_arg_1931-1-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 35",
+    "numista_id": 2594
   },
   {
     "denomination": "10 Centavos",
@@ -1193,7 +1485,12 @@
     "images": [
       "images/10cent_arg_1931-2-1.jpg",
       "images/10cent_arg_1931-2-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 35",
+    "numista_id": 2594
   },
   {
     "denomination": "10 Centavos",
@@ -1205,7 +1502,12 @@
     "images": [
       "images/10cent_arg_1931-3-1.jpg",
       "images/10cent_arg_1931-3-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 35",
+    "numista_id": 2594
   },
   {
     "denomination": "20 Centavos",
@@ -1231,7 +1533,12 @@
     "images": [
       "images/20cent_arg_1896-2-1.jpg",
       "images/20cent_arg_1896-2-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1243,7 +1550,12 @@
     "images": [
       "images/20cent_arg_1896-3-1.jpg",
       "images/20cent_arg_1896-3-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1255,7 +1567,12 @@
     "images": [
       "images/20cent_arg_1898-1.jpg",
       "images/20cent_arg_1898-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1267,7 +1584,12 @@
     "images": [
       "images/20cent_arg_1899-1-1.jpg",
       "images/20cent_arg_1899-1-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1279,7 +1601,12 @@
     "images": [
       "images/20cent_arg_1899-2-1.jpg",
       "images/20cent_arg_1899-2-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1291,7 +1618,12 @@
     "images": [
       "images/20cent_arg_1899-3-1.jpg",
       "images/20cent_arg_1899-3-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1303,7 +1635,12 @@
     "images": [
       "images/20cent_arg_1899-4-1.jpg",
       "images/20cent_arg_1899-4-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1315,7 +1652,12 @@
     "images": [
       "images/20cent_arg_1899-5-1.jpg",
       "images/20cent_arg_1899-5-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1327,7 +1669,12 @@
     "images": [
       "images/20cent_arg_1899-6-1.jpg",
       "images/20cent_arg_1899-6-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1339,7 +1686,12 @@
     "images": [
       "images/20cent_arg_1899-7-1.jpg",
       "images/20cent_arg_1899-7-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1351,7 +1703,12 @@
     "images": [
       "images/20cent_arg_1908-1-2.jpg",
       "images/20cent_arg_1908-1-1.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1363,7 +1720,12 @@
     "images": [
       "images/20cent_arg_1908-2-1.jpg",
       "images/20cent_arg_1908-2-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1375,7 +1737,12 @@
     "images": [
       "images/20cent_arg_1908-3-1.jpg",
       "images/20cent_arg_1908-3-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1387,7 +1754,12 @@
     "images": [
       "images/20cent_arg_1908-4-1.jpg",
       "images/20cent_arg_1908-4-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1413,7 +1785,12 @@
     "images": [
       "images/20cent_arg_1908-6-1.jpg",
       "images/20cent_arg_1908-6-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1425,7 +1802,12 @@
     "images": [
       "images/20cent_arg_1908-7-1.jpg",
       "images/20cent_arg_1908-7-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1437,7 +1819,12 @@
     "images": [
       "images/20cent_arg_1908-8-1.jpg",
       "images/20cent_arg_1908-8-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1449,7 +1836,12 @@
     "images": [
       "images/20cent_arg_1908-9-1.jpg",
       "images/20cent_arg_1908-9-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1461,7 +1853,12 @@
     "images": [
       "images/20cent_arg_1908-10-1.jpg",
       "images/20cent_arg_1908-10-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1473,7 +1870,12 @@
     "images": [
       "images/20cent_arg_1909-1.jpg",
       "images/20cent_arg_1909-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1485,7 +1887,12 @@
     "images": [
       "images/20cent_arg_1914-1-1.jpg",
       "images/20cent_arg_1914-1-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1497,7 +1904,12 @@
     "images": [
       "images/20cent_arg_1914-2-1.jpg",
       "images/20cent_arg_1914-2-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1509,7 +1921,12 @@
     "images": [
       "images/20cent_arg_1931-1-1.jpg",
       "images/20cent_arg_1931-1-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1521,7 +1938,12 @@
     "images": [
       "images/20cent_arg_1931-2-1.jpg",
       "images/20cent_arg_1931-2-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "denomination": "20 Centavos",
@@ -1533,7 +1955,12 @@
     "images": [
       "images/20cent_arg_1931-3-1.jpg",
       "images/20cent_arg_1931-3-2.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 36",
+    "numista_id": 3252
   },
   {
     "title": "2 Pesos \"Ojos Saltones\" 2010",
@@ -1541,25 +1968,35 @@
     "price": 6,
     "condition": "AU",
     "country": "Argentina",
-    "composition": "Cu Ni - Bronce de aluminio",
+    "composition": "Cu Ni",
     "year": 2010,
     "images": [
       "images/2pesos_arg_2010_ojossaltones-1.jpg",
       "images/2pesos_arg_2010_ojossaltones-2.jpg"
-    ]
+    ],
+    "numista_id": 13051,
+    "diameter": "30.35 mm",
+    "weight": "10.47 g",
+    "currency": "Peso convertible",
+    "reference": "KM# 162.1"
   },
   {
     "denomination": "Half dollar",
     "price": 32,
     "condition": "AU",
     "country": "USA",
-    "composition": "Ag 0.900",
+    "composition": "Plata 0.900",
     "mint": "Philadelphia",
     "year": 1964,
     "images": [
       "images/half_1964-1.jpg",
       "images/half_1964-2.jpg"
-    ]
+    ],
+    "diameter": "30.61 mm",
+    "weight": "12.5 g",
+    "currency": "Dollar",
+    "reference": "KM# 202",
+    "numista_id": 943
   },
   {
     "denomination": "Quarter dollar",
@@ -1601,9 +2038,14 @@
     "year": 1885,
     "images": [
       "images/qirsh-1.jpg"
-    ]
+    ],
+    "diameter": "21 mm",
+    "weight": "3.71 g",
+    "currency": "Pound",
+    "reference": "KM# 291",
+    "numista_id": 4820
   },
-  { 
+  {
     "title": "50 Centavos \"Voto Femenino\" 1997",
     "denomination": "50 Centavos",
     "price": 3.5,
@@ -1614,9 +2056,14 @@
     "images": [
       "images/eva_50-1.jpg",
       "images/eva_50-2.jpg"
-    ]
+    ],
+    "diameter": "25.2 mm",
+    "weight": "5.8 g",
+    "currency": "Peso convertible",
+    "reference": "KM# 121",
+    "numista_id": 8596
   },
-  { 
+  {
     "title": "2 Pesos \"Evita\" 2002",
     "denomination": "2 Pesos",
     "price": 2.5,
@@ -1627,45 +2074,67 @@
     "images": [
       "images/2pesos_eva-1.jpg",
       "images/2pesos_eva-2.jpg"
-    ]
+    ],
+    "numista_id": 8573,
+    "diameter": "30 mm",
+    "weight": "10.4 g",
+    "currency": "Peso convertible",
+    "reference": "KM# 135.1"
   },
-  { 
+  {
     "denomination": "2 Lire",
     "price": 6,
     "condition": "VF",
     "country": "Italia",
-    "composition": "Cu Ni",
+    "composition": "Níquel",
     "year": 1923,
     "images": [
       "images/2lire_1923-1.jpg",
       "images/2lire_1923-2.jpg"
-    ]
+    ],
+    "diameter": "29 mm",
+    "weight": "10 g",
+    "currency": "Lira",
+    "reference": "KM# 63",
+    "numista_id": 2682
   },
-  { 
+  {
     "denomination": "2 Centavos",
     "price": 2.5,
     "condition": "XF",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "year": 1941,
+    "sold": true,
+    "soldon": "07-09-2026",
     "images": [
       "images/2cent_arg_1941-1.jpg",
       "images/2cent_arg_1941-2.jpg"
-    ]
+    ],
+    "diameter": "20 mm",
+    "weight": "3.4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 38",
+    "numista_id": 3239
   },
-  { 
+  {
     "denomination": "2 Centavos",
     "price": 2.5,
     "condition": "XF",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "year": 1945,
     "images": [
       "images/2cent_arg_1945-1-1.jpg",
       "images/2cent_arg_1945-1-2.jpg"
-    ]
+    ],
+    "diameter": "20 mm",
+    "weight": "3.4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 38",
+    "numista_id": 3239
   },
-  { 
+  {
     "denomination": "2 Centavos",
     "price": 2,
     "condition": "VF",
@@ -1675,9 +2144,14 @@
     "images": [
       "images/2cent_arg_1948-1.jpg",
       "images/2cent_arg_1948-2.jpg"
-    ]
+    ],
+    "diameter": "20 mm",
+    "weight": "3.3 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 38a",
+    "numista_id": 5225
   },
-  { 
+  {
     "denomination": "5 Centavos",
     "price": 6,
     "condition": "XF",
@@ -1687,9 +2161,14 @@
     "images": [
       "images/5cent_arg_1942-1-1.jpg",
       "images/5cent_arg_1942-1-2.jpg"
-    ]
+    ],
+    "numista_id": 3241,
+    "diameter": "17 mm",
+    "weight": "2 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 40"
   },
-  { 
+  {
     "title": "5 Pesos 1977 - Capada",
     "denomination": "5 Pesos",
     "price": 15,
@@ -1700,9 +2179,14 @@
     "images": [
       "images/5pesos_arg_1977_capada-1.jpg",
       "images/5pesos_arg_1977_capada-2.jpg"
-    ]
+    ],
+    "numista_id": 5228,
+    "diameter": "23.5 mm",
+    "weight": "5.75 g",
+    "currency": "Peso ley",
+    "reference": "KM# 71"
   },
-  { 
+  {
     "denomination": "1 Centavo",
     "price": 4,
     "condition": "UNC",
@@ -1712,38 +2196,53 @@
     "images": [
       "images/1cent_arg_1946-1.jpg",
       "images/1cent_arg_1946-2.jpg"
-    ]
+    ],
+    "diameter": "16 mm",
+    "weight": "2 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 37a",
+    "numista_id": 3235
   },
-  { 
+  {
     "title": "1 Peso \"Restauración de la Democracia\" 2023",
     "price": 200,
     "denomination": "1 Peso",
     "condition": "UNC",
     "country": "Argentina",
-    "composition": "Ag 0.900",
+    "composition": "Plata 0.900",
     "year": 2023,
     "images": [
       "images/democracia-1.jpg",
       "images/democracia-2.jpg",
       "images/democracia-3.jpg",
       "images/democracia-4.jpg"
-    ]
+    ],
+    "diameter": "37 mm",
+    "weight": "25 g",
+    "currency": "Peso convertible",
+    "reference": "KM# 194",
+    "numista_id": 390341
   },
-  { 
+  {
     "title": "5 Pesos \"Tango\" 2013",
     "price": 180,
     "denomination": "5 Pesos",
     "condition": "UNC",
     "country": "Argentina",
-    "composition": "Ag 0.925",
+    "composition": "Plata 0.925",
     "year": 2013,
     "images": [
       "images/tango-1.jpg",
       "images/tango-2.jpg",
       "images/tango-3.jpg"
-    ]
+    ],
+    "numista_id": 64430,
+    "diameter": "33 mm",
+    "weight": "13.5 g",
+    "currency": "Peso convertible",
+    "reference": "KM# 179"
   },
-  { 
+  {
     "title": "5 Pesos \"Payador\" 2014",
     "price": 180,
     "denomination": "5 Pesos",
@@ -1759,13 +2258,13 @@
       "images/payador-3.jpg"
     ]
   },
-  { 
+  {
     "title": "1 \"Peace Dollar 100th Anniversary\" 2021",
     "price": 250,
     "denomination": "1 Dollar",
     "condition": "UNC",
     "country": "USA",
-    "composition": "Ag 0.999",
+    "composition": "Plata 0.999",
     "mint": "Philadelphia",
     "year": 2021,
     "images": [
@@ -1774,9 +2273,14 @@
       "images/peace_2021-3.jpg",
       "images/peace_2021-4.jpg",
       "images/peace_2021-5.jpg"
-    ]
+    ],
+    "numista_id": 287022,
+    "diameter": "38.1 mm",
+    "weight": "26.72 g",
+    "currency": "Dollar",
+    "reference": "KM# 150a"
   },
-  { 
+  {
     "title": "1 \"Morgan\" 1884-CC",
     "price": 350,
     "denomination": "1 Dollar",
@@ -1807,7 +2311,12 @@
     "images": [
       "indians/indian_cent_1858-1.jpg",
       "indians/indian_cent_1858-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "4.67 g",
+    "currency": "Dollar",
+    "reference": "KM# 85",
+    "numista_id": 14014
   },
   {
     "title": "1 Cent \"Indian\" 1859",
@@ -1821,7 +2330,12 @@
     "images": [
       "indians/indian_cent_1859-1.jpeg",
       "indians/indian_cent_1859-2.jpeg"
-    ]
+    ],
+    "numista_id": 4567,
+    "diameter": "19 mm",
+    "weight": "4.67 g",
+    "currency": "Dollar",
+    "reference": "KM# 87"
   },
   {
     "title": "1 Cent \"Indian\" 1860",
@@ -1851,7 +2365,12 @@
     "images": [
       "indians/indian_cent_1861-1.jpg",
       "indians/indian_cent_1861-2.jpg"
-    ]
+    ],
+    "numista_id": 1108,
+    "diameter": "19 mm",
+    "weight": "4.67 g",
+    "currency": "Dollar",
+    "reference": "KM# 90"
   },
   {
     "title": "1 Cent \"Indian\" 1862",
@@ -1865,7 +2384,12 @@
     "images": [
       "indians/indian_cent_1862-1.jpg",
       "indians/indian_cent_1862-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "4.67 g",
+    "currency": "Dollar",
+    "reference": "KM# 90",
+    "numista_id": 1108
   },
   {
     "title": "1 Cent \"Indian\" 1864 (Cu Ni)",
@@ -1879,161 +2403,221 @@
     "images": [
       "indians/indian_cent_1864cn-1.jpg",
       "indians/indian_cent_1864cn-2.jpg"
-    ]
+    ],
+    "numista_id": 1108,
+    "diameter": "19 mm",
+    "weight": "4.67 g",
+    "currency": "Dollar",
+    "reference": "KM# 90"
   },
   {
     "title": "1 Cent \"Indian\" 1864 (Bronze)",
     "price": 20,
     "condition": "F",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1864,
     "images": [
       "indians/indian_cent_1864b-1.jpg",
       "indians/indian_cent_1864b-2.jpg"
-    ]
+    ],
+    "numista_id": 2356,
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a"
   },
   {
     "title": "1 Cent \"Indian\" 1865",
     "price": 20,
     "condition": "VG",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1865,
     "images": [
       "indians/indian_cent_1865-1.jpg",
       "indians/indian_cent_1865-2.jpg"
-    ]
+    ],
+    "numista_id": 2356,
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a"
   },
   {
     "title": "1 Cent \"Indian\" 1867",
     "price": 55,
     "condition": "F Details",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1867,
     "images": [
       "indians/indian_cent_1867-1.jpg",
       "indians/indian_cent_1867-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a",
+    "numista_id": 2356
   },
   {
     "title": "1 Cent \"Indian\" 1868",
     "price": 60,
     "condition": "F",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1868,
     "images": [
       "indians/indian_cent_1868-1.jpg",
       "indians/indian_cent_1868-2.jpg"
-    ]
+    ],
+    "numista_id": 2356,
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a"
   },
   {
     "title": "1 Cent \"Indian\" 1873",
     "price": 75,
     "condition": "XF",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1873,
     "images": [
       "indians/indian_cent_1873-1.jpg",
       "indians/indian_cent_1873-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a",
+    "numista_id": 2356
   },
   {
     "title": "1 Cent \"Indian\" 1874",
     "price": 25,
     "condition": "G",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1874,
     "images": [
       "indians/indian_cent_1874-1.jpg",
       "indians/indian_cent_1874-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a",
+    "numista_id": 2356
   },
   {
     "title": "1 Cent \"Indian\" 1875",
     "price": 42,
     "condition": "VG",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1875,
     "images": [
       "indians/indian_cent_1875-1.jpg",
       "indians/indian_cent_1875-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a",
+    "numista_id": 2356
   },
   {
     "title": "1 Cent \"Indian\" 1876",
     "price": 70,
     "condition": "F",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1876,
     "images": [
       "indians/indian_cent_1876-1.jpg",
       "indians/indian_cent_1876-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a",
+    "numista_id": 2356
   },
   {
     "title": "1 Cent \"Indian\" 1879",
     "price": 22,
     "condition": "VF",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1879,
     "images": [
       "indians/indian_cent_1879-1.jpg",
       "indians/indian_cent_1879-2.jpg"
-    ]
+    ],
+    "numista_id": 2356,
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a"
   },
   {
     "title": "1 Cent \"Indian\" 1880",
     "price": 12,
     "condition": "VF",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1880,
     "images": [
       "indians/indian_cent_1880-2-1.jpg",
       "indians/indian_cent_1880-2-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a",
+    "numista_id": 2356
   },
   {
     "title": "1 Cent \"Indian\" 1880",
     "price": 20,
     "condition": "XF",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1880,
     "images": [
       "indians/indian_cent_1880-1-1.jpg",
       "indians/indian_cent_1880-1-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a",
+    "numista_id": 2356
   },
   {
     "title": "1 Cent \"Indian\" 1881",
@@ -2056,14 +2640,19 @@
     "price": 12,
     "condition": "VF",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1882,
     "images": [
       "indians/indian_cent_1882-1.jpg",
       "indians/indian_cent_1882-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a",
+    "numista_id": 2356
   },
   {
     "title": "1 Cent \"Indian\" 1883",
@@ -2086,42 +2675,57 @@
     "price": 12,
     "condition": "VF Details",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1884,
     "images": [
       "indians/indian_cent_1884-1.jpg",
       "indians/indian_cent_1884-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a",
+    "numista_id": 2356
   },
   {
     "title": "1 Cent \"Indian\" 1885",
     "price": 14,
     "condition": "VG",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1885,
     "images": [
       "indians/indian_cent_1885-1.jpg",
       "indians/indian_cent_1885-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a",
+    "numista_id": 2356
   },
   {
     "title": "1 Cent \"Indian\" 1886",
     "price": 14,
     "condition": "G",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1886,
     "images": [
       "indians/indian_cent_1886-1.jpg",
       "indians/indian_cent_1886-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a",
+    "numista_id": 2356
   },
   {
     "title": "1 Cent \"Indian\" 1887",
@@ -2368,14 +2972,19 @@
     "price": 6.5,
     "condition": "XF",
     "country": "USA",
-    "composition": "Cu",
+    "composition": "Bronce",
     "mint": "Philadelphia",
     "denomination": "1 Cent",
     "year": 1902,
     "images": [
       "indians/indian_cent_1902-1.jpg",
       "indians/indian_cent_1902-2.jpg"
-    ]
+    ],
+    "diameter": "19 mm",
+    "weight": "3.11 g",
+    "currency": "Dollar",
+    "reference": "KM# 90a",
+    "numista_id": 2356
   },
   {
     "title": "1 Cent \"Indian\" 1903",
@@ -2496,12 +3105,17 @@
     "condition": "UNC",
     "country": "USA",
     "mint": "Denver",
-    "composition": "Cu Ni",
+    "composition": "Cu Ni clad",
     "year": 1979,
     "images": [
       "images/anthony_1979d-1.jpeg",
       "images/anthony_1979d-2.jpeg"
-    ]
+    ],
+    "diameter": "26.5 mm",
+    "weight": "8.1 g",
+    "currency": "Dollar",
+    "reference": "KM# 207",
+    "numista_id": 3548
   },
   {
     "title": "1 Dollar \"Anthony\" 1979-S",
@@ -2510,12 +3124,17 @@
     "condition": "UNC",
     "country": "USA",
     "mint": "San Francisco",
-    "composition": "Cu Ni",
+    "composition": "Cu Ni clad",
     "year": 1979,
     "images": [
       "images/anthony_1979s-1.jpeg",
       "images/anthony_1979s-2.jpeg"
-    ]
+    ],
+    "diameter": "26.5 mm",
+    "weight": "8.1 g",
+    "currency": "Dollar",
+    "reference": "KM# 207",
+    "numista_id": 3548
   },
   {
     "title": "1 Cent \"Formation Years\" 2009-P",
@@ -2524,12 +3143,17 @@
     "condition": "UNC",
     "country": "USA",
     "mint": "Philadelphia",
-    "composition": "Cu",
+    "composition": "Cobre sobre zinc",
     "year": 2009,
     "images": [
       "images/cent_formation-1.jpeg",
       "images/cent_formation-2.jpeg"
-    ]
+    ],
+    "numista_id": 7214,
+    "diameter": "19.05 mm",
+    "weight": "2.5 g",
+    "currency": "Dollar",
+    "reference": "KM# 442"
   },
   {
     "title": "Half Dollar 2021-D",
@@ -2538,12 +3162,17 @@
     "condition": "UNC",
     "country": "USA",
     "mint": "Denver",
-    "composition": "Cu Ni",
+    "composition": "Cu Ni clad",
     "year": 2021,
     "images": [
       "images/half_dollar_2021d-1.jpeg",
       "images/half_dollar_2021d-2.jpeg"
-    ]
+    ],
+    "numista_id": 6918,
+    "diameter": "30.61 mm",
+    "weight": "11.34 g",
+    "currency": "Dollar",
+    "reference": "KM# 202b"
   },
   {
     "title": "1 Dollar \"Haudenosaunee\" 2010-D",
@@ -2552,12 +3181,17 @@
     "condition": "XF",
     "country": "USA",
     "mint": "Denver",
-    "composition": "Brass",
+    "composition": "Latón de manganeso clad",
     "year": 2010,
     "images": [
       "images/haudenosaunee-1.jpeg",
       "images/haudenosaunee-2.jpeg"
-    ]
+    ],
+    "numista_id": 9953,
+    "diameter": "26.5 mm",
+    "weight": "8.1 g",
+    "currency": "Dollar",
+    "reference": "KM# 474"
   },
   {
     "title": "1 Dollar \"Sacagawea\" 2000-D",
@@ -2566,12 +3200,17 @@
     "condition": "XF",
     "country": "USA",
     "mint": "Denver",
-    "composition": "Brass",
+    "composition": "Latón de manganeso clad",
     "year": 2000,
     "images": [
       "images/sacagawea_2000-1.jpeg",
       "images/sacagawea_2000-2.jpeg"
-    ]
+    ],
+    "numista_id": 923,
+    "diameter": "26.5 mm",
+    "weight": "8.1 g",
+    "currency": "Dollar",
+    "reference": "KM# 310"
   },
   {
     "title": "1 Dollar \"Sacagawea\" 2001-P",
@@ -2580,12 +3219,17 @@
     "condition": "UNC",
     "country": "USA",
     "mint": "Philadelphia",
-    "composition": "Brass",
+    "composition": "Latón de manganeso clad",
     "year": 2001,
     "images": [
       "images/sacagawea_2001-1.jpeg",
       "images/sacagawea_2001-2.jpeg"
-    ]
+    ],
+    "numista_id": 923,
+    "diameter": "26.5 mm",
+    "weight": "8.1 g",
+    "currency": "Dollar",
+    "reference": "KM# 310"
   },
   {
     "title": "5 Cents 1965",
@@ -2599,7 +3243,12 @@
     "images": [
       "images/nickel_1965-1.jpeg",
       "images/nickel_1965-2.jpeg"
-    ]
+    ],
+    "diameter": "21.2 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 192",
+    "numista_id": 44
   },
   {
     "title": "5 Cents \"Lewis and Clark\" 2004-D",
@@ -2613,7 +3262,12 @@
     "images": [
       "images/nickel_boat_d-1.jpeg",
       "images/nickel_boat_d-2.jpeg"
-    ]
+    ],
+    "numista_id": 47,
+    "diameter": "21.21 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 361"
   },
   {
     "title": "5 Cents \"Buffalo\" 2005-D",
@@ -2627,7 +3281,12 @@
     "images": [
       "images/nickel_buff_d-1.jpeg",
       "images/nickel_buff_d-2.jpeg"
-    ]
+    ],
+    "numista_id": 48,
+    "diameter": "21.21 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 368"
   },
   {
     "title": "5 Cents \"Buffalo\" 2005-P",
@@ -2641,7 +3300,12 @@
     "images": [
       "images/nickel_buff_p-1.jpeg",
       "images/nickel_buff_p-2.jpeg"
-    ]
+    ],
+    "numista_id": 48,
+    "diameter": "21.21 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 368"
   },
   {
     "title": "5 Cents \"Ocean in View\" 2005-D",
@@ -2655,7 +3319,12 @@
     "images": [
       "images/nickel_lakeview_d-1.jpeg",
       "images/nickel_lakeview_d-2.jpeg"
-    ]
+    ],
+    "numista_id": 49,
+    "diameter": "21.21 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 369"
   },
   {
     "title": "5 Cents \"Ocean in View\" 2005-P",
@@ -2669,7 +3338,12 @@
     "images": [
       "images/nickel_lakeview_p-1.jpeg",
       "images/nickel_lakeview_p-2.jpeg"
-    ]
+    ],
+    "numista_id": 49,
+    "diameter": "21.21 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 369"
   },
   {
     "title": "5 Cents \"Louisiana Purchase\" 2004-D",
@@ -2683,7 +3357,12 @@
     "images": [
       "images/nickel_purchase_d-1.jpeg",
       "images/nickel_purchase_d-2.jpeg"
-    ]
+    ],
+    "numista_id": 46,
+    "diameter": "21.21 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 360"
   },
   {
     "title": "5 Cents \"Louisiana Purchase\" 2004-P",
@@ -2697,7 +3376,12 @@
     "images": [
       "images/nickel_purchase_p-1.jpeg",
       "images/nickel_purchase_p-2.jpeg"
-    ]
+    ],
+    "numista_id": 46,
+    "diameter": "21.21 mm",
+    "weight": "5 g",
+    "currency": "Dollar",
+    "reference": "KM# 360"
   },
   {
     "title": "Quarter \"Barber\" 1908-D",
@@ -2722,12 +3406,17 @@
     "condition": "VF",
     "country": "USA",
     "mint": "Philadelphia",
-    "composition": "Cu Ni",
+    "composition": "Cu Ni clad",
     "year": 1976,
     "images": [
       "images/quarter_1976-1.jpeg",
       "images/quarter_1976-2.jpeg"
-    ]
+    ],
+    "numista_id": 56,
+    "diameter": "24.3 mm",
+    "weight": "5.67 g",
+    "currency": "Dollar",
+    "reference": "KM# 204"
   },
   {
     "title": "Quarter \"Crossing the Delaware\" 2021-D",
@@ -2736,12 +3425,17 @@
     "condition": "UNC",
     "country": "USA",
     "mint": "Denver",
-    "composition": "Cu Ni",
+    "composition": "Cu Ni clad",
     "year": 2021,
     "images": [
       "images/quarter_2021-1.jpeg",
       "images/quarter_2021-2.jpeg"
-    ]
+    ],
+    "numista_id": 262204,
+    "diameter": "24.26 mm",
+    "weight": "5.67 g",
+    "currency": "Dollar",
+    "reference": "KM# 758"
   },
   {
     "title": "Quarter \"Bicentennial 1776-1976\" 1976-D",
@@ -2750,12 +3444,17 @@
     "condition": "VF",
     "country": "USA",
     "mint": "Denver",
-    "composition": "Cu Ni",
+    "composition": "Cu Ni clad",
     "year": 1976,
     "images": [
       "images/quarter_1976d-1.jpeg",
       "images/quarter_1976d-2.jpeg"
-    ]
+    ],
+    "numista_id": 56,
+    "diameter": "24.3 mm",
+    "weight": "5.67 g",
+    "currency": "Dollar",
+    "reference": "KM# 204"
   },
   {
     "title": "10 Centavos 1882",
@@ -2764,11 +3463,18 @@
     "country": "Argentina",
     "composition": "Plata 0.900",
     "denomination": "10 Centavos",
+    "sold": true,
+    "soldon": "07-09-2026",
     "year": 1882,
     "images": [
       "images/10cent_arg_1882-1.jpeg",
       "images/10cent_arg_1882-2.jpeg"
-    ]
+    ],
+    "diameter": "18.3 mm",
+    "weight": "2.5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 26",
+    "numista_id": 4569
   },
   {
     "title": "10 Centavos 1883",
@@ -2781,7 +3487,12 @@
     "images": [
       "images/10cent_arg_1883-1.jpeg",
       "images/10cent_arg_1883-2.jpeg"
-    ]
+    ],
+    "diameter": "18.3 mm",
+    "weight": "2.5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 26",
+    "numista_id": 4569
   },
   {
     "price": 85,
@@ -2793,7 +3504,12 @@
     "images": [
       "images/50cent_arg_1883-1.jpeg",
       "images/50cent_arg_1883-2.jpeg"
-    ]
+    ],
+    "diameter": "30.1 mm",
+    "weight": "12.5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 28",
+    "numista_id": 11353
   },
   {
     "price": 100,
@@ -2813,73 +3529,105 @@
     "price": 300,
     "condition": "XF",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "1 Centavo",
     "year": 1882,
     "images": [
       "images/1cent_arg_1882-1.jpeg",
       "images/1cent_arg_1882-2.jpeg"
-    ]
+    ],
+    "diameter": "25 mm",
+    "weight": "5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 32",
+    "numista_id": 1156
   },
   {
     "price": 50,
     "condition": "XF",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "1 Centavo",
     "year": 1883,
     "images": [
       "images/1cent_arg_1883-1.jpeg",
       "images/1cent_arg_1883-2.jpeg"
-    ]
+    ],
+    "diameter": "25 mm",
+    "weight": "5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 32",
+    "numista_id": 1156
   },
   {
     "price": 85,
     "condition": "XF",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "1 Centavo",
     "year": 1886,
     "images": [
       "images/1cent_arg_1886-1.jpeg",
       "images/1cent_arg_1886-2.jpeg"
-    ]
+    ],
+    "diameter": "25 mm",
+    "weight": "5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 32",
+    "numista_id": 1156
   },
   {
     "price": 30,
     "condition": "VF",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "1 Centavo",
     "year": 1888,
+    "sold": true,
+    "soldon": "07-09-2026",
     "images": [
       "images/1cent_arg_1888-1.jpeg",
       "images/1cent_arg_1888-2.jpeg"
-    ]
+    ],
+    "diameter": "25 mm",
+    "weight": "5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 32",
+    "numista_id": 1156
   },
   {
     "price": 17,
     "condition": "VF",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "1 Centavo",
     "year": 1889,
     "images": [
       "images/1cent_arg_1889-1.jpeg",
       "images/1cent_arg_1889-2.jpeg"
-    ]
+    ],
+    "diameter": "25 mm",
+    "weight": "5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 32",
+    "numista_id": 1156
   },
   {
     "price": 35,
     "condition": "VF+",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "1 Centavo",
     "year": 1895,
     "images": [
       "images/1cent_arg_1895-1.jpeg",
       "images/1cent_arg_1895-2.jpeg"
-    ]
+    ],
+    "diameter": "25 mm",
+    "weight": "5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 32",
+    "numista_id": 1156
   },
   {
     "price": 150,
@@ -2899,25 +3647,35 @@
     "price": 15,
     "condition": "VF+",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "2 Centavos",
     "year": 1888,
     "images": [
       "images/2cent_arg_1888-1.jpeg",
       "images/2cent_arg_1888-2.jpeg"
-    ]
+    ],
+    "diameter": "30 mm",
+    "weight": "10 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 33",
+    "numista_id": 2220
   },
   {
     "price": 25,
     "condition": "VF",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "2 Centavos",
     "year": 1896,
     "images": [
       "images/2cent_arg_1896-1.jpeg",
       "images/2cent_arg_1896-2.jpeg"
-    ]
+    ],
+    "diameter": "30 mm",
+    "weight": "10 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 33",
+    "numista_id": 2220
   },
   {
     "price": 30,
@@ -2932,151 +3690,216 @@
     "images": [
       "images/20cent_arg_1972-1.jpeg",
       "images/20cent_arg_1972-2.jpeg"
-    ]
+    ],
+    "diameter": "18.5 mm",
+    "weight": "3.07 g",
+    "currency": "Peso ley",
+    "reference": "KM# 67",
+    "numista_id": 3255
   },
   {
     "price": 10,
     "condition": "XF",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "1 Centavo",
     "year": 1884,
     "images": [
       "images/1cent_arg_1884-1.jpeg",
       "images/1cent_arg_1884-2.jpeg"
-    ]
+    ],
+    "diameter": "25 mm",
+    "weight": "5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 32",
+    "numista_id": 1156
   },
   {
     "price": 12,
     "condition": "XF",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "1 Centavo",
     "year": 1890,
     "images": [
       "images/1cent_arg_1890-1.jpeg",
       "images/1cent_arg_1890-2.jpeg"
-    ]
+    ],
+    "diameter": "25 mm",
+    "weight": "5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 32",
+    "numista_id": 1156
   },
   {
     "price": 25,
     "condition": "XF",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "1 Centavo",
     "year": 1891,
     "images": [
       "images/1cent_arg_1891-1.jpeg",
       "images/1cent_arg_1891-2.jpeg"
-    ]
+    ],
+    "diameter": "25 mm",
+    "weight": "5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 32",
+    "numista_id": 1156
   },
   {
     "price": 6,
     "condition": "VF",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "2 Centavos",
     "year": 1883,
     "images": [
       "images/2cent_arg_1883-1.jpeg",
       "images/2cent_arg_1883-2.jpeg"
-    ]
+    ],
+    "diameter": "30 mm",
+    "weight": "10 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 33",
+    "numista_id": 2220
   },
   {
     "price": 3,
     "condition": "F+",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "2 Centavos",
     "year": 1884,
     "images": [
       "images/2cent_arg_1884-1.jpeg",
       "images/2cent_arg_1884-2.jpeg"
-    ]
+    ],
+    "diameter": "30 mm",
+    "weight": "10 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 33",
+    "numista_id": 2220
   },
   {
     "price": 6,
     "condition": "VF",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "2 Centavos",
     "year": 1885,
     "images": [
       "images/2cent_arg_1885-1.jpeg",
       "images/2cent_arg_1885-2.jpeg"
-    ]
+    ],
+    "diameter": "30 mm",
+    "weight": "10 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 33",
+    "numista_id": 2220
   },
   {
     "price": 4,
     "condition": "VF",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "2 Centavos",
     "year": 1889,
     "images": [
       "images/2cent_arg_1889-1.jpeg",
       "images/2cent_arg_1889-2.jpeg"
-    ]
+    ],
+    "diameter": "30 mm",
+    "weight": "10 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 33",
+    "numista_id": 2220
   },
   {
     "price": 2,
     "condition": "F",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "2 Centavos",
     "year": 1891,
     "images": [
       "images/2cent_arg_1891-1.jpeg",
       "images/2cent_arg_1891-2.jpeg"
-    ]
+    ],
+    "diameter": "30 mm",
+    "weight": "10 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 33",
+    "numista_id": 2220
   },
   {
     "price": 3,
     "condition": "VF+",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "2 Centavos",
     "year": 1892,
     "images": [
       "images/2cent_arg_1892-1.jpeg",
       "images/2cent_arg_1892-2.jpeg"
-    ]
+    ],
+    "diameter": "30 mm",
+    "weight": "10 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 33",
+    "numista_id": 2220
   },
   {
     "price": 9,
     "condition": "XF+",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "2 Centavos",
     "year": 1893,
     "images": [
       "images/2cent_arg_1893-1.jpeg",
       "images/2cent_arg_1893-2.jpeg"
-    ]
+    ],
+    "diameter": "30 mm",
+    "weight": "10 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 33",
+    "numista_id": 2220
   },
   {
     "price": 8,
     "condition": "XF",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "2 Centavos",
     "year": 1894,
     "images": [
       "images/2cent_arg_1894-1.jpeg",
       "images/2cent_arg_1894-2.jpeg"
-    ]
+    ],
+    "diameter": "30 mm",
+    "weight": "10 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 33",
+    "numista_id": 2220
   },
   {
     "price": 30,
     "condition": "UNC",
     "country": "Argentina",
-    "composition": "Cobre",
+    "composition": "Bronce",
     "denomination": "2 Centavos",
     "year": 1944,
     "images": [
       "images/2cent_arg_1944-1.jpeg",
       "images/2cent_arg_1944-2.jpeg"
-    ]
+    ],
+    "diameter": "20 mm",
+    "weight": "3.4 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 38",
+    "numista_id": 3239
   },
   {
     "price": 20,
@@ -3088,7 +3911,12 @@
     "images": [
       "images/2cent_arg_1950-1.jpeg",
       "images/2cent_arg_1950-2.jpeg"
-    ]
+    ],
+    "diameter": "20 mm",
+    "weight": "3.3 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 38a",
+    "numista_id": 5225
   },
   {
     "price": 10,
@@ -3100,7 +3928,12 @@
     "images": [
       "images/5cent_arg_1971-1.jpeg",
       "images/5cent_arg_1971-2.jpeg"
-    ]
+    ],
+    "diameter": "17.7 mm",
+    "weight": "0.9 g",
+    "currency": "Peso ley",
+    "reference": "KM# 65",
+    "numista_id": 3243
   },
   {
     "price": 4,
@@ -3112,14 +3945,19 @@
     "images": [
       "images/20cent_arg_1976-1.jpeg",
       "images/20cent_arg_1976-2.jpeg"
-    ]
+    ],
+    "diameter": "18.5 mm",
+    "weight": "3.07 g",
+    "currency": "Peso ley",
+    "reference": "KM# 67",
+    "numista_id": 3255
   },
   {
     "title": "3000 Pesos 1977 (Mundial 1978)",
     "price": 60,
     "condition": "AU",
     "country": "Argentina",
-    "diameter": "37 mm",
+    "diameter": "38 mm",
     "weight": "25 g",
     "denomination": "3000 Pesos",
     "composition": "Plata 0.900",
@@ -3129,7 +3967,10 @@
     "images": [
       "images/3000pesos_arg_1977-2-1.jpeg",
       "images/3000pesos_arg_1977-2-2.jpeg"
-    ]
+    ],
+    "currency": "Peso ley",
+    "reference": "KM# 80",
+    "numista_id": 14508
   },
   {
     "title": "2000 Pesos 1977 (Mundial 1978)",
@@ -3144,7 +3985,12 @@
     "images": [
       "images/2000pesos_arg_1977-1.jpeg",
       "images/2000pesos_arg_1977-2.jpeg"
-    ]
+    ],
+    "diameter": "33 mm",
+    "weight": "15 g",
+    "currency": "Peso ley",
+    "reference": "KM# 79",
+    "numista_id": 14509
   },
   {
     "title": "1000 Pesos 1977 (Mundial 1978)",
@@ -3159,7 +4005,12 @@
     "images": [
       "images/1000pesos_arg_1977-1.jpeg",
       "images/1000pesos_arg_1977-2.jpeg"
-    ]
+    ],
+    "diameter": "28 mm",
+    "weight": "10 g",
+    "currency": "Peso ley",
+    "reference": "KM# 78",
+    "numista_id": 14510
   },
   {
     "title": "Blister Mundial 1978 (cuño 1977)",
@@ -3186,6 +4037,11 @@
     "images": [
       "images/morgan_1897-1.jpeg",
       "images/morgan_1897-2.jpeg"
-    ]
+    ],
+    "diameter": "38.1 mm",
+    "weight": "26.73 g",
+    "currency": "Dollar",
+    "reference": "KM# 110",
+    "numista_id": 1492
   }
 ]

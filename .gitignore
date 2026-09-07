@@ -1,3 +1,6 @@
 *.py
 *.xlsx
-_overrides.json
+_*.json
+_*.txt
+__pycache__/
+_*.md
