@@ -84,11 +84,12 @@ Mientras tanto: espaciar las publicaciones y respetar el **tope de 5 posts por g
 
 ## Datos del catálogo a tener en cuenta
 
-Sobre 174 disponibles (230 totales − 51 vendidas − 5 libros):
+Al momento de escribir esto, 170 disponibles (230 totales − 55 vendidas − 5 libros). **Recontá siempre**: el archivo cambia solo.
 
 - **78 no tienen `title`** y caen al fallback `denomination + year`. Se leen bien, pero **hay repetidos** (cinco "5 Centavos 1898" como piezas distintas). No pongas dos monedas del mismo título en la misma tanda ni en el mismo grupo: parecen post duplicado.
-- **158 no tienen descripción** y **173 no tienen `reference` (KM#)**; `diameter` y `weight` faltan en 166. El punteo de la mayoría queda en 3 líneas. Se resuelve enriqueciendo `items.json` desde Numista y escribiendo las descripciones — tarea aparte, mejora la web también.
-- `composition` está completa en las 174.
+- **La ficha técnica ya está cargada**: 169 de 170 con `reference` (KM#) y 169 con módulo y peso, vía la skill `numista-enrich`. El punteo típico pasó de 3 líneas a 7.
+- **154 siguen sin descripción.** Es lo único que le falta al post para estar completo; escribirlas y guardarlas en `items.json` mejora también la web.
+- `composition` está completa en las 170.
 - Los ítems con `book: true` son libros, no monedas: `--all` los excluye y un `--index` explícito avisa.
 
 ## Notas
