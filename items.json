@@ -497,6 +497,8 @@
     "denomination": "1 Cent",
     "mint": "San Francisco",
     "year": 1914,
+    "sold": true,
+    "soldon": "06-09-2026",
     "images": [
       "images/lin_1914s-1.jpg",
       "images/lin_1914s-2.jpg"
@@ -518,6 +520,8 @@
     "mint": "San Francisco",
     "denomination": "1 Cent",
     "year": 1915,
+    "sold": true,
+    "soldon": "06-09-2026",
     "images": [
       "images/lin_1915s-1.jpg",
       "images/lin_1915s-2.jpg"
