@@ -3958,26 +3958,6 @@
     "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law."
   },
   {
-    "price": 30,
-    "condition": "XF",
-    "country": "Argentina",
-    "composition": "Bronce de aluminio",
-    "composition_en": "Aluminium-bronze",
-    "description": "Rara pieza",
-    "description_en": "Rare",
-    "denomination": "20 Centavos",
-    "year": 1972,
-    "images": [
-      "images/20cent_arg_1972-1.jpeg",
-      "images/20cent_arg_1972-2.jpeg"
-    ],
-    "diameter": "18.5 mm",
-    "weight": "3.07 g",
-    "currency": "Peso ley",
-    "reference": "KM# 67",
-    "numista_id": 3255
-  },
-  {
     "price": 10,
     "condition": "XF",
     "country": "Argentina",
