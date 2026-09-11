@@ -1,6 +1,6 @@
 ---
 name: facebook-coins
-description: Publica monedas de items.json en grupos de numismática de Facebook y en el perfil personal, una publicación por moneda, en tandas curadas por "programa" (variadas, Indian cents, argentinas del s.XIX, premium, etc.). Usar cuando el usuario quiera publicar o promocionar monedas en Facebook. ESTADO - la capa de render está lista; la capa de publicación todavía no está implementada.
+description: Publica monedas de items.json en grupos de numismática de Facebook y en el perfil personal, una publicación por moneda, en tandas curadas por "programa" (variadas, Indian cents, argentinas del s.XIX, premium, etc.). Usar cuando el usuario quiera publicar o promocionar monedas en Facebook. Para publicar, seguir PUBLICAR.md.
 ---
 
 # Publicación de monedas en Facebook
@@ -11,11 +11,11 @@ Renderiza el texto de venta de una moneda de `items.json` y (a futuro) lo public
 
 | Capa | Estado |
 |---|---|
-| 1. Selección (programas, tope diario, anti-repetición) | **pendiente** |
-| 2. Render del texto | **listo** — `render_post.py` |
-| 3. Publicación en el navegador | **pendiente** — bloqueada hasta relevar los grupos |
+| 1. Selección (monedas, grupos, tope diario, anti-repetición) | `plan_tanda.py` → `_plan.json` |
+| 2. Render del texto | `render_post.py` |
+| 3. Publicación en el navegador | Claude in Chrome, siguiendo **[PUBLICAR.md](PUBLICAR.md)** |
 
-Mientras 1 y 3 no existan, esta skill sirve para generar el texto y que el usuario lo pegue a mano. **No inventes la capa de publicación sobre la marcha**: si el usuario pide publicar, decíselo y ofrecé el relevamiento de grupos como paso previo.
+Para publicar, **leé `PUBLICAR.md`**: tiene solo el procedimiento y las reglas operativas. Este archivo es el contexto de fondo.
 
 ## Antes de cada tanda: dos confirmaciones
 
@@ -76,11 +76,11 @@ País y año no van en el punteo: ya están en la línea bajo el título, igual 
 
 ## Riesgo: texto duplicado entre grupos
 
-Sin hashtags, el post va carácter por carácter idéntico a todos los grupos que comparten el mismo valor de `promo`. Es el patrón que el antispam de Facebook usa para marcar cuentas, y lo que está en juego es la cuenta personal del usuario, no un post.
+Sin hashtags, el mismo post iría idéntico a todos los grupos: es el patrón que el antispam de Facebook usa para marcar cuentas.
 
-Mitigación propuesta pero **no aprobada todavía**: rotar el emoji de apertura (🪙 / 💰 / ⭐) y alternar el orden de las líneas 📍 y 💳 según el grupo. No la implementes sin confirmarlo.
+**Implementado y aprobado:** cada grupo tiene un `variante` fijo en `groups.json` (0–10, asignado a mano). `render()` rota el emoji del título (🪙 ⭐ 🔷 🏵️ 🔎), intercambia Peso/Diámetro y el orden de 📍/💳. Los bits son independientes, así que las variantes 0–19 son todas distintas. **No derivar la variante del slug**: un hash por suma de caracteres dio 6 combinaciones para 11 grupos.
 
-Mientras tanto: espaciar las publicaciones y respetar el **tope de 5 posts por grupo por día**.
+En modo multi-grupo el texto es uno por compositor, así que la variación por grupo se pierde dentro de cada perfil. Es el costo aceptado de publicar en muchos grupos con un solo compositor.
 
 ## Datos del catálogo a tener en cuenta
 
@@ -88,9 +88,19 @@ Al momento de escribir esto, 170 disponibles (230 totales − 55 vendidas − 5 
 
 - **78 no tienen `title`** y caen al fallback `denomination + year`. Se leen bien, pero **hay repetidos** (cinco "5 Centavos 1898" como piezas distintas). No pongas dos monedas del mismo título en la misma tanda ni en el mismo grupo: parecen post duplicado.
 - **La ficha técnica ya está cargada**: 169 de 170 con `reference` (KM#) y 169 con módulo y peso, vía la skill `numista-enrich`. El punteo típico pasó de 3 líneas a 7.
-- **154 siguen sin descripción.** Es lo único que le falta al post para estar completo; escribirlas y guardarlas en `items.json` mejora también la web.
+- **Todas tienen descripción**, escrita por tipo de Numista (60 textos para 154 monedas), en español e inglés.
 - `composition` está completa en las 170.
 - Los ítems con `book: true` son libros, no monedas: `--all` los excluye y un `--index` explícito avisa.
+
+## Lo que parecía un límite de Facebook no lo era
+
+En las sesiones del 07 y 09-09 el compositor dejó de abrir y se atribuyó a un límite anti-automatización de Facebook "que iba en aumento". **Era incorrecto.** Verificado el 10-09 leyendo la pestaña: `visibilityState: "hidden"`, `hasFocus: false`, `requestAnimationFrame` pausado.
+
+La ventana de Chrome quedaba tapada por la app de Claude, Windows la marcaba como ocluida y **Chrome congelaba el renderizado**. El diálogo de Facebook necesita renderizar para aparecer, así que no aparecía. Explica todo: el compositor mudo, las capturas con timeout "renderer frozen", que a veces sí anduviera, y que a mano funcionara (el usuario traía Chrome al frente).
+
+La regla que sale de acá está en `PUBLICAR.md`: **chequear visibilidad antes de cada acción** y nunca actuar con la pestaña oculta.
+
+Lo que sigue siendo cierto: Meta no publica umbrales antispam, y la API de grupos no existe desde abril de 2024.
 
 ## Notas
 
