@@ -16,7 +16,7 @@
   "numismatica-argentina-con-tilde": {
     "nombre": "Numismática Argentina",
     "url": "https://www.facebook.com/groups/16579498084",
-    "promo": true,
+    "promo": false,
     "prefijo": null,
     "moderado": true,
     "max_por_dia": 5,
@@ -24,7 +24,7 @@
     "miembros": 70400,
     "posts_por_dia": 69,
     "reglas": "Post fijado: sin foto se rechaza; con foto y sin descripcion tambien; fotos borrosas se rechazan. La aprobacion tarda de 2 horas a 2 dias.",
-    "nota": "Nombre CON tilde. Sin restriccion de dias (confirmado por Federico 10-09). MODERADO: el post espera aprobacion de 2 horas a 2 dias; verificar en /my_pending_content. Comparte nombre exacto con el grupo pausado de 13k: nunca tildarlo desde 'Agregar grupos', siempre abrirlo por URL como base. 10-09: los 5 posts del dia quedaron aprobados en pocas horas.",
+    "nota": "Nombre CON tilde. Sin restriccion de dias (confirmado por Federico 10-09). MODERADO: el post espera aprobacion de 2 horas a 2 dias; verificar en /my_pending_content. Comparte nombre exacto con el grupo pausado de 13k: nunca tildarlo desde 'Agregar grupos', siempre abrirlo por URL como base. 10-09: los 5 posts del dia quedaron aprobados en pocas horas. 16-09: RECHAZO AUTOMATICO de los 5 posts del dia con criterio 'Enlace en la publicacion' (la linea de fedixcoins.com.ar). Publicar SIN link: promo false.",
     "variante": 1
   },
   "red-numismatica-argentina": {
@@ -66,7 +66,7 @@
     "miembros": 22000,
     "posts_por_dia": 82,
     "reglas": "Reglas formales 1: la publicacion debe indicar si es venta, consulta, muestra o subasta, y llevar fotos claras, precio, ubicacion y modalidad de entrega. Si no, se elimina. Regla 3: prohibidas las publicaciones anonimas.",
-    "nota": "EXIGE PREFIJO. Es el de mayor rotacion diaria: un post se hunde rapido.",
+    "nota": "EXIGE PREFIJO. Es el de mayor rotacion diaria: un post se hunde rapido. 16-09: de 5 posts, 3 quedaron en pendientes (revision puntual).",
     "variante": 4
   },
   "todo-numismatica": {
@@ -122,13 +122,14 @@
     "url": "https://www.facebook.com/groups/560809884287998",
     "promo": true,
     "prefijo": null,
-    "moderado": false,
+    "moderado": true,
     "max_por_dia": 5,
     "privacidad": "privado",
     "miembros": 7200,
     "posts_por_dia": null,
     "reglas": "Sin seccion de reglas ni posts destacados.",
-    "variante": 8
+    "variante": 8,
+    "nota": "16-09: los 5 posts del dia quedaron en /my_pending_content: se comporta como MODERADO."
   },
   "paseo-numismatico": {
     "nombre": "PASEO NUMISMÁTICO",
@@ -149,12 +150,12 @@
     "url": "https://www.facebook.com/groups/424348198815181",
     "promo": false,
     "prefijo": null,
-    "moderado": false,
+    "moderado": true,
     "max_por_dia": 5,
     "privacidad": "privado",
     "miembros": 13000,
     "posts_por_dia": 19,
-    "nota": "Promocionar prohibido - dato aportado por Federico. Sin la linea de fedixcoins.com.ar.",
+    "nota": "Promocionar prohibido - dato aportado por Federico. Sin la linea de fedixcoins.com.ar. 16-09: los 5 posts del dia quedaron en /my_pending_content: se comporta como MODERADO.",
     "variante": 10
   },
   "_excluidos": {
