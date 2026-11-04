@@ -14,18 +14,26 @@ Todo comando que cambia algo es **vista previa por defecto**; `--apply` lo ejecu
 - No todo es moneda: ver "Catálogos y álbumes".
 - **Venta en la web**: qty −1. Si queda > 0, ML no se toca. Si llega a 0 → `sold: true` + `soldon` (hoy) y se cierra la publicación de ML.
 - **Venta en ML**: qty −1. Si queda > 0 → se republica en ML (usado, stock 1) con el precio del día. Si llega a 0 → `sold: true` + `soldon` = fecha de la orden.
-- Monedas en ML: **Usado, stock 1**. Catálogos y álbumes: **Nuevo, todo el stock**.
+- Monedas y álbumes en ML: **Usado, stock 1** (decisión del usuario 2026-11-04: publicar como usado evita los campos fiscales IVA / Impuesto interno). Catálogos: **Nuevo, todo el stock** (como el Red Book).
 - `items.json` es **append-only**: el índice del array es la identidad de la moneda y su `SELLER_SKU` en ML. Nunca reordenar ni borrar entradas.
 
 ## Catálogos y álbumes (no todo es moneda)
 
 Items con `book: true` y `book_type` (`catalog` / `album`) se sincronizan igual, con estas diferencias (config en `ml_config.json` → `types`):
-- Se publican como **Nuevo con todo el stock** (`available_quantity` = `quantity`). Una venta en ML no se republica: ML descuenta solo; la web baja la qty y, si ML quedó sin stock con stock en la web, se reactiva. Venta en la web con stock restante → se actualiza el stock en ML.
+- Condición por tipo (`types.<tipo>.condition`): **álbumes `used`** → se comportan como las monedas (stock 1, se republica tras cada venta mientras quede stock). **Catálogos `new`** → `available_quantity` = `quantity`; una venta en ML no se republica (ML descuenta solo; si ML quedó sin stock con stock en la web, se reactiva), y una venta en la web con stock restante actualiza el stock en ML.
 - Categoría: catálogos `MLA412445` (Libros Físicos), álbumes `MLA441114` (Álbumes para Numismática).
 - Paquete por tipo: catálogo 9×20×6 cm 710 g (medido del Red Book), álbum 25×30×3 cm 300 g (estimado — si ML cobra distinto, ajustar). Override por índice en `overrides`.
 - Precio: misma fórmula (×1,20, no son de plata). Título: `{título} Catálogo de Monedas|Álbum para Monedas {país} Numismatica`.
-- Atributos obligatorios: IVA e Impuesto interno (`tax` en la config — **los define el usuario**, no asumir), y para catálogos AUTOR + ISBN (`item_attributes["<idx>"]`, p. ej. `{"AUTHOR": "...", "GTIN": "978..."}`). `publish` saltea y reporta lo que falte.
+- Atributos obligatorios: para items **nuevos**, IVA e Impuesto interno (`tax` en la config — **los define el usuario**, no asumir); los usados no los piden. Para catálogos además AUTOR + ISBN (`item_attributes["<idx>"]`, p. ej. `{"AUTHOR": "...", "GTIN": "978..."}`). `publish` saltea y reporta lo que falte.
 - `match_score` exige el año del item en el título de ML: tenerlo en cuenta si un catálogo/álbum no matchea.
+
+## Particularidades de la API de ML (comprobadas 2026-11-04)
+
+- La cuenta usa **User Products**: al crear se manda `family_name` (ML arma el título), nunca `title` (lo rechaza).
+- Las publicaciones nuevas quedan unos minutos `paused / picture_download_pending` hasta que ML baja las fotos; se activan solas.
+- `POST /items/validate` siempre devuelve 400 con el warning `shipping.lost_me1_by_user` (la cuenta solo tiene ME2): es inofensivo, el alta real funciona.
+- Las medidas del paquete van como atributos `SELLER_PACKAGE_*`, no en `shipping.dimensions`.
+- Los SKU de las publicaciones de la época Excel estaban corridos (se insertaron monedas a mitad del array); `reconcile` matchea por título y `--fix-sku` los corrigió. Por eso `items.json` es append-only.
 
 ## Política de precios (validada con el usuario 2026-11-04)
 

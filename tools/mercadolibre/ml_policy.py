@@ -442,7 +442,9 @@ def build_item_payload(item, index, cfg, price_info):
     attrs += package_attributes(pkg)
     payload = {
         "site_id": cfg["site_id"],
-        "title": title,
+        # ML "User Products": new listings take family_name (ML builds the title from it);
+        # sending `title` is rejected.
+        "family_name": title,
         "category_id": tc["category_id"],
         "price": price_info["price"],
         "currency_id": cfg["currency_id"],

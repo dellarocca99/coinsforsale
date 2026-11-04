@@ -449,7 +449,7 @@ def cmd_publish(args):
             skipped.append((idx, pol.label(item), "faltan: " + ", ".join(missing)))
             continue
         ready.append((idx, item, payload, pi))
-        print(f"\n[{idx}] {payload['title']}{'  (TÍTULO TRUNCADO)' if trunc else ''}")
+        print(f"\n[{idx}] {payload['family_name']}{'  (TÍTULO TRUNCADO)' if trunc else ''}")
         print("  " + fmt_price(pi))
         print(f"  {payload['condition']} ×{payload['available_quantity']}  cat {payload['category_id']}  "
               f"paquete {pol.dimensions_str(pol.package_for(idx, cfg, item))}  fotos {len(payload['pictures'])}")
