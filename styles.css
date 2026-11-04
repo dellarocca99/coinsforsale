@@ -588,23 +588,6 @@ header {
 
 .dot.active { background: var(--gold); }
 
-/* Quantity badge */
-.qty-badge {
-  position: absolute;
-  top: var(--s-3);
-  right: var(--s-3);
-  background: rgba(10, 9, 6, 0.82);
-  border: 1px solid var(--border-hover);
-  color: var(--gold-light);
-  font-family: var(--font-sans);
-  font-size: var(--fs-2xs);
-  font-weight: 500;
-  letter-spacing: var(--tr);
-  padding: 3px 8px;
-  border-radius: var(--radius-sm);
-  z-index: 2;
-}
-
 /* ── Card body ─────────────────────────────────────────── */
 .card-body {
   padding: var(--s-4) var(--s-5) var(--s-5);

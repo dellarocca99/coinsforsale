@@ -1,0 +1,71 @@
+{
+  "site_id": "MLA",
+  "category_id": "MLA2061",
+  "listing_type_id": "gold_special",
+  "currency_id": "ARS",
+  "photos_base": "https://raw.githubusercontent.com/dellarocca99/coinsforsale/main/",
+  "background_image": "images/background/coins.jpg",
+  "pricing": {
+    "rate_url": "https://dolarapi.com/v1/dolares/blue",
+    "threshold": 50000,
+    "silver_mult": 1.25,
+    "base_mult": 1.2,
+    "low_thresh": 33000,
+    "low_add": 2500,
+    "fallback_surcharge": 12160
+  },
+  "package": {
+    "width": 10,
+    "height": 15,
+    "depth": 2,
+    "weight": 0.1
+  },
+  "overrides": {
+    "228": {
+      "width": 25,
+      "height": 12,
+      "depth": 2,
+      "weight": 0.2
+    }
+  },
+  "attributes": {
+    "year": "ISSUE_YEAR",
+    "origin": "ORIGIN",
+    "brand": "BRAND",
+    "model": "MODEL",
+    "metal": "METAL_TYPE",
+    "commemorative": "COMMEMORATIVE_COIN",
+    "coin_value": "COIN_VALUE",
+    "coin_type": "COIN_TYPE"
+  },
+  "types": {
+    "coin": {
+      "condition": "used"
+    },
+    "catalog": {
+      "category_id": "MLA412445",
+      "condition": "new",
+      "package": {
+        "width": 9,
+        "height": 20,
+        "depth": 6,
+        "weight": 0.71
+      }
+    },
+    "album": {
+      "category_id": "MLA441114",
+      "condition": "used",
+      "package": {
+        "width": 25,
+        "height": 30,
+        "depth": 3,
+        "weight": 0.3
+      }
+    }
+  },
+  "tax": {
+    "VALUE_ADDED_TAX": null,
+    "IMPORT_DUTY": null
+  },
+  "item_attributes": {}
+}

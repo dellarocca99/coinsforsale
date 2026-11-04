@@ -777,6 +777,8 @@
       "images/2cent_conf-2.jpg"
     ],
     "diameter": "29.77 mm",
+    "sold": true,
+    "soldon": "02-11-2026",
     "weight": "10 g",
     "currency": "Peso",
     "reference": "KM# 24",
@@ -1242,6 +1244,8 @@
       "images/realito_1772-1.jpg",
       "images/realito_1772-2.jpg"
     ],
+    "sold": true,
+    "soldon": "02-11-2026",
     "numista_id": 43927,
     "diameter": "22 mm",
     "weight": "3.3834 g",
@@ -2200,6 +2204,8 @@
       "images/qirsh-1.jpg",
       "images/qirsh-2.jpg"
     ],
+    "sold": true,
+    "soldon": "02-11-2026",
     "diameter": "21 mm",
     "weight": "3.71 g",
     "currency": "Pound",
@@ -3344,7 +3350,9 @@
     "reference": "KM# 207",
     "numista_id": 3548,
     "description": "El dólar Susan B. Anthony, primera moneda de circulación estadounidense con una mujer real en el anverso. El reverso repite la insignia del Apolo 11 del dólar Eisenhower.",
-    "description_en": "The Susan B. Anthony dollar, the first US circulating coin with a real woman on the obverse. The reverse repeats the Apollo 11 insignia from the Eisenhower dollar."
+    "description_en": "The Susan B. Anthony dollar, the first US circulating coin with a real woman on the obverse. The reverse repeats the Apollo 11 insignia from the Eisenhower dollar.",
+    "sold": true,
+    "soldon": "29-10-2026"
   },
   {
     "title": "1 Dollar \"Anthony\" 1979-S",
@@ -3386,7 +3394,9 @@
     "currency": "Dollar",
     "reference": "KM# 442",
     "description": "Centavo Lincoln de la serie del bicentenario de su nacimiento. Reverso con Lincoln joven leyendo sentado sobre un tronco, en Indiana.",
-    "description_en": "Lincoln cent from the series marking the bicentennial of his birth. The reverse shows a young Lincoln reading, seated on a log, in Indiana."
+    "description_en": "Lincoln cent from the series marking the bicentennial of his birth. The reverse shows a young Lincoln reading, seated on a log, in Indiana.",
+    "sold": true,
+    "soldon": "29-10-2026"
   },
   {
     "title": "Half Dollar 2021-D",
@@ -3416,6 +3426,8 @@
     "condition": "XF",
     "country": "USA",
     "mint": "Denver",
+    "sold": true,
+    "soldon": "02-11-2026",
     "composition": "Latón de manganeso clad",
     "year": 2010,
     "images": [
@@ -3439,6 +3451,8 @@
     "mint": "Denver",
     "composition": "Latón de manganeso clad",
     "year": 2000,
+    "sold": true,
+    "soldon": "02-11-2026",
     "images": [
       "images/sacagawea_2000-1.jpeg",
       "images/sacagawea_2000-2.jpeg"
@@ -4064,6 +4078,8 @@
       "images/2cent_arg_1885-1.jpeg",
       "images/2cent_arg_1885-2.jpeg"
     ],
+    "sold": true,
+    "soldon": "02-11-2026",
     "diameter": "30 mm",
     "weight": "10 g",
     "currency": "Peso moneda nacional",
@@ -4355,6 +4371,8 @@
     "weight": "3.07 g",
     "currency": "Peso ley",
     "reference": "KM# 67",
-    "numista_id": 3255
+    "numista_id": 3255,
+    "sold": true,
+    "soldon": "09-09-2026"
   }
 ]

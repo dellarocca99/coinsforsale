@@ -335,7 +335,6 @@ function renderItems(items) {
     const gi      = item._gi;
     const card    = document.createElement("a");
     const hasMany = item.images.length > 1;
-    const showQty = item.quantity != null && item.quantity > 1;
 
     card.className = "card";
     card.href = `item.html?index=${gi}`;
@@ -355,7 +354,6 @@ function renderItems(items) {
         <img class="carousel-img${item.sold ? " img-sold" : ""}" id="img-${gi}" src="${item.images[0]}" alt="${getItemTitle(item)}"${lazyAttr}>
         ${hasMany ? `<button class="nav right" data-gi="${gi}" data-dir="next" aria-label="Next image">${CHEV_RIGHT}</button>` : ""}
         ${hasMany ? `<div class="dots" id="dots-${gi}">${dots}</div>` : ""}
-        ${showQty ? `<span class="qty-badge">×${item.quantity}</span>` : ""}
         ${item.sold ? `<div class="sold-overlay"><span class="sold-stamp">${t("sold_badge")}</span></div>` : ""}
       </div>
       <div class="card-body">
@@ -515,7 +513,6 @@ function renderBooks(items) {
     const gi      = item._gi;
     const card    = document.createElement("a");
     const hasMany = item.images && item.images.length > 1;
-    const showQty = item.quantity != null && item.quantity > 1;
 
     card.className = "card";
     card.href = `item.html?index=${gi}`;
@@ -536,7 +533,6 @@ function renderBooks(items) {
         <img class="carousel-img${item.sold ? " img-sold" : ""}" id="img-${gi}" src="${img0}" alt="${getItemTitle(item)}"${lazyAttr}>
         ${hasMany ? `<button class="nav right" data-gi="${gi}" data-dir="next" aria-label="Next image">${CHEV_RIGHT}</button>` : ""}
         ${hasMany ? `<div class="dots" id="dots-${gi}">${dots}</div>` : ""}
-        ${showQty ? `<span class="qty-badge">×${item.quantity}</span>` : ""}
         ${item.sold ? `<div class="sold-overlay"><span class="sold-stamp">${t("sold_badge")}</span></div>` : ""}
       </div>
       <div class="card-body">

@@ -110,12 +110,11 @@ function renderItem(item) {
        </div>`
     : "";
 
-  // Specs — condition first (with badge), then region/qty, then technical fields.
+  // Specs — condition first (with badge), then region, then technical fields.
   // Country and Year are intentionally omitted: they already appear in the eyebrow.
   const specs = [
     ["label_grade", `<span class="badge ${badgeClass(item.condition)}">${item.condition}</span>`, true],
     item.region                                     ? ["label_region",       item.region, false] : null,
-    (item.quantity != null && item.quantity > 1)    ? ["label_qty",          item.quantity, false] : null,
     item.denomination                               ? ["label_denomination", item.denomination, false] : null,
     item.mint                                       ? [item.book ? "label_editorial" : "label_mint", item.mint, false] : null,
     item.weight                                     ? ["label_weight",       item.weight, false] : null,
