@@ -2140,7 +2140,9 @@
     "currency": "Peso convertible",
     "reference": "KM# 162.1",
     "description": "Dos pesos conmemorativos del 75º aniversario del Banco Central, con la puerta del edificio de Reconquista 266 en el anverso.",
-    "description_en": "Commemorative two pesos for the Central Bank's 75th anniversary, with the doorway of its Reconquista 266 building on the obverse."
+    "description_en": "Commemorative two pesos for the Central Bank's 75th anniversary, with the doorway of its Reconquista 266 building on the obverse.",
+    "sold": true,
+    "soldon": "11-11-2026"
   },
   {
     "denomination": "Half dollar",
