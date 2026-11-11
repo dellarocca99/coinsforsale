@@ -4319,7 +4319,9 @@
     "weight": "10 g",
     "currency": "Peso ley",
     "reference": "KM# 78",
-    "numista_id": 14510
+    "numista_id": 14510,
+    "sold": true,
+    "soldon": "10-11-2026"
   },
   {
     "title": "Blister Mundial 1978 (cuño 1977)",
