@@ -116,6 +116,7 @@ function renderItem(item) {
     ["label_grade", `<span class="badge ${badgeClass(item.condition)}">${item.condition}</span>`, true],
     item.region                                     ? ["label_region",       item.region, false] : null,
     item.denomination                               ? ["label_denomination", item.denomination, false] : null,
+    getLocalizedField(item, "variety")              ? ["label_variety",      getLocalizedField(item, "variety"), false] : null,
     item.mint                                       ? [item.book ? "label_editorial" : "label_mint", item.mint, false] : null,
     item.weight                                     ? ["label_weight",       item.weight, false] : null,
     item.diameter                                   ? ["label_diameter",     item.diameter, false] : null,

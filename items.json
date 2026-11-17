@@ -41,7 +41,8 @@
     ],
     "numista_id": 49025,
     "currency": "Peso convertible",
-    "reference": "KM# 126"
+    "reference": "KM# 126",
+    "mintage": 500
   },
   {
     "title": "1 Cent 1955-S",
@@ -100,7 +101,10 @@
     "reference": "KM# 48",
     "numista_id": 21828,
     "description": "Dime de plata del tipo Capped Bust, con la Libertad tocada con gorro frigio y trece estrellas alrededor. Módulo reducido de la segunda variedad.",
-    "description_en": "Capped Bust silver dime, with Liberty in a Phrygian cap and thirteen stars around. Reduced diameter of the second variety."
+    "description_en": "Capped Bust silver dime, with Liberty in a Phrygian cap and thirteen stars around. Reduced diameter of the second variety.",
+    "mintage": 770000,
+    "variety": "10C mediano",
+    "variety_en": "Medium 10C"
   },
   {
     "title": "1 Centavo 1883",
@@ -228,7 +232,10 @@
     "reference": "KM# 55",
     "numista_id": 23255,
     "description": "Mil pesos de plata de la serie FAO, con un sol radiante estilizado. Acuñada para Uruguay en la Casa de Moneda de Chile.",
-    "description_en": "Silver thousand pesos from the FAO series, with a stylised radiant sun. Struck for Uruguay at the Chilean Mint."
+    "description_en": "Silver thousand pesos from the FAO series, with a stylised radiant sun. Struck for Uruguay at the Chilean Mint.",
+    "variety": "Sin lágrima",
+    "variety_en": "Without teardrop",
+    "mint": "Santiago (Chile)"
   },
   {
     "title": "5 Cents \"Buffalo\" 1914",
@@ -316,7 +323,7 @@
     "numista_id": 1109,
     "description": "El Buffalo Nickel de James Earle Fraser. El anverso combina los perfiles de tres jefes —Cola de Hierro, Dos Lunas y Gran Árbol— y el reverso lleva un bisonte americano. Variedad de suelo plano, la que se acuñó desde 1913 hasta el final de la serie.",
     "description_en": "James Earle Fraser's Buffalo Nickel. The obverse blends the profiles of three chiefs — Iron Tail, Two Moons and Big Tree — and the reverse carries an American bison. Flat-ground variety, struck from 1913 to the end of the series.",
-    "mintage": 63497466
+    "mintage": 63498066
   },
   {
     "title": "5 Cents \"Buffalo\" 1921",
@@ -382,7 +389,7 @@
     "numista_id": 3683,
     "description": "Liberty Nickel con la palabra CENTS en el reverso, agregada tras el primer año de emisión: sin ella, la moneda se doraba y se hacía pasar por una de cinco dólares.",
     "description_en": "Liberty Nickel with the word CENTS on the reverse, added after the first year of issue: without it the coin was gold-plated and passed off as a five-dollar piece.",
-    "mintage": 10167901
+    "mintage": 10715901
   },
   {
     "title": "5 Cents \"Liberty\" 1894",
@@ -628,7 +635,7 @@
     "reference": "KM# 142",
     "description": "El Walking Liberty Half Dollar de Adolph Weinman, con la Libertad avanzando hacia el sol naciente. El mismo diseño se reutilizó en las onzas de plata American Eagle.",
     "description_en": "Adolph Weinman's Walking Liberty half dollar, with Liberty striding toward the rising sun. The same design was later reused on the American Silver Eagle.",
-    "mintage": 4600000
+    "mintage": 4624000
   },
   {
     "title": "Half Dollar 1955",
@@ -671,7 +678,10 @@
     "reference": "KM# 90a",
     "numista_id": 2356,
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 11676500,
+    "variety": "3 cerrado",
+    "variety_en": "Closed 3"
   },
   {
     "title": "1 Cent \"Indian\" 1875",
@@ -922,7 +932,8 @@
     ],
     "currency": "Peso uruguayo",
     "reference": "KM# 122",
-    "numista_id": 41549
+    "numista_id": 41549,
+    "mintage": 900
   },
   {
     "title": "1000 Pesos 2004 (Mundial 2006)",
@@ -942,7 +953,8 @@
     ],
     "numista_id": 42108,
     "currency": "Peso uruguayo",
-    "reference": "KM# 123"
+    "reference": "KM# 123",
+    "mintage": 900
   },
   {
     "title": "1000 Pesos 2005 (Mundial 2006)",
@@ -962,7 +974,8 @@
     ],
     "currency": "Peso uruguayo",
     "reference": "KM# 124",
-    "numista_id": 42109
+    "numista_id": 42109,
+    "mintage": 900
   },
   {
     "title": "3000 Pesos 1977 (Mundial 1978)",
@@ -2236,7 +2249,7 @@
     "numista_id": 943,
     "description": "Half dollar Kennedy del único año acuñado en plata 900, emitido a los pocos meses del asesinato del presidente.",
     "description_en": "Kennedy half dollar from the only year struck in .900 silver, issued within months of the president's assassination.",
-    "mintage": 277254766
+    "mintage": 273304004
   },
   {
     "denomination": "Quarter dollar",
@@ -2492,7 +2505,8 @@
     "reference": "KM# 194",
     "numista_id": 390341,
     "description": "Un peso de plata conmemorativo de los 40 años de la restauración de la democracia, con el Palacio del Congreso en el anverso.",
-    "description_en": "Commemorative silver one peso for forty years since the restoration of democracy, with the National Congress Palace on the obverse."
+    "description_en": "Commemorative silver one peso for forty years since the restoration of democracy, with the National Congress Palace on the obverse.",
+    "mintage": 2500
   },
   {
     "title": "5 Pesos \"Tango\" 2013",
@@ -2513,7 +2527,8 @@
     "currency": "Peso convertible",
     "reference": "KM# 179",
     "description": "Cinco pesos de plata de la serie Fabulosos 15, dedicada al tango: una pareja bailando en el reverso.",
-    "description_en": "Silver five pesos from the Fabulous 15 series, dedicated to tango: a dancing couple on the reverse."
+    "description_en": "Silver five pesos from the Fabulous 15 series, dedicated to tango: a dancing couple on the reverse.",
+    "mintage": 1500
   },
   {
     "title": "5 Pesos \"Payador\" 2014",
@@ -2594,7 +2609,10 @@
     "reference": "KM# 85",
     "numista_id": 14014,
     "description": "Flying Eagle Cent, el primer centavo de módulo chico de Estados Unidos. Serie brevísima: se acuñó apenas dos años para circulación.",
-    "description_en": "Flying Eagle cent, the first US small-format cent. A very brief series, struck for circulation for barely two years."
+    "description_en": "Flying Eagle cent, the first US small-format cent. A very brief series, struck for circulation for barely two years.",
+    "mintage": 24600000,
+    "variety": "Letras grandes",
+    "variety_en": "Large letters"
   },
   {
     "title": "1 Cent \"Indian\" 1859",
@@ -2719,7 +2737,10 @@
     "currency": "Dollar",
     "reference": "KM# 90a",
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 39233714,
+    "variety": "Sin L",
+    "variety_en": "No L"
   },
   {
     "title": "1 Cent \"Indian\" 1865",
@@ -2806,7 +2827,10 @@
     "reference": "KM# 90a",
     "numista_id": 2356,
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 11676500,
+    "variety": "3 abierto",
+    "variety_en": "Open 3"
   },
   {
     "title": "1 Cent \"Indian\" 1874",
@@ -3057,7 +3081,10 @@
     "reference": "KM# 90a",
     "numista_id": 2356,
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 17650000,
+    "variety": "Tipo 2 (la pluma apunta a «CA»)",
+    "variety_en": "Type 2 (feather points to \"CA\")"
   },
   {
     "title": "1 Cent \"Indian\" 1887",
@@ -3520,8 +3547,7 @@
     "currency": "Dollar",
     "reference": "KM# 202b",
     "description": "Half dollar Kennedy en versión chapada, sin plata. Aunque se sigue acuñando, casi no circula: el público la retira apenas aparece.",
-    "description_en": "Clad Kennedy half dollar, with no silver. Though still minted, it barely circulates: the public pulls it from change as soon as it appears.",
-    "mintage": 7700000
+    "description_en": "Clad Kennedy half dollar, with no silver. Though still minted, it barely circulates: the public pulls it from change as soon as it appears."
   },
   {
     "title": "1 Dollar \"Haudenosaunee\" 2010-D",
@@ -3589,7 +3615,7 @@
     "reference": "KM# 310",
     "description": "El dólar Sacagawea, con la guía e intérprete shoshone de la expedición de Lewis y Clark llevando a su hijo a la espalda. El color dorado viene del latón de manganeso que lo recubre.",
     "description_en": "The Sacagawea dollar, showing the Shoshone guide and interpreter of the Lewis and Clark expedition carrying her infant son. The golden colour comes from its manganese-brass cladding.",
-    "mintage": 62470000
+    "mintage": 62468000
   },
   {
     "title": "5 Cents 1965",
@@ -3720,7 +3746,8 @@
     "currency": "Dollar",
     "reference": "KM# 369",
     "description": "Nickel de la serie Westward Journey con la vista del Pacífico que Clark anotó en su diario al llegar a la costa.",
-    "description_en": "Westward Journey nickel showing the Pacific view Clark recorded in his journal on reaching the coast."
+    "description_en": "Westward Journey nickel showing the Pacific view Clark recorded in his journal on reaching the coast.",
+    "mintage": 394080000
   },
   {
     "title": "5 Cents \"Louisiana Purchase\" 2004-D",
@@ -3823,8 +3850,7 @@
     "currency": "Dollar",
     "reference": "KM# 758",
     "description": "Quarter con Washington cruzando el Delaware en la noche de Navidad de 1776, emitido en 2021 para cerrar la serie de parques.",
-    "description_en": "Quarter showing Washington crossing the Delaware on Christmas night 1776, issued in 2021 to close out the parks series.",
-    "mintage": 791400000
+    "description_en": "Quarter showing Washington crossing the Delaware on Christmas night 1776, issued in 2021 to close out the parks series."
   },
   {
     "title": "Quarter \"Bicentennial 1776-1976\" 1976-D",
@@ -4669,7 +4695,10 @@
     "diameter": "38.1 mm",
     "weight": "27.22 g",
     "currency": "Dollar",
-    "reference": "KM# 108"
+    "reference": "KM# 108",
+    "mintage": 4487000,
+    "variety": "Reverso tipo 1",
+    "variety_en": "Type 1 reverse"
   },
   {
     "title": "2 Cents 1864",
@@ -4699,7 +4728,7 @@
     "price": 22,
     "condition": "SMS",
     "country": "USA",
-    "mint": "San Francisco",
+    "mint": "Philadelphia",
     "composition": "Plata 0.400",
     "year": 1966,
     "description": "Special Mint Set (SMS): entre 1965 y 1967 la Casa de Moneda suspendió los sets proof por la escasez de monedas y en su lugar emitió estos sets de acuñación especial, de terminación superior a la de circulación. Plata 0.400.",
@@ -4712,7 +4741,8 @@
     "weight": "11.5 g",
     "currency": "Dollar",
     "reference": "KM# 202a",
-    "numista_id": 10865
+    "numista_id": 10865,
+    "mintage": 2200000
   },
   {
     "title": "Half Dollar \"Kennedy\" 1967 SMS",
@@ -4720,7 +4750,7 @@
     "price": 22,
     "condition": "SMS",
     "country": "USA",
-    "mint": "San Francisco",
+    "mint": "Philadelphia",
     "composition": "Plata 0.400",
     "year": 1967,
     "description": "Special Mint Set (SMS): entre 1965 y 1967 la Casa de Moneda suspendió los sets proof por la escasez de monedas y en su lugar emitió estos sets de acuñación especial, de terminación superior a la de circulación. Plata 0.400.",
@@ -4733,7 +4763,8 @@
     "weight": "11.5 g",
     "currency": "Dollar",
     "reference": "KM# 202a",
-    "numista_id": 10865
+    "numista_id": 10865,
+    "mintage": 1800000
   },
   {
     "title": "Half Dollar \"Kennedy\" 1968-S Proof",
@@ -4843,7 +4874,7 @@
     "currency": "Dollar",
     "reference": "KM# 164",
     "numista_id": 54,
-    "mintage": 102117123
+    "mintage": 102096000
   },
   {
     "title": "Quarter \"Washington\" 1943",
