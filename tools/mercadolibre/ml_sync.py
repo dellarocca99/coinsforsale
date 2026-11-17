@@ -120,6 +120,11 @@ def is_available(item):
     return not item.get("sold") and qty_of(item) > 0
 
 
+def on_ml(item):
+    """`"ml": false` in items.json = sold only on the website, never listed on ML."""
+    return item.get("ml", True) is not False
+
+
 def current_ml_id(st, idx):
     return st["listings"].get(str(idx), {}).get("ml_id")
 
@@ -303,7 +308,7 @@ def cmd_reconcile(args):
         if is_available(item) and not live:
             if any(x.get("sold_quantity", 0) > 0 for x in lst):
                 sold_ml_available.append((i, pol.label(item), cur["id"]))
-            else:
+            elif on_ml(item):
                 available_unlisted.append((i, pol.label(item)))
         for x in lst:
             if sku_of(x) != str(i):
@@ -422,7 +427,7 @@ def cmd_publish(args):
     items = load_items()
 
     if args.new:
-        targets = [i for i, it in enumerate(items) if is_available(it) and not current_ml_id(st, i)]
+        targets = [i for i, it in enumerate(items) if is_available(it) and on_ml(it) and not current_ml_id(st, i)]
     else:
         targets = args.indices
     if not targets:
@@ -435,6 +440,9 @@ def cmd_publish(args):
         item = items[idx]
         if not is_available(item):
             skipped.append((idx, pol.label(item), "vendida/libro/sin stock"))
+            continue
+        if not on_ml(item):
+            skipped.append((idx, pol.label(item), 'solo web ("ml": false)'))
             continue
         if current_ml_id(st, idx) and not args.force:
             skipped.append((idx, pol.label(item), f"ya publicada ({current_ml_id(st, idx)}) — usá update"))
@@ -710,7 +718,7 @@ def cmd_status(args):
     items = load_items()
     avail = [i for i, it in enumerate(items) if is_available(it)]
     sold = [i for i, it in enumerate(items) if it.get("sold")]
-    unlisted = [i for i in avail if not current_ml_id(st, i)]
+    unlisted = [i for i in avail if on_ml(items[i]) and not current_ml_id(st, i)]
     print(f"items.json: {len(items)}  disponibles {len(avail)}  vendidas {len(sold)}")
     print(f"Con publicación registrada: {sum(1 for v in st['listings'].values() if v.get('ml_id'))}")
     print(f"Disponibles sin publicación: {len(unlisted)} {unlisted[:30]}{' …' if len(unlisted) > 30 else ''}")

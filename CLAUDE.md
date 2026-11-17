@@ -8,7 +8,7 @@ A static numismatic (coin-selling) storefront. No build tools, frameworks, or pa
 
 ## Architecture
 
-- **`items.json`** — single source of truth for all listings. Fields: `id`, `title`, `price`, `condition`, `country`, `year`, `quantity` (optional, internal stock — default 1, **never shown on the site**), `description` (optional), `images` (array of paths relative to root).
+- **`items.json`** — single source of truth for all listings. Fields: `id`, `title`, `price`, `condition`, `country`, `year`, `quantity` (optional, internal stock — default 1, **never shown on the site**), `ml` (optional — `false` = sold only on the site, never listed on MercadoLibre), `description` (optional), `images` (array of paths relative to root).
 - **`i18n.js`** — loaded first on both pages. Exposes `t(key)`, `getLang()`, `setLang(lang)`, `nItems(n)`, `waMessage(title, year)`. Language preference is stored in `localStorage` under `fedix_lang`. Default is `"es"`.
 - **`index.html` + `script.js`** — catalog page. Two sections (`#section-coins`, `#section-about`) toggled via nav tabs and footer links. Section state is reflected in the URL hash (`#about`). Filters (country, condition) are populated dynamically from `items.json`.
 - **`item.html` + `item.js`** — detail page. Reads `?id` from the URL. Re-renders on language change (`langchange` event). Includes gallery with thumbnails, lightbox (click image or Esc to close), and WhatsApp button.

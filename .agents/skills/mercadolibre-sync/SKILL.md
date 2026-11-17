@@ -11,6 +11,7 @@ Todo comando que cambia algo es **vista previa por defecto**; `--apply` lo ejecu
 ## Reglas de negocio
 
 - `quantity` es stock interno: **no se muestra en la web**. Ausente = 1.
+- `"ml": false` en un item = **solo web**: `publish --new` no lo toma, `publish <idx>` lo saltea y `status`/`reconcile` no lo cuentan como pendiente de publicar.
 - No todo es moneda: ver "Catálogos y álbumes".
 - **Venta en la web**: qty −1. Si queda > 0, ML no se toca. Si llega a 0 → `sold: true` + `soldon` (hoy) y se cierra la publicación de ML.
 - **Venta en ML**: qty −1. Si queda > 0 → se republica en ML (usado, stock 1) con el precio del día. Si llega a 0 → `sold: true` + `soldon` = fecha de la orden.

@@ -4380,5 +4380,299 @@
     "numista_id": 3255,
     "sold": true,
     "soldon": "09-09-2026"
+  },
+  {
+    "title": "20 Centésimos 1877",
+    "denomination": "20 Centésimos",
+    "price": 20,
+    "condition": "VF",
+    "country": "Uruguay",
+    "composition": "Plata 0.900",
+    "year": 1877,
+    "description": "De la primera serie de plata decimal de la República Oriental del Uruguay, la misma del peso de 1877.",
+    "description_en": "From the first decimal silver series of the Oriental Republic of Uruguay, the same one as the 1877 peso.",
+    "images": [
+      "images/20cent_uru_1877-1.jpeg",
+      "images/20cent_uru_1877-2.jpeg"
+    ],
+    "diameter": "25 mm",
+    "weight": "5 g",
+    "currency": "Peso",
+    "reference": "KM# 15",
+    "numista_id": 4360
+  },
+  {
+    "title": "Quarter \"Barber\" 1907-S",
+    "denomination": "Quarter dollar",
+    "price": 20,
+    "condition": "F",
+    "country": "USA",
+    "mint": "San Francisco",
+    "composition": "Plata 0.900",
+    "year": 1907,
+    "description": "Quarter de plata diseñado por Charles E. Barber, grabador jefe de la Casa de Moneda, acuñado entre 1892 y 1916. Ceca de San Francisco.",
+    "description_en": "Silver quarter designed by Mint Chief Engraver Charles E. Barber, struck from 1892 to 1916. San Francisco mint.",
+    "images": [
+      "images/quarter_1907s-1.jpeg",
+      "images/quarter_1907s-2.jpeg"
+    ],
+    "diameter": "24.3 mm",
+    "weight": "6.25 g",
+    "currency": "Dollar",
+    "reference": "KM# 114",
+    "numista_id": 10591
+  },
+  {
+    "title": "Quarter \"Barber\" 1905",
+    "denomination": "Quarter dollar",
+    "price": 20,
+    "condition": "F",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Plata 0.900",
+    "year": 1905,
+    "description": "Quarter de plata diseñado por Charles E. Barber, grabador jefe de la Casa de Moneda, acuñado entre 1892 y 1916.",
+    "description_en": "Silver quarter designed by Mint Chief Engraver Charles E. Barber, struck from 1892 to 1916.",
+    "images": [
+      "images/quarter_1905-1.jpeg",
+      "images/quarter_1905-2.jpeg"
+    ],
+    "diameter": "24.3 mm",
+    "weight": "6.25 g",
+    "currency": "Dollar",
+    "reference": "KM# 114",
+    "numista_id": 10591
+  },
+  {
+    "title": "1 \"Morgan\" Dollar 1892",
+    "denomination": "1 Dollar",
+    "price": 90,
+    "condition": "VF",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Plata 0.900",
+    "year": 1892,
+    "description": "El Morgan Dollar, el dólar de plata más coleccionado de Estados Unidos. 1892 es una fecha de tirada baja en Filadelfia.",
+    "description_en": "The Morgan dollar, the most collected US silver dollar. 1892 is a low-mintage Philadelphia date.",
+    "images": [
+      "images/morgan_1892-1.jpeg",
+      "images/morgan_1892-2.jpeg"
+    ],
+    "diameter": "38.1 mm",
+    "weight": "26.73 g",
+    "currency": "Dollar",
+    "reference": "KM# 110",
+    "numista_id": 1492
+  },
+  {
+    "title": "2 Centavos 1894 (medalla monetaria)",
+    "denomination": "2 Centavos",
+    "price": 20,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Bronce",
+    "year": 1894,
+    "description": "Variante «medalla monetaria»: anverso y reverso acuñados con los ejes alineados como en una medalla, y no en la posición habitual de moneda. Primera serie del peso moneda nacional.",
+    "description_en": "\"Medal alignment\" variety: obverse and reverse struck with the dies aligned as on a medal rather than in the usual coin position. First peso moneda nacional series.",
+    "images": [
+      "images/2cent_arg_1894_medalla-1.jpeg",
+      "images/2cent_arg_1894_medalla-2.jpeg"
+    ],
+    "diameter": "30 mm",
+    "weight": "10 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 33",
+    "numista_id": 2220
+  },
+  {
+    "title": "2 Cents 1868",
+    "denomination": "2 Cents",
+    "price": 95,
+    "condition": "AU",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Bronce",
+    "year": 1868,
+    "ml": false,
+    "description": "La moneda de 2 centavos de Estados Unidos, acuñada solo entre 1864 y 1873: una serie corta nacida de la escasez de monedas durante la Guerra Civil.",
+    "description_en": "The US two-cent piece, struck only from 1864 to 1873: a short series born of the coin shortage during the Civil War.",
+    "images": [
+      "images/2cent_usa_1868-1.jpeg",
+      "images/2cent_usa_1868-2.jpeg"
+    ],
+    "diameter": "23 mm",
+    "weight": "6.22 g",
+    "currency": "Dollar",
+    "reference": "KM# 94",
+    "numista_id": 2296
+  },
+  {
+    "title": "Trade Dollar 1875-S (chopmarks)",
+    "denomination": "1 Dollar",
+    "price": 530,
+    "condition": "Chopmarks",
+    "country": "USA",
+    "mint": "San Francisco",
+    "composition": "Plata 0.900",
+    "year": 1875,
+    "ml": false,
+    "description": "El Trade Dollar se acuñó entre 1873 y 1885 para competir con el peso de plata mexicano en el comercio con China y el Lejano Oriente: por eso pesa un poco más que un dólar común (420 granos de plata 900, como dice el reverso). La ceca de San Francisco, puerta del Pacífico, acuñó la mayoría y casi todos cruzaron el océano.\n\nAllá los mercaderes y cambistas chinos no confiaban en una moneda por lo que decía su leyenda: la probaban, y si la plata era buena le estampaban un pequeño punzón con su propio carácter o sello (el «chop») como garantía para el próximo que la recibiera. Una moneda que pasaba por muchas manos podía acumular varias marcas.\n\nLos chopmarks son la prueba de que esta pieza circuló de verdad en Asia en el siglo XIX, y son una especialidad de colección en sí misma.",
+    "description_en": "The Trade Dollar was struck from 1873 to 1885 to compete with the Mexican silver peso in the China and Far East trade, which is why it weighs a little more than a regular dollar (420 grains, 900 fine, as the reverse says). The San Francisco mint, gateway to the Pacific, struck most of them and nearly all crossed the ocean.\n\nThere, Chinese merchants and money changers did not trust a coin for what its legend said: they tested it, and if the silver was good they stamped it with a small punch bearing their own character or seal (the \"chop\") as a guarantee for the next person to receive it. A coin that passed through many hands could pile up several marks.\n\nChopmarks prove this piece really circulated in Asia in the 19th century, and they are a collecting specialty in their own right.",
+    "images": [
+      "images/trade_dollar_1875s-1.jpeg",
+      "images/trade_dollar_1875s-2.jpeg"
+    ],
+    "numista_id": 16466,
+    "diameter": "38.1 mm",
+    "weight": "27.22 g",
+    "currency": "Dollar",
+    "reference": "KM# 108"
+  },
+  {
+    "title": "2 Cents 1864",
+    "denomination": "2 Cents",
+    "price": 74,
+    "condition": "XF",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Bronce",
+    "year": 1864,
+    "description": "Primer año de la moneda de 2 centavos y primera moneda de Estados Unidos con el lema «IN GOD WE TRUST», incorporado en plena Guerra Civil.",
+    "description_en": "First year of the two-cent piece and the first US coin to bear the motto \"IN GOD WE TRUST\", adopted in the middle of the Civil War.",
+    "images": [
+      "images/2cent_usa_1864-1.jpeg",
+      "images/2cent_usa_1864-2.jpeg"
+    ],
+    "diameter": "23 mm",
+    "weight": "6.22 g",
+    "currency": "Dollar",
+    "reference": "KM# 94",
+    "numista_id": 2296
+  },
+  {
+    "title": "Half Dollar \"Kennedy\" 1966 SMS",
+    "denomination": "Half dollar",
+    "price": 22,
+    "condition": "SMS",
+    "country": "USA",
+    "mint": "San Francisco",
+    "composition": "Plata 0.400",
+    "year": 1966,
+    "description": "Special Mint Set (SMS): entre 1965 y 1967 la Casa de Moneda suspendió los sets proof por la escasez de monedas y en su lugar emitió estos sets de acuñación especial, de terminación superior a la de circulación. Plata 0.400.",
+    "description_en": "Special Mint Set (SMS): from 1965 to 1967 the Mint suspended proof sets because of the coin shortage and issued these specially struck sets instead, with a finish above circulation quality. 40% silver.",
+    "images": [
+      "images/half_1966_sms-1.jpeg",
+      "images/half_1966_sms-2.jpeg"
+    ],
+    "diameter": "30.61 mm",
+    "weight": "11.5 g",
+    "currency": "Dollar",
+    "reference": "KM# 202a",
+    "numista_id": 10865
+  },
+  {
+    "title": "Half Dollar \"Kennedy\" 1967 SMS",
+    "denomination": "Half dollar",
+    "price": 22,
+    "condition": "SMS",
+    "country": "USA",
+    "mint": "San Francisco",
+    "composition": "Plata 0.400",
+    "year": 1967,
+    "description": "Special Mint Set (SMS): entre 1965 y 1967 la Casa de Moneda suspendió los sets proof por la escasez de monedas y en su lugar emitió estos sets de acuñación especial, de terminación superior a la de circulación. Plata 0.400.",
+    "description_en": "Special Mint Set (SMS): from 1965 to 1967 the Mint suspended proof sets because of the coin shortage and issued these specially struck sets instead, with a finish above circulation quality. 40% silver.",
+    "images": [
+      "images/half_1967_sms-1.jpeg",
+      "images/half_1967_sms-2.jpeg"
+    ],
+    "diameter": "30.61 mm",
+    "weight": "11.5 g",
+    "currency": "Dollar",
+    "reference": "KM# 202a",
+    "numista_id": 10865
+  },
+  {
+    "title": "Half Dollar \"Kennedy\" 1968-S Proof",
+    "denomination": "Half dollar",
+    "price": 22,
+    "condition": "Proof",
+    "country": "USA",
+    "mint": "San Francisco",
+    "composition": "Plata 0.400",
+    "year": 1968,
+    "description": "Proof de 1968, el año en que volvieron los sets proof, ahora acuñados en San Francisco y con la «S» en el anverso. Plata 0.400.",
+    "description_en": "1968 proof, the year proof sets returned, now struck in San Francisco with the \"S\" on the obverse. 40% silver.",
+    "images": [
+      "images/half_1968s_proof-1.jpeg",
+      "images/half_1968s_proof-2.jpeg"
+    ],
+    "diameter": "30.61 mm",
+    "weight": "11.5 g",
+    "currency": "Dollar",
+    "reference": "KM# 202a",
+    "numista_id": 10865
+  },
+  {
+    "title": "Half Dollar \"Franklin\" 1960 Proof",
+    "denomination": "Half dollar",
+    "price": 40,
+    "condition": "Proof",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Plata 0.900",
+    "year": 1960,
+    "description": "Half dollar proof de plata 900 con Benjamin Franklin y la Campana de la Libertad, de los sets proof de Filadelfia.",
+    "description_en": "Proof .900 silver half dollar with Benjamin Franklin and the Liberty Bell, from the Philadelphia proof sets.",
+    "images": [
+      "images/franklin_1960_proof-1.jpeg",
+      "images/franklin_1960_proof-2.jpeg"
+    ],
+    "diameter": "30.6 mm",
+    "weight": "12.5 g",
+    "currency": "Dollar",
+    "reference": "KM# 199",
+    "numista_id": 2835
+  },
+  {
+    "title": "Half Dollar \"Franklin\" 1962 Proof",
+    "denomination": "Half dollar",
+    "price": 40,
+    "condition": "Proof",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Plata 0.900",
+    "year": 1962,
+    "description": "Half dollar proof de plata 900 con Benjamin Franklin y la Campana de la Libertad, de los sets proof de Filadelfia.",
+    "description_en": "Proof .900 silver half dollar with Benjamin Franklin and the Liberty Bell, from the Philadelphia proof sets.",
+    "images": [
+      "images/franklin_1962_proof-1.jpeg",
+      "images/franklin_1962_proof-2.jpeg"
+    ],
+    "diameter": "30.6 mm",
+    "weight": "12.5 g",
+    "currency": "Dollar",
+    "reference": "KM# 199",
+    "numista_id": 2835
+  },
+  {
+    "title": "Half Dollar \"Franklin\" 1963 Proof",
+    "denomination": "Half dollar",
+    "price": 40,
+    "condition": "Proof",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Plata 0.900",
+    "year": 1963,
+    "description": "Half dollar proof de 1963, último año de la serie Franklin: al año siguiente lo reemplazó el Kennedy.",
+    "description_en": "1963 proof half dollar, the last year of the Franklin series: the Kennedy half replaced it the following year.",
+    "images": [
+      "images/franklin_1963_proof-1.jpeg",
+      "images/franklin_1963_proof-2.jpeg"
+    ],
+    "diameter": "30.6 mm",
+    "weight": "12.5 g",
+    "currency": "Dollar",
+    "reference": "KM# 199",
+    "numista_id": 2835
   }
 ]
