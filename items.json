@@ -4795,5 +4795,28 @@
       "images/cunietti_1989-2.jpeg",
       "images/cunietti_1989-3.jpeg"
     ]
+  },
+  {
+    "title": "1 Dollar \"Peace\" 1928",
+    "price": 260,
+    "condition": "F+",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "diameter": "38.1 mm",
+    "denomination": "1 Dollar",
+    "weight": "26.73 g",
+    "composition": "Plata 0.900",
+    "composition_en": "0.900 Silver",
+    "year": 1928,
+    "ml": false,
+    "images": [
+      "images/peace_1928-1.jpeg",
+      "images/peace_1928-2.jpeg"
+    ],
+    "currency": "Dollar",
+    "reference": "KM# 150",
+    "numista_id": 5580,
+    "description": "El Peace Dollar de Anthony de Francisci, emitido para celebrar la paz tras la Primera Guerra Mundial. 1928 en Filadelfia es la fecha clave de la serie: con apenas 360.649 piezas, es la tirada más baja de todos los Peace Dollars.",
+    "description_en": "Anthony de Francisci's Peace Dollar, issued to mark the peace after the First World War. The 1928 Philadelphia is the key date of the series: with only 360,649 struck, it is the lowest mintage of any Peace Dollar."
   }
 ]
