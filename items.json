@@ -201,7 +201,9 @@
     "reference": "KM# 150",
     "numista_id": 5580,
     "description": "El Peace Dollar de Anthony de Francisci, emitido para celebrar la paz tras la Primera Guerra Mundial. Último dólar de plata de circulación de Estados Unidos.",
-    "description_en": "Anthony de Francisci's Peace Dollar, issued to mark the peace after the First World War. The last US circulating silver dollar."
+    "description_en": "Anthony de Francisci's Peace Dollar, issued to mark the peace after the First World War. The last US circulating silver dollar.",
+    "sold": true,
+    "soldon": "17-11-2026"
   },
   {
     "title": "1000 Pesos 1969",
