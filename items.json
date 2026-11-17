@@ -235,7 +235,8 @@
     "description_en": "Silver thousand pesos from the FAO series, with a stylised radiant sun. Struck for Uruguay at the Chilean Mint.",
     "variety": "Sin lágrima",
     "variety_en": "Without teardrop",
-    "mint": "Santiago (Chile)"
+    "mint": "Santiago (Chile)",
+    "mintage": 500000
   },
   {
     "title": "5 Cents \"Buffalo\" 1914",
@@ -1180,7 +1181,10 @@
     "reference": "KM# 8",
     "numista_id": 19101,
     "description": "Cinco centésimos de real de cobre con el sol radiante uruguayo, de la emisión de 1857.",
-    "description_en": "Copper five centésimos de real with the Uruguayan radiant sun, from the 1857 issue."
+    "description_en": "Copper five centésimos de real with the Uruguayan radiant sun, from the 1857 issue.",
+    "mintage": 576000,
+    "variety": "Reverso moneda",
+    "variety_en": "Coin alignment"
   },
   {
     "price": 24,
@@ -3547,7 +3551,8 @@
     "currency": "Dollar",
     "reference": "KM# 202b",
     "description": "Half dollar Kennedy en versión chapada, sin plata. Aunque se sigue acuñando, casi no circula: el público la retira apenas aparece.",
-    "description_en": "Clad Kennedy half dollar, with no silver. Though still minted, it barely circulates: the public pulls it from change as soon as it appears."
+    "description_en": "Clad Kennedy half dollar, with no silver. Though still minted, it barely circulates: the public pulls it from change as soon as it appears.",
+    "mintage": 7700000
   },
   {
     "title": "1 Dollar \"Haudenosaunee\" 2010-D",
@@ -3850,7 +3855,8 @@
     "currency": "Dollar",
     "reference": "KM# 758",
     "description": "Quarter con Washington cruzando el Delaware en la noche de Navidad de 1776, emitido en 2021 para cerrar la serie de parques.",
-    "description_en": "Quarter showing Washington crossing the Delaware on Christmas night 1776, issued in 2021 to close out the parks series."
+    "description_en": "Quarter showing Washington crossing the Delaware on Christmas night 1776, issued in 2021 to close out the parks series.",
+    "mintage": 791400000
   },
   {
     "title": "Quarter \"Bicentennial 1776-1976\" 1976-D",
@@ -4566,7 +4572,7 @@
     "currency": "Peso",
     "reference": "KM# 15",
     "numista_id": 4360,
-    "mintage": 1500000
+    "mintage": 1217941
   },
   {
     "title": "Quarter \"Barber\" 1907-S",
