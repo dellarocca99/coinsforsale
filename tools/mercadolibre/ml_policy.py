@@ -134,6 +134,7 @@ def label(item):
     return f"{item.get('denomination') or '?'} {item.get('year') or '?'}"
 
 
+BOOKS_CATEGORY = "MLA412445"  # Libros Físicos
 BOOK_KIND = {"catalog": "Catálogo de Monedas", "album": "Álbum para Monedas"}
 
 
@@ -208,6 +209,11 @@ def type_cfg(cfg, item):
     if t == "coin":
         tc.setdefault("category_id", cfg.get("category_id"))
     tc.setdefault("condition", "used")
+    # Per-item overrides, e.g. an old used catalog without ISBN listed outside "Libros Físicos".
+    if item.get("ml_condition"):
+        tc["condition"] = item["ml_condition"]
+    if item.get("ml_category"):
+        tc["category_id"] = item["ml_category"]
     return tc
 
 
@@ -371,10 +377,13 @@ def build_book_attributes(item, index, cfg):
     """Albums (MLA441114) and catalogs (Libros Físicos) need different required fields."""
     attrs = {"SELLER_SKU": str(index)}
     missing = []
-    t = item_type(item)
     title = (item.get("title") or label(item)).replace('"', '')
     publisher = item.get("mint") or ""
-    if t == "album":
+    # "Libros Físicos" wants book fields and always an ISBN (GTIN). Any other category
+    # (albums, or a catalog without ISBN moved to Monedas y Billetes > Otros) takes
+    # manufacturer/brand/model and accepts "no code".
+    as_book = type_cfg(cfg, item).get("category_id") == BOOKS_CATEGORY
+    if not as_book:
         attrs.update({"MANUFACTURER": publisher, "BRAND": publisher, "MODEL": title,
                       "EMPTY_GTIN_REASON": "El producto no tiene código registrado"})
     else:
@@ -387,7 +396,7 @@ def build_book_attributes(item, index, cfg):
 
     # Tax fields are only demanded for new items; used ones (like the coins) go without.
     required = ["VALUE_ADDED_TAX", "IMPORT_DUTY"] if type_cfg(cfg, item)["condition"] == "new" else []
-    required +=["MANUFACTURER", "BRAND", "MODEL"] if t == "album" else ["BOOK_TITLE", "AUTHOR", "BOOK_PUBLISHER", "GTIN"]
+    required += ["BOOK_TITLE", "AUTHOR", "BOOK_PUBLISHER", "GTIN"] if as_book else ["MANUFACTURER", "BRAND", "MODEL"]
     for k in required:
         if not attrs.get(k):
             missing.append(k + (" (ml_config.json → tax)" if k in ("VALUE_ADDED_TAX", "IMPORT_DUTY")

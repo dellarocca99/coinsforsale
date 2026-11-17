@@ -26,6 +26,18 @@
       "height": 12,
       "depth": 2,
       "weight": 0.2
+    },
+    "248": {
+      "width": 17,
+      "height": 24,
+      "depth": 3,
+      "weight": 0.4
+    },
+    "249": {
+      "width": 17,
+      "height": 24,
+      "depth": 3,
+      "weight": 0.4
     }
   },
   "attributes": {
@@ -67,5 +79,13 @@
     "VALUE_ADDED_TAX": null,
     "IMPORT_DUTY": null
   },
-  "item_attributes": {}
+  "item_attributes": {
+    "249": {
+      "AUTHOR": "Arnaldo J. Cunietti-Ferrando",
+      "LANGUAGE": "Español",
+      "BOOK_COVER": "Blanda",
+      "PUBLICATION_YEAR": 1989,
+      "GTIN": "9789509917811"
+    }
+  }
 }

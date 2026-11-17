@@ -27,6 +27,7 @@ Items con `book: true` y `book_type` (`catalog` / `album`) se sincronizan igual,
 - Precio: misma fórmula (×1,20, no son de plata). Título: `{título} Catálogo de Monedas|Álbum para Monedas {país} Numismatica`.
 - Atributos obligatorios: para items **nuevos**, IVA e Impuesto interno (`tax` en la config — **los define el usuario**, no asumir); los usados no los piden. Para catálogos además AUTOR + ISBN (`item_attributes["<idx>"]`, p. ej. `{"AUTHOR": "...", "GTIN": "978..."}`). `publish` saltea y reporta lo que falte.
 - `match_score` exige el año del item en el título de ML: tenerlo en cuenta si un catálogo/álbum no matchea.
+- **Catálogos usados / viejos** (comprobado 2026-11-17): `"ml_condition": "used"` en el item los publica usados (stock 1, sin IVA). "Libros Físicos" exige ISBN siempre: no acepta `EMPTY_GTIN_REASON` ni "No aplica". Un libro sin ISBN va con `"ml_category": "MLA1948"` (Antigüedades y Colecciones › Monedas y Billetes › Otros), que toma MANUFACTURER/BRAND/MODEL (= editorial/título) + "no tiene código". La categoría MLA433385 "Catálogos" es de pintura/telas: no sirve. El set de atributos se elige por categoría: Libros Físicos → campos de libro + GTIN; cualquier otra → los de álbum.
 
 ## Particularidades de la API de ML (comprobadas 2026-11-04)
 

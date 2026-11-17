@@ -4674,5 +4674,126 @@
     "currency": "Dollar",
     "reference": "KM# 199",
     "numista_id": 2835
+  },
+  {
+    "title": "Quarter \"Washington\" 1942",
+    "denomination": "Quarter dollar",
+    "price": 15,
+    "condition": "F",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Plata 0.900",
+    "year": 1942,
+    "description": "Quarter Washington de plata 0.900, diseñado por John Flanagan para el bicentenario del nacimiento de Washington (1932). Acuñado durante la Segunda Guerra Mundial.",
+    "description_en": "Washington quarter in .900 silver, designed by John Flanagan for the bicentennial of Washington's birth (1932). Struck during the Second World War.",
+    "images": [
+      "images/quarter_1942-1.jpeg",
+      "images/quarter_1942-2.jpeg"
+    ],
+    "diameter": "24.26 mm",
+    "weight": "6.25 g",
+    "currency": "Dollar",
+    "reference": "KM# 164",
+    "numista_id": 54
+  },
+  {
+    "title": "Quarter \"Washington\" 1943",
+    "denomination": "Quarter dollar",
+    "price": 15,
+    "condition": "VF",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Plata 0.900",
+    "year": 1943,
+    "description": "Quarter Washington de plata 0.900, diseñado por John Flanagan para el bicentenario del nacimiento de Washington (1932). Acuñado durante la Segunda Guerra Mundial.",
+    "description_en": "Washington quarter in .900 silver, designed by John Flanagan for the bicentennial of Washington's birth (1932). Struck during the Second World War.",
+    "images": [
+      "images/quarter_1943-1.jpeg",
+      "images/quarter_1943-2.jpeg"
+    ],
+    "diameter": "24.26 mm",
+    "weight": "6.25 g",
+    "currency": "Dollar",
+    "reference": "KM# 164",
+    "numista_id": 54
+  },
+  {
+    "title": "Quarter \"Washington\" 1944",
+    "denomination": "Quarter dollar",
+    "price": 15,
+    "condition": "VF",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Plata 0.900",
+    "year": 1944,
+    "description": "Quarter Washington de plata 0.900, diseñado por John Flanagan para el bicentenario del nacimiento de Washington (1932). Acuñado durante la Segunda Guerra Mundial.",
+    "description_en": "Washington quarter in .900 silver, designed by John Flanagan for the bicentennial of Washington's birth (1932). Struck during the Second World War.",
+    "images": [
+      "images/quarter_1944_vf-1.jpeg",
+      "images/quarter_1944_vf-2.jpeg"
+    ],
+    "diameter": "24.26 mm",
+    "weight": "6.25 g",
+    "currency": "Dollar",
+    "reference": "KM# 164",
+    "numista_id": 54
+  },
+  {
+    "title": "Quarter \"Washington\" 1944",
+    "denomination": "Quarter dollar",
+    "price": 15,
+    "condition": "XF",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Plata 0.900",
+    "year": 1944,
+    "description": "Quarter Washington de plata 0.900, diseñado por John Flanagan para el bicentenario del nacimiento de Washington (1932). Acuñado durante la Segunda Guerra Mundial.",
+    "description_en": "Washington quarter in .900 silver, designed by John Flanagan for the bicentennial of Washington's birth (1932). Struck during the Second World War.",
+    "images": [
+      "images/quarter_1944_xf-1.jpeg",
+      "images/quarter_1944_xf-2.jpeg"
+    ],
+    "diameter": "24.26 mm",
+    "weight": "6.25 g",
+    "currency": "Dollar",
+    "reference": "KM# 164",
+    "numista_id": 54
+  },
+  {
+    "title": "Monedas de la República Argentina 1978 (Cunietti-Ferrando)",
+    "price": 45,
+    "condition": "Usado",
+    "country": "Argentina",
+    "mint": "Cooke & Compañía",
+    "year": 1978,
+    "book": true,
+    "book_type": "catalog",
+    "ml_condition": "used",
+    "description": "«Monedas de la República Argentina desde 1813 a nuestros días», de Arnaldo J. Cunietti-Ferrando (1936-2018), uno de los grandes investigadores de la numismática argentina y autor de la historia de la Casa de Moneda de Potosí.\n\nRecorre la amonedación de la República desde las primeras monedas patrias de 1813: fotografía de cada tipo, cantidades acuñadas, variantes, avisos sobre falsificaciones conocidas y cotizaciones por estado de conservación.\n\nEdición de Cooke & Compañía, Editores Numismáticos, Buenos Aires, 1978 (la obra había aparecido por primera vez en 1971). Tapa blanda, en castellano. Ejemplar usado: tapa y lomo con el desgaste de los años, interior limpio.",
+    "description_en": "\"Monedas de la República Argentina desde 1813 a nuestros días\" (Coins of the Argentine Republic from 1813 to the present day), by Arnaldo J. Cunietti-Ferrando (1936-2018), one of the great researchers of Argentine numismatics and historian of the Potosí mint.\n\nIt covers the Republic's coinage from the first national coins of 1813: a photo of each type, mintages, varieties, warnings about known counterfeits and values by grade.\n\nPublished by Cooke & Compañía, Editores Numismáticos, Buenos Aires, 1978 (the work first appeared in 1971). Softcover, in Spanish. Used copy: cover and spine show their age, clean interior.",
+    "images": [
+      "images/cunietti_1978-1.jpeg",
+      "images/cunietti_1978-2.jpeg",
+      "images/cunietti_1978-3.jpeg"
+    ],
+    "ml_category": "MLA1948"
+  },
+  {
+    "title": "Monedas Argentinas 1989 (Cunietti-Ferrando)",
+    "price": 45,
+    "condition": "Usado",
+    "country": "Argentina",
+    "mint": "Numismática Buenos Aires",
+    "year": 1989,
+    "book": true,
+    "book_type": "catalog",
+    "ml_condition": "used",
+    "description": "«Monedas Argentinas desde la época colonial hasta nuestros días», de Arnaldo J. Cunietti-Ferrando (1936-2018), uno de los grandes investigadores de la numismática argentina.\n\nAmplía su catálogo anterior hacia atrás, hasta la época colonial, e incluye las acuñaciones provinciales y las nacionales. Para cada tipo da ley, peso, canto y módulo, las cantidades acuñadas, las variantes (como los reversos en posición medalla) y cotizaciones por estado de conservación.\n\nNumismática Buenos Aires, 1989. ISBN 950-99178-1-8. Tapa blanda, en castellano. Ejemplar usado en buen estado.",
+    "description_en": "\"Monedas Argentinas desde la época colonial hasta nuestros días\" (Argentine coins from colonial times to the present day), by Arnaldo J. Cunietti-Ferrando (1936-2018), one of the great researchers of Argentine numismatics.\n\nIt extends his earlier catalog back to colonial times and includes both provincial and national coinage. For each type it gives fineness, weight, edge and diameter, mintages, varieties (such as medal-aligned reverses) and values by grade.\n\nNumismática Buenos Aires, 1989. ISBN 950-99178-1-8. Softcover, in Spanish. Used copy in good condition.",
+    "images": [
+      "images/cunietti_1989-1.jpeg",
+      "images/cunietti_1989-2.jpeg",
+      "images/cunietti_1989-3.jpeg"
+    ]
   }
 ]
