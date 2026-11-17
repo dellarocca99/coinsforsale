@@ -4469,22 +4469,20 @@
   {
     "title": "2 Centavos 1894 (medalla monetaria)",
     "denomination": "2 Centavos",
-    "price": 20,
+    "price": 25,
     "condition": "VF",
     "country": "Argentina",
     "composition": "Bronce",
     "year": 1894,
-    "description": "Variante «medalla monetaria»: anverso y reverso acuñados con los ejes alineados como en una medalla, y no en la posición habitual de moneda. Primera serie del peso moneda nacional.",
-    "description_en": "\"Medal alignment\" variety: obverse and reverse struck with the dies aligned as on a medal rather than in the usual coin position. First peso moneda nacional series.",
     "images": [
       "images/2cent_arg_1894_medalla-1.jpeg",
       "images/2cent_arg_1894_medalla-2.jpeg"
     ],
     "diameter": "30 mm",
     "weight": "10 g",
-    "currency": "Peso moneda nacional",
-    "reference": "KM# 33",
-    "numista_id": 2220
+    "currency": "Medalla monetaria",
+    "reference": "CJ# 3",
+    "numista_id": 122073
   },
   {
     "title": "2 Cents 1868",
