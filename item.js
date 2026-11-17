@@ -120,6 +120,7 @@ function renderItem(item) {
     item.weight                                     ? ["label_weight",       item.weight, false] : null,
     item.diameter                                   ? ["label_diameter",     item.diameter, false] : null,
     getLocalizedField(item, "composition")          ? ["label_composition",  getLocalizedField(item, "composition"), false] : null,
+    Number.isFinite(item.mintage)                   ? ["label_mintage",      item.mintage.toLocaleString(getLang() === "en" ? "en-US" : "es-AR"), false] : null,
     item.reference                                  ? ["label_reference",    item.reference, false] : null,
   ].filter(Boolean);
 

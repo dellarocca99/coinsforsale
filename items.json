@@ -18,7 +18,8 @@
     "diameter": "37 mm",
     "weight": "25 g",
     "currency": "Peso",
-    "numista_id": 27128
+    "numista_id": 27128,
+    "mintage": 299100
   },
   {
     "title": "1 Peso ONU 1995",
@@ -120,7 +121,8 @@
     "reference": "KM# 32",
     "numista_id": 1156,
     "description": "Centavo de bronce de la primera serie del peso moneda nacional, con el escudo argentino en el anverso y la Libertad de Oudine en el reverso.",
-    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse."
+    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse.",
+    "mintage": 786000
   },
   {
     "title": "1 Centavo 1883",
@@ -141,7 +143,8 @@
     "reference": "KM# 32",
     "numista_id": 1156,
     "description": "Centavo de bronce de la primera serie del peso moneda nacional, con el escudo argentino en el anverso y la Libertad de Oudine en el reverso.",
-    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse."
+    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse.",
+    "mintage": 786000
   },
   {
     "price": 170,
@@ -179,7 +182,8 @@
     "reference": "KM# 76",
     "numista_id": 6846,
     "description": "Half dime Seated Liberty con flechas junto a la fecha, la marca que indica el peso reducido dispuesto por la ley de 1853.",
-    "description_en": "Seated Liberty half dime with arrows at the date, the mark denoting the reduced weight set by the 1853 act."
+    "description_en": "Seated Liberty half dime with arrows at the date, the mark denoting the reduced weight set by the 1853 act.",
+    "mintage": 5740000
   },
   {
     "title": "1 Dollar \"Peace\" 1925",
@@ -245,7 +249,8 @@
     "reference": "KM# 134",
     "numista_id": 1109,
     "description": "El Buffalo Nickel de James Earle Fraser. El anverso combina los perfiles de tres jefes —Cola de Hierro, Dos Lunas y Gran Árbol— y el reverso lleva un bisonte americano. Variedad de suelo plano, la que se acuñó desde 1913 hasta el final de la serie.",
-    "description_en": "James Earle Fraser's Buffalo Nickel. The obverse blends the profiles of three chiefs — Iron Tail, Two Moons and Big Tree — and the reverse carries an American bison. Flat-ground variety, struck from 1913 to the end of the series."
+    "description_en": "James Earle Fraser's Buffalo Nickel. The obverse blends the profiles of three chiefs — Iron Tail, Two Moons and Big Tree — and the reverse carries an American bison. Flat-ground variety, struck from 1913 to the end of the series.",
+    "mintage": 20664463
   },
   {
     "title": "5 Cents \"Buffalo\" 1914-S",
@@ -266,7 +271,8 @@
     "reference": "KM# 134",
     "numista_id": 1109,
     "description": "El Buffalo Nickel de James Earle Fraser. El anverso combina los perfiles de tres jefes —Cola de Hierro, Dos Lunas y Gran Árbol— y el reverso lleva un bisonte americano. Variedad de suelo plano, la que se acuñó desde 1913 hasta el final de la serie.",
-    "description_en": "James Earle Fraser's Buffalo Nickel. The obverse blends the profiles of three chiefs — Iron Tail, Two Moons and Big Tree — and the reverse carries an American bison. Flat-ground variety, struck from 1913 to the end of the series."
+    "description_en": "James Earle Fraser's Buffalo Nickel. The obverse blends the profiles of three chiefs — Iron Tail, Two Moons and Big Tree — and the reverse carries an American bison. Flat-ground variety, struck from 1913 to the end of the series.",
+    "mintage": 3470000
   },
   {
     "title": "5 Cents \"Buffalo\" 1915",
@@ -287,7 +293,8 @@
     "reference": "KM# 134",
     "numista_id": 1109,
     "description": "El Buffalo Nickel de James Earle Fraser. El anverso combina los perfiles de tres jefes —Cola de Hierro, Dos Lunas y Gran Árbol— y el reverso lleva un bisonte americano. Variedad de suelo plano, la que se acuñó desde 1913 hasta el final de la serie.",
-    "description_en": "James Earle Fraser's Buffalo Nickel. The obverse blends the profiles of three chiefs — Iron Tail, Two Moons and Big Tree — and the reverse carries an American bison. Flat-ground variety, struck from 1913 to the end of the series."
+    "description_en": "James Earle Fraser's Buffalo Nickel. The obverse blends the profiles of three chiefs — Iron Tail, Two Moons and Big Tree — and the reverse carries an American bison. Flat-ground variety, struck from 1913 to the end of the series.",
+    "mintage": 20986220
   },
   {
     "title": "5 Cents \"Buffalo\" 1916",
@@ -308,7 +315,8 @@
     "reference": "KM# 134",
     "numista_id": 1109,
     "description": "El Buffalo Nickel de James Earle Fraser. El anverso combina los perfiles de tres jefes —Cola de Hierro, Dos Lunas y Gran Árbol— y el reverso lleva un bisonte americano. Variedad de suelo plano, la que se acuñó desde 1913 hasta el final de la serie.",
-    "description_en": "James Earle Fraser's Buffalo Nickel. The obverse blends the profiles of three chiefs — Iron Tail, Two Moons and Big Tree — and the reverse carries an American bison. Flat-ground variety, struck from 1913 to the end of the series."
+    "description_en": "James Earle Fraser's Buffalo Nickel. The obverse blends the profiles of three chiefs — Iron Tail, Two Moons and Big Tree — and the reverse carries an American bison. Flat-ground variety, struck from 1913 to the end of the series.",
+    "mintage": 63497466
   },
   {
     "title": "5 Cents \"Buffalo\" 1921",
@@ -329,7 +337,8 @@
     "reference": "KM# 134",
     "numista_id": 1109,
     "description": "El Buffalo Nickel de James Earle Fraser. El anverso combina los perfiles de tres jefes —Cola de Hierro, Dos Lunas y Gran Árbol— y el reverso lleva un bisonte americano. Variedad de suelo plano, la que se acuñó desde 1913 hasta el final de la serie.",
-    "description_en": "James Earle Fraser's Buffalo Nickel. The obverse blends the profiles of three chiefs — Iron Tail, Two Moons and Big Tree — and the reverse carries an American bison. Flat-ground variety, struck from 1913 to the end of the series."
+    "description_en": "James Earle Fraser's Buffalo Nickel. The obverse blends the profiles of three chiefs — Iron Tail, Two Moons and Big Tree — and the reverse carries an American bison. Flat-ground variety, struck from 1913 to the end of the series.",
+    "mintage": 10663000
   },
   {
     "title": "5 Cents \"Buffalo\" 1921",
@@ -350,7 +359,8 @@
     "reference": "KM# 134",
     "numista_id": 1109,
     "description": "El Buffalo Nickel de James Earle Fraser. El anverso combina los perfiles de tres jefes —Cola de Hierro, Dos Lunas y Gran Árbol— y el reverso lleva un bisonte americano. Variedad de suelo plano, la que se acuñó desde 1913 hasta el final de la serie.",
-    "description_en": "James Earle Fraser's Buffalo Nickel. The obverse blends the profiles of three chiefs — Iron Tail, Two Moons and Big Tree — and the reverse carries an American bison. Flat-ground variety, struck from 1913 to the end of the series."
+    "description_en": "James Earle Fraser's Buffalo Nickel. The obverse blends the profiles of three chiefs — Iron Tail, Two Moons and Big Tree — and the reverse carries an American bison. Flat-ground variety, struck from 1913 to the end of the series.",
+    "mintage": 10663000
   },
   {
     "title": "5 Cents \"Liberty\" 1888",
@@ -371,7 +381,8 @@
     "reference": "KM# 112",
     "numista_id": 3683,
     "description": "Liberty Nickel con la palabra CENTS en el reverso, agregada tras el primer año de emisión: sin ella, la moneda se doraba y se hacía pasar por una de cinco dólares.",
-    "description_en": "Liberty Nickel with the word CENTS on the reverse, added after the first year of issue: without it the coin was gold-plated and passed off as a five-dollar piece."
+    "description_en": "Liberty Nickel with the word CENTS on the reverse, added after the first year of issue: without it the coin was gold-plated and passed off as a five-dollar piece.",
+    "mintage": 10167901
   },
   {
     "title": "5 Cents \"Liberty\" 1894",
@@ -392,7 +403,8 @@
     "reference": "KM# 112",
     "numista_id": 3683,
     "description": "Liberty Nickel con la palabra CENTS en el reverso, agregada tras el primer año de emisión: sin ella, la moneda se doraba y se hacía pasar por una de cinco dólares.",
-    "description_en": "Liberty Nickel with the word CENTS on the reverse, added after the first year of issue: without it the coin was gold-plated and passed off as a five-dollar piece."
+    "description_en": "Liberty Nickel with the word CENTS on the reverse, added after the first year of issue: without it the coin was gold-plated and passed off as a five-dollar piece.",
+    "mintage": 5410500
   },
   {
     "title": "1 Cent \"Lincoln\" 1910-S",
@@ -571,7 +583,8 @@
     "currency": "Dollar",
     "reference": "KM# 133",
     "description": "Buffalo Nickel del primer año, variedad de suelo elevado: el bisonte se apoya en un montículo que se desgastaba demasiado rápido y fue rebajado ese mismo año.",
-    "description_en": "First-year Buffalo Nickel, raised-ground variety: the bison stands on a mound that wore down too quickly and was flattened later the same year."
+    "description_en": "First-year Buffalo Nickel, raised-ground variety: the bison stands on a mound that wore down too quickly and was flattened later the same year.",
+    "mintage": 2105000
   },
   {
     "title": "5 Cents \"Buffalo\" 1914-S",
@@ -592,7 +605,8 @@
     "reference": "KM# 134",
     "numista_id": 1109,
     "description": "El Buffalo Nickel de James Earle Fraser. El anverso combina los perfiles de tres jefes —Cola de Hierro, Dos Lunas y Gran Árbol— y el reverso lleva un bisonte americano. Variedad de suelo plano, la que se acuñó desde 1913 hasta el final de la serie.",
-    "description_en": "James Earle Fraser's Buffalo Nickel. The obverse blends the profiles of three chiefs — Iron Tail, Two Moons and Big Tree — and the reverse carries an American bison. Flat-ground variety, struck from 1913 to the end of the series."
+    "description_en": "James Earle Fraser's Buffalo Nickel. The obverse blends the profiles of three chiefs — Iron Tail, Two Moons and Big Tree — and the reverse carries an American bison. Flat-ground variety, struck from 1913 to the end of the series.",
+    "mintage": 3470000
   },
   {
     "title": "Half Dollar 1920-S",
@@ -613,7 +627,8 @@
     "currency": "Dollar",
     "reference": "KM# 142",
     "description": "El Walking Liberty Half Dollar de Adolph Weinman, con la Libertad avanzando hacia el sol naciente. El mismo diseño se reutilizó en las onzas de plata American Eagle.",
-    "description_en": "Adolph Weinman's Walking Liberty half dollar, with Liberty striding toward the rising sun. The same design was later reused on the American Silver Eagle."
+    "description_en": "Adolph Weinman's Walking Liberty half dollar, with Liberty striding toward the rising sun. The same design was later reused on the American Silver Eagle.",
+    "mintage": 4600000
   },
   {
     "title": "Half Dollar 1955",
@@ -634,7 +649,8 @@
     "reference": "KM# 199",
     "numista_id": 2835,
     "description": "Half dollar de plata con Benjamin Franklin y la Campana de la Libertad. El águila diminuta junto a la campana está ahí solo porque la ley exigía un águila en la moneda.",
-    "description_en": "Silver half dollar with Benjamin Franklin and the Liberty Bell. The tiny eagle beside the bell is there only because the law required an eagle on the coin."
+    "description_en": "Silver half dollar with Benjamin Franklin and the Liberty Bell. The tiny eagle beside the bell is there only because the law required an eagle on the coin.",
+    "mintage": 2498181
   },
   {
     "title": "1 Cent \"Indian\" 1873",
@@ -676,7 +692,8 @@
     "reference": "KM# 90a",
     "numista_id": 2356,
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 13528000
   },
   {
     "title": "1 Cent \"Indian\" 1876",
@@ -697,7 +714,8 @@
     "reference": "KM# 90a",
     "numista_id": 2356,
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 7944000
   },
   {
     "title": "1 Cent \"Indian\" 1891",
@@ -841,7 +859,8 @@
     "reference": "KM# 22",
     "numista_id": 14534,
     "description": "Cincuenta centésimos de plata con el busto de José Artigas, acuñados para Uruguay en la Casa de Moneda de Buenos Aires.",
-    "description_en": "Silver fifty centésimos with the bust of José Artigas, struck for Uruguay at the Buenos Aires Mint."
+    "description_en": "Silver fifty centésimos with the bust of José Artigas, struck for Uruguay at the Buenos Aires Mint.",
+    "mintage": 5600000
   },
   {
     "title": "50 Centésimos 1917",
@@ -861,7 +880,8 @@
     "reference": "KM# 22",
     "numista_id": 14534,
     "description": "Cincuenta centésimos de plata con el busto de José Artigas, acuñados para Uruguay en la Casa de Moneda de Buenos Aires.",
-    "description_en": "Silver fifty centésimos with the bust of José Artigas, struck for Uruguay at the Buenos Aires Mint."
+    "description_en": "Silver fifty centésimos with the bust of José Artigas, struck for Uruguay at the Buenos Aires Mint.",
+    "mintage": 5600000
   },
   {
     "title": "50 Centésimos 1943",
@@ -881,7 +901,8 @@
     "reference": "KM# 31",
     "numista_id": 3784,
     "description": "Cincuenta centésimos de plata con la cabeza de Artigas y el valor sobre un sol estilizado.",
-    "description_en": "Silver fifty centésimos with the head of Artigas and the value over a stylised sun."
+    "description_en": "Silver fifty centésimos with the head of Artigas and the value over a stylised sun.",
+    "mintage": 10800000
   },
   {
     "title": "1000 Pesos 2003 (Mundial 2006)",
@@ -961,7 +982,8 @@
     ],
     "currency": "Peso ley",
     "reference": "KM# 80",
-    "numista_id": 14508
+    "numista_id": 14508,
+    "mintage": 98837
   },
   {
     "title": "10 Francs 1929",
@@ -981,7 +1003,8 @@
     "reference": "KM# 878",
     "numista_id": 687,
     "description": "Diez francos de plata del tipo Turin, con la cabeza laureada de la República. Moneda del período de entreguerras francés.",
-    "description_en": "Silver ten francs of the Turin type, with the laureate head of the Republic. A French interwar coin."
+    "description_en": "Silver ten francs of the Turin type, with the laureate head of the Republic. A French interwar coin.",
+    "mintage": 16291726
   },
   {
     "title": "1 Peso 1942",
@@ -1001,7 +1024,8 @@
     "reference": "KM# 30",
     "numista_id": 10344,
     "description": "Un peso de plata con la cabeza de Artigas en el anverso y un puma caminando ante un sol radiante en el reverso, uno de los diseños más reconocibles del Uruguay.",
-    "description_en": "Silver one peso with the head of Artigas and, on the reverse, a puma walking before a radiant sun — one of Uruguay's most recognisable designs."
+    "description_en": "Silver one peso with the head of Artigas and, on the reverse, a puma walking before a radiant sun — one of Uruguay's most recognisable designs.",
+    "mintage": 9000000
   },
   {
     "title": "1 Centavo 1974",
@@ -1020,7 +1044,8 @@
     "weight": "0.62 g",
     "currency": "Peso ley",
     "reference": "KM# 64",
-    "numista_id": 3236
+    "numista_id": 3236,
+    "mintage": 5162000
   },
   {
     "title": "1 Centavo 1975",
@@ -1039,7 +1064,8 @@
     "weight": "0.62 g",
     "currency": "Peso ley",
     "reference": "KM# 64",
-    "numista_id": 3236
+    "numista_id": 3236,
+    "mintage": 3840000
   },
   {
     "title": "10 Centavos 1976",
@@ -1058,7 +1084,8 @@
     "weight": "2 g",
     "currency": "Peso ley",
     "reference": "KM# 66",
-    "numista_id": 2215
+    "numista_id": 2215,
+    "mintage": 730584
   },
   {
     "title": "20 Centavos 1961",
@@ -1077,7 +1104,8 @@
     "weight": "4 g",
     "currency": "Peso moneda nacional",
     "reference": "KM# 55",
-    "numista_id": 3254
+    "numista_id": 3254,
+    "mintage": 2082803
   },
   {
     "title": "5/10 Real 1827",
@@ -1158,7 +1186,8 @@
     "reference": "KM# 10",
     "numista_id": 8897,
     "description": "Cuarenta centésimos de real de cobre, la pieza de mayor módulo de la emisión uruguaya de 1857.",
-    "description_en": "Copper forty centésimos de real, the largest module of Uruguay's 1857 issue."
+    "description_en": "Copper forty centésimos de real, the largest module of Uruguay's 1857 issue.",
+    "mintage": 1080000
   },
   {
     "price": 35,
@@ -1273,7 +1302,8 @@
     "reference": "KM# 34",
     "numista_id": 3240,
     "description": "Cinco centavos en cuproníquel con la cabeza de la Libertad de Oudine, uno de los tipos más longevos de la numismática argentina.",
-    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics."
+    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics.",
+    "mintage": 1499000
   },
   {
     "denomination": "5 Centavos",
@@ -1292,7 +1322,8 @@
     "reference": "KM# 34",
     "numista_id": 3240,
     "description": "Cinco centavos en cuproníquel con la cabeza de la Libertad de Oudine, uno de los tipos más longevos de la numismática argentina.",
-    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics."
+    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics.",
+    "mintage": 2661000
   },
   {
     "denomination": "5 Centavos",
@@ -1311,7 +1342,8 @@
     "reference": "KM# 34",
     "numista_id": 3240,
     "description": "Cinco centavos en cuproníquel con la cabeza de la Libertad de Oudine, uno de los tipos más longevos de la numismática argentina.",
-    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics."
+    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics.",
+    "mintage": 2661000
   },
   {
     "denomination": "5 Centavos",
@@ -1330,7 +1362,8 @@
     "reference": "KM# 34",
     "numista_id": 3240,
     "description": "Cinco centavos en cuproníquel con la cabeza de la Libertad de Oudine, uno de los tipos más longevos de la numismática argentina.",
-    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics."
+    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics.",
+    "mintage": 2661000
   },
   {
     "denomination": "5 Centavos",
@@ -1349,7 +1382,8 @@
     "reference": "KM# 34",
     "numista_id": 3240,
     "description": "Cinco centavos en cuproníquel con la cabeza de la Libertad de Oudine, uno de los tipos más longevos de la numismática argentina.",
-    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics."
+    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics.",
+    "mintage": 2661000
   },
   {
     "denomination": "5 Centavos",
@@ -1368,7 +1402,8 @@
     "reference": "KM# 34",
     "numista_id": 3240,
     "description": "Cinco centavos en cuproníquel con la cabeza de la Libertad de Oudine, uno de los tipos más longevos de la numismática argentina.",
-    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics."
+    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics.",
+    "mintage": 2661000
   },
   {
     "denomination": "5 Centavos",
@@ -1387,7 +1422,8 @@
     "reference": "KM# 34",
     "numista_id": 3240,
     "description": "Cinco centavos en cuproníquel con la cabeza de la Libertad de Oudine, uno de los tipos más longevos de la numismática argentina.",
-    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics."
+    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics.",
+    "mintage": 4650000
   },
   {
     "denomination": "5 Centavos",
@@ -1434,7 +1470,8 @@
     "reference": "KM# 34",
     "numista_id": 3240,
     "description": "Cinco centavos en cuproníquel con la cabeza de la Libertad de Oudine, uno de los tipos más longevos de la numismática argentina.",
-    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics."
+    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics.",
+    "mintage": 6355000
   },
   {
     "denomination": "5 Centavos",
@@ -1467,7 +1504,8 @@
     "reference": "KM# 34",
     "numista_id": 3240,
     "description": "Cinco centavos en cuproníquel con la cabeza de la Libertad de Oudine, uno de los tipos más longevos de la numismática argentina.",
-    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics."
+    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics.",
+    "mintage": 506000
   },
   {
     "denomination": "5 Centavos",
@@ -1486,7 +1524,8 @@
     "reference": "KM# 34",
     "numista_id": 3240,
     "description": "Cinco centavos en cuproníquel con la cabeza de la Libertad de Oudine, uno de los tipos más longevos de la numismática argentina.",
-    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics."
+    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics.",
+    "mintage": 506000
   },
   {
     "denomination": "5 Centavos",
@@ -1505,7 +1544,8 @@
     "reference": "KM# 34",
     "numista_id": 3240,
     "description": "Cinco centavos en cuproníquel con la cabeza de la Libertad de Oudine, uno de los tipos más longevos de la numismática argentina.",
-    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics."
+    "description_en": "Copper-nickel five centavos with Oudine's Liberty head, one of the longest-running types in Argentine numismatics.",
+    "mintage": 7175000
   },
   {
     "denomination": "10 Centavos",
@@ -1524,7 +1564,8 @@
     "reference": "KM# 35",
     "numista_id": 2594,
     "description": "Diez centavos en cuproníquel con la Libertad de Oudine, acuñados en la Casa de Moneda de Buenos Aires.",
-    "description_en": "Copper-nickel ten centavos with Oudine's Liberty, struck at the Buenos Aires Mint."
+    "description_en": "Copper-nickel ten centavos with Oudine's Liberty, struck at the Buenos Aires Mint.",
+    "mintage": 2355249
   },
   {
     "denomination": "10 Centavos",
@@ -1543,7 +1584,8 @@
     "reference": "KM# 35",
     "numista_id": 2594,
     "description": "Diez centavos en cuproníquel con la Libertad de Oudine, acuñados en la Casa de Moneda de Buenos Aires.",
-    "description_en": "Copper-nickel ten centavos with Oudine's Liberty, struck at the Buenos Aires Mint."
+    "description_en": "Copper-nickel ten centavos with Oudine's Liberty, struck at the Buenos Aires Mint.",
+    "mintage": 2355249
   },
   {
     "denomination": "10 Centavos",
@@ -1562,7 +1604,8 @@
     "reference": "KM# 35",
     "numista_id": 2594,
     "description": "Diez centavos en cuproníquel con la Libertad de Oudine, acuñados en la Casa de Moneda de Buenos Aires.",
-    "description_en": "Copper-nickel ten centavos with Oudine's Liberty, struck at the Buenos Aires Mint."
+    "description_en": "Copper-nickel ten centavos with Oudine's Liberty, struck at the Buenos Aires Mint.",
+    "mintage": 750733
   },
   {
     "denomination": "10 Centavos",
@@ -1581,7 +1624,8 @@
     "reference": "KM# 35",
     "numista_id": 2594,
     "description": "Diez centavos en cuproníquel con la Libertad de Oudine, acuñados en la Casa de Moneda de Buenos Aires.",
-    "description_en": "Copper-nickel ten centavos with Oudine's Liberty, struck at the Buenos Aires Mint."
+    "description_en": "Copper-nickel ten centavos with Oudine's Liberty, struck at the Buenos Aires Mint.",
+    "mintage": 892873
   },
   {
     "denomination": "10 Centavos",
@@ -1600,7 +1644,8 @@
     "reference": "KM# 35",
     "numista_id": 2594,
     "description": "Diez centavos en cuproníquel con la Libertad de Oudine, acuñados en la Casa de Moneda de Buenos Aires.",
-    "description_en": "Copper-nickel ten centavos with Oudine's Liberty, struck at the Buenos Aires Mint."
+    "description_en": "Copper-nickel ten centavos with Oudine's Liberty, struck at the Buenos Aires Mint.",
+    "mintage": 892873
   },
   {
     "denomination": "10 Centavos",
@@ -1619,7 +1664,8 @@
     "reference": "KM# 35",
     "numista_id": 2594,
     "description": "Diez centavos en cuproníquel con la Libertad de Oudine, acuñados en la Casa de Moneda de Buenos Aires.",
-    "description_en": "Copper-nickel ten centavos with Oudine's Liberty, struck at the Buenos Aires Mint."
+    "description_en": "Copper-nickel ten centavos with Oudine's Liberty, struck at the Buenos Aires Mint.",
+    "mintage": 892873
   },
   {
     "denomination": "20 Centavos",
@@ -1652,7 +1698,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 2029616
   },
   {
     "denomination": "20 Centavos",
@@ -1671,7 +1718,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 2029616
   },
   {
     "denomination": "20 Centavos",
@@ -1690,7 +1738,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 1263963
   },
   {
     "denomination": "20 Centavos",
@@ -1709,7 +1758,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 840108
   },
   {
     "denomination": "20 Centavos",
@@ -1728,7 +1778,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 840108
   },
   {
     "denomination": "20 Centavos",
@@ -1747,7 +1798,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 840108
   },
   {
     "denomination": "20 Centavos",
@@ -1766,7 +1818,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 840108
   },
   {
     "denomination": "20 Centavos",
@@ -1785,7 +1838,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 840108
   },
   {
     "denomination": "20 Centavos",
@@ -1804,7 +1858,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 840108
   },
   {
     "denomination": "20 Centavos",
@@ -1823,7 +1878,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 840108
   },
   {
     "denomination": "20 Centavos",
@@ -1842,7 +1898,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 719128
   },
   {
     "denomination": "20 Centavos",
@@ -1861,7 +1918,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 719128
   },
   {
     "denomination": "20 Centavos",
@@ -1880,7 +1938,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 719128
   },
   {
     "denomination": "20 Centavos",
@@ -1899,7 +1958,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 719128
   },
   {
     "denomination": "20 Centavos",
@@ -1932,7 +1992,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 719128
   },
   {
     "denomination": "20 Centavos",
@@ -1951,7 +2012,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 719128
   },
   {
     "denomination": "20 Centavos",
@@ -1970,7 +2032,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 719128
   },
   {
     "denomination": "20 Centavos",
@@ -1989,7 +2052,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 719128
   },
   {
     "denomination": "20 Centavos",
@@ -2008,7 +2072,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 719128
   },
   {
     "denomination": "20 Centavos",
@@ -2027,7 +2092,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 1328888
   },
   {
     "denomination": "20 Centavos",
@@ -2046,7 +2112,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 526770
   },
   {
     "denomination": "20 Centavos",
@@ -2065,7 +2132,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 526770
   },
   {
     "denomination": "20 Centavos",
@@ -2084,7 +2152,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 341873
   },
   {
     "denomination": "20 Centavos",
@@ -2103,7 +2172,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 341873
   },
   {
     "denomination": "20 Centavos",
@@ -2122,7 +2192,8 @@
     "reference": "KM# 36",
     "numista_id": 3252,
     "description": "Veinte centavos con la cabeza de la Libertad de Eugène-André Oudine y el valor dentro de una corona de laurel. Argentina acuñó este tipo casi sin cambios durante casi cincuenta años.",
-    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years."
+    "description_en": "Twenty centavos with Eugène-André Oudine's Liberty head and the value within a laurel wreath. Argentina struck this type almost unchanged for nearly fifty years.",
+    "mintage": 341873
   },
   {
     "title": "2 Pesos \"Ojos Saltones\" 2010",
@@ -2164,7 +2235,8 @@
     "reference": "KM# 202",
     "numista_id": 943,
     "description": "Half dollar Kennedy del único año acuñado en plata 900, emitido a los pocos meses del asesinato del presidente.",
-    "description_en": "Kennedy half dollar from the only year struck in .900 silver, issued within months of the president's assassination."
+    "description_en": "Kennedy half dollar from the only year struck in .900 silver, issued within months of the president's assassination.",
+    "mintage": 277254766
   },
   {
     "denomination": "Quarter dollar",
@@ -2236,7 +2308,8 @@
     "reference": "KM# 121",
     "numista_id": 8596,
     "description": "Cincuenta centavos conmemorativos del cincuentenario del voto femenino en Argentina, con el retrato de Eva Perón.",
-    "description_en": "Commemorative fifty centavos for the fiftieth anniversary of women's suffrage in Argentina, with the portrait of Eva Perón."
+    "description_en": "Commemorative fifty centavos for the fiftieth anniversary of women's suffrage in Argentina, with the portrait of Eva Perón.",
+    "mintage": 2000000
   },
   {
     "title": "2 Pesos \"Evita\" 2002",
@@ -2256,7 +2329,8 @@
     "currency": "Peso convertible",
     "reference": "KM# 135.1",
     "description": "Dos pesos conmemorativos con el perfil de Eva Perón y, en el reverso, la multitud reunida ante un amanecer. Variante de canto estriado.",
-    "description_en": "Commemorative two pesos with the profile of Eva Perón and, on the reverse, a crowd gathered before a sunrise. Reeded-edge variety."
+    "description_en": "Commemorative two pesos with the profile of Eva Perón and, on the reverse, a crowd gathered before a sunrise. Reeded-edge variety.",
+    "mintage": 1995000
   },
   {
     "denomination": "2 Lire",
@@ -2275,7 +2349,8 @@
     "reference": "KM# 63",
     "numista_id": 2682,
     "description": "Dos liras de níquel de Vittorio Emanuele III, con el fascio litorio en el reverso: la iconografía del régimen incorporada a la moneda corriente.",
-    "description_en": "Nickel two lire of Victor Emmanuel III, with the fasces on the reverse — the regime's iconography carried onto everyday currency."
+    "description_en": "Nickel two lire of Victor Emmanuel III, with the fasces on the reverse — the regime's iconography carried onto everyday currency.",
+    "mintage": 33260000
   },
   {
     "denomination": "2 Centavos",
@@ -2313,7 +2388,8 @@
     "reference": "KM# 38",
     "numista_id": 3239,
     "description": "Dos centavos de bronce con el escudo argentino dentro de una corona de laurel, tipo de la década del cuarenta.",
-    "description_en": "Bronze two centavos with the Argentine coat of arms inside a laurel wreath, a 1940s type."
+    "description_en": "Bronze two centavos with the Argentine coat of arms inside a laurel wreath, a 1940s type.",
+    "mintage": 4585000
   },
   {
     "denomination": "2 Centavos",
@@ -2332,7 +2408,8 @@
     "reference": "KM# 38a",
     "numista_id": 5225,
     "description": "Dos centavos de cobre, el último tipo de la denominación antes de que la inflación la retirara de circulación.",
-    "description_en": "Copper two centavos, the last type of the denomination before inflation retired it from circulation."
+    "description_en": "Copper two centavos, the last type of the denomination before inflation retired it from circulation.",
+    "mintage": 3645000
   },
   {
     "denomination": "5 Centavos",
@@ -2351,7 +2428,8 @@
     "currency": "Peso moneda nacional",
     "reference": "KM# 40",
     "description": "Cinco centavos en bronce de aluminio, con la espiga de trigo y la cabeza de toro que simbolizan la producción agropecuaria argentina.",
-    "description_en": "Aluminium-bronze five centavos, with the wheat ear and bull's head symbolising Argentine farming and cattle."
+    "description_en": "Aluminium-bronze five centavos, with the wheat ear and bull's head symbolising Argentine farming and cattle.",
+    "mintage": 2130000
   },
   {
     "title": "5 Pesos 1977 - Capada",
@@ -2371,7 +2449,8 @@
     "currency": "Peso ley",
     "reference": "KM# 71",
     "description": "Cinco pesos con el Sol de Mayo en el anverso, de la última serie antes de que la hiperinflación obligara a cambiar el signo monetario.",
-    "description_en": "Five pesos with the Sol de Mayo on the obverse, from the last series before hyperinflation forced a change of currency."
+    "description_en": "Five pesos with the Sol de Mayo on the obverse, from the last series before hyperinflation forced a change of currency.",
+    "mintage": 66765684
   },
   {
     "denomination": "1 Centavo",
@@ -2390,7 +2469,8 @@
     "reference": "KM# 37a",
     "numista_id": 3235,
     "description": "Centavo de cobre con el escudo argentino dentro de una corona de laurel.",
-    "description_en": "Copper centavo with the Argentine coat of arms inside a laurel wreath."
+    "description_en": "Copper centavo with the Argentine coat of arms inside a laurel wreath.",
+    "mintage": 4450000
   },
   {
     "title": "1 Peso \"Restauración de la Democracia\" 2023",
@@ -2473,7 +2553,8 @@
     "currency": "Dollar",
     "reference": "KM# 150a",
     "description": "Dólar de plata fina emitido por el centenario del Peace Dollar, con el diseño original de Anthony de Francisci.",
-    "description_en": "Fine silver dollar issued for the Peace Dollar centennial, with Anthony de Francisci's original design."
+    "description_en": "Fine silver dollar issued for the Peace Dollar centennial, with Anthony de Francisci's original design.",
+    "mintage": 200000
   },
   {
     "title": "1 \"Morgan\" 1884-CC",
@@ -2534,7 +2615,8 @@
     "currency": "Dollar",
     "reference": "KM# 87",
     "description": "Centavo Indian Head del primer año, con la corona de laurel simple en el reverso y todavía sin el escudo que se agregó en 1860.",
-    "description_en": "First-year Indian Head cent, with the plain laurel wreath reverse and still without the shield added in 1860."
+    "description_en": "First-year Indian Head cent, with the plain laurel wreath reverse and still without the shield added in 1860.",
+    "mintage": 36400000
   },
   {
     "title": "1 Cent \"Indian\" 1860",
@@ -2571,7 +2653,8 @@
     "currency": "Dollar",
     "reference": "KM# 90",
     "description": "Centavo Indian Head en cuproníquel, el 'white cent' grueso y pálido que circuló antes de que la escasez de metal de la Guerra Civil obligara a pasar al bronce.",
-    "description_en": "Indian Head cent in copper-nickel — the thick, pale 'white cent' that circulated before Civil War metal shortages forced the switch to bronze."
+    "description_en": "Indian Head cent in copper-nickel — the thick, pale 'white cent' that circulated before Civil War metal shortages forced the switch to bronze.",
+    "mintage": 10100000
   },
   {
     "title": "1 Cent \"Indian\" 1862",
@@ -2592,7 +2675,8 @@
     "reference": "KM# 90",
     "numista_id": 1108,
     "description": "Centavo Indian Head en cuproníquel, el 'white cent' grueso y pálido que circuló antes de que la escasez de metal de la Guerra Civil obligara a pasar al bronce.",
-    "description_en": "Indian Head cent in copper-nickel — the thick, pale 'white cent' that circulated before Civil War metal shortages forced the switch to bronze."
+    "description_en": "Indian Head cent in copper-nickel — the thick, pale 'white cent' that circulated before Civil War metal shortages forced the switch to bronze.",
+    "mintage": 28075000
   },
   {
     "title": "1 Cent \"Indian\" 1864 (Cu Ni)",
@@ -2613,7 +2697,8 @@
     "currency": "Dollar",
     "reference": "KM# 90",
     "description": "Centavo Indian Head en cuproníquel, el 'white cent' grueso y pálido que circuló antes de que la escasez de metal de la Guerra Civil obligara a pasar al bronce.",
-    "description_en": "Indian Head cent in copper-nickel — the thick, pale 'white cent' that circulated before Civil War metal shortages forced the switch to bronze."
+    "description_en": "Indian Head cent in copper-nickel — the thick, pale 'white cent' that circulated before Civil War metal shortages forced the switch to bronze.",
+    "mintage": 13740000
   },
   {
     "title": "1 Cent \"Indian\" 1864 (Bronze)",
@@ -2655,7 +2740,8 @@
     "currency": "Dollar",
     "reference": "KM# 90a",
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 35429286
   },
   {
     "title": "1 Cent \"Indian\" 1867",
@@ -2676,7 +2762,8 @@
     "reference": "KM# 90a",
     "numista_id": 2356,
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 9821000
   },
   {
     "title": "1 Cent \"Indian\" 1868",
@@ -2697,7 +2784,8 @@
     "currency": "Dollar",
     "reference": "KM# 90a",
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 10266500
   },
   {
     "title": "1 Cent \"Indian\" 1873",
@@ -2739,7 +2827,8 @@
     "reference": "KM# 90a",
     "numista_id": 2356,
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 14187500
   },
   {
     "title": "1 Cent \"Indian\" 1875",
@@ -2760,7 +2849,8 @@
     "reference": "KM# 90a",
     "numista_id": 2356,
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 13528000
   },
   {
     "title": "1 Cent \"Indian\" 1876",
@@ -2781,7 +2871,8 @@
     "reference": "KM# 90a",
     "numista_id": 2356,
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 7944000
   },
   {
     "title": "1 Cent \"Indian\" 1879",
@@ -2802,7 +2893,8 @@
     "currency": "Dollar",
     "reference": "KM# 90a",
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 16228000
   },
   {
     "title": "1 Cent \"Indian\" 1880",
@@ -2823,7 +2915,8 @@
     "reference": "KM# 90a",
     "numista_id": 2356,
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 38961000
   },
   {
     "title": "1 Cent \"Indian\" 1880",
@@ -2844,7 +2937,8 @@
     "reference": "KM# 90a",
     "numista_id": 2356,
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 38961000
   },
   {
     "title": "1 Cent \"Indian\" 1881",
@@ -2881,7 +2975,8 @@
     "reference": "KM# 90a",
     "numista_id": 2356,
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 38578000
   },
   {
     "title": "1 Cent \"Indian\" 1883",
@@ -2918,7 +3013,8 @@
     "reference": "KM# 90a",
     "numista_id": 2356,
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 23257800
   },
   {
     "title": "1 Cent \"Indian\" 1885",
@@ -2939,7 +3035,8 @@
     "reference": "KM# 90a",
     "numista_id": 2356,
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 11761594
   },
   {
     "title": "1 Cent \"Indian\" 1886",
@@ -3221,7 +3318,8 @@
     "reference": "KM# 90a",
     "numista_id": 2356,
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
-    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years."
+    "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
+    "mintage": 87374704
   },
   {
     "title": "1 Cent \"Indian\" 1903",
@@ -3377,7 +3475,8 @@
     "reference": "KM# 207",
     "numista_id": 3548,
     "description": "El dólar Susan B. Anthony, primera moneda de circulación estadounidense con una mujer real en el anverso. El reverso repite la insignia del Apolo 11 del dólar Eisenhower.",
-    "description_en": "The Susan B. Anthony dollar, the first US circulating coin with a real woman on the obverse. The reverse repeats the Apollo 11 insignia from the Eisenhower dollar."
+    "description_en": "The Susan B. Anthony dollar, the first US circulating coin with a real woman on the obverse. The reverse repeats the Apollo 11 insignia from the Eisenhower dollar.",
+    "mintage": 109576000
   },
   {
     "title": "1 Cent \"Formation Years\" 2009-P",
@@ -3421,7 +3520,8 @@
     "currency": "Dollar",
     "reference": "KM# 202b",
     "description": "Half dollar Kennedy en versión chapada, sin plata. Aunque se sigue acuñando, casi no circula: el público la retira apenas aparece.",
-    "description_en": "Clad Kennedy half dollar, with no silver. Though still minted, it barely circulates: the public pulls it from change as soon as it appears."
+    "description_en": "Clad Kennedy half dollar, with no silver. Though still minted, it barely circulates: the public pulls it from change as soon as it appears.",
+    "mintage": 7700000
   },
   {
     "title": "1 Dollar \"Haudenosaunee\" 2010-D",
@@ -3488,7 +3588,8 @@
     "currency": "Dollar",
     "reference": "KM# 310",
     "description": "El dólar Sacagawea, con la guía e intérprete shoshone de la expedición de Lewis y Clark llevando a su hijo a la espalda. El color dorado viene del latón de manganeso que lo recubre.",
-    "description_en": "The Sacagawea dollar, showing the Shoshone guide and interpreter of the Lewis and Clark expedition carrying her infant son. The golden colour comes from its manganese-brass cladding."
+    "description_en": "The Sacagawea dollar, showing the Shoshone guide and interpreter of the Lewis and Clark expedition carrying her infant son. The golden colour comes from its manganese-brass cladding.",
+    "mintage": 62470000
   },
   {
     "title": "5 Cents 1965",
@@ -3509,7 +3610,8 @@
     "reference": "KM# 192",
     "numista_id": 44,
     "description": "Nickel Jefferson con Monticello en el reverso, la casa que el propio Jefferson diseñó en Virginia.",
-    "description_en": "Jefferson nickel with Monticello on the reverse — the Virginia house Jefferson designed himself."
+    "description_en": "Jefferson nickel with Monticello on the reverse — the Virginia house Jefferson designed himself.",
+    "mintage": 136131380
   },
   {
     "title": "5 Cents \"Lewis and Clark\" 2004-D",
@@ -3530,7 +3632,8 @@
     "currency": "Dollar",
     "reference": "KM# 361",
     "description": "Nickel de la serie Westward Journey con la quilla del barco que Lewis y Clark usaron para remontar el Misuri.",
-    "description_en": "Westward Journey nickel showing the keelboat Lewis and Clark used to travel up the Missouri."
+    "description_en": "Westward Journey nickel showing the keelboat Lewis and Clark used to travel up the Missouri.",
+    "mintage": 344880000
   },
   {
     "title": "5 Cents \"Buffalo\" 2005-D",
@@ -3551,7 +3654,8 @@
     "currency": "Dollar",
     "reference": "KM# 368",
     "description": "Nickel de la serie Westward Journey, que conmemoró el bicentenario de la expedición de Lewis y Clark. Reverso con el bisonte americano.",
-    "description_en": "Nickel from the Westward Journey series marking the bicentennial of the Lewis and Clark expedition. American bison reverse."
+    "description_en": "Nickel from the Westward Journey series marking the bicentennial of the Lewis and Clark expedition. American bison reverse.",
+    "mintage": 487680000
   },
   {
     "title": "5 Cents \"Buffalo\" 2005-P",
@@ -3572,7 +3676,8 @@
     "currency": "Dollar",
     "reference": "KM# 368",
     "description": "Nickel de la serie Westward Journey, que conmemoró el bicentenario de la expedición de Lewis y Clark. Reverso con el bisonte americano.",
-    "description_en": "Nickel from the Westward Journey series marking the bicentennial of the Lewis and Clark expedition. American bison reverse."
+    "description_en": "Nickel from the Westward Journey series marking the bicentennial of the Lewis and Clark expedition. American bison reverse.",
+    "mintage": 448320000
   },
   {
     "title": "5 Cents \"Ocean in View\" 2005-D",
@@ -3593,7 +3698,8 @@
     "currency": "Dollar",
     "reference": "KM# 369",
     "description": "Nickel de la serie Westward Journey con la vista del Pacífico que Clark anotó en su diario al llegar a la costa.",
-    "description_en": "Westward Journey nickel showing the Pacific view Clark recorded in his journal on reaching the coast."
+    "description_en": "Westward Journey nickel showing the Pacific view Clark recorded in his journal on reaching the coast.",
+    "mintage": 411120000
   },
   {
     "title": "5 Cents \"Ocean in View\" 2005-P",
@@ -3635,7 +3741,8 @@
     "currency": "Dollar",
     "reference": "KM# 360",
     "description": "Nickel de la serie Westward Journey. El reverso reproduce la Medalla de la Paz India que Jefferson mandó entregar a los pueblos originarios durante la expedición.",
-    "description_en": "Westward Journey nickel. The reverse reproduces the Indian Peace Medal Jefferson had presented to native nations during the expedition."
+    "description_en": "Westward Journey nickel. The reverse reproduces the Indian Peace Medal Jefferson had presented to native nations during the expedition.",
+    "mintage": 372000000
   },
   {
     "title": "5 Cents \"Louisiana Purchase\" 2004-P",
@@ -3656,7 +3763,8 @@
     "currency": "Dollar",
     "reference": "KM# 360",
     "description": "Nickel de la serie Westward Journey. El reverso reproduce la Medalla de la Paz India que Jefferson mandó entregar a los pueblos originarios durante la expedición.",
-    "description_en": "Westward Journey nickel. The reverse reproduces the Indian Peace Medal Jefferson had presented to native nations during the expedition."
+    "description_en": "Westward Journey nickel. The reverse reproduces the Indian Peace Medal Jefferson had presented to native nations during the expedition.",
+    "mintage": 361440000
   },
   {
     "title": "Quarter \"Barber\" 1908-D",
@@ -3693,7 +3801,8 @@
     "currency": "Dollar",
     "reference": "KM# 204",
     "description": "Quarter del Bicentenario de Estados Unidos, con doble fecha 1776-1976 y el tamborilero colonial de Jack Ahr en el reverso.",
-    "description_en": "US Bicentennial quarter, dual-dated 1776-1976, with Jack Ahr's colonial drummer boy on the reverse."
+    "description_en": "US Bicentennial quarter, dual-dated 1776-1976, with Jack Ahr's colonial drummer boy on the reverse.",
+    "mintage": 809784016
   },
   {
     "title": "Quarter \"Crossing the Delaware\" 2021-D",
@@ -3714,7 +3823,8 @@
     "currency": "Dollar",
     "reference": "KM# 758",
     "description": "Quarter con Washington cruzando el Delaware en la noche de Navidad de 1776, emitido en 2021 para cerrar la serie de parques.",
-    "description_en": "Quarter showing Washington crossing the Delaware on Christmas night 1776, issued in 2021 to close out the parks series."
+    "description_en": "Quarter showing Washington crossing the Delaware on Christmas night 1776, issued in 2021 to close out the parks series.",
+    "mintage": 791400000
   },
   {
     "title": "Quarter \"Bicentennial 1776-1976\" 1976-D",
@@ -3735,7 +3845,8 @@
     "currency": "Dollar",
     "reference": "KM# 204",
     "description": "Quarter del Bicentenario de Estados Unidos, con doble fecha 1776-1976 y el tamborilero colonial de Jack Ahr en el reverso.",
-    "description_en": "US Bicentennial quarter, dual-dated 1776-1976, with Jack Ahr's colonial drummer boy on the reverse."
+    "description_en": "US Bicentennial quarter, dual-dated 1776-1976, with Jack Ahr's colonial drummer boy on the reverse.",
+    "mintage": 860118839
   },
   {
     "title": "10 Centavos 1882",
@@ -3775,7 +3886,8 @@
     "reference": "KM# 26",
     "numista_id": 4569,
     "description": "Diez centavos de plata de la primera serie del peso moneda nacional, con el escudo argentino y la Libertad de Oudine. Emisión de solo tres años.",
-    "description_en": "Silver ten centavos from the first peso moneda nacional series, with the Argentine arms and Oudine's Liberty. Issued for only three years."
+    "description_en": "Silver ten centavos from the first peso moneda nacional series, with the Argentine arms and Oudine's Liberty. Issued for only three years.",
+    "mintage": 2786000
   },
   {
     "price": 85,
@@ -3794,7 +3906,8 @@
     "reference": "KM# 28",
     "numista_id": 11353,
     "description": "Cincuenta centavos de plata de la primera serie del peso moneda nacional, acuñados apenas tres años.",
-    "description_en": "Silver fifty centavos from the first peso moneda nacional series, struck for barely three years."
+    "description_en": "Silver fifty centavos from the first peso moneda nacional series, struck for barely three years.",
+    "mintage": 2273000
   },
   {
     "price": 100,
@@ -3827,7 +3940,8 @@
     "reference": "KM# 32",
     "numista_id": 1156,
     "description": "Centavo de bronce de la primera serie del peso moneda nacional, con el escudo argentino en el anverso y la Libertad de Oudine en el reverso.",
-    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse."
+    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse.",
+    "mintage": 108000
   },
   {
     "price": 50,
@@ -3846,7 +3960,8 @@
     "reference": "KM# 32",
     "numista_id": 1156,
     "description": "Centavo de bronce de la primera serie del peso moneda nacional, con el escudo argentino en el anverso y la Libertad de Oudine en el reverso.",
-    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse."
+    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse.",
+    "mintage": 786000
   },
   {
     "price": 85,
@@ -3865,7 +3980,8 @@
     "reference": "KM# 32",
     "numista_id": 1156,
     "description": "Centavo de bronce de la primera serie del peso moneda nacional, con el escudo argentino en el anverso y la Libertad de Oudine en el reverso.",
-    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse."
+    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse.",
+    "mintage": 444000
   },
   {
     "price": 30,
@@ -3903,7 +4019,8 @@
     "reference": "KM# 32",
     "numista_id": 1156,
     "description": "Centavo de bronce de la primera serie del peso moneda nacional, con el escudo argentino en el anverso y la Libertad de Oudine en el reverso.",
-    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse."
+    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse.",
+    "mintage": 568000
   },
   {
     "price": 35,
@@ -3922,7 +4039,8 @@
     "reference": "KM# 32",
     "numista_id": 1156,
     "description": "Centavo de bronce de la primera serie del peso moneda nacional, con el escudo argentino en el anverso y la Libertad de Oudine en el reverso.",
-    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse."
+    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse.",
+    "mintage": 423000
   },
   {
     "price": 150,
@@ -3955,7 +4073,8 @@
     "reference": "KM# 33",
     "numista_id": 2220,
     "description": "Dos centavos de la primera serie del peso moneda nacional, la que nació con la ley de unificación monetaria de 1881.",
-    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law."
+    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law.",
+    "mintage": 659000
   },
   {
     "price": 25,
@@ -3974,7 +4093,8 @@
     "reference": "KM# 33",
     "numista_id": 2220,
     "description": "Dos centavos de la primera serie del peso moneda nacional, la que nació con la ley de unificación monetaria de 1881.",
-    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law."
+    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law.",
+    "mintage": 596000
   },
   {
     "price": 10,
@@ -3993,7 +4113,8 @@
     "reference": "KM# 32",
     "numista_id": 1156,
     "description": "Centavo de bronce de la primera serie del peso moneda nacional, con el escudo argentino en el anverso y la Libertad de Oudine en el reverso.",
-    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse."
+    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse.",
+    "mintage": 4604000
   },
   {
     "price": 12,
@@ -4012,7 +4133,8 @@
     "reference": "KM# 32",
     "numista_id": 1156,
     "description": "Centavo de bronce de la primera serie del peso moneda nacional, con el escudo argentino en el anverso y la Libertad de Oudine en el reverso.",
-    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse."
+    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse.",
+    "mintage": 2137000
   },
   {
     "price": 25,
@@ -4031,7 +4153,8 @@
     "reference": "KM# 32",
     "numista_id": 1156,
     "description": "Centavo de bronce de la primera serie del peso moneda nacional, con el escudo argentino en el anverso y la Libertad de Oudine en el reverso.",
-    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse."
+    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse.",
+    "mintage": 605000
   },
   {
     "price": 6,
@@ -4050,7 +4173,8 @@
     "reference": "KM# 33",
     "numista_id": 2220,
     "description": "Dos centavos de la primera serie del peso moneda nacional, la que nació con la ley de unificación monetaria de 1881.",
-    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law."
+    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law.",
+    "mintage": 1389000
   },
   {
     "price": 3,
@@ -4069,7 +4193,8 @@
     "reference": "KM# 33",
     "numista_id": 2220,
     "description": "Dos centavos de la primera serie del peso moneda nacional, la que nació con la ley de unificación monetaria de 1881.",
-    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law."
+    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law.",
+    "mintage": 5667000
   },
   {
     "price": 6,
@@ -4109,7 +4234,8 @@
     "reference": "KM# 33",
     "numista_id": 2220,
     "description": "Dos centavos de la primera serie del peso moneda nacional, la que nació con la ley de unificación monetaria de 1881.",
-    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law."
+    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law.",
+    "mintage": 2391000
   },
   {
     "price": 2,
@@ -4128,7 +4254,8 @@
     "reference": "KM# 33",
     "numista_id": 2220,
     "description": "Dos centavos de la primera serie del peso moneda nacional, la que nació con la ley de unificación monetaria de 1881.",
-    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law."
+    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law.",
+    "mintage": 8050000
   },
   {
     "price": 3,
@@ -4147,7 +4274,8 @@
     "reference": "KM# 33",
     "numista_id": 2220,
     "description": "Dos centavos de la primera serie del peso moneda nacional, la que nació con la ley de unificación monetaria de 1881.",
-    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law."
+    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law.",
+    "mintage": 3497000
   },
   {
     "price": 9,
@@ -4166,7 +4294,8 @@
     "reference": "KM# 33",
     "numista_id": 2220,
     "description": "Dos centavos de la primera serie del peso moneda nacional, la que nació con la ley de unificación monetaria de 1881.",
-    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law."
+    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law.",
+    "mintage": 5473000
   },
   {
     "price": 8,
@@ -4185,7 +4314,8 @@
     "reference": "KM# 33",
     "numista_id": 2220,
     "description": "Dos centavos de la primera serie del peso moneda nacional, la que nació con la ley de unificación monetaria de 1881.",
-    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law."
+    "description_en": "Two centavos from the first peso moneda nacional series, born of the 1881 monetary unification law.",
+    "mintage": 2233000
   },
   {
     "price": 30,
@@ -4204,7 +4334,8 @@
     "reference": "KM# 38",
     "numista_id": 3239,
     "description": "Dos centavos de bronce con el escudo argentino dentro de una corona de laurel, tipo de la década del cuarenta.",
-    "description_en": "Bronze two centavos with the Argentine coat of arms inside a laurel wreath, a 1940s type."
+    "description_en": "Bronze two centavos with the Argentine coat of arms inside a laurel wreath, a 1940s type.",
+    "mintage": 387072
   },
   {
     "price": 20,
@@ -4223,7 +4354,8 @@
     "reference": "KM# 38a",
     "numista_id": 5225,
     "description": "Dos centavos de cobre, el último tipo de la denominación antes de que la inflación la retirara de circulación.",
-    "description_en": "Copper two centavos, the last type of the denomination before inflation retired it from circulation."
+    "description_en": "Copper two centavos, the last type of the denomination before inflation retired it from circulation.",
+    "mintage": 903070
   },
   {
     "price": 10,
@@ -4242,7 +4374,8 @@
     "reference": "KM# 65",
     "numista_id": 3243,
     "description": "Cinco centavos de aluminio, de la serie liviana que reemplazó al cuproníquel cuando el valor del metal superó al facial.",
-    "description_en": "Aluminium five centavos, from the lightweight series that replaced copper-nickel once the metal was worth more than the face value."
+    "description_en": "Aluminium five centavos, from the lightweight series that replaced copper-nickel once the metal was worth more than the face value.",
+    "mintage": 3798000
   },
   {
     "price": 4,
@@ -4261,7 +4394,8 @@
     "reference": "KM# 67",
     "numista_id": 3255,
     "description": "Veinte centavos en bronce de aluminio, con la Libertad de Oudine que Argentina mantuvo en sus monedas por casi un siglo.",
-    "description_en": "Aluminium-bronze twenty centavos, with the Oudine Liberty that Argentina kept on its coinage for nearly a century."
+    "description_en": "Aluminium-bronze twenty centavos, with the Oudine Liberty that Argentina kept on its coinage for nearly a century.",
+    "mintage": 957958
   },
   {
     "title": "3000 Pesos 1977 (Mundial 1978)",
@@ -4281,7 +4415,8 @@
     ],
     "currency": "Peso ley",
     "reference": "KM# 80",
-    "numista_id": 14508
+    "numista_id": 14508,
+    "mintage": 98837
   },
   {
     "title": "2000 Pesos 1977 (Mundial 1978)",
@@ -4301,7 +4436,8 @@
     "weight": "15 g",
     "currency": "Peso ley",
     "reference": "KM# 79",
-    "numista_id": 14509
+    "numista_id": 14509,
+    "mintage": 98837
   },
   {
     "title": "1000 Pesos 1977 (Mundial 1978)",
@@ -4359,7 +4495,9 @@
     "reference": "KM# 110",
     "numista_id": 1492,
     "description": "El Morgan Dollar, el dólar de plata más coleccionado de Estados Unidos. Nació de la ley Bland-Allison, que obligaba al Tesoro a comprar plata y convertirla en moneda.",
-    "description_en": "The Morgan dollar, the most collected US silver dollar. It came out of the Bland-Allison Act, which forced the Treasury to buy silver and turn it into coin."
+    "description_en": "The Morgan dollar, the most collected US silver dollar. It came out of the Bland-Allison Act, which forced the Treasury to buy silver and turn it into coin.",
+    "mintage": 2822000,
+    "mint": "Philadelphia"
   },
   {
     "price": 35,
@@ -4401,7 +4539,8 @@
     "weight": "5 g",
     "currency": "Peso",
     "reference": "KM# 15",
-    "numista_id": 4360
+    "numista_id": 4360,
+    "mintage": 1500000
   },
   {
     "title": "Quarter \"Barber\" 1907-S",
@@ -4422,7 +4561,8 @@
     "weight": "6.25 g",
     "currency": "Dollar",
     "reference": "KM# 114",
-    "numista_id": 10591
+    "numista_id": 10591,
+    "mintage": 1360000
   },
   {
     "title": "Quarter \"Barber\" 1905",
@@ -4443,7 +4583,8 @@
     "weight": "6.25 g",
     "currency": "Dollar",
     "reference": "KM# 114",
-    "numista_id": 10591
+    "numista_id": 10591,
+    "mintage": 4967523
   },
   {
     "title": "1 \"Morgan\" Dollar 1892",
@@ -4464,7 +4605,8 @@
     "weight": "26.73 g",
     "currency": "Dollar",
     "reference": "KM# 110",
-    "numista_id": 1492
+    "numista_id": 1492,
+    "mintage": 1036000
   },
   {
     "title": "2 Centavos 1894 (medalla monetaria)",
@@ -4504,7 +4646,8 @@
     "weight": "6.22 g",
     "currency": "Dollar",
     "reference": "KM# 94",
-    "numista_id": 2296
+    "numista_id": 2296,
+    "mintage": 2803750
   },
   {
     "title": "Trade Dollar 1875-S (chopmarks)",
@@ -4547,7 +4690,8 @@
     "weight": "6.22 g",
     "currency": "Dollar",
     "reference": "KM# 94",
-    "numista_id": 2296
+    "numista_id": 2296,
+    "mintage": 19847500
   },
   {
     "title": "Half Dollar \"Kennedy\" 1966 SMS",
@@ -4610,7 +4754,8 @@
     "weight": "11.5 g",
     "currency": "Dollar",
     "reference": "KM# 202a",
-    "numista_id": 10865
+    "numista_id": 10865,
+    "mintage": 3041506
   },
   {
     "title": "Half Dollar \"Franklin\" 1960 Proof",
@@ -4631,7 +4776,8 @@
     "weight": "12.5 g",
     "currency": "Dollar",
     "reference": "KM# 199",
-    "numista_id": 2835
+    "numista_id": 2835,
+    "mintage": 1691602
   },
   {
     "title": "Half Dollar \"Franklin\" 1962 Proof",
@@ -4652,7 +4798,8 @@
     "weight": "12.5 g",
     "currency": "Dollar",
     "reference": "KM# 199",
-    "numista_id": 2835
+    "numista_id": 2835,
+    "mintage": 3218019
   },
   {
     "title": "Half Dollar \"Franklin\" 1963 Proof",
@@ -4673,7 +4820,8 @@
     "weight": "12.5 g",
     "currency": "Dollar",
     "reference": "KM# 199",
-    "numista_id": 2835
+    "numista_id": 2835,
+    "mintage": 3075645
   },
   {
     "title": "Quarter \"Washington\" 1942",
@@ -4694,7 +4842,8 @@
     "weight": "6.25 g",
     "currency": "Dollar",
     "reference": "KM# 164",
-    "numista_id": 54
+    "numista_id": 54,
+    "mintage": 102117123
   },
   {
     "title": "Quarter \"Washington\" 1943",
@@ -4715,7 +4864,8 @@
     "weight": "6.25 g",
     "currency": "Dollar",
     "reference": "KM# 164",
-    "numista_id": 54
+    "numista_id": 54,
+    "mintage": 99700000
   },
   {
     "title": "Quarter \"Washington\" 1944",
@@ -4736,7 +4886,8 @@
     "weight": "6.25 g",
     "currency": "Dollar",
     "reference": "KM# 164",
-    "numista_id": 54
+    "numista_id": 54,
+    "mintage": 104956000
   },
   {
     "title": "Quarter \"Washington\" 1944",
@@ -4757,7 +4908,8 @@
     "weight": "6.25 g",
     "currency": "Dollar",
     "reference": "KM# 164",
-    "numista_id": 54
+    "numista_id": 54,
+    "mintage": 104956000
   },
   {
     "title": "Monedas de la República Argentina 1978 (Cunietti-Ferrando)",
@@ -4817,6 +4969,7 @@
     "reference": "KM# 150",
     "numista_id": 5580,
     "description": "El Peace Dollar de Anthony de Francisci, emitido para celebrar la paz tras la Primera Guerra Mundial. 1928 en Filadelfia es la fecha clave de la serie: con apenas 360.649 piezas, es la tirada más baja de todos los Peace Dollars.",
-    "description_en": "Anthony de Francisci's Peace Dollar, issued to mark the peace after the First World War. The 1928 Philadelphia is the key date of the series: with only 360,649 struck, it is the lowest mintage of any Peace Dollar."
+    "description_en": "Anthony de Francisci's Peace Dollar, issued to mark the peace after the First World War. The 1928 Philadelphia is the key date of the series: with only 360,649 struck, it is the lowest mintage of any Peace Dollar.",
+    "mintage": 360649
   }
 ]
