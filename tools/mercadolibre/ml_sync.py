@@ -677,8 +677,9 @@ def cmd_update(args):
         return
     if body:
         client.put(f"/items/{ml_id}", body)
-    if "description" in fields and item.get("description"):
-        client.put(f"/items/{ml_id}/description", {"plain_text": item["description"]})
+    if "description" in fields:
+        # No description in items.json -> clear the one on ML (it may be stale).
+        client.put(f"/items/{ml_id}/description", {"plain_text": item.get("description") or ""})
     print("Actualizada.")
 
 
