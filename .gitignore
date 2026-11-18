@@ -7,3 +7,11 @@ _*.md
 !tools/mercadolibre/*.py
 tools/mercadolibre/_credentials.json
 tools/mercadolibre/*.tmp
+
+# Janson catalog (copyrighted, local only)
+janson/
+Janson*.pdf
+
+# Etiquetas: generador versionado, PDFs de salida no
+!tools/etiquetas/*.py
+tools/etiquetas/salida/
