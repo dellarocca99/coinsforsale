@@ -5008,5 +5008,75 @@
     "description": "El Peace Dollar de Anthony de Francisci, emitido para celebrar la paz tras la Primera Guerra Mundial. 1928 en Filadelfia es la fecha clave de la serie: con apenas 360.649 piezas, es la tirada más baja de todos los Peace Dollars.",
     "description_en": "Anthony de Francisci's Peace Dollar, issued to mark the peace after the First World War. The 1928 Philadelphia is the key date of the series: with only 360,649 struck, it is the lowest mintage of any Peace Dollar.",
     "mintage": 360649
+  },
+  {
+    "title": "10 Kreuzer 1872",
+    "price": 2.5,
+    "condition": "XF Details",
+    "country": "Austria",
+    "denomination": "10 Kreuzer",
+    "year": 1872,
+    "description": "Diez kreuzer de vellón de plata (ley 0.400) de Francisco José I, con su busto laureado y el águila bicéfala de los Habsburgo. Acuñada pocos años después del Compromiso de 1867 que creó la monarquía dual austrohúngara. Detalles: marca vertical en el reverso.",
+    "description_en": "Billon ten kreuzer (0.400 silver) of Franz Joseph I, with his laureate bust and the Habsburg double-headed eagle. Struck a few years after the 1867 Compromise that created the Austro-Hungarian dual monarchy. Details: vertical mark on the reverse.",
+    "images": [
+      "images/kreuzer_1872-1-1.jpeg",
+      "images/kreuzer_1872-1-2.jpeg"
+    ],
+    "numista_id": 4962,
+    "mintage": 65553577,
+    "diameter": "18 mm",
+    "weight": "1.67 g",
+    "composition": "Vellón (plata 0.400)",
+    "currency": "Gulden",
+    "reference": "KM# 2206",
+    "region": "Imperio austríaco",
+    "composition_en": "Billon (0.400 silver)"
+  },
+  {
+    "title": "10 Kreuzer 1872",
+    "price": 2.5,
+    "condition": "XF Details",
+    "country": "Austria",
+    "denomination": "10 Kreuzer",
+    "year": 1872,
+    "description": "Diez kreuzer de vellón de plata (ley 0.400) de Francisco José I, con su busto laureado y el águila bicéfala de los Habsburgo. Acuñada pocos años después del Compromiso de 1867 que creó la monarquía dual austrohúngara. Detalles: marca vertical en el reverso.",
+    "description_en": "Billon ten kreuzer (0.400 silver) of Franz Joseph I, with his laureate bust and the Habsburg double-headed eagle. Struck a few years after the 1867 Compromise that created the Austro-Hungarian dual monarchy. Details: vertical mark on the reverse.",
+    "images": [
+      "images/kreuzer_1872-2-1.jpeg",
+      "images/kreuzer_1872-2-2.jpeg"
+    ],
+    "numista_id": 4962,
+    "mintage": 65553577,
+    "diameter": "18 mm",
+    "weight": "1.67 g",
+    "composition": "Vellón (plata 0.400)",
+    "currency": "Gulden",
+    "reference": "KM# 2206",
+    "region": "Imperio austríaco",
+    "composition_en": "Billon (0.400 silver)"
+  },
+  {
+    "title": "1 Dollar \"Morgan\" 1895-O",
+    "price": 420,
+    "condition": "F",
+    "country": "USA",
+    "mint": "New Orleans",
+    "denomination": "1 Dollar",
+    "composition": "Plata 0.900",
+    "composition_en": "0.900 Silver",
+    "year": 1895,
+    "ml": false,
+    "images": [
+      "images/morgan_1895o-1.jpeg",
+      "images/morgan_1895o-2.jpeg"
+    ],
+    "diameter": "38.1 mm",
+    "weight": "26.73 g",
+    "currency": "Dollar",
+    "reference": "KM# 110",
+    "numista_id": 1492,
+    "description": "El Morgan Dollar, el dólar de plata más coleccionado de Estados Unidos. 1895 es el año clave de la serie: la ceca de Nueva Orleans (marca \"O\" bajo la corona del reverso) acuñó apenas 450.000 piezas, y la mayoría terminó fundida.",
+    "description_en": "The Morgan dollar, the most collected US silver dollar. 1895 is the key year of the series: the New Orleans mint (\"O\" mintmark below the wreath on the reverse) struck only 450,000 pieces, and most were later melted.",
+    "mintage": 450000
   }
 ]
