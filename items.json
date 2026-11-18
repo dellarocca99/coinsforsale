@@ -27,7 +27,7 @@
     "condition": "UNC",
     "country": "Argentina",
     "year": 1995,
-    "quantity": 2,
+    "quantity": 4,
     "denomination": "1 Peso",
     "diameter": "37 mm",
     "weight": "25 g",
@@ -3484,8 +3484,7 @@
     "numista_id": 3548,
     "description": "El dólar Susan B. Anthony, primera moneda de circulación estadounidense con una mujer real en el anverso. El reverso repite la insignia del Apolo 11 del dólar Eisenhower.",
     "description_en": "The Susan B. Anthony dollar, the first US circulating coin with a real woman on the obverse. The reverse repeats the Apollo 11 insignia from the Eisenhower dollar.",
-    "sold": true,
-    "soldon": "29-10-2026"
+    "quantity": 6
   },
   {
     "title": "1 Dollar \"Anthony\" 1979-S",
@@ -3507,7 +3506,8 @@
     "numista_id": 3548,
     "description": "El dólar Susan B. Anthony, primera moneda de circulación estadounidense con una mujer real en el anverso. El reverso repite la insignia del Apolo 11 del dólar Eisenhower.",
     "description_en": "The Susan B. Anthony dollar, the first US circulating coin with a real woman on the obverse. The reverse repeats the Apollo 11 insignia from the Eisenhower dollar.",
-    "mintage": 109576000
+    "mintage": 109576000,
+    "quantity": 6
   },
   {
     "title": "1 Cent \"Formation Years\" 2009-P",
@@ -3529,8 +3529,7 @@
     "reference": "KM# 442",
     "description": "Centavo Lincoln de la serie del bicentenario de su nacimiento. Reverso con Lincoln joven leyendo sentado sobre un tronco, en Indiana.",
     "description_en": "Lincoln cent from the series marking the bicentennial of his birth. The reverse shows a young Lincoln reading, seated on a log, in Indiana.",
-    "sold": true,
-    "soldon": "29-10-2026"
+    "quantity": 100
   },
   {
     "title": "Half Dollar 2021-D",
@@ -3552,7 +3551,8 @@
     "reference": "KM# 202b",
     "description": "Half dollar Kennedy en versión chapada, sin plata. Aunque se sigue acuñando, casi no circula: el público la retira apenas aparece.",
     "description_en": "Clad Kennedy half dollar, with no silver. Though still minted, it barely circulates: the public pulls it from change as soon as it appears.",
-    "mintage": 7700000
+    "mintage": 7700000,
+    "quantity": 20
   },
   {
     "title": "1 Dollar \"Haudenosaunee\" 2010-D",
@@ -3561,8 +3561,6 @@
     "condition": "XF",
     "country": "USA",
     "mint": "Denver",
-    "sold": true,
-    "soldon": "02-11-2026",
     "composition": "Latón de manganeso clad",
     "year": 2010,
     "images": [
@@ -3586,8 +3584,6 @@
     "mint": "Denver",
     "composition": "Latón de manganeso clad",
     "year": 2000,
-    "sold": true,
-    "soldon": "02-11-2026",
     "images": [
       "images/sacagawea_2000-1.jpeg",
       "images/sacagawea_2000-2.jpeg"
@@ -3664,7 +3660,8 @@
     "reference": "KM# 361",
     "description": "Nickel de la serie Westward Journey con la quilla del barco que Lewis y Clark usaron para remontar el Misuri.",
     "description_en": "Westward Journey nickel showing the keelboat Lewis and Clark used to travel up the Missouri.",
-    "mintage": 344880000
+    "mintage": 344880000,
+    "quantity": 4
   },
   {
     "title": "5 Cents \"Buffalo\" 2005-D",
@@ -3686,7 +3683,8 @@
     "reference": "KM# 368",
     "description": "Nickel de la serie Westward Journey, que conmemoró el bicentenario de la expedición de Lewis y Clark. Reverso con el bisonte americano.",
     "description_en": "Nickel from the Westward Journey series marking the bicentennial of the Lewis and Clark expedition. American bison reverse.",
-    "mintage": 487680000
+    "mintage": 487680000,
+    "quantity": 5
   },
   {
     "title": "5 Cents \"Buffalo\" 2005-P",
@@ -3730,7 +3728,8 @@
     "reference": "KM# 369",
     "description": "Nickel de la serie Westward Journey con la vista del Pacífico que Clark anotó en su diario al llegar a la costa.",
     "description_en": "Westward Journey nickel showing the Pacific view Clark recorded in his journal on reaching the coast.",
-    "mintage": 411120000
+    "mintage": 411120000,
+    "quantity": 7
   },
   {
     "title": "5 Cents \"Ocean in View\" 2005-P",
@@ -3752,7 +3751,8 @@
     "reference": "KM# 369",
     "description": "Nickel de la serie Westward Journey con la vista del Pacífico que Clark anotó en su diario al llegar a la costa.",
     "description_en": "Westward Journey nickel showing the Pacific view Clark recorded in his journal on reaching the coast.",
-    "mintage": 394080000
+    "mintage": 394080000,
+    "quantity": 35
   },
   {
     "title": "5 Cents \"Louisiana Purchase\" 2004-D",
@@ -3774,7 +3774,8 @@
     "reference": "KM# 360",
     "description": "Nickel de la serie Westward Journey. El reverso reproduce la Medalla de la Paz India que Jefferson mandó entregar a los pueblos originarios durante la expedición.",
     "description_en": "Westward Journey nickel. The reverse reproduces the Indian Peace Medal Jefferson had presented to native nations during the expedition.",
-    "mintage": 372000000
+    "mintage": 372000000,
+    "quantity": 7
   },
   {
     "title": "5 Cents \"Louisiana Purchase\" 2004-P",
@@ -3796,7 +3797,8 @@
     "reference": "KM# 360",
     "description": "Nickel de la serie Westward Journey. El reverso reproduce la Medalla de la Paz India que Jefferson mandó entregar a los pueblos originarios durante la expedición.",
     "description_en": "Westward Journey nickel. The reverse reproduces the Indian Peace Medal Jefferson had presented to native nations during the expedition.",
-    "mintage": 361440000
+    "mintage": 361440000,
+    "quantity": 2
   },
   {
     "title": "Quarter \"Barber\" 1908-D",
@@ -3834,7 +3836,8 @@
     "reference": "KM# 204",
     "description": "Quarter del Bicentenario de Estados Unidos, con doble fecha 1776-1976 y el tamborilero colonial de Jack Ahr en el reverso.",
     "description_en": "US Bicentennial quarter, dual-dated 1776-1976, with Jack Ahr's colonial drummer boy on the reverse.",
-    "mintage": 809784016
+    "mintage": 809784016,
+    "quantity": 3
   },
   {
     "title": "Quarter \"Crossing the Delaware\" 2021-D",
@@ -3856,7 +3859,8 @@
     "reference": "KM# 758",
     "description": "Quarter con Washington cruzando el Delaware en la noche de Navidad de 1776, emitido en 2021 para cerrar la serie de parques.",
     "description_en": "Quarter showing Washington crossing the Delaware on Christmas night 1776, issued in 2021 to close out the parks series.",
-    "mintage": 791400000
+    "mintage": 791400000,
+    "quantity": 30
   },
   {
     "title": "Quarter \"Bicentennial 1776-1976\" 1976-D",
@@ -3878,7 +3882,8 @@
     "reference": "KM# 204",
     "description": "Quarter del Bicentenario de Estados Unidos, con doble fecha 1776-1976 y el tamborilero colonial de Jack Ahr en el reverso.",
     "description_en": "US Bicentennial quarter, dual-dated 1776-1976, with Jack Ahr's colonial drummer boy on the reverse.",
-    "mintage": 860118839
+    "mintage": 860118839,
+    "quantity": 2
   },
   {
     "title": "10 Centavos 1882",
