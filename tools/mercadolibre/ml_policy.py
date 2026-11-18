@@ -62,6 +62,7 @@ COUNTRY_ORIGEN = {
     "Italia":    "Italia",
     "Peru":      "Perú",
     "Perú":      "Perú",
+    "Austria":   "Austria",
     "Egipto":    "",   # not in ML's list
 }
 
@@ -96,6 +97,9 @@ def get_tipo_moneda(item):
         return "Dólar"
     if "real" in d:
         return "Real"
+    # COIN_TYPE is free text in MLA2061 (the listed values are only suggestions)
+    if "kreuzer" in d:
+        return "Kreuzer"
     return ""
 
 
