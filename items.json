@@ -5083,5 +5083,115 @@
     "description": "El Morgan Dollar, el dólar de plata más coleccionado de Estados Unidos. 1895 es el año clave de la serie: la ceca de Nueva Orleans (marca \"O\" bajo la corona del reverso) acuñó apenas 450.000 piezas, y la mayoría terminó fundida.",
     "description_en": "The Morgan dollar, the most collected US silver dollar. 1895 is the key year of the series: the New Orleans mint (\"O\" mintmark below the wreath on the reverse) struck only 450,000 pieces, and most were later melted.",
     "mintage": 450000
+  },
+  {
+    "price": 15,
+    "condition": "F",
+    "country": "Argentina",
+    "composition": "Bronce",
+    "composition_en": "Copper",
+    "denomination": "1 Centavo",
+    "year": 1893,
+    "images": [
+      "images/1cent_arg_1893-1.jpeg",
+      "images/1cent_arg_1893-2.jpeg"
+    ],
+    "diameter": "25 mm",
+    "weight": "5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 32",
+    "numista_id": 1156,
+    "description": "Centavo de bronce de la primera serie del peso moneda nacional, con el escudo argentino en el anverso y la Libertad de Oudine en el reverso.",
+    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse.",
+    "mintage": 753500
+  },
+  {
+    "price": 28,
+    "condition": "VF",
+    "country": "Argentina",
+    "composition": "Bronce",
+    "composition_en": "Copper",
+    "denomination": "1 Centavo",
+    "year": 1894,
+    "images": [
+      "images/1cent_arg_1894-3.jpeg",
+      "images/1cent_arg_1894-4.jpeg"
+    ],
+    "diameter": "25 mm",
+    "weight": "5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 32",
+    "numista_id": 1156,
+    "description": "Centavo de bronce de la primera serie del peso moneda nacional, con el escudo argentino en el anverso y la Libertad de Oudine en el reverso.",
+    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse.",
+    "mintage": 531500
+  },
+  {
+    "price": 20,
+    "condition": "XF Details",
+    "country": "Argentina",
+    "composition": "Bronce",
+    "composition_en": "Copper",
+    "denomination": "1 Centavo",
+    "year": 1885,
+    "images": [
+      "images/1cent_arg_1885-3.jpeg",
+      "images/1cent_arg_1885-4.jpeg"
+    ],
+    "diameter": "25 mm",
+    "weight": "5 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 32",
+    "numista_id": 1156,
+    "description": "Centavo de bronce de la primera serie del peso moneda nacional, con el escudo argentino en el anverso y la Libertad de Oudine en el reverso.",
+    "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse.",
+    "mintage": 1314300
+  },
+  {
+    "title": "Gold Dollar 1851-O",
+    "price": 380,
+    "condition": "XF Details",
+    "country": "USA",
+    "mint": "New Orleans",
+    "denomination": "1 Dollar",
+    "composition": "Oro 0.900",
+    "composition_en": "0.900 Gold",
+    "year": 1851,
+    "ml": false,
+    "images": [
+      "images/gold_dollar_1851o-1.jpeg",
+      "images/gold_dollar_1851o-2.jpeg"
+    ],
+    "diameter": "12.7 mm",
+    "weight": "1.70 g",
+    "currency": "Dollar",
+    "reference": "KM# 73",
+    "numista_id": 6157,
+    "description": "El dólar de oro Tipo 1 de James B. Longacre, la moneda de oro más chica de la historia de Estados Unidos (12,7 mm), nacida con la fiebre del oro de California. Acuñada en Nueva Orleans (marca \"O\" bajo el moño del reverso), con 290.000 piezas.",
+    "description_en": "James B. Longacre's Type 1 gold dollar, the smallest gold coin in US history (12.7 mm), born of the California Gold Rush. Struck at New Orleans (\"O\" mintmark below the bow on the reverse), with 290,000 pieces.",
+    "mintage": 290000
+  },
+  {
+    "title": "5 Pesos \"Un Argentino\" 1882",
+    "price": 1100,
+    "condition": "AU",
+    "country": "Argentina",
+    "denomination": "5 Pesos",
+    "composition": "Oro 0.900",
+    "composition_en": "0.900 Gold",
+    "year": 1882,
+    "ml": false,
+    "images": [
+      "images/argentino_1882-1.jpeg",
+      "images/argentino_1882-2.jpeg"
+    ],
+    "diameter": "22 mm",
+    "weight": "8.06 g",
+    "currency": "Peso moneda nacional",
+    "reference": "KM# 31",
+    "numista_id": 25417,
+    "description": "El \"Argentino\", 5 pesos de oro 0.900 creados por la Ley 1130 de 1881, la primera ley monetaria nacional, con el escudo en el anverso y la Libertad de Oudine en el reverso. 1882 fue su segundo año de acuñación, con 252.092 piezas.",
+    "description_en": "The \"Argentino\", a 5-peso 0.900 gold coin created by Law 1130 of 1881, Argentina's first national monetary law, with the coat of arms on the obverse and Oudine's Liberty on the reverse. 1882 was its second year of issue, with 252,092 pieces.",
+    "mintage": 252092
   }
 ]
