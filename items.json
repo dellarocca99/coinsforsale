@@ -618,7 +618,7 @@
   },
   {
     "title": "Half Dollar 1920-S",
-    "price": 38,
+    "price": 30,
     "condition": "VG",
     "country": "USA",
     "composition": "Plata 0.900",
@@ -640,7 +640,7 @@
   },
   {
     "title": "Half Dollar 1955",
-    "price": 38,
+    "price": 30,
     "condition": "XF",
     "country": "USA",
     "composition": "Plata 0.900",
@@ -2238,7 +2238,7 @@
   },
   {
     "denomination": "Half dollar",
-    "price": 32,
+    "price": 22,
     "condition": "AU",
     "country": "USA",
     "composition": "Plata 0.900",
@@ -5209,5 +5209,93 @@
     "description": "El \"Argentino\", 5 pesos de oro 0.900 creados por la Ley 1130 de 1881, la primera ley monetaria nacional, con el escudo en el anverso y la Libertad de Oudine en el reverso. 1882 fue su segundo año de acuñación, con 252.092 piezas.",
     "description_en": "The \"Argentino\", a 5-peso 0.900 gold coin created by Law 1130 of 1881, Argentina's first national monetary law, with the coat of arms on the obverse and Oudine's Liberty on the reverse. 1882 was its second year of issue, with 252,092 pieces.",
     "mintage": 252092
+  },
+  {
+    "title": "Quarter \"Barber\" 1892",
+    "price": 28,
+    "condition": "VG",
+    "denomination": "Quarter dollar",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Plata 0.900",
+    "year": 1892,
+    "description": "Quarter de plata diseñado por Charles E. Barber, grabador jefe de la Casa de Moneda. 1892 fue el primer año de la serie, que se acuñó hasta 1916. Con su pátina original.",
+    "description_en": "Silver quarter designed by Mint Chief Engraver Charles E. Barber. 1892 was the first year of the series, struck until 1916. With its original patina.",
+    "images": [
+      "images/quarter_1892-1.jpeg",
+      "images/quarter_1892-2.jpeg"
+    ],
+    "diameter": "24.3 mm",
+    "weight": "6.25 g",
+    "currency": "Dollar",
+    "reference": "KM# 114",
+    "numista_id": 10591,
+    "mintage": 8236000
+  },
+  {
+    "title": "Quarter \"Barber\" 1900",
+    "price": 40,
+    "condition": "VF",
+    "denomination": "Quarter dollar",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Plata 0.900",
+    "year": 1900,
+    "description": "Quarter de plata diseñado por Charles E. Barber, grabador jefe de la Casa de Moneda, acuñado entre 1892 y 1916.",
+    "description_en": "Silver quarter designed by Mint Chief Engraver Charles E. Barber, struck from 1892 to 1916.",
+    "images": [
+      "images/quarter_1900-1.jpeg",
+      "images/quarter_1900-2.jpeg"
+    ],
+    "diameter": "24.3 mm",
+    "weight": "6.25 g",
+    "currency": "Dollar",
+    "reference": "KM# 114",
+    "numista_id": 10591,
+    "mintage": 10016000
+  },
+  {
+    "title": "Half Dollar \"Walking Liberty\" 1936",
+    "price": 27,
+    "condition": "F",
+    "country": "USA",
+    "composition": "Plata 0.900",
+    "denomination": "Half dollar",
+    "mint": "Philadelphia",
+    "year": 1936,
+    "images": [
+      "images/half_1936-1.jpeg",
+      "images/half_1936-2.jpeg"
+    ],
+    "numista_id": 4455,
+    "diameter": "30.6 mm",
+    "weight": "12.5 g",
+    "currency": "Dollar",
+    "reference": "KM# 142",
+    "description": "El Walking Liberty Half Dollar de Adolph Weinman, con la Libertad avanzando hacia el sol naciente. El mismo diseño se reutilizó en las onzas de plata American Eagle.",
+    "description_en": "Adolph Weinman's Walking Liberty half dollar, with Liberty striding toward the rising sun. The same design was later reused on the American Silver Eagle.",
+    "mintage": 12614000
+  },
+  {
+    "title": "1 Dollar \"Morgan\" 1886",
+    "denomination": "1 Dollar",
+    "price": 70,
+    "condition": "XF",
+    "country": "USA",
+    "mint": "Philadelphia",
+    "composition": "Plata 0.900",
+    "year": 1886,
+    "images": [
+      "images/morgan_1886-1.jpeg",
+      "images/morgan_1886-2.jpeg"
+    ],
+    "diameter": "38.1 mm",
+    "weight": "26.73 g",
+    "currency": "Dollar",
+    "reference": "KM# 110",
+    "numista_id": 1492,
+    "description": "El Morgan Dollar, el dólar de plata más coleccionado de Estados Unidos, diseñado por George T. Morgan. 1886 fue uno de los años de mayor acuñación de la serie en Filadelfia.",
+    "description_en": "The Morgan dollar, the most collected US silver dollar, designed by George T. Morgan. 1886 was one of the highest-mintage years of the series at Philadelphia.",
+    "mintage": 19963000
   }
 ]
