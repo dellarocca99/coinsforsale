@@ -891,6 +891,35 @@ header {
   text-align: center;
 }
 
+/* ── Policy pages (devoluciones.html) ── */
+.policy-section { padding-top: var(--s-6); }
+
+.policy-body {
+  font-size: var(--fs-base);
+  font-weight: 300;
+  color: var(--text);
+  line-height: var(--lh-loose);
+}
+
+.policy-body h2 {
+  font-family: var(--font-serif);
+  font-size: var(--fs-xl);
+  font-weight: 400;
+  color: var(--cream);
+  letter-spacing: var(--tr-tight);
+  margin: var(--s-7) 0 var(--s-2);
+}
+
+.policy-body h2:first-child { margin-top: 0; }
+
+.policy-body p  { margin: 0 0 var(--s-3); }
+.policy-body ul { margin: 0 0 var(--s-3); padding-left: 1.2em; }
+.policy-body li { margin-bottom: var(--s-2); }
+.policy-body li::marker { color: var(--gold); }
+.policy-body strong { font-weight: 500; color: var(--cream-dim); }
+.policy-body a { color: var(--gold); }
+.policy-body a:hover { color: var(--gold-light); }
+
 .about-stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
