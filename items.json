@@ -836,7 +836,9 @@
     "weight": "5 g",
     "currency": "Real",
     "reference": "KM# 10",
-    "numista_id": 89397
+    "numista_id": 89397,
+    "sold": true,
+    "soldon": "22-11-2026"
   },
   {
     "price": 10,
@@ -2326,7 +2328,9 @@
     "numista_id": 8596,
     "description": "Cincuenta centavos conmemorativos del cincuentenario del voto femenino en Argentina, con el retrato de Eva Perón.",
     "description_en": "Commemorative fifty centavos for the fiftieth anniversary of women's suffrage in Argentina, with the portrait of Eva Perón.",
-    "mintage": 2000000
+    "mintage": 2000000,
+    "sold": true,
+    "soldon": "22-11-2026"
   },
   {
     "title": "2 Pesos \"Evita\" 2002",
@@ -2616,7 +2620,9 @@
     "description_en": "Flying Eagle cent, the first US small-format cent. A very brief series, struck for circulation for barely two years.",
     "mintage": 24600000,
     "variety": "Letras grandes",
-    "variety_en": "Large letters"
+    "variety_en": "Large letters",
+    "sold": true,
+    "soldon": "22-11-2026"
   },
   {
     "title": "1 Cent \"Indian\" 1859",
@@ -2638,7 +2644,9 @@
     "reference": "KM# 87",
     "description": "Centavo Indian Head del primer año, con la corona de laurel simple en el reverso y todavía sin el escudo que se agregó en 1860.",
     "description_en": "First-year Indian Head cent, with the plain laurel wreath reverse and still without the shield added in 1860.",
-    "mintage": 36400000
+    "mintage": 36400000,
+    "sold": true,
+    "soldon": "22-11-2026"
   },
   {
     "title": "1 Cent \"Indian\" 1860",
@@ -2766,7 +2774,9 @@
     "reference": "KM# 90a",
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
     "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
-    "mintage": 35429286
+    "mintage": 35429286,
+    "sold": true,
+    "soldon": "22-11-2026"
   },
   {
     "title": "1 Cent \"Indian\" 1867",
@@ -2922,7 +2932,9 @@
     "reference": "KM# 90a",
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
     "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
-    "mintage": 16228000
+    "mintage": 16228000,
+    "sold": true,
+    "soldon": "22-11-2026"
   },
   {
     "title": "1 Cent \"Indian\" 1880",
@@ -2966,7 +2978,9 @@
     "numista_id": 2356,
     "description": "El clásico centavo Indian Head de James Longacre. Pese al nombre, el tocado de plumas lo lleva una figura de la Libertad, no una figura indígena. Se acuñó durante 45 años.",
     "description_en": "The classic Indian Head cent by James Longacre. Despite the name, the feathered headdress is worn by Liberty, not a Native American figure. Struck for 45 years.",
-    "mintage": 38961000
+    "mintage": 38961000,
+    "sold": true,
+    "soldon": "22-11-2026"
   },
   {
     "title": "1 Cent \"Indian\" 1881",
@@ -4643,7 +4657,9 @@
     "currency": "Dollar",
     "reference": "KM# 110",
     "numista_id": 1492,
-    "mintage": 1036000
+    "mintage": 1036000,
+    "sold": true,
+    "soldon": "22-11-2026"
   },
   {
     "title": "2 Centavos 1894 (medalla monetaria)",
