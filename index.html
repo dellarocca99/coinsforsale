@@ -3,12 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fedix Coins — Numismática</title>
+  <title>Fedix Coins | Numismática en Mar del Plata — Monedas de USA, Argentina y Uruguay</title>
   <link rel="icon" type="image/png" href="images/background/fedix.png">
 
   <!-- ── SEO ── -->
   <meta name="google-site-verification" content="8SAjAW7qM6WwwD3518mhMLlkKn3MXVlpfrawb-QH2pE" />
-  <meta name="description" content="Fedix Coins — Emprendimiento numismático de Mar del Plata, Argentina. Monedas de colección exclusivas a la venta. Envíos a todo el país.">
+  <meta name="description" content="Fedix Coins — Numismática en Mar del Plata, Argentina. Monedas de colección de Estados Unidos (Morgan, Walking Liberty, Indian Head), Argentina y Uruguay. Envíos a todo el país.">
+  <link rel="canonical" href="https://fedixcoins.com.ar/">
+
+  <!-- ── Structured data (Google: site name + business) ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://fedixcoins.com.ar/#website",
+        "url": "https://fedixcoins.com.ar/",
+        "name": "Fedix Coins",
+        "alternateName": ["FedixCoins", "Fedix Coins Numismática"],
+        "inLanguage": "es-AR",
+        "publisher": { "@id": "https://fedixcoins.com.ar/#store" }
+      },
+      {
+        "@type": "Store",
+        "@id": "https://fedixcoins.com.ar/#store",
+        "name": "Fedix Coins",
+        "alternateName": ["FedixCoins", "Fedix"],
+        "description": "Emprendimiento numismático de Mar del Plata, Argentina. Monedas de colección de Estados Unidos, Argentina y Uruguay, con envíos a todo el país.",
+        "url": "https://fedixcoins.com.ar/",
+        "logo": "https://fedixcoins.com.ar/images/background/fedix.png",
+        "image": "https://fedixcoins.com.ar/images/background/og_image.jpg",
+        "telephone": "+54 9 223 583-1244",
+        "foundingDate": "2020",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Mar del Plata",
+          "addressRegion": "Buenos Aires",
+          "addressCountry": "AR"
+        },
+        "areaServed": { "@type": "Country", "name": "Argentina" },
+        "currenciesAccepted": "ARS, USD",
+        "knowsAbout": ["Numismática", "Monedas de Estados Unidos", "Monedas de Argentina", "Monedas de Uruguay", "Monedas de plata"]
+      }
+    ]
+  }
+  </script>
 
   <!-- ── Open Graph (WhatsApp, Facebook, Telegram, LinkedIn) ── -->
   <meta property="og:type"         content="website">
@@ -64,16 +104,16 @@
           <h1 class="brand">Fedix Coins</h1>
         </div>
       </a>
-      <p class="tagline" data-i18n="tagline"></p>
+      <p class="tagline" data-i18n="tagline">Piezas Numismáticas de Calidad</p>
       <div class="header-rule"><span>◆</span></div>
     </div>
   </header>
 
   <!-- ── Main nav ── -->
   <nav class="main-nav">
-    <button class="nav-tab active" data-section="coins" data-i18n="nav_coins"></button>
-    <button class="nav-tab" data-section="books" data-i18n="nav_books"></button>
-    <button class="nav-tab" data-section="about" data-i18n="nav_about"></button>
+    <button class="nav-tab active" data-section="coins" data-i18n="nav_coins">Monedas</button>
+    <button class="nav-tab" data-section="books" data-i18n="nav_books">Álbumes y Catálogos</button>
+    <button class="nav-tab" data-section="about" data-i18n="nav_about">Nosotros</button>
   </nav>
 
   <!-- ── Coins section ── -->
@@ -152,21 +192,21 @@
   <!-- ── About section ── -->
   <section id="section-about" class="about-section" hidden>
     <div class="about-inner">
-      <h2 class="about-title" data-i18n="about_title"></h2>
+      <h2 class="about-title" data-i18n="about_title">Sobre Nosotros</h2>
       <div class="about-rule"><span>◆</span></div>
-      <p class="about-body" data-i18n="about_body"></p>
+      <p class="about-body" data-i18n="about_body">Somos un emprendimiento numismático con sede en Mar del Plata, Argentina. Iniciamos nuestras actividades en 2020 y vendemos piezas a todo el país. Realizamos envíos a todo el país, principalmente a través de Andreani, aunque también trabajamos con otros servicios de mensajería según las necesidades de cada operación. Nos especializamos en monedas de Estados Unidos, Argentina y Uruguay.</p>
       <div class="about-stats">
         <div class="stat-card">
           <span class="stat-icon">◎</span>
-          <span class="stat-text" data-i18n="stat_founded"></span>
+          <span class="stat-text" data-i18n="stat_founded">Fundada en 2020</span>
         </div>
         <div class="stat-card">
           <span class="stat-icon">◎</span>
-          <span class="stat-text" data-i18n="stat_location"></span>
+          <span class="stat-text" data-i18n="stat_location">Mar del Plata, Argentina</span>
         </div>
         <div class="stat-card">
           <span class="stat-icon">◎</span>
-          <span class="stat-text" data-i18n="stat_shipping"></span>
+          <span class="stat-text" data-i18n="stat_shipping">Envíos a todo el país</span>
         </div>
       </div>
     </div>
@@ -182,19 +222,19 @@
     </div>
     <div class="footer-inner">
       <nav class="footer-nav">
-        <button class="footer-link" data-section="coins" data-i18n="nav_coins"></button>
+        <button class="footer-link" data-section="coins" data-i18n="nav_coins">Monedas</button>
         <span class="footer-sep">·</span>
-        <button class="footer-link" data-section="books" data-i18n="nav_books"></button>
+        <button class="footer-link" data-section="books" data-i18n="nav_books">Álbumes y Catálogos</button>
         <span class="footer-sep">·</span>
-        <button class="footer-link" data-section="about" data-i18n="nav_about"></button>
+        <button class="footer-link" data-section="about" data-i18n="nav_about">Nosotros</button>
       </nav>
       <div class="footer-contact">
-        <span data-i18n="footer_contact_label"></span>:&nbsp;
+        <span data-i18n="footer_contact_label">Contacto</span>:&nbsp;
         <a href="https://wa.me/5492235831244" class="footer-wa" target="_blank" rel="noopener">
           +54 9 223 583-1244
         </a>
       </div>
-      <p class="footer-rights" data-i18n="footer_rights"></p>
+      <p class="footer-rights" data-i18n="footer_rights">© 2026 Fedix Coins. Todos los derechos reservados.</p>
     </div>
   </footer>
 

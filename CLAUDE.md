@@ -23,6 +23,10 @@ A static numismatic (coin-selling) storefront. No build tools, frameworks, or pa
 - **`items.json` is append-only**: the array index is the coin's identity (used by `item.html?index=N`, `worker.js`, and as `SELLER_SKU` on MercadoLibre). Never reorder or delete entries — sold coins stay with `sold: true` + `soldon` (`DD-MM-YYYY`).
 - `fetch("items.json")` requires an HTTP server — the page won't work when opened as a `file://` URL.
 
+## SEO y Google Merchant Center
+
+`worker.js` (Cloudflare Worker, se pega a mano en el dashboard) atiende tres rutas: `item.html*` (title, meta description, canonical, OG y JSON-LD `Product` + `BreadcrumbList` por moneda), `feed.xml` (feed de Merchant Center: monedas disponibles, precio en ARS al dólar blue de dolarapi, el mismo que usa `currency.js`) y `sitemap.xml` (home + monedas disponibles). Todo se arma en el momento desde `items.json`, así que agregar o vender monedas no requiere tocar nada. `robots.txt` apunta al sitemap. `index.html` tiene el JSON-LD `WebSite` + `Store` (nombre de marca, `alternateName`; sumar `sameAs` con las redes cuando estén).
+
 ## Etiquetas para sobres
 
 `tools/etiquetas/etiquetas.py` (reportlab) genera un PDF A4 con un papelito de 45 × 48 mm por moneda disponible (20 por hoja): país, título, descripción corta, tirada < 3 M, referencia (índice) · estado, metal, peso · Ø (sólo plata) y, en el pie, QR a la ficha + marca + precio en USD. Spec completa en `ETIQUETAS_especificacion.md`. Al agregar monedas, sumar su descripción corta (1–3 palabras, sin historia) en `tools/etiquetas/desc_corta.json`.
