@@ -27,6 +27,8 @@ A static numismatic (coin-selling) storefront. No build tools, frameworks, or pa
 
 `tools/etiquetas/etiquetas.py` (reportlab) genera un PDF A4 con un papelito de 45 × 48 mm por moneda disponible (20 por hoja): país, título, descripción corta, tirada < 3 M, referencia (índice) · estado, metal, peso · Ø (sólo plata) y, en el pie, QR a la ficha + marca + precio en USD. Spec completa en `ETIQUETAS_especificacion.md`. Al agregar monedas, sumar su descripción corta (1–3 palabras, sin historia) en `tools/etiquetas/desc_corta.json`.
 
+`tools/etiquetas/hojas.py` genera `tools/etiquetas/organizacion_hojas.pdf` (versionado): el mapa de dónde va cada sobre en las hojas de 4 × 5 bolsillos. Orden: USA (hoja nueva) → Argentina (hoja nueva) → Uruguay + resto del mundo (comparten hojas); dentro de cada grupo, sistema monetario → valor facial → año. Regenerarlo al agregar o vender monedas.
+
 ## MercadoLibre sync
 
 `tools/mercadolibre/ml_sync.py` keeps `items.json` and MercadoLibre in sync through the ML API (see `.agents/skills/mercadolibre-sync/SKILL.md`). Sale on the site → `sold-web` (qty −1; at 0 marks sold and closes the ML listing). Sale on ML → `sync-orders` (qty −1; relists on ML if stock remains, otherwise marks sold). Coins are listed used, stock 1; catalogs/albums (`book: true`) new with their whole stock, in their own ML category and package size. Mapping index → ML id lives in `tools/mercadolibre/ml_state.json`; policy in `ml_config.json`; tokens in the gitignored `_credentials.json`.
