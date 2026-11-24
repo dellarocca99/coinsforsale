@@ -129,7 +129,7 @@ function restoreFilterState() {
   try { s = JSON.parse(raw); } catch { return false; }
   document.getElementById("search").value = s.search || "";
   document.getElementById("filter-country").value = s.country || "";
-  document.getElementById("sort").value = s.sort || "year-asc";
+  document.getElementById("sort").value = s.sort || "featured";
   if (s.page) currentPage = s.page;
   if (s.country) {
     updateRegionFilter(s.country);
@@ -252,7 +252,8 @@ function getFiltered() {
     );
   });
 
-  if (sort === "price-asc")       results.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
+  if (sort === "featured")        results.sort(compareFeatured);
+  else if (sort === "price-asc")  results.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
   else if (sort === "price-desc") results.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
   else if (sort === "year-asc")   results.sort((a, b) => a.year - b.year);
   else if (sort === "year-desc")  results.sort((a, b) => b.year - a.year);
@@ -274,16 +275,60 @@ function parsePrice(p) {
   return typeof p === 'number' ? p : parseFloat(p) || 0;
 }
 
+// Parses a "DD-MM-YYYY" string into a local Date, or null when malformed.
+function parseDMY(str) {
+  if (!str) return null;
+  const parts = String(str).split("-").map(Number);
+  if (parts.length !== 3 || parts.some(isNaN)) return null;
+  const [d, m, y] = parts;
+  return new Date(y, m - 1, d);
+}
+
+function oneMonthAgo() {
+  const cutoff = new Date();
+  cutoff.setMonth(cutoff.getMonth() - 1);
+  return cutoff;
+}
+
 // Returns true when soldon is present and the date is more than one month in the past.
 function isItemExpired(item) {
-  if (!item.soldon) return false;
-  const parts = item.soldon.split("-").map(Number);
-  if (parts.length !== 3 || parts.some(isNaN)) return false;
-  const [d, m, y] = parts;
-  const soldDate = new Date(y, m - 1, d);
-  const cutoff   = new Date();
-  cutoff.setMonth(cutoff.getMonth() - 1);
-  return soldDate < cutoff;
+  const soldDate = parseDMY(item.soldon);
+  return !!soldDate && soldDate < oneMonthAgo();
+}
+
+// Returns true for available items added (addedon) within the last month.
+function isItemNew(item) {
+  if (item.sold) return false;
+  const added = parseDMY(item.addedon);
+  return !!added && added >= oneMonthAgo();
+}
+
+// ── Featured ordering ────────────────────────────────────
+// Lower tier = shown first. USA is the focus; cheap pieces and other
+// countries sink. `featured: true/false` in items.json overrides the rule.
+const FEATURE_MIN_USD = 20;
+const CORE_COUNTRIES  = ["Argentina", "Uruguay"];
+
+function relevanceTier(item) {
+  if (item.sold)              return 6;
+  if (item.featured === true) return 0;
+  if (item.featured === false) return 5;
+  const pricey = parsePrice(item.price) >= FEATURE_MIN_USD;
+  if (item.country === "USA")                  return pricey ? 1 : 3;
+  if (CORE_COUNTRIES.includes(item.country))   return pricey ? 2 : 4;
+  return 5;
+}
+
+function compareFeatured(a, b) {
+  const ta = relevanceTier(a), tb = relevanceTier(b);
+  if (ta !== tb) return ta - tb;
+  // New arrivals lead only within the relevant tiers, so a batch of
+  // cheap new coins never floods the first page.
+  if (ta <= 2) {
+    const na = isItemNew(a), nb = isItemNew(b);
+    if (na !== nb) return na ? -1 : 1;
+  }
+  return parsePrice(b.price) - parsePrice(a.price);
 }
 
 // ── Render ───────────────────────────────────────────────
@@ -355,6 +400,7 @@ function renderItems(items) {
         ${hasMany ? `<button class="nav right" data-gi="${gi}" data-dir="next" aria-label="Next image">${CHEV_RIGHT}</button>` : ""}
         ${hasMany ? `<div class="dots" id="dots-${gi}">${dots}</div>` : ""}
         ${item.sold ? `<div class="sold-overlay"><span class="sold-stamp">${t("sold_badge")}</span></div>` : ""}
+        ${isItemNew(item) ? `<span class="new-ribbon">${t("new_badge")}</span>` : ""}
       </div>
       <div class="card-body">
         <div class="card-title">${getItemTitle(item)}</div>
@@ -534,6 +580,7 @@ function renderBooks(items) {
         ${hasMany ? `<button class="nav right" data-gi="${gi}" data-dir="next" aria-label="Next image">${CHEV_RIGHT}</button>` : ""}
         ${hasMany ? `<div class="dots" id="dots-${gi}">${dots}</div>` : ""}
         ${item.sold ? `<div class="sold-overlay"><span class="sold-stamp">${t("sold_badge")}</span></div>` : ""}
+        ${isItemNew(item) ? `<span class="new-ribbon">${t("new_badge")}</span>` : ""}
       </div>
       <div class="card-body">
         <div class="card-title">${getItemTitle(item)}</div>

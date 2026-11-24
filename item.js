@@ -74,15 +74,31 @@ function getDescription(item) {
 
 // ── Sold / expiry ────────────────────────────────────────
 
-function isItemExpired(item) {
-  if (!item.soldon) return false;
-  const parts = item.soldon.split("-").map(Number);
-  if (parts.length !== 3 || parts.some(isNaN)) return false;
+// Parses a "DD-MM-YYYY" string into a local Date, or null when malformed.
+function parseDMY(str) {
+  if (!str) return null;
+  const parts = String(str).split("-").map(Number);
+  if (parts.length !== 3 || parts.some(isNaN)) return null;
   const [d, m, y] = parts;
-  const soldDate = new Date(y, m - 1, d);
-  const cutoff   = new Date();
+  return new Date(y, m - 1, d);
+}
+
+function oneMonthAgo() {
+  const cutoff = new Date();
   cutoff.setMonth(cutoff.getMonth() - 1);
-  return soldDate < cutoff;
+  return cutoff;
+}
+
+function isItemExpired(item) {
+  const soldDate = parseDMY(item.soldon);
+  return !!soldDate && soldDate < oneMonthAgo();
+}
+
+// Returns true for available items added (addedon) within the last month.
+function isItemNew(item) {
+  if (item.sold) return false;
+  const added = parseDMY(item.addedon);
+  return !!added && added >= oneMonthAgo();
 }
 
 // ── Badge ────────────────────────────────────────────────
@@ -141,6 +157,7 @@ function renderItem(item) {
         <div class="gallery-main" id="gallery-main">
           <img src="${item.images[0]}" id="gallery-img" alt="${getItemTitle(item)}"${item.sold ? ' class="img-sold"' : ""}>
           ${item.sold ? `<div class="sold-overlay gallery-sold-overlay"><span class="sold-stamp">${t("sold_badge")}</span></div>` : ""}
+          ${isItemNew(item) ? `<span class="new-ribbon">${t("new_badge")}</span>` : ""}
         </div>
         ${thumbsHtml}
       </div>

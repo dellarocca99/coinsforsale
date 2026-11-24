@@ -4591,7 +4591,8 @@
     "currency": "Peso",
     "reference": "KM# 15",
     "numista_id": 4360,
-    "mintage": 1217941
+    "mintage": 1217941,
+    "addedon": "17-11-2026"
   },
   {
     "title": "Quarter \"Barber\" 1907-S",
@@ -4613,7 +4614,8 @@
     "currency": "Dollar",
     "reference": "KM# 114",
     "numista_id": 10591,
-    "mintage": 1360000
+    "mintage": 1360000,
+    "addedon": "17-11-2026"
   },
   {
     "title": "Quarter \"Barber\" 1905",
@@ -4635,7 +4637,8 @@
     "currency": "Dollar",
     "reference": "KM# 114",
     "numista_id": 10591,
-    "mintage": 4967523
+    "mintage": 4967523,
+    "addedon": "17-11-2026"
   },
   {
     "title": "1 \"Morgan\" Dollar 1892",
@@ -4659,7 +4662,8 @@
     "numista_id": 1492,
     "mintage": 1036000,
     "sold": true,
-    "soldon": "22-11-2026"
+    "soldon": "22-11-2026",
+    "addedon": "17-11-2026"
   },
   {
     "title": "2 Centavos 1894 (medalla monetaria)",
@@ -4677,7 +4681,8 @@
     "weight": "10 g",
     "currency": "Medalla monetaria",
     "reference": "CJ# 3",
-    "numista_id": 122073
+    "numista_id": 122073,
+    "addedon": "17-11-2026"
   },
   {
     "title": "2 Cents 1868",
@@ -4700,7 +4705,8 @@
     "currency": "Dollar",
     "reference": "KM# 94",
     "numista_id": 2296,
-    "mintage": 2803750
+    "mintage": 2803750,
+    "addedon": "17-11-2026"
   },
   {
     "title": "Trade Dollar 1875-S (chopmarks)",
@@ -4725,7 +4731,8 @@
     "reference": "KM# 108",
     "mintage": 4487000,
     "variety": "Reverso tipo 1",
-    "variety_en": "Type 1 reverse"
+    "variety_en": "Type 1 reverse",
+    "addedon": "17-11-2026"
   },
   {
     "title": "2 Cents 1864",
@@ -4747,7 +4754,8 @@
     "currency": "Dollar",
     "reference": "KM# 94",
     "numista_id": 2296,
-    "mintage": 19847500
+    "mintage": 19847500,
+    "addedon": "17-11-2026"
   },
   {
     "title": "Half Dollar \"Kennedy\" 1966 SMS",
@@ -4769,7 +4777,8 @@
     "currency": "Dollar",
     "reference": "KM# 202a",
     "numista_id": 10865,
-    "mintage": 2200000
+    "mintage": 2200000,
+    "addedon": "17-11-2026"
   },
   {
     "title": "Half Dollar \"Kennedy\" 1967 SMS",
@@ -4791,7 +4800,8 @@
     "currency": "Dollar",
     "reference": "KM# 202a",
     "numista_id": 10865,
-    "mintage": 1800000
+    "mintage": 1800000,
+    "addedon": "17-11-2026"
   },
   {
     "title": "Half Dollar \"Kennedy\" 1968-S Proof",
@@ -4813,7 +4823,8 @@
     "currency": "Dollar",
     "reference": "KM# 202a",
     "numista_id": 10865,
-    "mintage": 3041506
+    "mintage": 3041506,
+    "addedon": "17-11-2026"
   },
   {
     "title": "Half Dollar \"Franklin\" 1960 Proof",
@@ -4835,7 +4846,8 @@
     "currency": "Dollar",
     "reference": "KM# 199",
     "numista_id": 2835,
-    "mintage": 1691602
+    "mintage": 1691602,
+    "addedon": "17-11-2026"
   },
   {
     "title": "Half Dollar \"Franklin\" 1962 Proof",
@@ -4857,7 +4869,8 @@
     "currency": "Dollar",
     "reference": "KM# 199",
     "numista_id": 2835,
-    "mintage": 3218019
+    "mintage": 3218019,
+    "addedon": "17-11-2026"
   },
   {
     "title": "Half Dollar \"Franklin\" 1963 Proof",
@@ -4879,7 +4892,8 @@
     "currency": "Dollar",
     "reference": "KM# 199",
     "numista_id": 2835,
-    "mintage": 3075645
+    "mintage": 3075645,
+    "addedon": "17-11-2026"
   },
   {
     "title": "Quarter \"Washington\" 1942",
@@ -4901,7 +4915,8 @@
     "currency": "Dollar",
     "reference": "KM# 164",
     "numista_id": 54,
-    "mintage": 102096000
+    "mintage": 102096000,
+    "addedon": "17-11-2026"
   },
   {
     "title": "Quarter \"Washington\" 1943",
@@ -4923,7 +4938,8 @@
     "currency": "Dollar",
     "reference": "KM# 164",
     "numista_id": 54,
-    "mintage": 99700000
+    "mintage": 99700000,
+    "addedon": "17-11-2026"
   },
   {
     "title": "Quarter \"Washington\" 1944",
@@ -4945,7 +4961,8 @@
     "currency": "Dollar",
     "reference": "KM# 164",
     "numista_id": 54,
-    "mintage": 104956000
+    "mintage": 104956000,
+    "addedon": "17-11-2026"
   },
   {
     "title": "Quarter \"Washington\" 1944",
@@ -4967,7 +4984,8 @@
     "currency": "Dollar",
     "reference": "KM# 164",
     "numista_id": 54,
-    "mintage": 104956000
+    "mintage": 104956000,
+    "addedon": "17-11-2026"
   },
   {
     "title": "Monedas de la República Argentina 1978 (Cunietti-Ferrando)",
@@ -4986,7 +5004,8 @@
       "images/cunietti_1978-2.jpeg",
       "images/cunietti_1978-3.jpeg"
     ],
-    "ml_category": "MLA1948"
+    "ml_category": "MLA1948",
+    "addedon": "17-11-2026"
   },
   {
     "title": "Monedas Argentinas 1989 (Cunietti-Ferrando)",
@@ -5004,7 +5023,8 @@
       "images/cunietti_1989-1.jpeg",
       "images/cunietti_1989-2.jpeg",
       "images/cunietti_1989-3.jpeg"
-    ]
+    ],
+    "addedon": "17-11-2026"
   },
   {
     "title": "1 Dollar \"Peace\" 1928",
@@ -5028,7 +5048,8 @@
     "numista_id": 5580,
     "description": "El Peace Dollar de Anthony de Francisci, emitido para celebrar la paz tras la Primera Guerra Mundial. 1928 en Filadelfia es la fecha clave de la serie: con apenas 360.649 piezas, es la tirada más baja de todos los Peace Dollars.",
     "description_en": "Anthony de Francisci's Peace Dollar, issued to mark the peace after the First World War. The 1928 Philadelphia is the key date of the series: with only 360,649 struck, it is the lowest mintage of any Peace Dollar.",
-    "mintage": 360649
+    "mintage": 360649,
+    "addedon": "17-11-2026"
   },
   {
     "title": "10 Kreuzer 1872",
@@ -5051,7 +5072,8 @@
     "currency": "Gulden",
     "reference": "KM# 2206",
     "region": "Imperio austríaco",
-    "composition_en": "Billon (0.400 silver)"
+    "composition_en": "Billon (0.400 silver)",
+    "addedon": "18-11-2026"
   },
   {
     "title": "10 Kreuzer 1872",
@@ -5074,7 +5096,8 @@
     "currency": "Gulden",
     "reference": "KM# 2206",
     "region": "Imperio austríaco",
-    "composition_en": "Billon (0.400 silver)"
+    "composition_en": "Billon (0.400 silver)",
+    "addedon": "18-11-2026"
   },
   {
     "title": "1 Dollar \"Morgan\" 1895-O",
@@ -5098,7 +5121,8 @@
     "numista_id": 1492,
     "description": "El Morgan Dollar, el dólar de plata más coleccionado de Estados Unidos. 1895 es el año clave de la serie: la ceca de Nueva Orleans (marca \"O\" bajo la corona del reverso) acuñó apenas 450.000 piezas, y la mayoría terminó fundida.",
     "description_en": "The Morgan dollar, the most collected US silver dollar. 1895 is the key year of the series: the New Orleans mint (\"O\" mintmark below the wreath on the reverse) struck only 450,000 pieces, and most were later melted.",
-    "mintage": 450000
+    "mintage": 450000,
+    "addedon": "18-11-2026"
   },
   {
     "price": 15,
@@ -5119,7 +5143,8 @@
     "numista_id": 1156,
     "description": "Centavo de bronce de la primera serie del peso moneda nacional, con el escudo argentino en el anverso y la Libertad de Oudine en el reverso.",
     "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse.",
-    "mintage": 753500
+    "mintage": 753500,
+    "addedon": "20-11-2026"
   },
   {
     "price": 28,
@@ -5140,7 +5165,8 @@
     "numista_id": 1156,
     "description": "Centavo de bronce de la primera serie del peso moneda nacional, con el escudo argentino en el anverso y la Libertad de Oudine en el reverso.",
     "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse.",
-    "mintage": 531500
+    "mintage": 531500,
+    "addedon": "20-11-2026"
   },
   {
     "price": 20,
@@ -5161,7 +5187,8 @@
     "numista_id": 1156,
     "description": "Centavo de bronce de la primera serie del peso moneda nacional, con el escudo argentino en el anverso y la Libertad de Oudine en el reverso.",
     "description_en": "Bronze centavo from the first peso moneda nacional series, with the Argentine coat of arms on the obverse and Oudine's Liberty on the reverse.",
-    "mintage": 1314300
+    "mintage": 1314300,
+    "addedon": "20-11-2026"
   },
   {
     "title": "Gold Dollar 1851-O",
@@ -5185,7 +5212,8 @@
     "numista_id": 6157,
     "description": "El dólar de oro Tipo 1 de James B. Longacre, la moneda de oro más chica de la historia de Estados Unidos (12,7 mm), nacida con la fiebre del oro de California. Acuñada en Nueva Orleans (marca \"O\" bajo el moño del reverso), con 290.000 piezas.",
     "description_en": "James B. Longacre's Type 1 gold dollar, the smallest gold coin in US history (12.7 mm), born of the California Gold Rush. Struck at New Orleans (\"O\" mintmark below the bow on the reverse), with 290,000 pieces.",
-    "mintage": 290000
+    "mintage": 290000,
+    "addedon": "20-11-2026"
   },
   {
     "title": "5 Pesos \"Un Argentino\" 1882",
@@ -5208,7 +5236,8 @@
     "numista_id": 25417,
     "description": "El \"Argentino\", 5 pesos de oro 0.900 creados por la Ley 1130 de 1881, la primera ley monetaria nacional, con el escudo en el anverso y la Libertad de Oudine en el reverso. 1882 fue su segundo año de acuñación, con 252.092 piezas.",
     "description_en": "The \"Argentino\", a 5-peso 0.900 gold coin created by Law 1130 of 1881, Argentina's first national monetary law, with the coat of arms on the obverse and Oudine's Liberty on the reverse. 1882 was its second year of issue, with 252,092 pieces.",
-    "mintage": 252092
+    "mintage": 252092,
+    "addedon": "20-11-2026"
   },
   {
     "title": "Quarter \"Barber\" 1892",
@@ -5230,7 +5259,8 @@
     "currency": "Dollar",
     "reference": "KM# 114",
     "numista_id": 10591,
-    "mintage": 8236000
+    "mintage": 8236000,
+    "addedon": "22-11-2026"
   },
   {
     "title": "Quarter \"Barber\" 1900",
@@ -5252,7 +5282,8 @@
     "currency": "Dollar",
     "reference": "KM# 114",
     "numista_id": 10591,
-    "mintage": 10016000
+    "mintage": 10016000,
+    "addedon": "22-11-2026"
   },
   {
     "title": "Half Dollar \"Walking Liberty\" 1936",
@@ -5274,7 +5305,8 @@
     "reference": "KM# 142",
     "description": "El Walking Liberty Half Dollar de Adolph Weinman, con la Libertad avanzando hacia el sol naciente. El mismo diseño se reutilizó en las onzas de plata American Eagle.",
     "description_en": "Adolph Weinman's Walking Liberty half dollar, with Liberty striding toward the rising sun. The same design was later reused on the American Silver Eagle.",
-    "mintage": 12614000
+    "mintage": 12614000,
+    "addedon": "22-11-2026"
   },
   {
     "title": "1 Dollar \"Morgan\" 1886",
@@ -5296,6 +5328,7 @@
     "numista_id": 1492,
     "description": "El Morgan Dollar, el dólar de plata más coleccionado de Estados Unidos, diseñado por George T. Morgan. 1886 fue uno de los años de mayor acuñación de la serie en Filadelfia.",
     "description_en": "The Morgan dollar, the most collected US silver dollar, designed by George T. Morgan. 1886 was one of the highest-mintage years of the series at Philadelphia.",
-    "mintage": 19963000
+    "mintage": 19963000,
+    "addedon": "22-11-2026"
   }
 ]

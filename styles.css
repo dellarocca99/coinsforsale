@@ -688,6 +688,33 @@ header {
   padding: 10px 26px;
 }
 
+/* ── New ribbon ─ recently added, available items ─────── */
+.new-ribbon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  font-family: var(--font-sans);
+  font-size: var(--fs-2xs);
+  font-weight: 500;
+  letter-spacing: var(--tr-widest);
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: var(--bg);
+  background: var(--gold);
+  padding: 2px 9px;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+}
+
+.gallery-main .new-ribbon {
+  top: 14px;
+  left: 14px;
+  font-size: var(--fs-xs);
+  padding: 4px 12px;
+}
+
 /* Detail page sold notice */
 .item-sold-notice {
   display: flex;

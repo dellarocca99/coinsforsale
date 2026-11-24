@@ -13,6 +13,7 @@
       all_denominations:    "Todas las denominaciones",
       all_grades:           "Todos los grados",
       sort_label:           "Ordenar…",
+      sort_featured:        "Destacadas",
       sort_price_asc:       "Precio: menor → mayor",
       sort_price_desc:      "Precio: mayor → menor",
       sort_year_asc:        "Año: más antiguo",
@@ -52,6 +53,7 @@
       sold_badge:           "Vendido",
       sold_notice:          "Este artículo ya no está disponible.",
       sold_on:              "Vendido el",
+      new_badge:            "Nuevo",
     },
     en: {
       tagline:              "Premium Numismatic Pieces",
@@ -64,6 +66,7 @@
       all_denominations:    "All Denominations",
       all_grades:           "All Grades",
       sort_label:           "Sort by…",
+      sort_featured:        "Featured",
       sort_price_asc:       "Price: low → high",
       sort_price_desc:      "Price: high → low",
       sort_year_asc:        "Year: oldest first",
@@ -103,6 +106,7 @@
       sold_badge:           "Sold",
       sold_notice:          "This item is no longer available.",
       sold_on:              "Sold on",
+      new_badge:            "New",
     },
   };
 
