@@ -22,6 +22,7 @@ A static numismatic (coin-selling) storefront. No build tools, frameworks, or pa
 - Home ordering: the default sort is "Destacadas" (`compareFeatured` in `script.js`) — tiers USA ≥ US$20 → Argentina/Uruguay ≥ US$20 → USA < 20 → AR/UY < 20 → other countries → sold; within the first tiers new coins lead, then price high→low. Threshold is `FEATURE_MIN_USD`.
 - Adding a new item: append an entry to `items.json` (with `"addedon"` = today's date) and place its images under `images/`. No other files need to change on the site; publish it to MercadoLibre with the `mercadolibre-sync` skill.
 - **`items.json` is append-only**: the array index is the coin's identity (used by `item.html?index=N`, `worker.js`, and as `SELLER_SKU` on MercadoLibre). Never reorder or delete entries — sold coins stay with `sold: true` + `soldon` (`DD-MM-YYYY`).
+- **Cache busting**: the HTML pages load CSS/JS as `file?v=YYYYMMDD`. Cloudflare serves JS/CSS with `max-age=14400` (4 h) but HTML with 600 s, so whenever `styles.css`, `i18n.js`, `currency.js`, `script.js` or `item.js` change, bump the `?v=` in `index.html`, `item.html` and `devoluciones.html` (same value everywhere) — otherwise visitors get new HTML with stale scripts.
 - `fetch("items.json")` requires an HTTP server — the page won't work when opened as a `file://` URL.
 
 ## SEO y Google Merchant Center
